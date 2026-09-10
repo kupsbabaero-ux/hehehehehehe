@@ -2,40 +2,28 @@ import requests
 from datetime import datetime
 
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
-M3U_URL = "https://raw.githubusercontent.com/kupsbabaero-ux/ZeusChannels/refs/heads/main/Zeus%20Channels%20(ONPROGRESS).m3u"
 
-OUTPUT1 = "korea.m3u8"   # DIYP 影音
-OUTPUT2 = "korea2.m3u8"  # 标准 M3U（支持 php）
-
-
-def is_valid_uri(u):
-    """Check if the URI matches valid streaming patterns and excludes blacklisted items."""
-    if not isinstance(u, str):
-        return False
-    u_lower = u.lower()
-    has_valid_extension = (
-        "channel=" in u_lower or ".m3u8" in u_lower or u_lower.endswith(".php")
-    )
-    is_not_blacklisted = (
-        "wavve" not in u_lower and "file-1253962976.cos" not in u_lower
-    )
-    return has_valid_extension and is_not_blacklisted
-
+OUTPUT1 = "korea.m3u8"    # DIYP 影音
+OUTPUT2 = "korea2.m3u8"   # 标准 M3U（支持 php）
 
 def extract_m3u8_only(uris):
     """仅提取 .m3u8（用于 OUTPUT1）"""
-    if isinstance(uris, list):
-        items = uris
-    elif isinstance(uris, dict):
-        items = uris.values()
-    elif isinstance(uris, str):
-        items = [uris]
-    else:
-        return None
+    def is_m3u8(u):
+        return isinstance(u, str) and ("channel=" in u.lower() or ".m3u8" in u.lower() or u.lower().endswith(".php"))  and "wavve" not in u.lower() and "file-1253962976.cos" not in u.lower()
 
-    for u in items:
-        if is_valid_uri(u):
-            return u.strip()
+    if isinstance(uris, list):
+        for u in uris:
+            if is_m3u8(u):
+                return u.strip()
+
+    elif isinstance(uris, dict):
+        for u in uris.values():
+            if is_m3u8(u):
+                return u.strip()
+
+    elif isinstance(uris, str):
+        if is_m3u8(uris):
+            return uris.strip()
 
     return None
 
@@ -45,16 +33,21 @@ def extract_m3u8_or_php(uris):
     提取 .m3u8 或 .php
     优先 m3u8，其次 php（用于 OUTPUT2）
     """
-    if isinstance(uris, list):
-        items = uris
-    elif isinstance(uris, dict):
-        items = uris.values()
-    elif isinstance(uris, str):
-        items = [uris]
-    else:
-        return None
+    urls = []
 
-    urls = [u.strip() for u in items if is_valid_uri(u)]
+    def is_valid(u):
+        return isinstance(u, str) and ("channel=" in u.lower() or ".m3u8" in u.lower() or u.lower().endswith(".php"))  and "wavve" not in u.lower() and "file-1253962976.cos" not in u.lower()
+        
+
+    if isinstance(uris, list):
+        urls = [u.strip() for u in uris if is_valid(u)]
+
+    elif isinstance(uris, dict):
+        urls = [u.strip() for u in uris.values() if is_valid(u)]
+
+    elif isinstance(uris, str):
+        if is_valid(uris):
+            urls = [uris.strip()]
 
     # 优先 m3u8
     for u in urls:
