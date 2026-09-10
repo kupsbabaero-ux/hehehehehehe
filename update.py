@@ -4,7 +4,6 @@ from datetime import datetime
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
 
 OUTPUT1 = "korea.m3u8"    # DIYP 影音
-            "zeus.m3u8"
 OUTPUT2 = "korea2.m3u8"   # 标准 M3U（支持 php）
 
 def extract_m3u8_only(uris):
