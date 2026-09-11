@@ -10,7 +10,7 @@ EXTRA_M3U8_URL = (
 EPG_URL = "https://epg.pw/xmltv/epg-kr.xml"
 
 OUTPUT1 = "korea.m3u8"  # DIYP format (#genre# grouping)
-OUTPUT2 = "test.m3u"  # Standard M3U format
+OUTPUT2 = "korea2.m3u8"  # Standard M3U format
 
 TARGET_GROUP = "KR | Korea"
 
