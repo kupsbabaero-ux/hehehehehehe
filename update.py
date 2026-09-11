@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
-EPG_URL = "https://epg.pw/xmltv/epg-kr.xml"  # South Korea EPG Guide URL
+EPG_URL = "https://epg.lat/files/kr.xml.gz"  # South Korea EPG Guide URL
 
 OUTPUT1 = "korea.m3u8"    # DIYP format
 OUTPUT2 = "korea2.m3u8"   # Standard M3U (May EPG at Logo)
