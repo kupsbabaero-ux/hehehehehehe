@@ -1,3 +1,4 @@
+import gzip
 import re
 from datetime import datetime
 import xml.etree.ElementTree as ET
@@ -7,7 +8,7 @@ JSON_URL = "http://141.164.53.195/live/korea-live.json"
 EXTRA_M3U8_URL = (
     "https://github.com/kupsbabaero-ux/hehehehehehe/raw/refs/heads/main/zeus.m3u8"
 )
-EPG_URL = "https://epg.pw/xmltv/epg-kr.xml"
+EPG_URL = "https://epg.lat/files/kr.xml.gz"
 
 OUTPUT1 = "korea.m3u8"  # DIYP format (#genre# grouping)
 OUTPUT2 = "korea2.m3u8"  # Standard M3U format
@@ -16,14 +17,15 @@ TARGET_GROUP = "KR | Korea"
 
 
 def fetch_epg_mapping(epg_url):
-    """Downloads EPG XML and creates a mapping of cleaned channel name -> tvg-id."""
+    """Downloads GZipped EPG XML and creates a mapping of cleaned channel name -> tvg-id."""
     epg_map = {}
     try:
-        print(f"{datetime.now()} Downloading and parsing EPG XML...")
+        print(f"{datetime.now()} Downloading and parsing GZipped EPG XML...")
         r = requests.get(epg_url, timeout=30)
-        r.encoding = "utf-8"
-
-        root = ET.fromstring(r.text)
+        
+        # Decompress ang .gz content sa memory
+        decompressed_data = gzip.decompress(r.content)
+        root = ET.fromstring(decompressed_data)
 
         for channel in root.findall("channel"):
             channel_id = channel.get("id")
@@ -51,25 +53,30 @@ def fetch_epg_mapping(epg_url):
 
 
 def clean_text(text):
-    """Inaalis ang spaces, special characters, at prefix para sa mas malakas na matching."""
+    """Inaalis ang prefix, resolution tags, at special characters para sa mas matinding matching."""
     text = re.sub(r"^kr:\s*", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"[^\w]", "", text)  # Tanging letters at numbers lang ang ititira
+    # Alisin ang mga resolution/quality indicators na nakakasira sa matching
+    text = re.sub(r"\b(hd|fhd|uhd|4k|sd|720p|1080p)\b", "", text, flags=re.IGNORECASE)
+    # Tanging letters at numbers lang ang ititira
+    text = re.sub(r"[^\w]", "", text)
     return text.lower().strip()
 
 
 def match_tvg_id(channel_name, epg_map):
     """Maghahanap ng matching XMLtv channel ID sa EPG map."""
     norm_name = clean_text(channel_name)
+    if not norm_name:
+        return ""
 
     # 1. Exact cleaned match
     for epg_name, tvg_id in epg_map.items():
         if clean_text(epg_name) == norm_name:
             return tvg_id
 
-    # 2. Partial / Substring match (Halimbawa: "KBS 1TV" -> "KBS1")
+    # 2. Substring match (basta 3 o higit pang characters)
     for epg_name, tvg_id in epg_map.items():
         clean_epg = clean_text(epg_name)
-        if norm_name in clean_epg or clean_epg in norm_name:
+        if clean_epg and (norm_name in clean_epg or clean_epg in norm_name):
             if len(norm_name) >= 3 and len(clean_epg) >= 3:
                 return tvg_id
 
