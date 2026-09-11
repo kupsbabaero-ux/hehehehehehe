@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:0 CUID="209" tvg-chno="1" tvg-name="PH: A2Z" tvg-id="a2z.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fa/A2Z_Channel_11_%281%29.png/revision/latest?cb=20251216061454" group-title="PH | Entertainment",PH: A2Z
-http://136.158.97.2:6610/001/2/ch00000090990000001087/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAqHRrK8UUahwItHhKpXgPXKsyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001176&contentid=ch00000000000000001176&videoid=ch00000090990000001087&recommendtype=0&userid=1162684427362&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8JVNIKBBFCRXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20449220260101155236184115&ispcode=55
+http://136.239.173.2:6610/001/2/ch00000090990000001087/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqHRrK8UUahwItHhKpXgPXKytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001176&contentid=ch00000000000000001176&videoid=ch00000090990000001087&recommendtype=0&userid=1287297673984&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=U4DB4Z0H2EXXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="210" tvg-chno="2" tvg-name="PH: Abante TV" tvg-id="abante.ph" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Abante_masthead.svg" group-title="PH | Entertainment",PH: Abante TV
 https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8
 #EXTINF:0 CUID="211" tvg-chno="3" tvg-name="PH: Aliw23" tvg-id="AliwChannel23.ph" tvg-logo="https://alcgroup.com.ph/assets/aliw-BZGJRcY-.png" group-title="PH | Entertainment",PH: Aliw23
@@ -9,7 +9,7 @@ http://136.239.158.30:6610/001/2/ch00000090990000001109/manifest.mpd?AuthInfo=v8
 https://1nox1-adobo.hf.space/arayko.m3u8
 #EXTINF:0 CUID="213" tvg-chno="5" tvg-name="PH: ALL TV 2" tvg-id="AllTV.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/ALLTV2.svg/revision/latest/scale-to-width-down/78?cb=20241207053225" group-title="PH | Entertainment",PH: ALL TV 2
 http://136.239.173.2:6610/001/2/ch00000090990000001179/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAow35sHUcBhGBpxqddBGYEnsyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001415&contentid=ch00000000000000001415&videoid=ch00000090990000001179&recommendtype=0&userid=1260075967329&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=HKF4YXSGDBXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20453020260101155239201657&ispcode=55
-#EXTINF:0 CUID="214" tvg-chno="6" tvg-name="PH: Aquarium Channel" group-title="PH | Entertainment",PH: Aquarium Channel
+#EXTINF:0 CUID="214" tvg-chno="6" tvg-name="PH: Aquarium Channel" tvg-logo="https://images.ctfassets.net/8utyj17y1gom/1v22tZwN9Xl0X1MgdRAtEt/5c804eff560bf2847da49d28f0d1574f/Desktop_TVChannelPage_Aquarium.png?w=356&fm=avif&q=100" group-title="PH | Entertainment",PH: Aquarium Channel
 http://136.239.158.18:6610/001/2/ch00000090990000001287/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp%2FXtsBqmRMPVZYpftK4PNzsyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001566&contentid=ch00000000000000001566&videoid=ch00000090990000001287&recommendtype=0&userid=1393269675905&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=7203BW7ZF75XXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO&IASHttpSessionId=RR20445720260101155240145619&ispcode=55
 #EXTINF:0 CUID="215" tvg-chno="7" tvg-name="PH: Bilyonaryo News Channel" tvg-id="bilyonaryonewschannel.ph" tvg-logo="https://static.wikia.nocookie.net/tv-philippines/images/c/ce/BilyonaryoNewsChannel_Logo_-_Black_%282024%29.png/revision/latest?cb=20241003053046" group-title="PH | Entertainment",PH: Bilyonaryo News Channel
 https://amg19223-amg19223c11-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c11-amgplt0352/playlist.m3u8
@@ -662,7 +662,7 @@ http://v3tv.live/play/live.php?mac=00:1A:79:59:83:B5&stream=1776240&extension=m3
 #EXTINF:0 CUID="345" tvg-chno="202" tvg-name="US: SYFY" tvg-id="syfy.uk" tvg-logo="https://logo.m3uassets.com/syfy.png" group-title="US | MOVIES",US: SYFY
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:0 CUID="346" tvg-chno="203" tvg-name="US: TCM" tvg-id="tcm.us" tvg-logo="https://logo.m3uassets.com/tcm.png" group-title="US | MOVIES",US: TCM
-http://websafety101.net:5050/wm8237351@gmail.com/LkaZHX6Zvj/418076
+http://107.167.16.138/tcmhd/index.m3u8?token=test
 #EXTINF:0 CUID="347" tvg-name="US: Thrill" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Thrill_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: Thrill
 http://136.239.173.10:6610/001/2/ch00000090990000001253/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq7M3KTlp1dzcZcVVxlNmQdytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001563&contentid=ch00000000000000001563&videoid=ch00000090990000001253&recommendtype=0&userid=1896007622720&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8LJ3RRPRMVYXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:0 CUID="348" tvg-chno="204" tvg-name="US: CBS Sports Network" tvg-id="cbssportsnetwork.us" tvg-logo="https://logo.m3uassets.com/cbssportsnetwork.png" group-title="US | SPORTS",US: CBS Sports Network
@@ -763,6 +763,8 @@ https://rightsboosterltd-scl-1-nl.samsung.wurl.tv/playlist.m3u8
 https://leaf.highfly.dev/m3u/us-tennis-channel/live.m3u8
 #EXTINF:0 CUID="396" tvg-chno="250" tvg-name="US: Yes Network" tvg-id="YESNetwork.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/eb/Yes.svg/revision/latest?cb=20200718174253" group-title="US | SPORTS",US: Yes Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
+#EXTINF:0 CUID="743" tvg-chno="206" tvg-name="US: ESPN 3" tvg-id="espn.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 3
+http://107.167.16.138/espn3/index.m3u8?token=test
 #EXTINF:0 CUID="397" tvg-chno="253" tvg-name="AU: ABC TV ACT" tvg-id="abctvact.au" tvg-logo="https://i.imgur.com/DPVQSjM.png" group-title="WRLD | ABC",AU: ABC TV ACT
 https://c.mjh.nz/abc-act.m3u8
 #EXTINF:0 CUID="398" tvg-chno="254" tvg-name="AU: ABC TV NSW" tvg-id="abctvnsw.au" tvg-logo="https://i.imgur.com/DPVQSjM.png" group-title="WRLD | ABC",AU: ABC TV NSW
@@ -950,7 +952,7 @@ http://stream.cammonitorplus.net/1748/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="489" tvg-chno="343" tvg-name="US: Fox East" tvg-id="fox.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/ff/FOX.svg/revision/latest?cb=20170519102706" group-title="WRLD | Entertainment",US: Fox East
 http://stream.cammonitorplus.net/1752/index.m3u8
 #EXTINF:0 CUID="490" tvg-chno="344" tvg-name="US: Fox News" tvg-id="foxnewschannel.us" tvg-logo="https://logo.m3uassets.com/foxnews.png" group-title="WRLD | Entertainment",US: Fox News
-http://45.190.28.50/FOX_NEWS/index.m3u8
+http://4.30.180.36:8420/foxnews/index.m3u8?token=test
 #EXTINF:0 CUID="491" tvg-chno="346" tvg-name="US: Fox West" tvg-id="fox.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/ff/FOX.svg/revision/latest?cb=20170519102706" group-title="WRLD | Entertainment",US: Fox West
 http://stream.cammonitorplus.net/1799/index.m3u8
 #EXTINF:0 CUID="492" tvg-chno="347" tvg-name="US: Fuse" tvg-id="fuse.us" tvg-logo="https://logo.m3uassets.com/fuse.png" group-title="WRLD | Entertainment",US: Fuse
@@ -1137,8 +1139,6 @@ https://amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/pl
 https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8
 #EXTINF:0 CUID="583" tvg-chno="436" tvg-name="US:  Cartoon Network USA" tvg-id="cartoonnetwork.uk" tvg-logo="https://logo.m3uassets.com/cartoonnetwork.png" group-title="WRLD | Kids",US:  Cartoon Network USA
 http://206.212.244.63/646/tracks-v1a1/mono.m3u8
-#EXTINF:0 CUID="584" tvg-chno="437" tvg-name="US:  NickToons" tvg-id="nicktoons.uk" tvg-logo="https://logo.m3uassets.com/nicktoons.png" group-title="WRLD | Kids",US:  NickToons
-http://40.160.24.55/NICKTOONS/index.m3u8
 #EXTINF:0 CUID="585" tvg-chno="438" tvg-name="US: Animation+" tvg-id="dummy-95" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3a/Animation_Plus.svg/revision/latest?cb=202512192317507" group-title="WRLD | Kids",US: Animation+
 https://linear-918.frequency.stream/mt/plex/918/hls/master/playlist_1920x1080.m3u8
 #EXTINF:0 CUID="586" tvg-chno="439" tvg-name="US: Baby Shark TV" tvg-id="babysharktv.us" tvg-logo="https://logo.m3uassets.com/babysharktv.png" group-title="WRLD | Kids",US: Baby Shark TV
@@ -1149,8 +1149,6 @@ http://40.160.24.52/BOOMERANG/tracks-v1a1/mono.ts.m3u8
 http://66.102.126.10:8000/play/a013/index.m3u8
 #EXTINF:0 CUID="589" tvg-chno="442" tvg-name="US: Disney HD International" tvg-id="cnninternational.uk" tvg-logo="https://logo.m3uassets.com/disneyinternational.png" group-title="WRLD | Kids",US: Disney HD International
 http://103.11.0.215:8000/play/a0eq/index.m3u8
-#EXTINF:0 CUID="590" tvg-chno="443" tvg-name="US: Disney Jr. 2 West" tvg-id="disneyjr.uk" tvg-logo="https://logo.m3uassets.com/disneyjr.png" group-title="WRLD | Kids",US: Disney Jr. 2 West
-http://206.212.244.63/655/index.m3u8
 #EXTINF:0 CUID="591" tvg-chno="444" tvg-name="US: Disney Jr. East" tvg-id="disneyjr.uk" tvg-logo="https://logo.m3uassets.com/disneyjr.png" group-title="WRLD | Kids",US: Disney Jr. East
 http://40.160.24.52/Disney_JR/index.m3u8
 #EXTINF:0 CUID="592" tvg-chno="445" tvg-name="US: Disney XD East" tvg-id="disneyjr.uk" tvg-logo="https://logo.m3uassets.com/disneyxd.png" group-title="WRLD | Kids",US: Disney XD East
@@ -1163,24 +1161,18 @@ https://ott.djdoolky76.net/stream/iptv/cignaldreamworks/stream_0.m3u8?u=udpv4&p=
 https://amg01438-ewscrippscompan-ionplus-tablo-8lmg6.amagi.tv/ts-us-w2-n2/playlist/amg01438-ewscrippscompan-ionplus-tablo/cb543d1f796c678e9dd43e6fd1ef44a4f9591fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7255db80148b61299bce8c37683f03409a5e5afba358b1ebe45f47d93aa4b81b55912f16e59f43c8821da688d75c9e5e8474f2119b94f3ddd112808ff30393728aecdb5f581fa9a83bf8f955bfd6937929957f2d556c3a8cc1b2cd3ef702da21269cded8b664857384e977c308a3d871cfa6a5300f3be729dec2322b2fed817c6173cfe5486826efc8a184f2393287ab9ac8e6f07c6690fa1879089c238862630f99f3cf1b93d055b88263d4e4274d6380a64c95cbe6d8afa8db1ed565ebd7e49438754b612f0b9212f7c93a957a8b38e0e53b15716108ed965ccf83997935614489c91ef71b09b6d68ecc8e5a6c8430550aa6309968046acd266533b07eaed46f3afb5360ef0234f55c3a9751bce97c87c0f5d1466ae5909738bc05899205ddf10eac174c7a0aa1fd215a05013de7e768093f6ed00783f7cff27c1d0ffcfdaeaf9902d866eca581a3ed2ada44b422feffae65895aa8a5ce109e/191/426x240_448720/index.m3u8
 #EXTINF:0 CUID="596" tvg-chno="449" tvg-name="US: Kartoon Channel!" tvg-id="kartoonchannel.us" tvg-logo="https://logo.m3uassets.com/kartoonchannel!.png" group-title="WRLD | Kids",US: Kartoon Channel!
 https://d2z0ysa6dgxhlc.cloudfront.net/kchan.m3u8
-#EXTINF:0 CUID="597" tvg-name="US: Kids Tv" group-title="WRLD | Kids",US: Kids Tv
+#EXTINF:0 CUID="597" tvg-name="US: Kids Tv" tvg-logo="https://play-lh.googleusercontent.com/fRdVY-6cNJTnmsEiYIfmzpewQzLrwMaApJBWDzwnVv7EOF6O3maSjzpRgpEi6d8KA4w9UJ5-uUwuhH6dZvAl" group-title="WRLD | Kids",US: Kids Tv
 https:\\wurljansonmedia.global.transmit.live\hls\69029561e0b3f0f215eef867\playlist.m3u8?wurl_channel=1379&wurl_name=KidsTV&coppa=1&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]
 #EXTINF:0 CUID="598" tvg-chno="450" tvg-name="US: KidsFlix" tvg-id="KidsFlix.us@SD" tvg-logo="https://logo.m3uassets.com/kidsflix.png" group-title="WRLD | Kids",US: KidsFlix
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
 #EXTINF:0 CUID="599" tvg-chno="451" tvg-name="US: Nick Jr." tvg-id="nickjr.uk" tvg-logo="https://logo.m3uassets.com/nickjr.png" group-title="WRLD | Kids",US: Nick Jr.
 https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
-#EXTINF:0 CUID="600" tvg-chno="452" tvg-name="US: Nick Jr." tvg-id="nickjr.uk" tvg-logo="https://logo.m3uassets.com/nickjr.png" group-title="WRLD | Kids",US: Nick Jr.
-http://40.160.24.55/NICK_JR/index.m3u8
-#EXTINF:0 CUID="601" tvg-chno="453" tvg-name="US: Nick Jr. Peppa Pig" tvg-id="NickJr.us" tvg-logo="https://logo.m3uassets.com/nickjrpeppa.png" group-title="WRLD | Kids",US: Nick Jr. Peppa Pig
-http://41.205.93.154/NICK-JR/index.m3u8
+#EXTINF:0 CUID="600" tvg-chno="452" tvg-name="US: Nick Jr. East" tvg-id="nickjr.uk" tvg-logo="https://logo.m3uassets.com/nickjr.png" group-title="WRLD | Kids",US: Nick Jr. East
+http://107.167.16.138/nickjr/index.m3u8?token=test
 #EXTINF:0 CUID="602" tvg-chno="454" tvg-name="US: Nickelodeon East" tvg-id="nickelodeon.uk" tvg-logo="https://logo.m3uassets.com/nickelodeon.png" group-title="WRLD | Kids",US: Nickelodeon East
 http://198.58.104.90:8989/nickelodeon/index.m3u8
-#EXTINF:0 CUID="603" tvg-chno="455" tvg-name="US: Nickelodeon West" tvg-id="nickelodeon.uk" tvg-logo="https://logo.m3uassets.com/nickelodeon.png" group-title="WRLD | Kids",US: Nickelodeon West
-http://40.160.24.55/NICKELODEON/index.m3u8
-#EXTINF:0 CUID="604" tvg-chno="456" tvg-name="US: NickSpongebob" tvg-logo="https://logo.m3uassets.com/nickspongebob.png" group-title="WRLD | Kids",US: NickSpongebob
-http://206.212.244.63/3152/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="605" tvg-chno="457" tvg-name="US: NickToons East" tvg-id="nicktoons.uk" tvg-logo="https://logo.m3uassets.com/nicktoons.png" group-title="WRLD | Kids",US: NickToons East
-http://40.160.24.55/NICKTOONS/index.m3u8
+http://41.205.93.154/NICKTOONS/index.m3u8
 #EXTINF:0 CUID="606" tvg-chno="458" tvg-name="US: PBS Kids" tvg-id="pbskids.us" tvg-logo="https://logo.m3uassets.com/pbskids.png" group-title="WRLD | Kids",US: PBS Kids
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est_3.m3u8
 #EXTINF:0 CUID="607" tvg-chno="459" tvg-name="US: Teen Nick" tvg-id="teennick.us" tvg-logo="https://logo.m3uassets.com/teennick.png" group-title="WRLD | Kids",US: Teen Nick
@@ -1318,7 +1310,7 @@ http://41.205.93.154/FOXBUSINESS/index.m3u8
 #EXTINF:0 CUID="673" tvg-chno="525" tvg-name="US: Fox Live" tvg-id="FoxLive.us" tvg-logo="https://static.foxnews.com/foxnews.com/content/uploads/2022/09/Fox-News-Live.png" group-title="WRLD | News",US: Fox Live
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 #EXTINF:0 CUID="674" tvg-chno="526" tvg-name="US: Fox News" tvg-id="FoxNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/500px-Fox_News_Channel_logo.svg.png" group-title="WRLD | News",US: Fox News
-https://stream.livenewsplay.com:9555/hls/foxnewssd/index.m3u8
+http://4.30.180.36:8420/foxnews/index.m3u8?token=test
 #EXTINF:0 CUID="675" tvg-chno="527" tvg-name="US: MSNBC" tvg-id="MSNBC.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/MSNBC_1996.svg/revision/latest?cb=20180308102320" group-title="WRLD | News",US: MSNBC
 http://185.246.209.113/MSNBC/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="676" tvg-chno="528" tvg-name="US: NBC EAST" tvg-id="cnbc.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/NBC_logo_2022_%28vertical%29.svg" group-title="WRLD | News",US: NBC EAST
@@ -1449,12 +1441,6 @@ https://aegis-cloudfront-1.tubi.video/a78ea283-8666-44a1-a0f6-fde5d229ac21/playl
 https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
 #EXTINF:0 CUID="739" tvg-chno="590" tvg-name="US: Unidentified" tvg-id="Unbeaten.us" tvg-logo="https://deadline.com/wp-content/uploads/2019/03/unidentified-1.jpg?w=681&h=383&crop=1" group-title="WRLD | Sports",US: Unidentified
 https://d3ify425qsio2d.cloudfront.net/playlist.m3u8
-#EXTINF:0 CUID="740" tvg-chno="597" tvg-name="Anaconda 3 (2008)" tvg-logo="https://image.tmdb.org/t/p/w780/3PI6dXS0UlNlB6IXnngfEtufFxm.jpg" group-title="Zeus Collections",Anaconda 3 (2008)
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/210731/Watch_Free_Anaconda_3__Offspring_2008___Sflix.mp4/chunk.m3u8
-#EXTINF:0 CUID="741" tvg-chno="598" tvg-name="Block Z (2020)" tvg-logo="https://image.tmdb.org/t/p/w780/n6jAasaOFvg0LNEpx7tLr5gVAEP.jpg" group-title="Zeus Collections",Block Z (2020)
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/210731/Block_Z_Movie_Online___Sflix_2025_11_02_16_35_35_501__2025_11_02_18_26_19_461_.mp4/chunk.m3u8
-#EXTINF:0 CUID="742" tvg-chno="599" tvg-name="Spider-Man: Brand New Day (2026)" tvg-logo="https://image.tmdb.org/t/p/w780/iPOn6DinuVyLY17YM9mKuPofV08.jpg" group-title="Zeus Collections",Spider-Man: Brand New Day (2026)
-https://tight-fog-810b.icarus046.workers.dev/?data=FwcDR-ysZAEnW5slEFO75iT6_CDWYWTb_gAmkdejNqwy3YcOhpcJ3GzkZ7B5opW0UBhJvdVKolULmPcB5EocuXgPbqVGUpv5kUEyv7W_0ZkFkGxeKBExG-P33PNEZponqNKw6n1uwJP3Ngk8ZrbaOHB-un8IXIWMsZ9imQ5Xmqb6R0QMvkqdgKN4jk5y9P310eaiMfWtKVK7
 #EXTINF:0 CUID="1" tvg-name="Iron Man (2008)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCythtaM-iOKWi0JUUiQtcC3CH8o9bhUDiaFY53ZRWXFa4mGuVRFevtTZlWDusVoP6dl3e&s=10" group-title="Iron Man Collection",Iron Man (2008)
 http://ptccloud.lsdwedsfsc.site/vod/E94C12B0BECB486697F1842EAF7DD1D2_media.mp4
 #EXTINF:0 CUID="2" tvg-name="Iron Man 2 (2010)" tvg-logo="https://m.media-amazon.com/images/M/MV5BYWYyOGQzOGYtMGQ1My00ZWYxLTgzZjktZWYzN2IwYjkxYzM0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="Iron Man Collection",Iron Man 2 (2010)
