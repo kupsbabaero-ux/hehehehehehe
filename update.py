@@ -4,12 +4,12 @@ from datetime import datetime
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
 
 OUTPUT1 = "korea.m3u8"    # DIYP 影音
-OUTPUT2 = "korea2.m3u8"   # 标准 M3U（支持 php）
+OUTPUT2 = "korea2.m3u8"   # Standard M3U (with tvg-logo support)
 
 def extract_m3u8_only(uris):
     """仅提取 .m3u8（用于 OUTPUT1）"""
     def is_m3u8(u):
-        return isinstance(u, str) and ("channel=" in u.lower() or ".m3u8" in u.lower() or u.lower().endswith(".php"))  and "wavve" not in u.lower() and "file-1253962976.cos" not in u.lower()
+        return isinstance(u, str) and ("channel=" in u.lower() or ".m3u8" in u.lower() or u.lower().endswith(".php")) and "wavve" not in u.lower() and "file-1253962976.cos" not in u.lower()
 
     if isinstance(uris, list):
         for u in uris:
@@ -36,7 +36,7 @@ def extract_m3u8_or_php(uris):
     urls = []
 
     def is_valid(u):
-        return isinstance(u, str) and ("channel=" in u.lower() or ".m3u8" in u.lower() or u.lower().endswith(".php"))  and "wavve" not in u.lower() and "file-1253962976.cos" not in u.lower()
+        return isinstance(u, str) and ("channel=" in u.lower() or ".m3u8" in u.lower() or u.lower().endswith(".php")) and "wavve" not in u.lower() and "file-1253962976.cos" not in u.lower()
         
 
     if isinstance(uris, list):
@@ -79,6 +79,8 @@ def run():
     for item in data:
         name = item.get("name", "").strip()
         uris = item.get("uris")
+        # Kukuha ng logo galing sa JSON (chinetcheck ang 'logo' o 'tvg-logo')
+        logo = item.get("logo", "") or item.get("tvg-logo", "") or item.get("icon", "")
 
         if not name or not uris:
             continue
@@ -89,10 +91,13 @@ def run():
             lines1.append(f"{name},{url1}")
             count1 += 1
 
-        # OUTPUT2：m3u8 或 php
+        # OUTPUT2：m3u8 或 php (na may tvg-logo attribute)
         url2 = extract_m3u8_or_php(uris)
         if url2:
-            lines2.append(f"#EXTINF:-1,{name}")
+            if logo:
+                lines2.append(f'#EXTINF:-1 tvg-logo="{logo.strip()}",{name}')
+            else:
+                lines2.append(f"#EXTINF:-1,{name}")
             lines2.append(url2)
             count2 += 1
 
