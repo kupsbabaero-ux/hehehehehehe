@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epg.pw/xmltv/epg-kr.xml"
+#EXTM3U url-tvg="https://epg.lat/files/kr.xml.gz"
 #EXTINF:-1 tvg-id="" tvg-name="24/7:  Anime x HIDIVE" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/Anime_x_HIDIVE_%28White%29.png/revision/latest?cb=20251205045808" group-title="24/7 | Anime",24/7:  Anime x HIDIVE
 https://jmp2.uk/plu-6793eaa4bc03978b9bc63db1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7:  Anime x HIDIVE 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/Anime_x_HIDIVE_%28White%29.png/revision/latest?cb=20251205045808" group-title="24/7 | Anime",24/7:  Anime x HIDIVE 2
