@@ -11,15 +11,21 @@ EPG_URL = "https://epg.pw/xmltv/epg-kr.xml"
 OUTPUT1 = "korea.m3u8"  # DIYP format (#genre# grouping)
 OUTPUT2 = "korea2.m3u8"  # Standard M3U format
 
+TARGET_GROUP = "KR | Korea"
 
-def format_channel_name(name):
-    """Maglalagay ng 'KR: ' prefix kung wala pa ito."""
+
+def format_channel_name(name, group):
+    """Maglalagay LAMANG ng 'KR: ' prefix kung ang group ay 'KR | Korea'."""
     name = name.strip()
-    if not name.startswith("KR:"):
-        # Inaayos ang spacing kung KR:Name o KR: Name
-        return f"KR: {name}"
-    # Siguraduhin na may space pagkatapos ng 'KR:'
-    return re.sub(r"^KR:\s*", "KR: ", name)
+
+    # Kung ang group ay KR | Korea, lalagyan ng KR: prefix
+    if group == TARGET_GROUP:
+        if not name.startswith("KR:"):
+            return f"KR: {name}"
+        return re.sub(r"^KR:\s*", "KR: ", name)
+
+    # Pag hindi KR | Korea group, ibabalik ang orihinal na pangalan
+    return name
 
 
 def extract_m3u8_or_php(uris):
@@ -76,21 +82,21 @@ def parse_external_m3u8(url):
                     r'group-title="([^"]*)"', current_extinf
                 )
 
+                group = group_title.group(1) if group_title else "Others"
                 raw_name = (
                     current_extinf.split(",")[-1].strip()
                     if "," in current_extinf
                     else "Unknown Channel"
                 )
-                formatted_name = format_channel_name(raw_name)
+
+                formatted_name = format_channel_name(raw_name, group)
 
                 channels.append({
                     "name": formatted_name,
                     "url": line,
                     "logo": tvg_logo.group(1) if tvg_logo else "",
                     "tvg_id": tvg_id.group(1) if tvg_id else formatted_name,
-                    "group": (
-                        group_title.group(1) if group_title else "KR | Korea"
-                    ),
+                    "group": group,
                 })
                 current_extinf = None
     except Exception as e:
@@ -101,7 +107,7 @@ def parse_external_m3u8(url):
 def run():
     all_channels = []
 
-    # 1. Fetch JSON channels
+    # 1. Fetch JSON channels (Lahat ng JSON ay naka-set sa 'KR | Korea')
     try:
         r = requests.get(JSON_URL, timeout=20)
         r.encoding = "utf-8"
@@ -121,7 +127,8 @@ def run():
 
             play_url = extract_m3u8_or_php(uris)
             if play_url:
-                formatted_name = format_channel_name(raw_name)
+                group = TARGET_GROUP
+                formatted_name = format_channel_name(raw_name, group)
                 tvg_id = item.get("tvg-id", "") or formatted_name
 
                 all_channels.append({
@@ -129,7 +136,7 @@ def run():
                     "url": play_url,
                     "logo": logo.strip() if logo else "",
                     "tvg_id": tvg_id,
-                    "group": "KR | Korea",  # Default Group
+                    "group": group,
                 })
     except Exception as e:
         print(f"{datetime.now()} Error fetching JSON: {e}")
@@ -142,7 +149,7 @@ def run():
         print("Walang nakuhang channels.")
         return
 
-    # 3. Alphabetical Sorting: Unahin ang Group Title (A-Z) bago ang Channel Name (A-Z)
+    # 3. Alphabetical Sorting: Group (A-Z) -> Channel Name (A-Z)
     all_channels.sort(key=lambda x: (x["group"].lower(), x["name"].lower()))
 
     # 4. DIYP Format Generation (OUTPUT1)
@@ -164,7 +171,7 @@ def run():
         )
         lines2.append(ch["url"])
 
-    # Isulat sa mga output file
+    # Isulat sa mga file
     with open(OUTPUT1, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines1))
 
