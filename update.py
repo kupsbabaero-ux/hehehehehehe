@@ -15,16 +15,16 @@ TARGET_GROUP = "KR | Korea"
 
 
 def format_channel_name(name, group):
-    """Maglalagay LAMANG ng 'KR: ' prefix kung ang group ay 'KR | Korea'."""
+    """Maglalagay LAMANG ng 'KR: ' prefix kung ang group ay 'KR | Korea' (case-insensitive check)."""
     name = name.strip()
 
-    # Kung ang group ay KR | Korea, lalagyan ng KR: prefix
-    if group == TARGET_GROUP:
-        if not name.startswith("KR:"):
-            return f"KR: {name}"
-        return re.sub(r"^KR:\s*", "KR: ", name)
+    # Linisin muna kung may umiiral nang "KR:" o "KR :" para hindi mag-duplicate
+    clean_name = re.sub(r"^KR:\s*", "", name, flags=re.IGNORECASE).strip()
 
-    # Pag hindi KR | Korea group, ibabalik ang orihinal na pangalan
+    # Tiyaking case-insensitive ang pag-check sa group name
+    if group.strip().lower() == TARGET_GROUP.lower():
+        return f"KR: {clean_name}"
+
     return name
 
 
@@ -78,11 +78,13 @@ def parse_external_m3u8(url):
             elif not line.startswith("#") and current_extinf:
                 tvg_id = re.search(r'tvg-id="([^"]*)"', current_extinf)
                 tvg_logo = re.search(r'tvg-logo="([^"]*)"', current_extinf)
-                group_title = re.search(
+                group_match = re.search(
                     r'group-title="([^"]*)"', current_extinf
                 )
 
-                group = group_title.group(1) if group_title else "Others"
+                # Kung walang group-title, i-default sa TARGET_GROUP
+                group = group_match.group(1) if group_match else TARGET_GROUP
+
                 raw_name = (
                     current_extinf.split(",")[-1].strip()
                     if "," in current_extinf
@@ -107,7 +109,7 @@ def parse_external_m3u8(url):
 def run():
     all_channels = []
 
-    # 1. Fetch JSON channels (Lahat ng JSON ay naka-set sa 'KR | Korea')
+    # 1. Fetch JSON channels (Lahat ng galing sa JSON ay pilit nating ita-tag sa 'KR | Korea')
     try:
         r = requests.get(JSON_URL, timeout=20)
         r.encoding = "utf-8"
@@ -171,7 +173,7 @@ def run():
         )
         lines2.append(ch["url"])
 
-    # Isulat sa mga file
+    # Isulat sa mga output file
     with open(OUTPUT1, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines1))
 
