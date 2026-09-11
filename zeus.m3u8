@@ -482,9 +482,11 @@ http://40.160.24.52/FLIX/index.m3u8
 #EXTINF:0 CUID="296" tvg-chno="167" tvg-name="US: Freeform" tvg-id="freeform.us" tvg-logo="https://logo.m3uassets.com/freeform.png" group-title="US | MOVIES",US: Freeform
 http://190.11.225.124:5000/live/freeform_hd/playlist.m3u8
 #EXTINF:0 CUID="297" tvg-chno="168" tvg-name="US: FX" tvg-id="fxmoviechannel.us" tvg-logo="https://logo.m3uassets.com/fx.png" group-title="US | MOVIES",US: FX
-http://23.237.104.106:8080/USA_FX/index.m3u8
+http://15.204.246.24:8080/FXHD/index.m3u8
+#EXTINF:0 CUID="297" tvg-chno="168" tvg-name="US: FX" tvg-id="fxmoviechannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e7/FXM_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: FXM
+http://ultratv.one:2095/live/hCPtsREFtA/Xj25tg0ZXi/2121817.m3u8
 #EXTINF:0 CUID="298" tvg-chno="170" tvg-name="US: FXX" tvg-id="fxx.us" tvg-logo="https://logo.m3uassets.com/fxx.png" group-title="US | MOVIES",US: FXX
-http://23.237.104.106:8080/USA_FXX/index.m3u8
+http:\\ultratv.one:2095\live\hCPtsREFtA\Xj25tg0ZXi\2121819.m3u8
 #EXTINF:0 CUID="299" tvg-chno="171" tvg-name="US: H&I" tvg-id="heroes&iconsnetworkwest.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/H%26I-Cenla-Logo.png" group-title="US | MOVIES",US: H&I
 http://206.212.244.63/88/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="300" tvg-chno="172" tvg-name="US: HALLMARK" tvg-id="hallmark.us" tvg-logo="https://logo.m3uassets.com/hallmark.png" group-title="US | MOVIES",US: HALLMARK
