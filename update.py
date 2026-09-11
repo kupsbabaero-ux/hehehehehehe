@@ -6,27 +6,8 @@ JSON_URL = "http://141.164.53.195/live/korea-live.json"
 EXTRA_M3U8_URL = "https://github.com/kupsbabaero-ux/hehehehehehe/raw/refs/heads/main/zeus.m3u8"
 EPG_URL = "https://epg.pw/xmltv/epg-kr.xml"  # Automatic EPG URL
 
-OUTPUT1 = "korea.m3u8"    # DIYP format
-OUTPUT2 = "korea2.m3u8"   # Standard M3U with EPG, Logo, Group, & Alphabetical Sorting
-
-
-def extract_m3u8_only(uris):
-    """Extract .m3u8 or .php for DIYP format"""
-    def is_m3u8(u):
-        return isinstance(u, str) and ("channel=" in u.lower() or ".m3u8" in u.lower() or u.lower().endswith(".php")) and "wavve" not in u.lower() and "file-1253962976.cos" not in u.lower()
-
-    if isinstance(uris, list):
-        for u in uris:
-            if is_m3u8(u):
-                return u.strip()
-    elif isinstance(uris, dict):
-        for u in uris.values():
-            if is_m3u8(u):
-                return u.strip()
-    elif isinstance(uris, str):
-        if is_m3u8(uris):
-            return uris.strip()
-    return None
+OUTPUT1 = "korea.m3u8"    # DIYP format with #genre# grouping
+OUTPUT2 = "korea2.m3u8"   # Standard M3U with group-title="KR | Korea"
 
 
 def extract_m3u8_or_php(uris):
@@ -67,12 +48,10 @@ def parse_external_m3u8(url):
             if line.startswith("#EXTINF:"):
                 current_extinf = line
             elif not line.startswith("#") and current_extinf:
-                # Extract parameters
                 tvg_id = re.search(r'tvg-id="([^"]*)"', current_extinf)
                 tvg_logo = re.search(r'tvg-logo="([^"]*)"', current_extinf)
                 group_title = re.search(r'group-title="([^"]*)"', current_extinf)
                 
-                # Extract channel name after the last comma
                 name = current_extinf.split(",")[-1].strip() if "," in current_extinf else "Unknown Channel"
                 
                 channels.append({
@@ -91,7 +70,7 @@ def parse_external_m3u8(url):
 def run():
     all_channels = []
 
-    # 1. Get channels from JSON source and force group to 'KR | Korea'
+    # 1. Fetch JSON channels and force group to 'KR | Korea'
     try:
         r = requests.get(JSON_URL, timeout=20)
         r.encoding = "utf-8"
@@ -103,9 +82,6 @@ def run():
             logo = item.get("logo", "") or item.get("tvg-logo", "") or item.get("icon", "")
             tvg_id = item.get("tvg-id", "") or name
             
-            # Lahat ng nanggaling sa JSON ay ilalagay sa 'KR | Korea'
-            group = "KR | Korea"
-            
             if not name or not uris:
                 continue
             
@@ -116,12 +92,12 @@ def run():
                     "url": play_url,
                     "logo": logo.strip() if logo else "",
                     "tvg_id": tvg_id,
-                    "group": group
+                    "group": "KR | Korea"  # Hardcoded group para sa lahat ng JSON items
                 })
     except Exception as e:
         print(f"{datetime.now()} Error fetching JSON: {e}")
 
-    # 2. Get channels from GitHub zeus.m3u8
+    # 2. Fetch GitHub channels
     github_channels = parse_external_m3u8(EXTRA_M3U8_URL)
     all_channels.extend(github_channels)
 
@@ -129,28 +105,24 @@ def run():
         print("Walang nakuhang channels.")
         return
 
-    # 3. Sort channels: Group Name (A-Z) -> Channel Name (A-Z)
+    # 3. Sort channels: Group (A-Z) -> Channel Name (A-Z)
     all_channels.sort(key=lambda x: (x["group"].lower(), x["name"].lower()))
 
-    # 4. Generate Output Files
-    lines1 = ["#EXTM3U"]
-    lines2 = [f'#EXTM3U url-tvg="{EPG_URL}"']
-
-    count1 = 0
-    count2 = 0
-
+    # 4. Generate DIYP Format (OUTPUT1)
+    lines1 = []
+    current_diyp_group = None
     for ch in all_channels:
-        # DIYP Output (OUTPUT1)
+        if ch["group"] != current_diyp_group:
+            current_diyp_group = ch["group"]
+            lines1.append(f"{current_diyp_group},#genre#")
         lines1.append(f"{ch['name']},{ch['url']}")
-        count1 += 1
 
-        # Standard M3U Output with Group & EPG (OUTPUT2)
+    # 5. Generate Standard M3U Format (OUTPUT2)
+    lines2 = [f'#EXTM3U url-tvg="{EPG_URL}"']
+    for ch in all_channels:
         logo_attr = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ''
-        group_attr = f' group-title="{ch["group"]}"' if ch["group"] else ''
-        
-        lines2.append(f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{ch["name"]}"{logo_attr}{group_attr},{ch["name"]}')
+        lines2.append(f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{ch["name"]}"{logo_attr} group-title="{ch["group"]}",{ch["name"]}')
         lines2.append(ch["url"])
-        count2 += 1
 
     with open(OUTPUT1, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines1))
@@ -158,9 +130,7 @@ def run():
     with open(OUTPUT2, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines2))
 
-    print(f"{datetime.now()} Total Channels Extracted: {len(all_channels)}")
-    print(f"{datetime.now()} DIYP Channels: {count1}")
-    print(f"{datetime.now()} Standard M3U Channels (Grouped under 'KR | Korea'): {count2}")
+    print(f"{datetime.now()} Total Channels: {len(all_channels)}")
     print(f"{datetime.now()} Files Generated: {OUTPUT1}, {OUTPUT2}")
 
 
