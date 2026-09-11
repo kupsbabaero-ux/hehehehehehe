@@ -138,70 +138,15 @@ KBSStory,http://koreatv.dothome.co.kr/kbsstory.php
 KBSWorld,http://koreatv.dothome.co.kr/kbsworld.php
 KBS뉴스24,https://tving-live-o2-xcdn.tving.com/o2/v1/019b91fde7c5153d78651307e41e2a/019b977c8b3a1eb80e79141423fc3b/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkxOTEzNjIsInBhdGgiOiIvbzIifQ.TDMitD6W6VGpJLasI6EIchFi-KMaV3toNeFdMxq6s1U
 KR: ABN,https://vod2.abn.co.kr/IPHONE/abn.m3u8
-KR: Anibox,https://tving-live-o2-ktcdn.tving.com/o2/v1/019dd8ef15b31eb80e7925af014fca/019dd8ef8adc1eb80e7925af014fcd/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLWt0Y2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5ODM0fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=E0-44eaiVjrlSRKXvD1eSeLXDFycfogJRWNguRuTiaMNhFS9Yjri5HQ57S~rULhhya~KhbXF7kmf0Nt9QDb815mI4fFqKlkJjnKbGZjhmBBeXd2tIkqaoZFYv8uPJbyCltTh7iR0TKCygrUstBCDyA4QX1FplB8ea~Rtp51dFR5HPU7WNJLfwr6NpgwfrSWk8nasG~haZ0iiKWdFzgInS3opcnObaAijXQMX5-3sna~~5hfYH3hO0Zo8OdKZXGJJeO1XSuUivzJelqEe1~34MQe9tBRTQzrnmk19rN1NiYrc02T~8d5wIokIS08pea4RqWFdcPquWKnYIDyTMtVp6g__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-KR: BBC-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=bbc
 KR: BBS TV,https://bbstv.clouducs.com/bbstv-live/livestream/chunklist_w716766475.m3u8
-KR: Channel A,http://124.222.153.240/kakaotv/get_channel.php?channel=channela
-KR: Channel E-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=channel_e
-KR: CNN-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=cnn
-KR: EBS,https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8dcc9101eb80e7925af014fba/019dd8dd4784153d7865157cdbfbd5/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk3MzIsInBhdGgiOiIvbzIifQ.B5lRf04m_1x2p2MiX8m6bTZcL1cSV_okmXcFHwyZa9Q
-KR: EBS 2-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=ebs2
 KR: EBS Kids,https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/chunklist.m3u8?_=1783093032993&_=1783093033120
-KR: EBS1-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=ebs1
-KR: ENA-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=ena
-KR: History-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=history
-KR: iHQ-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=ihq
-KR: iNET,http://124.222.153.240/kakaotv/get_channel.php?channel=inet
-KR: JTBC,https://tving-live-o2-xcdn.tving.com/o2/v1/019db87e92691eb80e7942932b5bd/019db87f02501eb80e7942932b5c0/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODkzNjksInBhdGgiOiIvbzIifQ.Jm_pCwHXmfXb83OH_3aFld2JU38pDu_Ws2TLWYeoVkg
-KR: JTBC 3,http://124.222.153.240/kakaotv/get_channel.php?channel=jtbc3
-KR: JTBC 뉴스,https://tving-live-o2-skcdn.tving.com/o2/v1/019bf8af365e153d78652a264b9f3f/019bf8afd0fe153d78652a264b9f42/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NDE5fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=OcNwRmIlsa5lzouvguYZE4dkq6tK6HHKXYCwGuwGAag3Sfx8DQr0q-bXP4kojlr8kNo9-j1WbZ1QgttwJqDmKUtplHoJ9nYon1SXAsXeBcpfjBhtv5kQM8eLZsGZVVVBdbLi8nT~ajDe9gaWEIme9Rhbl1KM1iVrG20M~hfilm0RZ5jsEyxKHcjAZLThvWYWDp6v1z2~h5VTB~So7Nn8jh7V8xHZew4yPs0Yxx~OOXBzB1WcwA8MAU2hqyxr~CbyCnma7JtnsveYgplAqIFc8RTdHQjsQfJNJPg03vAVM3pFSOF-y5X60SOQ1lM5t1kNOR10hP4dzhgqYEFtDI8OWQ__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-KR: JTBC2,https://tving-live-o2-xcdn.tving.com/o2/v1/019d6c233d781eb80e796d9bd9cb7/019dd8d54768153d7865157cdbfbd3/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODkzODYsInBhdGgiOiIvbzIifQ.UunVkd5W07pIbK_P7DNMJn-pFuXYt2ORcQ0ohc-gP88
-KR: JTBC4,https://tving-live-o2-xcdn.tving.com/o2/v1/019dd2ee3a6f1eb80e7925af014fb7/019dd8e4b0c6153d7865157cdbfbdb/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk0MDIsInBhdGgiOiIvbzIifQ.JSnj8jN6EF5tpPx3kjaa6vu5750pFx70uu87Jdvuk7k
-KR: KBS 1,http://124.222.153.240/kakaotv/get_channel.php?channel=kbs1
-KR: KBS 2,http://124.222.153.240/kakaotv/get_channel.php?channel=kbs2#
-KR: KBS N Sports,https://k227.jk-cdn.com/watch/live.m3u8?video=kbs_n_sports_540&sid=rfewRLAmeD74v3cV9TuMmRTBRwWMzss2RHIeIfpi&secret=a07e5d00c171d884d443296a19e9c76a&time=1783691240#.m3u8
-KR: KBS N 스포츠-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=kbs_n_sports
 KR: KBS World,https://cdn4.skygo.mn/live/disk1/KBSWorld/HLSv3-FTA/KBSWorld-avc1_3000000=21-mp4a_256000_eng=20.m3u8
-KR: KBSDrama,http://koreatv.dothome.co.kr/kbsdrama.php
-KR: KBSJoy,http://koreatv.dothome.co.kr/kbsjoy.php
-KR: KBSKids,http://koreatv.dothome.co.kr/kbskids.php
-KR: KBSLife,http://koreatv.dothome.co.kr/kbslife.php
-KR: KBSStory,http://koreatv.dothome.co.kr/kbsstory.php
-KR: KBS뉴스24,https://tving-live-o2-xcdn.tving.com/o2/v1/019b91fde7c5153d78651307e41e2a/019b977c8b3a1eb80e79141423fc3b/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk4OTksInBhdGgiOiIvbzIifQ.neo-yH5Wvh-ugyuuecs56p1inqsOmsNm0nTpcd9vvYw
-KR: KCTV (NK),https://kctv-nk-1080p.toobee.workers.dev/stream/index.m3u8
 KR: Korea TV,https://hlive.ktv.go.kr/live/klive_h.stream/chunklist_w890220725.m3u8
-KR: Lifetime 일생,https://tving-live-o2-xcdn.tving.com/o2/v1/019d668fbfde153d786553381d0db/019d669072be153d786553381d0de/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk4ODMsInBhdGgiOiIvbzIifQ.-Fa2oiNZgfLoQ5xvbxVV0ojOy4SZ8n3gRfVmJw28FMM
-KR: MBC,http://124.222.153.240/kakaotv/get_channel.php?channel=mbc
 KR: MBC America,https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
-KR: MBC ON-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_on
-KR: MBC Sports +,http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_sports
-KR: MBC스포츠-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_sports
-KR: MBN,https://tving-live-o2-ktcdn.tving.com/o2/v1/019d8a6c2db1153d786553381d0f4/019dd8e5a2ec1eb80e7925af014fc1/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLWt0Y2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NjE4fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=cAL5UHkivSj25vWzIvaHvruOK2oc5RE~IprmcYLbn-gbLiqzJ4JseEOxar8tYqFB8c0eYE3nb2k-6Qk7FXHRbT6Xr3E60oeKA1sRGUV59zx2BZ6qaIqk65dSzyDeg54hK727JhJQ1kUQoR52Z-HvZkPsyDjXXggE~JRS3nCFpYNrrZ6PYHBCQ8sIYI6ilkoex0xBVgs5WCFX8yXUc0QjcmWnb2hyP9nk83GnYGdOorB0Amz2QV9vVGte21KZDoKv5756o2lk17KBbfQTtmv75WxAT3En1YQ1MRfVP3gptzJT~YhOevQJFrn5cIPox43GCZqqc2xemgQ7tU6jkIqoyw__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-KR: MBN 1,http://124.222.153.240/kakaotv/get_channel.php?channel=mbn
-KR: MBN-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=mbn
-KR: MBN뉴스,https://tving-live-o2-xcdn.tving.com/o2/v1/019b8ccb7875153d78653848a01248/019b8cebaab8153d78653848a0124b/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk2NTEsInBhdGgiOiIvbzIifQ.ilzn1Bw8XYkV3e8H13kSd8PHaO42CiZ-KGARTh2BwbI
-KR: MBN플러스,https://tving-live-o2-skcdn.tving.com/o2/v1/019db8dc792a1eb80e7942932b5c1/019dd8e25eab153d7865157cdbfbda/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NjM1fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=ASDk9fad3lfb5nT-WnGqyk7gtFfdGrOhSt9LXUZvsJRJUyythZ6srCEyyJNaEyq9dlo3wow0rHYPP6wkSo61S2trdzD5yoSi7iLpOCYMM3bAvOkTHEyvhwslkRZJg51Q0GTHNUiW5IUSEQlCsNrnDzODDEwJB1ot8jMAkfNLo1i3UcjUxZphbHQpNe6mANovfQKBLjktvdez7t89gbVtZ4H1mV-I0CJbsd4SmI9-6URLBYrp7C4kIEvRr14V-CLD0g4ZbOQIeBU2rnGqSgY4tYsxfE6tVqWf9oz3A~9vT0~b3JVE131bZhZTlVxk4REeD2i4~rnO3MIiig4RKR2r4A__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-KR: MNET,https://tving-live-o2-skcdn.tving.com/o2/v1/019d66afd810153d786553381d0e3/019d719c3005153d786553381d0f0/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NzE2fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=axSWz8Q9~ghOU2z-07u9zBS5I9oH9xP-9LSouQXdBdkPBvcuAUr9BGlycaM3l0RuoWyu46iKWSDNbKTEEQqOVaWKUKryF4oG4duZYJhv~G6~yEWlEBX6Er8tY~qh9lEj2fnhvguvKNleFdE8QJykE76U9mpmcN~~~y72sDZSoWhP~K3xFsR-3w2loLHQ0v1iQuwUNuaEVJg5rlqz8tYTtm5GONDrPwDTEImUk05jXDUFMANlhwnZIFGz1iOxhS9VzuuBOiiubZ-Eiv3ZO7JcfDQPponsVv3Zo4sFrZzFenEmQ1rbKtW94p73FdHep-pyEDJiwbeIXjU0MUJy4Kk0XA__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-KR: Nat Geo Wild-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=nat_geo_wild
 KR: NBS Korea Agricultural Broadcasting,https://media.joycorp.co.kr:4443/live/ngrp:live_all/chunklist_w998629064_b1349152.m3u8
-KR: NHK World-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=nhk_world
-KR: OCN Movies 2-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=ocn_movies2
-KR: OCN Movies-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=ocn_movies
-KR: OCN-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=ocn
-KR: Pororo TV,http://124.222.153.240/kakaotv/get_channel.php?channel=pororo_tv
 KR: SBS K-Drama,https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=sbsk-drama&channel_id=newid_008&mpf=c064f5f4-39af1962-6d5d5e50&apikey=48230e6b-1cea0097-15975f93-39af1962&auth=474ab4cb-5d47aa0a-84d0cbca-2a3730a6&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.us_privacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
-KR: SBS PLUS-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=sbs_plus
 KR: SBS Running Man,https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=runningman&channel_id=newid_164&mpf=9e4a746e-39af1962-883f7215&apikey=48230e6b-1cea0097-15975f93-39af1962&auth=8a1e6d7d-4b6e85c1-a092d5c1-3c1e1f6d&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.us_privacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
 KR: SBS TV,http://1.238.115.18:9981/stream/channelid/1009800960?ticket=0C8267E41EEA0FD47699F01142A3CB9F24C8BD0B&profile=pass
-KR: SBS 뉴스,https://tving-live-o2-xcdn.tving.com/o2/v1/019b974ed45e153d78651307e41e33/019b97555b3a153d78651307e41e38/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODkzNTksInBhdGgiOiIvbzIifQ.JSSBv12CN8Ud7TGg8o37ZXkLjhi6-VCQC6dF2x_CbqE
-KR: SBS골프-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=sbs_golf
-KR: SBS스포츠-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=sbs_sports
-KR: SPOTV 2-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=spotv2
-KR: Spotv Golf And Health-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_golf_health
-KR: SPOTV Prime 1-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime1
-KR: SPOTV Prime 2-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime2
-KR: SPOTV Prime-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime
-KR: SPOTV-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=spotv
 KR: TBS,https://cdntv.tbs.seoul.kr/tbs/_definst_/tbs_tv_web_360.smil/chunklist_b414000.m3u8
 KR: TBS Seoul,https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/chunklist_b4692000.m3u8
 KR: Tooniverse,http://124.222.153.240/kakaotv/get_channel.php?channel=tooniverse

@@ -269,134 +269,24 @@ http://koreatv.dothome.co.kr/kbsworld.php
 https://tving-live-o2-xcdn.tving.com/o2/v1/019b91fde7c5153d78651307e41e2a/019b977c8b3a1eb80e79141423fc3b/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkxOTEzNjIsInBhdGgiOiIvbzIifQ.TDMitD6W6VGpJLasI6EIchFi-KMaV3toNeFdMxq6s1U
 #EXTINF:-1 tvg-id="KR: ABN" tvg-name="KR: ABN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Abn_logo.svg/960px-Abn_logo.svg.png" group-title="KR | Korea",KR: ABN
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
-#EXTINF:-1 tvg-id="KR: Anibox" tvg-name="KR: Anibox" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/71/Anibox_%282015-2019%29.svg/revision/latest?cb=20240624145553" group-title="KR | Korea",KR: Anibox
-https://tving-live-o2-ktcdn.tving.com/o2/v1/019dd8ef15b31eb80e7925af014fca/019dd8ef8adc1eb80e7925af014fcd/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLWt0Y2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5ODM0fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=E0-44eaiVjrlSRKXvD1eSeLXDFycfogJRWNguRuTiaMNhFS9Yjri5HQ57S~rULhhya~KhbXF7kmf0Nt9QDb815mI4fFqKlkJjnKbGZjhmBBeXd2tIkqaoZFYv8uPJbyCltTh7iR0TKCygrUstBCDyA4QX1FplB8ea~Rtp51dFR5HPU7WNJLfwr6NpgwfrSWk8nasG~haZ0iiKWdFzgInS3opcnObaAijXQMX5-3sna~~5hfYH3hO0Zo8OdKZXGJJeO1XSuUivzJelqEe1~34MQe9tBRTQzrnmk19rN1NiYrc02T~8d5wIokIS08pea4RqWFdcPquWKnYIDyTMtVp6g__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-#EXTINF:-1 tvg-id="KR: BBC-테스트" tvg-name="KR: BBC-테스트" tvg-logo="https://logos-world.net/wp-content/uploads/2022/01/BBC-Logo.png" group-title="KR | Korea",KR: BBC-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=bbc
 #EXTINF:-1 tvg-id="KR: BBS TV" tvg-name="KR: BBS TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a9/Logo_BBS_TV_2018.png" group-title="KR | Korea",KR: BBS TV
 https://bbstv.clouducs.com/bbstv-live/livestream/chunklist_w716766475.m3u8
-#EXTINF:-1 tvg-id="KR: Channel A" tvg-name="KR: Channel A" tvg-logo="https://logo.m3uassets.com/channela.png" group-title="KR | Korea",KR: Channel A
-http://124.222.153.240/kakaotv/get_channel.php?channel=channela
-#EXTINF:-1 tvg-id="KR: Channel E-테스트" tvg-name="KR: Channel E-테스트" tvg-logo="https://logo.m3uassets.com/3channel.png" group-title="KR | Korea",KR: Channel E-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=channel_e
-#EXTINF:-1 tvg-id="KR: CNN-테스트" tvg-name="KR: CNN-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: CNN-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=cnn
-#EXTINF:-1 tvg-id="KR: EBS" tvg-name="KR: EBS" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/EBS_Logo.svg/960px-EBS_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: EBS
-https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8dcc9101eb80e7925af014fba/019dd8dd4784153d7865157cdbfbd5/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk3MzIsInBhdGgiOiIvbzIifQ.B5lRf04m_1x2p2MiX8m6bTZcL1cSV_okmXcFHwyZa9Q
-#EXTINF:-1 tvg-id="KR: EBS 2-테스트" tvg-name="KR: EBS 2-테스트" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/EBS_Logo.svg/960px-EBS_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: EBS 2-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=ebs2
 #EXTINF:-1 tvg-id="KR: EBS Kids" tvg-name="KR: EBS Kids" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/EBS_Logo.svg/960px-EBS_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: EBS Kids
 https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/chunklist.m3u8?_=1783093032993&_=1783093033120
-#EXTINF:-1 tvg-id="KR: EBS1-테스트" tvg-name="KR: EBS1-테스트" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/EBS_Logo.svg/960px-EBS_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: EBS1-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=ebs1
-#EXTINF:-1 tvg-id="KR: ENA-테스트" tvg-name="KR: ENA-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/ENA_logo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: ENA-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=ena
-#EXTINF:-1 tvg-id="KR: History-테스트" tvg-name="KR: History-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e8/History_2021.png/revision/latest?cb=20240302050750" group-title="KR | Korea",KR: History-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=history
-#EXTINF:-1 tvg-id="KR: iHQ-테스트" tvg-name="KR: iHQ-테스트" tvg-logo="https://cdn.imweb.me/thumbnail/20260520/0ebb74434bd4e.png" group-title="KR | Korea",KR: iHQ-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=ihq
-#EXTINF:-1 tvg-id="KR: iNET" tvg-name="KR: iNET" tvg-logo="https://logo.m3uassets.com/inet.png" group-title="KR | Korea",KR: iNET
-http://124.222.153.240/kakaotv/get_channel.php?channel=inet
-#EXTINF:-1 tvg-id="KR: JTBC" tvg-name="KR: JTBC" tvg-logo="https://logo.m3uassets.com/jtbc.png" group-title="KR | Korea",KR: JTBC
-https://tving-live-o2-xcdn.tving.com/o2/v1/019db87e92691eb80e7942932b5bd/019db87f02501eb80e7942932b5c0/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODkzNjksInBhdGgiOiIvbzIifQ.Jm_pCwHXmfXb83OH_3aFld2JU38pDu_Ws2TLWYeoVkg
-#EXTINF:-1 tvg-id="KR: JTBC 3" tvg-name="KR: JTBC 3" tvg-logo="https://logo.m3uassets.com/jtbc.png" group-title="KR | Korea",KR: JTBC 3
-http://124.222.153.240/kakaotv/get_channel.php?channel=jtbc3
-#EXTINF:-1 tvg-id="KR: JTBC 뉴스" tvg-name="KR: JTBC 뉴스" tvg-logo="https://logo.m3uassets.com/jtbc.png" group-title="KR | Korea",KR: JTBC 뉴스
-https://tving-live-o2-skcdn.tving.com/o2/v1/019bf8af365e153d78652a264b9f3f/019bf8afd0fe153d78652a264b9f42/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NDE5fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=OcNwRmIlsa5lzouvguYZE4dkq6tK6HHKXYCwGuwGAag3Sfx8DQr0q-bXP4kojlr8kNo9-j1WbZ1QgttwJqDmKUtplHoJ9nYon1SXAsXeBcpfjBhtv5kQM8eLZsGZVVVBdbLi8nT~ajDe9gaWEIme9Rhbl1KM1iVrG20M~hfilm0RZ5jsEyxKHcjAZLThvWYWDp6v1z2~h5VTB~So7Nn8jh7V8xHZew4yPs0Yxx~OOXBzB1WcwA8MAU2hqyxr~CbyCnma7JtnsveYgplAqIFc8RTdHQjsQfJNJPg03vAVM3pFSOF-y5X60SOQ1lM5t1kNOR10hP4dzhgqYEFtDI8OWQ__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-#EXTINF:-1 tvg-id="KR: JTBC2" tvg-name="KR: JTBC2" tvg-logo="https://logo.m3uassets.com/jtbc2.png" group-title="KR | Korea",KR: JTBC2
-https://tving-live-o2-xcdn.tving.com/o2/v1/019d6c233d781eb80e796d9bd9cb7/019dd8d54768153d7865157cdbfbd3/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODkzODYsInBhdGgiOiIvbzIifQ.UunVkd5W07pIbK_P7DNMJn-pFuXYt2ORcQ0ohc-gP88
-#EXTINF:-1 tvg-id="KR: JTBC4" tvg-name="KR: JTBC4" tvg-logo="https://logo.m3uassets.com/jtbc4.png" group-title="KR | Korea",KR: JTBC4
-https://tving-live-o2-xcdn.tving.com/o2/v1/019dd2ee3a6f1eb80e7925af014fb7/019dd8e4b0c6153d7865157cdbfbdb/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk0MDIsInBhdGgiOiIvbzIifQ.JSnj8jN6EF5tpPx3kjaa6vu5750pFx70uu87Jdvuk7k
-#EXTINF:-1 tvg-id="KBS1.kr" tvg-name="KR: KBS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/3840px-KBS_1_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBS 1
-http://124.222.153.240/kakaotv/get_channel.php?channel=kbs1
-#EXTINF:-1 tvg-id="KBS2.kr" tvg-name="KR: KBS 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/960px-KBS_2_logo.svg.png" group-title="KR | Korea",KR: KBS 2
-http://124.222.153.240/kakaotv/get_channel.php?channel=kbs2#
-#EXTINF:-1 tvg-id="KBS2.kr" tvg-name="KR: KBS N Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/KBS_N_Sports.svg/3840px-KBS_N_Sports.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBS N Sports
-https://k227.jk-cdn.com/watch/live.m3u8?video=kbs_n_sports_540&sid=rfewRLAmeD74v3cV9TuMmRTBRwWMzss2RHIeIfpi&secret=a07e5d00c171d884d443296a19e9c76a&time=1783691240#.m3u8
-#EXTINF:-1 tvg-id="KR: KBS N 스포츠-테스트" tvg-name="KR: KBS N 스포츠-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2e/Korean_Broadcasting_System-text_only.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: KBS N 스포츠-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=kbs_n_sports
 #EXTINF:-1 tvg-id="kbsworld" tvg-name="KR: KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/3840px-KBS_World_%282009%29.svg.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBS World
 https://cdn4.skygo.mn/live/disk1/KBSWorld/HLSv3-FTA/KBSWorld-avc1_3000000=21-mp4a_256000_eng=20.m3u8
-#EXTINF:-1 tvg-id="KR: KBSDrama" tvg-name="KR: KBSDrama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/KBS_DRAMA.svg/3840px-KBS_DRAMA.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBSDrama
-http://koreatv.dothome.co.kr/kbsdrama.php
-#EXTINF:-1 tvg-id="KR: KBSJoy" tvg-name="KR: KBSJoy" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/KBS_JOY.svg/3840px-KBS_JOY.svg.png?utm_source=zh.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBSJoy
-http://koreatv.dothome.co.kr/kbsjoy.php
-#EXTINF:-1 tvg-id="KR: KBSKids" tvg-name="KR: KBSKids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/KBS_kids.svg/3840px-KBS_kids.svg.png?utm_source=it.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBSKids
-http://koreatv.dothome.co.kr/kbskids.php
-#EXTINF:-1 tvg-id="KR: KBSLife" tvg-name="KR: KBSLife" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/KBS_Life.svg/3840px-KBS_Life.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBSLife
-http://koreatv.dothome.co.kr/kbslife.php
-#EXTINF:-1 tvg-id="KR: KBSStory" tvg-name="KR: KBSStory" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/KBS_Story.svg/3840px-KBS_Story.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBSStory
-http://koreatv.dothome.co.kr/kbsstory.php
-#EXTINF:-1 tvg-id="KR: KBS뉴스24" tvg-name="KR: KBS뉴스24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2e/Korean_Broadcasting_System-text_only.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: KBS뉴스24
-https://tving-live-o2-xcdn.tving.com/o2/v1/019b91fde7c5153d78651307e41e2a/019b977c8b3a1eb80e79141423fc3b/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk4OTksInBhdGgiOiIvbzIifQ.neo-yH5Wvh-ugyuuecs56p1inqsOmsNm0nTpcd9vvYw
-#EXTINF:-1 tvg-id="KR: KCTV (NK)" tvg-name="KR: KCTV (NK)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/KCTV_icon_%282024%29.svg/960px-KCTV_icon_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KCTV (NK)
-https://kctv-nk-1080p.toobee.workers.dev/stream/index.m3u8
 #EXTINF:-1 tvg-id="KR: Korea TV" tvg-name="KR: Korea TV" tvg-logo="https://e7.pngegg.com/pngimages/82/825/png-clipart-south-waikato-district-south-korea-logo-brand-ktv-membership-card-angle-text-thumbnail.png" group-title="KR | Korea",KR: Korea TV
 https://hlive.ktv.go.kr/live/klive_h.stream/chunklist_w890220725.m3u8
-#EXTINF:-1 tvg-id="KR: Lifetime 일생" tvg-name="KR: Lifetime 일생" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1e/Lifetime_2013.png/revision/latest?cb=20150531221814" group-title="KR | Korea",KR: Lifetime 일생
-https://tving-live-o2-xcdn.tving.com/o2/v1/019d668fbfde153d786553381d0db/019d669072be153d786553381d0de/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk4ODMsInBhdGgiOiIvbzIifQ.-Fa2oiNZgfLoQ5xvbxVV0ojOy4SZ8n3gRfVmJw28FMM
-#EXTINF:-1 tvg-id="KR: MBC" tvg-name="KR: MBC" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Munhwa_Broadcasting_Corporation.svg/960px-Munhwa_Broadcasting_Corporation.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: MBC
-http://124.222.153.240/kakaotv/get_channel.php?channel=mbc
 #EXTINF:-1 tvg-id="KR: MBC America" tvg-name="KR: MBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuzaTy0xEd60zfSHCYREmgtPbN-8hlS-M_aEdzgNe6bBdE_jVh9evbTLk&s=10" group-title="KR | Korea",KR: MBC America
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
-#EXTINF:-1 tvg-id="KR: MBC ON-테스트" tvg-name="KR: MBC ON-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/MBC_logo_2012_%28with_M_mark%29.svg?utm_source=tl.wikipedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: MBC ON-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_on
-#EXTINF:-1 tvg-id="KR: MBC Sports +" tvg-name="KR: MBC Sports +" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/40/MBC_Sports_Plus_%282025%2C_vertical%29.svg/revision/latest?cb=20250426023736" group-title="KR | Korea",KR: MBC Sports +
-http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_sports
-#EXTINF:-1 tvg-id="KR: MBC스포츠-테스트" tvg-name="KR: MBC스포츠-테스트" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Munhwa_Broadcasting_Corporation.svg/960px-Munhwa_Broadcasting_Corporation.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: MBC스포츠-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_sports
-#EXTINF:-1 tvg-id="KR: MBN" tvg-name="KR: MBN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/MBN_logo_2011.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: MBN
-https://tving-live-o2-ktcdn.tving.com/o2/v1/019d8a6c2db1153d786553381d0f4/019dd8e5a2ec1eb80e7925af014fc1/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLWt0Y2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NjE4fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=cAL5UHkivSj25vWzIvaHvruOK2oc5RE~IprmcYLbn-gbLiqzJ4JseEOxar8tYqFB8c0eYE3nb2k-6Qk7FXHRbT6Xr3E60oeKA1sRGUV59zx2BZ6qaIqk65dSzyDeg54hK727JhJQ1kUQoR52Z-HvZkPsyDjXXggE~JRS3nCFpYNrrZ6PYHBCQ8sIYI6ilkoex0xBVgs5WCFX8yXUc0QjcmWnb2hyP9nk83GnYGdOorB0Amz2QV9vVGte21KZDoKv5756o2lk17KBbfQTtmv75WxAT3En1YQ1MRfVP3gptzJT~YhOevQJFrn5cIPox43GCZqqc2xemgQ7tU6jkIqoyw__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-#EXTINF:-1 tvg-id="KR: MBN 1" tvg-name="KR: MBN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/MBN_logo_2011.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: MBN 1
-http://124.222.153.240/kakaotv/get_channel.php?channel=mbn
-#EXTINF:-1 tvg-id="KR: MBN-테스트" tvg-name="KR: MBN-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/MBN_logo_2011.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: MBN-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=mbn
-#EXTINF:-1 tvg-id="KR: MBN뉴스" tvg-name="KR: MBN뉴스" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/MBN_logo_2011.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: MBN뉴스
-https://tving-live-o2-xcdn.tving.com/o2/v1/019b8ccb7875153d78653848a01248/019b8cebaab8153d78653848a0124b/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk2NTEsInBhdGgiOiIvbzIifQ.ilzn1Bw8XYkV3e8H13kSd8PHaO42CiZ-KGARTh2BwbI
-#EXTINF:-1 tvg-id="KR: MBN플러스" tvg-name="KR: MBN플러스" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/MBN_logo_2011.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: MBN플러스
-https://tving-live-o2-skcdn.tving.com/o2/v1/019db8dc792a1eb80e7942932b5c1/019dd8e25eab153d7865157cdbfbda/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NjM1fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=ASDk9fad3lfb5nT-WnGqyk7gtFfdGrOhSt9LXUZvsJRJUyythZ6srCEyyJNaEyq9dlo3wow0rHYPP6wkSo61S2trdzD5yoSi7iLpOCYMM3bAvOkTHEyvhwslkRZJg51Q0GTHNUiW5IUSEQlCsNrnDzODDEwJB1ot8jMAkfNLo1i3UcjUxZphbHQpNe6mANovfQKBLjktvdez7t89gbVtZ4H1mV-I0CJbsd4SmI9-6URLBYrp7C4kIEvRr14V-CLD0g4ZbOQIeBU2rnGqSgY4tYsxfE6tVqWf9oz3A~9vT0~b3JVE131bZhZTlVxk4REeD2i4~rnO3MIiig4RKR2r4A__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-#EXTINF:-1 tvg-id="KR: MNET" tvg-name="KR: MNET" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/95/Mnet.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: MNET
-https://tving-live-o2-skcdn.tving.com/o2/v1/019d66afd810153d786553381d0e3/019d719c3005153d786553381d0f0/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NzE2fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=axSWz8Q9~ghOU2z-07u9zBS5I9oH9xP-9LSouQXdBdkPBvcuAUr9BGlycaM3l0RuoWyu46iKWSDNbKTEEQqOVaWKUKryF4oG4duZYJhv~G6~yEWlEBX6Er8tY~qh9lEj2fnhvguvKNleFdE8QJykE76U9mpmcN~~~y72sDZSoWhP~K3xFsR-3w2loLHQ0v1iQuwUNuaEVJg5rlqz8tYTtm5GONDrPwDTEImUk05jXDUFMANlhwnZIFGz1iOxhS9VzuuBOiiubZ-Eiv3ZO7JcfDQPponsVv3Zo4sFrZzFenEmQ1rbKtW94p73FdHep-pyEDJiwbeIXjU0MUJy4Kk0XA__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-#EXTINF:-1 tvg-id="KR: Nat Geo Wild-테스트" tvg-name="KR: Nat Geo Wild-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/36/Nat_Geo_Wild_2007.svg/revision/latest?cb=20171130183925" group-title="KR | Korea",KR: Nat Geo Wild-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=nat_geo_wild
 #EXTINF:-1 tvg-id="KR: NBS Korea Agricultural Broadcasting" tvg-name="KR: NBS Korea Agricultural Broadcasting" tvg-logo="https://i.imgur.com/pOSroOE.png" group-title="KR | Korea",KR: NBS Korea Agricultural Broadcasting
 https://media.joycorp.co.kr:4443/live/ngrp:live_all/chunklist_w998629064_b1349152.m3u8
-#EXTINF:-1 tvg-id="KR: NHK World-테스트" tvg-name="KR: NHK World-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World.svg/1280px-NHK_World.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: NHK World-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=nhk_world
-#EXTINF:-1 tvg-id="KR: OCN Movies 2-테스트" tvg-name="KR: OCN Movies 2-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6f/OCN_Movies_2_%28Vector%29.svg/revision/latest?cb=20240922030518" group-title="KR | Korea",KR: OCN Movies 2-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=ocn_movies2
-#EXTINF:-1 tvg-id="KR: OCN Movies-테스트" tvg-name="KR: OCN Movies-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/OCN_Movies.svg/revision/latest?cb=20230609100946" group-title="KR | Korea",KR: OCN Movies-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=ocn_movies
-#EXTINF:-1 tvg-id="KR: OCN-테스트" tvg-name="KR: OCN-테스트" tvg-logo="https://logo.m3uassets.com/ocn.png" group-title="KR | Korea",KR: OCN-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=ocn
-#EXTINF:-1 tvg-id="KR: Pororo TV" tvg-name="KR: Pororo TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/32/Pororo_the_Little_Penguin_Title_Card.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: Pororo TV
-http://124.222.153.240/kakaotv/get_channel.php?channel=pororo_tv
 #EXTINF:-1 tvg-id="SBSKDrama.kr" tvg-name="KR: SBS K-Drama" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c0/Seoul_broadcasting_System_logo.svg/revision/latest?cb=20210214211339" group-title="KR | Korea",KR: SBS K-Drama
 https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=sbsk-drama&channel_id=newid_008&mpf=c064f5f4-39af1962-6d5d5e50&apikey=48230e6b-1cea0097-15975f93-39af1962&auth=474ab4cb-5d47aa0a-84d0cbca-2a3730a6&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.us_privacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
-#EXTINF:-1 tvg-id="KR: SBS PLUS-테스트" tvg-name="KR: SBS PLUS-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/SBS_Plus_logo_2018.svg/960px-SBS_Plus_logo_2018.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: SBS PLUS-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=sbs_plus
 #EXTINF:-1 tvg-id="KR: SBS Running Man" tvg-name="KR: SBS Running Man" tvg-logo="https://static.wikia.nocookie.net/internationalbroadcasts/images/a/aa/Running_Man_logo.svg/revision/latest?cb=20241126112201" group-title="KR | Korea",KR: SBS Running Man
 https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=runningman&channel_id=newid_164&mpf=9e4a746e-39af1962-883f7215&apikey=48230e6b-1cea0097-15975f93-39af1962&auth=8a1e6d7d-4b6e85c1-a092d5c1-3c1e1f6d&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.us_privacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
 #EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Seoul_Broadcasting_System_logo.svg/1280px-Seoul_Broadcasting_System_logo.svg.png" group-title="KR | Korea",KR: SBS TV
 http://1.238.115.18:9981/stream/channelid/1009800960?ticket=0C8267E41EEA0FD47699F01142A3CB9F24C8BD0B&profile=pass
-#EXTINF:-1 tvg-id="KR: SBS 뉴스" tvg-name="KR: SBS 뉴스" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Seoul_Broadcasting_System_logo.svg/3840px-Seoul_Broadcasting_System_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: SBS 뉴스
-https://tving-live-o2-xcdn.tving.com/o2/v1/019b974ed45e153d78651307e41e33/019b97555b3a153d78651307e41e38/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODkzNTksInBhdGgiOiIvbzIifQ.JSSBv12CN8Ud7TGg8o37ZXkLjhi6-VCQC6dF2x_CbqE
-#EXTINF:-1 tvg-id="KR: SBS골프-테스트" tvg-name="KR: SBS골프-테스트" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Seoul_Broadcasting_System_logo.svg/3840px-Seoul_Broadcasting_System_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: SBS골프-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=sbs_golf
-#EXTINF:-1 tvg-id="KR: SBS스포츠-테스트" tvg-name="KR: SBS스포츠-테스트" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Seoul_Broadcasting_System_logo.svg/3840px-Seoul_Broadcasting_System_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: SBS스포츠-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=sbs_sports
-#EXTINF:-1 tvg-id="KR: SPOTV 2-테스트" tvg-name="KR: SPOTV 2-테스트" tvg-logo="https://cms.spotvasia.com/upload/channel/file_15a81966-c8d6-492a-aed6-3c6a8ff34604.png" group-title="KR | Korea",KR: SPOTV 2-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=spotv2
-#EXTINF:-1 tvg-id="KR: Spotv Golf And Health-테스트" tvg-name="KR: Spotv Golf And Health-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/SPOTV_logo.svg/revision/latest?cb=20220729101701" group-title="KR | Korea",KR: Spotv Golf And Health-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_golf_health
-#EXTINF:-1 tvg-id="KR: SPOTV Prime 1-테스트" tvg-name="KR: SPOTV Prime 1-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/SPOTV_logo.svg/revision/latest?cb=20220729101701" group-title="KR | Korea",KR: SPOTV Prime 1-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime1
-#EXTINF:-1 tvg-id="KR: SPOTV Prime 2-테스트" tvg-name="KR: SPOTV Prime 2-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/SPOTV_logo.svg/revision/latest?cb=20220729101701" group-title="KR | Korea",KR: SPOTV Prime 2-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime2
-#EXTINF:-1 tvg-id="KR: SPOTV Prime-테스트" tvg-name="KR: SPOTV Prime-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/SPOTV_logo.svg/revision/latest?cb=20220729101701" group-title="KR | Korea",KR: SPOTV Prime-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=spotv_prime
-#EXTINF:-1 tvg-id="KR: SPOTV-테스트" tvg-name="KR: SPOTV-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/SPOTV_logo.svg/revision/latest?cb=20220729101701" group-title="KR | Korea",KR: SPOTV-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=spotv
 #EXTINF:-1 tvg-id="TBS.kr" tvg-name="KR: TBS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/99/TBS_logo_2020.svg/revision/latest?cb=20210527072201" group-title="KR | Korea",KR: TBS
 https://cdntv.tbs.seoul.kr/tbs/_definst_/tbs_tv_web_360.smil/chunklist_b414000.m3u8
 #EXTINF:-1 tvg-id="KR: TBS Seoul" tvg-name="KR: TBS Seoul" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/99/TBS_logo_2020.svg/revision/latest?cb=20210527072201" group-title="KR | Korea",KR: TBS Seoul
