@@ -2,12 +2,13 @@ import requests
 from datetime import datetime
 
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
+EPG_URL = "https://epg.pw/xmltv/epg-kr.xml"  # South Korea EPG Guide URL
 
-OUTPUT1 = "korea.m3u8"    # DIYP 影音
-OUTPUT2 = "korea2.m3u8"   # Standard M3U (with tvg-logo support)
+OUTPUT1 = "korea.m3u8"    # DIYP format
+OUTPUT2 = "korea2.m3u8"   # Standard M3U (May EPG at Logo)
 
 def extract_m3u8_only(uris):
-    """仅提取 .m3u8（用于 OUTPUT1）"""
+    """Kukuha lang ng .m3u8 (para sa OUTPUT1)"""
     def is_m3u8(u):
         return isinstance(u, str) and ("channel=" in u.lower() or ".m3u8" in u.lower() or u.lower().endswith(".php")) and "wavve" not in u.lower() and "file-1253962976.cos" not in u.lower()
 
@@ -15,12 +16,10 @@ def extract_m3u8_only(uris):
         for u in uris:
             if is_m3u8(u):
                 return u.strip()
-
     elif isinstance(uris, dict):
         for u in uris.values():
             if is_m3u8(u):
                 return u.strip()
-
     elif isinstance(uris, str):
         if is_m3u8(uris):
             return uris.strip()
@@ -29,32 +28,26 @@ def extract_m3u8_only(uris):
 
 
 def extract_m3u8_or_php(uris):
-    """
-    提取 .m3u8 或 .php
-    优先 m3u8，其次 php（用于 OUTPUT2）
-    """
+    """Kukuha ng .m3u8 o .php (para sa OUTPUT2)"""
     urls = []
 
     def is_valid(u):
         return isinstance(u, str) and ("channel=" in u.lower() or ".m3u8" in u.lower() or u.lower().endswith(".php")) and "wavve" not in u.lower() and "file-1253962976.cos" not in u.lower()
-        
 
     if isinstance(uris, list):
         urls = [u.strip() for u in uris if is_valid(u)]
-
     elif isinstance(uris, dict):
         urls = [u.strip() for u in uris.values() if is_valid(u)]
-
     elif isinstance(uris, str):
         if is_valid(uris):
             urls = [uris.strip()]
 
-    # 优先 m3u8
+    # Unahin ang .m3u8
     for u in urls:
         if ".m3u8" in u.lower():
             return u
 
-    # 其次 php
+    # Sunod ang .php
     if urls:
         return urls[0]
 
@@ -67,11 +60,12 @@ def run():
         r.encoding = "utf-8"
         data = r.json()
     except Exception as e:
-        print(f"{datetime.now()} 获取 JSON 失败: {e}")
+        print(f"{datetime.now()} Error sa pag-get ng JSON: {e}")
         return
 
     lines1 = ["#EXTM3U"]
-    lines2 = ["#EXTM3U"]
+    # Nagdagdag ng url-tvg sa header para awtomatikong i-load ng IPTV player ang EPG
+    lines2 = [f'#EXTM3U url-tvg="{EPG_URL}"']
 
     count1 = 0
     count2 = 0
@@ -79,25 +73,23 @@ def run():
     for item in data:
         name = item.get("name", "").strip()
         uris = item.get("uris")
-        # Kukuha ng logo galing sa JSON (chinetcheck ang 'logo' o 'tvg-logo')
         logo = item.get("logo", "") or item.get("tvg-logo", "") or item.get("icon", "")
+        tvg_id = item.get("tvg-id", "") or name  # Gamitin ang tvg-id kung mayroon, kung wala ay channel name
 
         if not name or not uris:
             continue
 
-        # OUTPUT1：只要 m3u8
+        # OUTPUT1: DIYP Format
         url1 = extract_m3u8_only(uris)
         if url1:
             lines1.append(f"{name},{url1}")
             count1 += 1
 
-        # OUTPUT2：m3u8 或 php (na may tvg-logo attribute)
+        # OUTPUT2: Standard M3U (may Automatic EPG tags + Logo)
         url2 = extract_m3u8_or_php(uris)
         if url2:
-            if logo:
-                lines2.append(f'#EXTINF:-1 tvg-logo="{logo.strip()}",{name}')
-            else:
-                lines2.append(f"#EXTINF:-1,{name}")
+            logo_attr = f' tvg-logo="{logo.strip()}"' if logo else ''
+            lines2.append(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{name}"{logo_attr},{name}')
             lines2.append(url2)
             count2 += 1
 
@@ -107,9 +99,9 @@ def run():
     with open(OUTPUT2, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines2))
 
-    print(f"{datetime.now()} DIYP 频道数量: {count1}")
-    print(f"{datetime.now()} 标准 M3U 频道数量: {count2}")
-    print(f"{datetime.now()} 已生成文件: {OUTPUT1}, {OUTPUT2}")
+    print(f"{datetime.now()} DIYP Channels: {count1}")
+    print(f"{datetime.now()} M3U Channels (with EPG): {count2}")
+    print(f"{datetime.now()} File Generated: {OUTPUT1}, {OUTPUT2}")
 
 
 if __name__ == "__main__":
