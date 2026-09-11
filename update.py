@@ -80,7 +80,7 @@ def parse_external_m3u8(url):
                     "url": line,
                     "logo": tvg_logo.group(1) if tvg_logo else "",
                     "tvg_id": tvg_id.group(1) if tvg_id else name,
-                    "group": group_title.group(1) if group_title else "GitHub Live"
+                    "group": group_title.group(1) if group_title else "Others"
                 })
                 current_extinf = None
     except Exception as e:
@@ -91,7 +91,7 @@ def parse_external_m3u8(url):
 def run():
     all_channels = []
 
-    # 1. Get channels from JSON source
+    # 1. Get channels from JSON source and force group to 'KR | Korea'
     try:
         r = requests.get(JSON_URL, timeout=20)
         r.encoding = "utf-8"
@@ -102,7 +102,9 @@ def run():
             uris = item.get("uris")
             logo = item.get("logo", "") or item.get("tvg-logo", "") or item.get("icon", "")
             tvg_id = item.get("tvg-id", "") or name
-            group = item.get("group", "") or item.get("group-title", "") or "Korea Live"
+            
+            # Lahat ng nanggaling sa JSON ay ilalagay sa 'KR | Korea'
+            group = "KR | Korea"
             
             if not name or not uris:
                 continue
@@ -127,7 +129,7 @@ def run():
         print("Walang nakuhang channels.")
         return
 
-    # 3. Sort channels: Una sa Category (group-title), Tapos Alphabetical Order sa Name (A-Z)
+    # 3. Sort channels: Group Name (A-Z) -> Channel Name (A-Z)
     all_channels.sort(key=lambda x: (x["group"].lower(), x["name"].lower()))
 
     # 4. Generate Output Files
@@ -158,7 +160,7 @@ def run():
 
     print(f"{datetime.now()} Total Channels Extracted: {len(all_channels)}")
     print(f"{datetime.now()} DIYP Channels: {count1}")
-    print(f"{datetime.now()} Standard M3U Channels (Alphabetical & Grouped): {count2}")
+    print(f"{datetime.now()} Standard M3U Channels (Grouped under 'KR | Korea'): {count2}")
     print(f"{datetime.now()} Files Generated: {OUTPUT1}, {OUTPUT2}")
 
 
