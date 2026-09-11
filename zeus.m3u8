@@ -231,92 +231,6 @@ http://124.222.153.240/kakaotv/get_channel.php?channel=tooniverse
 https://amg15905-k20-amg15905c3-lg-au-5401.playouts.now.amagi.tv/playlist/amg15905-mediacan-travelon-lgau/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]
 #EXTINF:0 CUID="171" tvg-chno="86" tvg-name="KR: TV Chosun 2" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/054/019/906/small/question-mark-with-shadow-effect-png.png" group-title="KR | Korea",KR: TV Chosun 2
 http://v3tv.live/play/live.php?mac=00:1A:79:59:83:B5&stream=1776244&extension=m3u8
-#EXTINF:0 CUID="172" tvg-chno="87" tvg-name="KR: TvN 1" tvg-id="tvN.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/1280px-Logo_tvN.svg.png" group-title="KR | Korea",KR: TvN 1
-http://124.222.153.240/kakaotv/get_channel.php?channel=tvn
-#EXTINF:0 CUID="173" tvg-name="KR: tvN Show-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/1280px-Logo_tvN.svg.png" group-title="KR | Korea",KR: tvN Show-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=tvn_show
-#EXTINF:0 CUID="174" tvg-name="KR: TVN Sports-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/1280px-Logo_tvN.svg.png" group-title="KR | Korea",KR: TVN Sports-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=tvn_sports
-#EXTINF:0 CUID="175" tvg-name="KR: TVN-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/1280px-Logo_tvN.svg.png" group-title="KR | Korea",KR: TVN-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=tvn
-#EXTINF:0 CUID="176" tvg-name="KR: TVN드라마" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/1280px-Logo_tvN.svg.png" group-title="KR | Korea",KR: TVN드라마
-https://tving-live-o2-xcdn.tving.com/o2/v1/019d663b5fa81eb80e796d9bd9ca6/019d6643c8aa153d786553381d0d3/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk1MzEsInBhdGgiOiIvbzIifQ.Y9gfy_vgAwPC0pVrkJRKj1aNYeQSG75GUl1XflkQNUM
-#EXTINF:0 CUID="177" tvg-name="KR: TVN쇼" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/1280px-Logo_tvN.svg.png" group-title="KR | Korea",KR: TVN쇼
-https://tving-live-o2-skcdn.tving.com/o2/v1/019d663468df153d786553381d0cf/019d663eb5471eb80e796d9bd9cac/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NDk5fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=g~vmJDws699-wtbSYOyztOJAnn0gG6ijNQAraxqrdjF7cWoCxupAxp-mFJ4jcvRvkGnE2HzUOU2y1YbskFJ3Hoho16Jx~U422a5ojZ-lIT1zTHjqC256WuG2UM4uRl2iqf~CMY53QK2KSBsU3qtiOkAoqlg6vdrrqx~dMDXlNLAy51D8HNxl3WRXKBjUNTnDNpjtu3Ef1japJQsJ2ky1LYEiohaqfCD-36-mNxcuIFuP4q7yLE~jQOuPj1gzhgZ55kiRO4FkjFUESelXNJWE8A2E6T0e8cpEATpTtNqH3Nsh~uX2VBk-srDSQIT2dmkiP~YYMin4K8jMEfPIrofx6g__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-#EXTINF:0 CUID="178" tvg-name="KR: TVN스토리" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/1280px-Logo_tvN.svg.png" group-title="KR | Korea",KR: TVN스토리
-https://tving-live-o2-xcdn.tving.com/o2/v1/019d6bc0c1ac153d786553381d0e9/019d6bc4668b153d786553381d0ec/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk1MTUsInBhdGgiOiIvbzIifQ.35QCXGHuYlM1T9loe9eKEoCuOaYNfQqPC3djiIYKqVI
-#EXTINF:0 CUID="179" tvg-name="KR: TV조선" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/TV_Chosun_logo_%28hangul%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: TV조선
-https://tving-live-o2-xcdn.tving.com/o2/v1/019db8e33fa3153d7865047a0cd4/019dd8d81815153d7865157cdbfbd4/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk1NjUsInBhdGgiOiIvbzIifQ.FBr5dnZp0EIHXkJlfpTp2vmFpFQKG8YcKNRLpRtW8ug
-#EXTINF:0 CUID="180" tvg-name="KR: TV조선2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/TV_Chosun_logo_%28hangul%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: TV조선2
-https://tving-live-o2-xcdn.tving.com/o2/v1/019db8e5ba6c153d7865047a0cd7/019dd8e67247153d7865157cdbfbdc/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk1ODEsInBhdGgiOiIvbzIifQ.dKGv7KzXzIiT-0wVoqfQmnmiTCeSyQGkeFIhat-uwTw
-#EXTINF:0 CUID="181" tvg-name="KR: TV조선-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/TV_Chosun_logo_%28hangul%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: TV조선-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=tvchosun
-#EXTINF:0 CUID="182" tvg-name="KR: YBTV-1 朝鲜语综合频道" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSLmc_Id0HKrZ8HYLIi8Xkg4sg7-r_IVmIlWRhaAIdUA&s" group-title="KR | Korea",KR: YBTV-1 朝鲜语综合频道
-https://srs.iyb983.cn/video/ybtv1/index.m3u8
-#EXTINF:0 CUID="183" tvg-name="KR: YBTV-2 汉语综合频道" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSLmc_Id0HKrZ8HYLIi8Xkg4sg7-r_IVmIlWRhaAIdUA&s" group-title="KR | Korea",KR: YBTV-2 汉语综合频道
-https://srs.iyb983.cn/video/ybtv2/index.m3u8
-#EXTINF:0 CUID="184" tvg-name="KR: YTN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/YTN_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: YTN
-https://tving-live-o2-xcdn.tving.com/o2/v1/019db80595b1153d7865047a0ccd/019db8091f9d153d7865047a0cd0/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk0MzQsInBhdGgiOiIvbzIifQ.U7iVDXcxAkWX0hEeMS386j2EOuePsDEtKXu9CBQ7oBE
-#EXTINF:0 CUID="185" tvg-name="KR: YTN2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/YTN_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: YTN2
-https://tving-live-o2-skcdn.tving.com/o2/v1/0198ee7226d21eb80e7929b1a2cc44/0198ef058f1b1eb80e7929b1a2cc4a/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NDUwfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=Jqq4u~MmRUIL6uNkyZ2-QxMj~sAAWTwFmjl5GQ6afH0uIk7Uox77~NkRgO64YQrLA1dHHNmDR4y15Hh9Zq0ywFeU~ZEvGOC7pPVslFgK15bn4CwpcRGO-NvTanI7w8QWiAxicVMOyB9kMefsBnNScbdTDoCwbMLDTzB4OeMThITvDfoXu2KMyCUPsUDGLYRprk2XgRAN0jxGPWdvlgFh5yYi9gh4Exn6sgFLWMh2CvVjshNkzvM-xvdgUQyzIBFvf2Gd6cMIwpTtgORQmP51-AfV2bg7g0xv~KzBcZ4qb312NL-Lzjzemd0V~9XlYLukAbeok0u2wbJW9qI7zDqvLQ__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-#EXTINF:0 CUID="186" tvg-name="KR: YTN-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/YTN_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: YTN-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=ytn
-#EXTINF:0 CUID="187" tvg-name="KR: YTN사이언스" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/YTN_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: YTN사이언스
-https://tving-live-o2-ktcdn.tving.com/o2/v1/019dd8e7befe153d7865157cdbfbdd/019dd8e85ec7153d7865157cdbfbe0/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLWt0Y2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NDY3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=UhjDGoM1WK74CRVXbpY6qqVj46mdoDfwInQcSm0Ckl-luEXYGZ6PHehoRycJ~rgpnHWJotGWbGCjxlxFYgZEew5FrZK~xnqMCY~VlqzQVO9aOyENFFypJXYvOVRHerU7pJOKoE0nFrCsMJBw~2KcKTna1mwKdOBJJ0biR2YWq2hoqxTwaZ2qPKeocWqgVg0MdmjRJ2hd1y2XyH1CTrM1IjVZMb9Eza9rY-XrrsMddMFFcWftklCwyZiMyqOW0SnKCMu0MbidEyONL973bEH2BO0DY4enQ-nDFXOTBc9FlD7jp4U6fqWl59dQub59ZVaNoX9EUi03BZLxa5aLvIFRqg__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-#EXTINF:0 CUID="188" tvg-name="KR: 延边卫视频道" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/26/YBRC_logo_blue.webp/revision/latest?cb=20250110051415" group-title="KR | Korea",KR: 延边卫视频道
-https://srs.iyb983.cn/video/CYS/index.m3u8
-#EXTINF:0 CUID="189" tvg-name="KR: 가톨릭 평화방송-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0d/CPBC_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: 가톨릭 평화방송-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=catholic_peace_tv
-#EXTINF:0 CUID="190" tvg-name="KR: 골프-테스트" tvg-logo="https://static.wixstatic.com/media/bb6687_b9fab279f45545779cd17f95279f3a74~mv2.png" group-title="KR | Korea",KR: 골프-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=j_golf
-#EXTINF:0 CUID="191" tvg-name="KR: 국회방송" tvg-logo="https://i.namu.wiki/i/2DhAQB1lFoL9-U0A2Aam03iHu3siTgXDDG0jO1dzW8kKF_iwbu2zVTDWf3qLvtUqVTn-UvQL3Sd__U294qZQiA.svg" group-title="KR | Korea",KR: 국회방송
-https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8ed46d61eb80e7925af014fc7/019dd8edc8e7153d7865157cdbfbe1/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk3NjQsInBhdGgiOiIvbzIifQ.9NAqGSBaR1QuTksMv7PqVymWqlVtkosSr8GQ_AbcrB4
-#EXTINF:0 CUID="192" tvg-name="KR: 나는 자연인이다" tvg-logo="https://image.tmdb.org/t/p/original/wt61DbOOkZDRZNswBehd8Z9KsoV.png" group-title="KR | Korea",KR: 나는 자연인이다
-https://tistory1.daumcdn.net/tistory/2864485/skin/images/CATV_262_03C4258B.m3u8
-#EXTINF:0 CUID="193" tvg-name="KR: 낚시 TV-테스트" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Fish_TV_logo_2022.svg/960px-Fish_TV_logo_2022.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20221021205954" group-title="KR | Korea",KR: 낚시 TV-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=fishing_tv
-#EXTINF:0 CUID="194" tvg-name="KR: 도시어부" tvg-logo="https://i.namu.wiki/i/lOGR8oqG3w639p0WF3CAS2OFGpA1VuwLX15bIjO3ZrleWzUX-fFhBokAfznZocdAGgYp7HxeEeAXOhEb_SLKVQ.webp" group-title="KR | Korea",KR: 도시어부
-https://tistory1.daumcdn.net/tistory/2864485/skin/images/CATV_261_3638405F.m3u8
-#EXTINF:0 CUID="195" tvg-name="KR: 맛있는 녀석들" tvg-logo="https://i.namu.wiki/i/WDNn4PZT9fRaae3Gm8YXbw_W9WnIHdP2gbYrnC8NxLbtEZ0dQc3_cM7Dw3gYCf05JGBf1UmF5RslGceFpbn3FQ.webp" group-title="KR | Korea",KR: 맛있는 녀석들
-https://tistory1.daumcdn.net/tistory/2864485/skin/images/CATV_235_DCEF4BAE.m3u8
-#EXTINF:0 CUID="196" tvg-name="KR: 바둑TV-테스트" tvg-logo="https://i.namu.wiki/i/dCExWbpS3o7OYHSwLZMTRAJ9Cf6ZH5xTMzQn1Fix_kVWdt66WwZ__PND4Um_OiP0NBRNXYtAFcOMUcnGHY_sLQ.svg" group-title="KR | Korea",KR: 바둑TV-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=baduk_tv
-#EXTINF:0 CUID="197" tvg-name="KR: 백반기행" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/054/019/906/small/question-mark-with-shadow-effect-png.png" group-title="KR | Korea",KR: 백반기행
-https://tistory1.daumcdn.net/tistory/2864485/skin/images/CATV_269_96C359FF.m3u8
-#EXTINF:0 CUID="198" tvg-name="KR: 불교방송-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Buddhist_Broadcasting_System_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: 불교방송-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=buddhist_tv
-#EXTINF:0 CUID="199" tvg-name="KR: 브레인티비-테스트" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/054/019/906/small/question-mark-with-shadow-effect-png.png" group-title="KR | Korea",KR: 브레인티비-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=brain_tv
-#EXTINF:0 CUID="200" tvg-name="KR: 빌리어즈TV-테스트" tvg-logo="https://media.licdn.com/dms/image/v2/C5612AQFk5Zfkdv3w3g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1644866702756?e=2147483647&v=beta&t=xHiVYHFVJs1GLD3yOmJOgCuyUoLVQnBNo7BIBVTMnfE" group-title="KR | Korea",KR: 빌리어즈TV-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=billiards_tv
-#EXTINF:0 CUID="201" tvg-name="KR: 뽀요 TV-테스트" tvg-logo="https://i.namu.wiki/i/Pv0UrZ6rA7s6L_YHvZ0jQQCibT-wbj9tYRd3-IDFxjhL2tp-QDk-R9zgGCt3EuwRQviDi_skaqkFQANos4sCPA.webp" group-title="KR | Korea",KR: 뽀요 TV-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=pororo_tv
-#EXTINF:0 CUID="202" tvg-name="KR: 스카이스포츠-테스트" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sky_Sports_2025.svg/960px-Sky_Sports_2025.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: 스카이스포츠-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=sky_sports
-#EXTINF:0 CUID="203" tvg-name="KR: 애니맥스" tvg-logo="https://i.namu.wiki/i/hHJttmke4jH_oeO8suZSise0jSQG3d1HSp8qEFvGk476ZNL8enBNULXJe1oQs6PtDB0kOJfyJkb_CQrc7s26CA.svg" group-title="KR | Korea",KR: 애니맥스
-https://tving-live-o2-ktcdn.tving.com/o2/v1/019dd8e9cdf51eb80e7925af014fc2/019dd8ea6ac81eb80e7925af014fc5/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLWt0Y2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5ODE4fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=aKZqmr8MPRoD988XnkSiD7mIOW12VH3Swa-n9Pi2oQ8L~5onmHT~zqADME5vNeETRQERNPGh62E0LKOa630JToy-kqjG1n26RpCA-xj2cwh-2LXnyATADXYGaRxkZaLEQRkiKMK8eXEMPuzyDbWr9HtYvUDbxjg0FcasCop8sgwHV6z1g7bZHMPH8RNLM8ap9tZqGr7mCu6T9Wj~krxjvueAiRRP~1AhyMxnILPl8tLe2LrKEPtUe6FL3TA0S0mcjOIYT8DLNT4zi3gqAkNmoNZ~04SuMqzw8luC4MAErCLvcrCWWK1qji0V1RgbLeTxWDTUIKAfcT4M79QY9MVwoQ__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-#EXTINF:0 CUID="204" tvg-name="KR: 애니플러스" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Aniplus_logo.svg/1280px-Aniplus_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: 애니플러스
-https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8e090841eb80e7925af014fbd/019dd8e1306f1eb80e7925af014fc0/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk4NTEsInBhdGgiOiIvbzIifQ.yEmd9iFbJVAojKkqKqdIKX72q2EI0jVuBTMyO4JIijs
-#EXTINF:0 CUID="205" tvg-name="KR: 어린이티비-테스트" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/054/019/906/small/question-mark-with-shadow-effect-png.png" group-title="KR | Korea",KR: 어린이티비-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=kids_tv
-#EXTINF:0 CUID="206" tvg-name="KR: 연합뉴스" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/%EC%97%B0%ED%95%A9%EB%89%B4%EC%8A%A4_%EB%A1%9C%EA%B3%A0.png?utm_source=ko.wikipedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: 연합뉴스
-https://tving-live-o2-xcdn.tving.com/o2/v1/019dd8deb9f5153d7865157cdbfbd6/019dd8df3d75153d7865157cdbfbd9/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk2OTksInBhdGgiOiIvbzIifQ.ga3wG_tvr1qIejJwQzmQbZwKeyenodE5MUE88B3tixA
-#EXTINF:0 CUID="207" tvg-name="KR: 중화 TV-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b3/%EC%A4%91%ED%99%94TV_%EB%A1%9C%EA%B3%A0.png/revision/latest?cb=20211211084557" group-title="KR | Korea",KR: 중화 TV-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=chunghwa_tv
-#EXTINF:0 CUID="208" tvg-name="KR: 중화TV" tvg-logo="https://i.namu.wiki/i/Sx0LrMu7KvpC2Yt-ybQ7assAmqH28jx6Xcw470CL3bjYDc3_oEauAqRGy8e02g01nubPw1B0aHEUcn8hiJxSRw.svg" group-title="KR | Korea",KR: 중화TV
-https://tving-live-o2-xcdn.tving.com/o2/v1/019ed3e5e210153d78653cb4bf7bd9/019ed3e6c4931eb80e79cd7979dc1/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk3NDgsInBhdGgiOiIvbzIifQ.GlGsmrqnO9GvlHmxCBtysnoUsLFL77NrSVjbdp3E1qg
-#EXTINF:0 CUID="209" tvg-name="KR: 채널A" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3c/Channel_A_Logo_transparent.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: 채널A
-https://tving-live-o2-xcdn.tving.com/o2/v1/019ed8854c2c1eb80e79cd7979dc2/019ed88d352d153d78653cb4bf7bdc/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkwODk2NjcsInBhdGgiOiIvbzIifQ.4FPRZTSWeyLnj83soro36OU0KCa2XSioLpxUu-1oOEg
-#EXTINF:0 CUID="210" tvg-name="KR: 채널A Plus" tvg-logo="https://i.namu.wiki/i/Fw1tO0Kl-R1jc3KaQZdBP-whXJFk4npyEbApgrYG4BYwytCPlq3KIXVY6GnJDaomHPYqZ96AobZPK6YlwisGdA.svg" group-title="KR | Korea",KR: 채널A Plus
-https://tving-live-o2-skcdn.tving.com/o2/v1/019ed904d9651eb80e79cd7979dc5/019ed90583cd153d78653cb4bf7bdd/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NjgzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=W41gQdPFe5BegiOli7wcMgIDSCMydBkyO8Ieabor9SlLuxdL91~KRTUT6QqFeSl9aY-~r1NKjt-kop0ou3owtlyJ-4dQ998mWAwvy8AZ3X~8wPotT7USZ~CvHGOVy575Z3-tjmLlsxb8T90lgko5B35PSn4WogOO407l49jCPxD2XtBvEPchJENtCO-iOnk-602lKxDbTIOo4aTOHQ~-KRSaGfB6su3Zyvv6owAkfgC2F7M4FO-sKWI46dJB1SiI9NzD1md1dxzPrp9gsVQe3sP47V0PK4jGewiArTVbSqIzspulmOas2h0Dhpwk3IA8Kvg8owzhGEz9iTDeIbd9Fw__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
-#EXTINF:0 CUID="211" tvg-name="KR: 채널A-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/10/Channel_A_%282024%29.svg/revision/latest/scale-to-width-down/1000?cb=20240707063928" group-title="KR | Korea",KR: 채널A-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=channela
-#EXTINF:0 CUID="212" tvg-name="KR: 투니버스-테스트" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e2/Tooniverse_2019.svg/revision/latest?cb=20210925103416" group-title="KR | Korea",KR: 투니버스-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=tooniverse
-#EXTINF:0 CUID="213" tvg-name="KR: 현대홈쇼핑-테스트" tvg-logo="https://img.etnews.com/photonews/2106/1419629_20210603154651_413_0004.jpg" group-title="KR | Korea",KR: 현대홈쇼핑-테스트
-http://124.222.153.240/kakaotv/get_channel.php?channel=hyundai_homeshopping
-#EXTINF:0 CUID="214" tvg-name="KR: 히스토리" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f5/History_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="KR | Korea",KR: 히스토리
-https://tving-live-o2-skcdn.tving.com/o2/v1/019d668d94731eb80e796d9bd9cae/019d668e57a61eb80e796d9bd9cb1/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg5MDg5NzgwfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=QFtVa3d9vS48wkRXf~Binc5khu2vsd3yniutAjNdWkqCidCBA6GWCNaS2PzBAEBjpENJ7B31WFsjAeA4l7R00jAhpC5T380~E0LQ3UMwQq9AF~1gfv17ZMSQh1lZJa3lfzBNm8bVgG7qExOl3OQDSdP-KGXFgh8kcMgoMb6CiKgix-ejsEDxREpjFZcqVerZ~3pvlLCYwMFxWo8MWsv3iUstiRKL4GvLhKiRHbEfnJxYFnag0P7b6ntAVIHgQ4KOOakvH8UntDch1G0OmaLBidT9MVRNCyLOKdcZXNECjkhcjpz-fufR4KkHhjN08w2y1e~2Bg9fMRb-uspVnjeDmA__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
 #EXTINF:0 CUID="215" tvg-chno="91" tvg-name="PH: Arirang" tvg-id="arirang_sd" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/65/Arirang_Radio_Old.jpg/revision/latest?cb=20190417112446" group-title="KR | Korea",PH: Arirang
 https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:0 CUID="216" tvg-chno="92" tvg-name="US: K-Content" tvg-id="KContent.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/This_is_K_POP_Channel_M_Logo.png" group-title="KR | Korea",US: K-Content
@@ -453,16 +367,14 @@ http://136.239.159.20:6610/001/2/ch00000090990000001081/sec-f2-v1-a1.m3u8?JITPDR
 http://136.239.173.3:6610/001/2/ch00000090990000001151/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqvuCQC%2BfGfSFGYE2TZKWpbytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001321&contentid=ch00000000000000001321&videoid=ch00000090990000001151&recommendtype=0&userid=1148739009053&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=Z6EHYVCYR3XXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="282" tvg-chno="157" tvg-name="PH: UAAP Varsity Channel" tvg-id="uaapvarsitych.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/UAAP_VC_88.png/revision/latest/scale-to-width-down/1000?cb=20250526162013" group-title="PH | SPORTS",PH: UAAP Varsity Channel
 https://ott.djdoolky76.net/stream/iptv/uaapvarsitychannel/stream_0.m3u8?u=udpv4&p=db8b8839b5a336adbd1b3d7eb78863623b5068cba7b65031c2b753d5320e2c5e&uid=184517954
-#EXTINF:0 CUID="283" tvg-name="AU: Fox Sport 504" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNCTNX7K35fp1ef_YJH1uZ5WgLgQjqx0VfCHT5gkmWdg&s" group-title="US | Fox Sports",AU: Fox Sport 504
-https://leaf.highfly.dev/m3u/au-fox-sports-504-hd/live.m3u8
-#EXTINF:0 CUID="284" tvg-name="AU: Fox Sports 502" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/45/Fox_league.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="US | Fox Sports",AU: Fox Sports 502
-https://leaf.highfly.dev/m3u/au-fox-sports-502-hd/live.m3u8
 #EXTINF:0 CUID="285" tvg-chno="212" tvg-name="US: Fox Deportes" tvg-id="foxdeportes.us" tvg-logo="https://www.foxdeportes.com/assets/images/banner.png" group-title="US | Fox Sports",US: Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/tracks-v1a1/mono.m3u8
-#EXTINF:0 CUID="286" tvg-chno="213" tvg-name="US: Fox Soccer +" tvg-id="dummy-553" tvg-logo="https://logo.m3uassets.com/foxseries.png" group-title="US | Fox Sports",US: Fox Soccer +
+#EXTINF:0 CUID="286" tvg-chno="213" tvg-name="US: Fox Soccer +" tvg-id="dummy-553" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Soccer_Plus_logo.svg/1280px-Fox_Soccer_Plus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="US | Fox Sports",US: Fox Soccer +
 http://40.160.24.52/FOX_SOCCER_PLUS/index.m3u8
-#EXTINF:0 CUID="287" tvg-chno="214" tvg-name="US: Fox Sports 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT11j2D1e2VpO0xx2aiHVwfNNQh7Yx66x5kKoWBVHsgIQ&s" group-title="US | Fox Sports",US: Fox Sports 1
+#EXTINF:0 CUID="287" tvg-chno="214" tvg-name="US: Fox Sports 1" tvg-logo="https://logo.m3uassets.com/foxsports1.png" group-title="US | Fox Sports",US: Fox Sports 1
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
+#EXTINF:0 CUID="723" tvg-chno="214" tvg-name="US: Fox Sports 2" tvg-logo="https://logo.m3uassets.com/foxsports2.png" group-title="US | Fox Sports",US: Fox Sports 2
+https://tvsen7.aynascope.net/foxsports2/index.m3u8
 #EXTINF:0 CUID="288" tvg-chno="158" tvg-name="US: 5STARMAX" tvg-id="5star.uk" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5a/5Star_Max_HD_2011.svg/revision/latest?cb=20231007140647" group-title="US | MOVIES",US: 5STARMAX
 http://23.237.104.106:8080/USA_5STARMAX/index.m3u8?takodachi
 #EXTINF:0 CUID="289" tvg-chno="159" tvg-name="US: BBC America" tvg-id="bbcwdeh.us" tvg-logo="https://logo.m3uassets.com/bbcamerica.png" group-title="US | MOVIES",US: BBC America
@@ -482,11 +394,9 @@ http://40.160.24.52/FLIX/index.m3u8
 #EXTINF:0 CUID="296" tvg-chno="167" tvg-name="US: Freeform" tvg-id="freeform.us" tvg-logo="https://logo.m3uassets.com/freeform.png" group-title="US | MOVIES",US: Freeform
 http://190.11.225.124:5000/live/freeform_hd/playlist.m3u8
 #EXTINF:0 CUID="297" tvg-chno="168" tvg-name="US: FX" tvg-id="fxmoviechannel.us" tvg-logo="https://logo.m3uassets.com/fx.png" group-title="US | MOVIES",US: FX
-http://15.204.246.24:8080/FXHD/index.m3u8
-#EXTINF:0 CUID="297" tvg-chno="168" tvg-name="US: FX" tvg-id="fxmoviechannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e7/FXM_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: FXM
-http://ultratv.one:2095/live/hCPtsREFtA/Xj25tg0ZXi/2121817.m3u8
+http://23.237.104.106:8080/USA_FX/index.m3u8
 #EXTINF:0 CUID="298" tvg-chno="170" tvg-name="US: FXX" tvg-id="fxx.us" tvg-logo="https://logo.m3uassets.com/fxx.png" group-title="US | MOVIES",US: FXX
-http:\\ultratv.one:2095\live\hCPtsREFtA\Xj25tg0ZXi\2121819.m3u8
+http://23.237.104.106:8080/USA_FXX/index.m3u8
 #EXTINF:0 CUID="299" tvg-chno="171" tvg-name="US: H&I" tvg-id="heroes&iconsnetworkwest.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/H%26I-Cenla-Logo.png" group-title="US | MOVIES",US: H&I
 http://206.212.244.63/88/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="300" tvg-chno="172" tvg-name="US: HALLMARK" tvg-id="hallmark.us" tvg-logo="https://logo.m3uassets.com/hallmark.png" group-title="US | MOVIES",US: HALLMARK
@@ -523,8 +433,8 @@ http://40.160.24.52/EPIX_2/index.m3u8
 http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
 #EXTINF:0 CUID="316" tvg-name="US: Movie Hub Action" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/054/019/906/small/question-mark-with-shadow-effect-png.png" group-title="US | MOVIES",US: Movie Hub Action
 https://aka-live1050.delivery.roku.com/be8e0aad-9c0d-4b4d-ac10-d0c72bb6c7f3/t2-origin/out/v1/live.m3u8
-#EXTINF:0 CUID="317" tvg-chno="188" tvg-name="US: Paramount Network East" tvg-id="paramountnetwork.us" tvg-logo="https://logo.m3uassets.com/paramountnetwork.png" group-title="US | MOVIES",US: Paramount Network East
-http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
+#EXTINF:0 CUID="317" tvg-chno="188" tvg-name="US: Paramount Movie Channel" tvg-id="paramountnetwork.us" tvg-logo="https://logo.m3uassets.com/paramountnetwork.png" group-title="US | MOVIES",US: Paramount Movie Channel
+https://jmp2.uk/plu-5cb0cae7a461406ffe3f5213.m3u8
 #EXTINF:0 CUID="318" tvg-chno="189" tvg-name="US: Showtime" tvg-id="showtime.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1c/Showtime_1997.svg/revision/latest?cb=20230614133820" group-title="US | MOVIES",US: Showtime
 http://40.160.24.55/SHOWTIME/index.m3u8
 #EXTINF:0 CUID="319" tvg-chno="190" tvg-name="US: Showtime 2" tvg-id="showtime2.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f1/Showtime_2_%282022-%29.svg/revision/latest/scale-to-width-down/1000?cb=20230126015326" group-title="US | MOVIES",US: Showtime 2
@@ -557,12 +467,16 @@ http://23.237.104.106:8080/USA_SYFY/index.m3u8
 http://107.167.16.138/tcmhd/index.m3u8?token=test
 #EXTINF:0 CUID="333" tvg-name="US: Thrill" tvg-id="cg_thrill_sd " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Thrill_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: Thrill
 http://136.239.173.10:6610/001/2/ch00000090990000001253/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq7M3KTlp1dzcZcVVxlNmQdytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001563&contentid=ch00000000000000001563&videoid=ch00000090990000001253&recommendtype=0&userid=1896007622720&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8LJ3RRPRMVYXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:0 CUID="724" tvg-chno="188" tvg-name="US: Paramount+ Picks" tvg-id="paramountnetwork.us" tvg-logo="https://logo.m3uassets.com/paramountnetwork.png" group-title="US | MOVIES",US: Paramount+ Picks
+https://jmp2.uk/plu-5ff8c708653d080007361b14.m3u8
 #EXTINF:0 CUID="334" tvg-chno="204" tvg-name="US: CBS Sports Network" tvg-id="cbssportsnetwork.us" tvg-logo="https://logo.m3uassets.com/cbssportsnetwork.png" group-title="US | SPORTS",US: CBS Sports Network
 http://40.160.24.52/CBS_SPORTS_NETWORK/index.m3u8
 #EXTINF:0 CUID="335" tvg-chno="205" tvg-name="US: ESPN" tvg-id="espn.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN
 http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
 #EXTINF:0 CUID="336" tvg-chno="206" tvg-name="US: ESPN 2" tvg-id="espn.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 2
 http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
+#EXTINF:0 CUID="383" tvg-chno="206" tvg-name="US: ESPN 3" tvg-id="espn.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 3
+http://107.167.16.138/espn3/index.m3u8?token=test
 #EXTINF:0 CUID="337" tvg-chno="207" tvg-name="US: ESPN ON ABC" tvg-id="ABC.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/ESPN_on_ABC_2022.svg/revision/latest?cb=20230912234230" group-title="US | SPORTS",US: ESPN ON ABC
 http://stream.cammonitorplus.net/1782/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="338" tvg-chno="208" tvg-name="US: ESPNU" tvg-id="espnu.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ed/ESPN_U.svg/revision/latest?cb=20210715150317" group-title="US | SPORTS",US: ESPNU
@@ -573,12 +487,14 @@ https://d2w9q46ikgrcwx.cloudfront.net/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/
 https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
 #EXTINF:0 CUID="341" tvg-chno="211" tvg-name="US: FightBox" tvg-id="FightBox.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/FightBox_logo.webp?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | SPORTS",US: FightBox
 https://dash3.antik.sk/live/test_fightbox_medium_atk/playlist.m3u8
-#EXTINF:0 CUID="342" tvg-chno="212" tvg-name="US: Fox Deportes" tvg-id="foxdeportes.us" tvg-logo="https://www.foxdeportes.com/assets/images/banner.png" group-title="US | SPORTS",US: Fox Deportes
+#EXTINF:0 CUID="342" tvg-chno="212" tvg-name="US: Fox Deportes" tvg-id="foxdeportes.us" tvg-logo="https://logo.m3uassets.com/foxdeportes.png" group-title="US | SPORTS",US: Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/tracks-v1a1/mono.m3u8
-#EXTINF:0 CUID="343" tvg-chno="213" tvg-name="US: Fox Soccer +" tvg-id="dummy-553" tvg-logo="https://logo.m3uassets.com/foxseries.png" group-title="US | SPORTS",US: Fox Soccer +
+#EXTINF:0 CUID="343" tvg-chno="213" tvg-name="US: Fox Soccer +" tvg-id="dummy-553" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Soccer_Plus_logo.svg/1280px-Fox_Soccer_Plus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="US | SPORTS",US: Fox Soccer +
 http://40.160.24.52/FOX_SOCCER_PLUS/index.m3u8
-#EXTINF:0 CUID="344" tvg-chno="214" tvg-name="US: Fox Sports 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT11j2D1e2VpO0xx2aiHVwfNNQh7Yx66x5kKoWBVHsgIQ&s" group-title="US | SPORTS",US: Fox Sports 1
+#EXTINF:0 CUID="344" tvg-chno="214" tvg-name="US: Fox Sports 1" tvg-logo="https://logo.m3uassets.com/foxsports1.png" group-title="US | SPORTS",US: Fox Sports 1
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
+#EXTINF:0 CUID="722" tvg-chno="214" tvg-name="US: Fox Sports 2" tvg-logo="https://logo.m3uassets.com/foxsports2.png" group-title="US | SPORTS",US: Fox Sports 2
+https://tvsen7.aynascope.net/foxsports2/index.m3u8
 #EXTINF:0 CUID="345" tvg-chno="215" tvg-name="US: FTF Sports" tvg-id="FTFSports.us" tvg-logo="https://www.adadarters.com/wp-content/uploads/2020/10/FTF_White.png" group-title="US | SPORTS",US: FTF Sports
 https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR_v2.m3u8
 #EXTINF:0 CUID="346" tvg-chno="216" tvg-name="US: Golf Channel" tvg-id="godchannel.uk" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Golf_Channel_logo_2025.svg/revision/latest?cb=20260101092845" group-title="US | SPORTS",US: Golf Channel
@@ -655,8 +571,6 @@ https://rightsboosterltd-scl-1-nl.samsung.wurl.tv/playlist.m3u8
 https://leaf.highfly.dev/m3u/us-tennis-channel/live.m3u8
 #EXTINF:0 CUID="382" tvg-chno="250" tvg-name="US: Yes Network" tvg-id="YESNetwork.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/eb/Yes.svg/revision/latest?cb=20200718174253" group-title="US | SPORTS",US: Yes Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
-#EXTINF:0 CUID="383" tvg-chno="206" tvg-name="US: ESPN 3" tvg-id="espn.us" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 3
-http://107.167.16.138/espn3/index.m3u8?token=test
 #EXTINF:0 CUID="384" tvg-chno="253" tvg-name="AU: ABC TV ACT" tvg-id="abctvact.au" tvg-logo="https://i.imgur.com/DPVQSjM.png" group-title="WRLD | ABC",AU: ABC TV ACT
 https://c.mjh.nz/abc-act.m3u8
 #EXTINF:0 CUID="385" tvg-chno="254" tvg-name="AU: ABC TV NSW" tvg-id="abctvnsw.au" tvg-logo="https://i.imgur.com/DPVQSjM.png" group-title="WRLD | ABC",AU: ABC TV NSW
@@ -887,8 +801,8 @@ http://206.212.244.63/2508/index.m3u8
 http://206.212.244.63/134/index.m3u8
 #EXTINF:0 CUID="498" tvg-chno="364" tvg-name="US: Oxygen True Crime" tvg-id="truecrime.uk" tvg-logo="https://logo.m3uassets.com/oxygentruecrime.png" group-title="WRLD | Entertainment",US: Oxygen True Crime
 http://206.212.244.63/136/index.m3u8
-#EXTINF:0 CUID="499" tvg-chno="365" tvg-name="US: Paramount Channel" tvg-id="paramountnetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/Paramount_Network_2024.svg" group-title="WRLD | Entertainment",US: Paramount Channel
-http://206.212.244.63/137/index.m3u8
+#EXTINF:0 CUID="499" tvg-chno="365" tvg-name="US: Paramount Network" tvg-id="paramountnetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/Paramount_Network_2024.svg" group-title="WRLD | Entertainment",US: Paramount Network
+http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
 #EXTINF:0 CUID="500" tvg-chno="366" tvg-name="US: People Are Awesome" tvg-id="peopleareawesome.us" tvg-logo="https://logo.m3uassets.com/peopleareawesome.png" group-title="WRLD | Entertainment",US: People Are Awesome
 https://jukin-peopleareawesome-2-ca.samsung.wurl.tv/3000.m3u8
 #EXTINF:0 CUID="501" tvg-chno="367" tvg-name="US: Pop Tv" tvg-id="poptv.us" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm6ZLj1YyLOw4BEgZIxZTodYYmtg3W6FEOR9hDSmGiKA&s" group-title="WRLD | Entertainment",US: Pop Tv
@@ -949,6 +863,8 @@ https://aenetworks-worldwartv-rakuten.amagi.tv/1080p-vtt/index.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8
 #EXTINF:0 CUID="529" tvg-chno="395" tvg-name="US: Z Nation" tvg-id="boxnation.uk" tvg-logo="https://logo.m3uassets.com/znation.png" group-title="WRLD | Entertainment",US: Z Nation
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098
+#EXTINF:0 CUID="725" tvg-chno="null" tvg-name="US: America's Next Top Model" group-title="WRLD | Entertainment",US: America's Next Top Model
+https://jmp2.uk/plu-68757c45759366af05b3b199.m3u8
 #EXTINF:0 CUID="530" tvg-chno="396" tvg-name="BR: Caze TV" tvg-id="dummy-482" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/64/Caz%C3%A9TV_logo.svg" group-title="WRLD | FIFAWORLDCUP",BR: Caze TV
 https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
 #EXTINF:0 CUID="531" tvg-chno="397" tvg-name="BR: Tv Globo" tvg-id="globotvbahia.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Tvglobo_logo_2021.png" group-title="WRLD | FIFAWORLDCUP",BR: Tv Globo
@@ -1030,7 +946,7 @@ https://amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/pl
 #EXTINF:0 CUID="569" tvg-chno="435" tvg-name="US:  BBC Kids" tvg-id="bbckids.us" tvg-logo="https://i.imgur.com/vKUD64a.png" group-title="WRLD | Kids",US:  BBC Kids
 https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8
 #EXTINF:0 CUID="570" tvg-chno="436" tvg-name="US:  Cartoon Network USA" tvg-id="cartoonnetwork.uk" tvg-logo="https://logo.m3uassets.com/cartoonnetwork.png" group-title="WRLD | Kids",US:  Cartoon Network USA
-http://206.212.244.63/646/tracks-v1a1/mono.m3u8
+http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
 #EXTINF:0 CUID="571" tvg-chno="438" tvg-name="US: Animation+" tvg-id="dummy-95" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3a/Animation_Plus.svg/revision/latest?cb=202512192317507" group-title="WRLD | Kids",US: Animation+
 https://linear-918.frequency.stream/mt/plex/918/hls/master/playlist_1920x1080.m3u8
 #EXTINF:0 CUID="572" tvg-chno="439" tvg-name="US: Baby Shark TV" tvg-id="babysharktv.us" tvg-logo="https://logo.m3uassets.com/babysharktv.png" group-title="WRLD | Kids",US: Baby Shark TV
