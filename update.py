@@ -3,7 +3,7 @@ import re
 from datetime import datetime
 
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
-EXTRA_M3U8_URL = "https://github.com/kupsbabaero-ux/hehehehehehe/raw/refs/heads/main/zeus.m3u8"
+EXTRA_M3U8_URL = "https://raw.githubusercontent.com/kupsbabaero-ux/hehehehehehe/refs/heads/main/korea2.m3u8"
 EPG_URL = "https://epg.pw/xmltv/epg-kr.xml"  # Automatic EPG URL
 
 OUTPUT1 = "korea.m3u8"    # DIYP format with #genre# grouping
@@ -69,8 +69,12 @@ def parse_external_m3u8(url):
 
 def run():
     all_channels = []
+    
+    # Gagamitin para sa deduplication tracking
+    existing_names = set()
+    existing_urls = set()
 
-    # 1. Fetch JSON channels and force group to 'KR | Korea'
+    # 1. Fetch JSON channels and force group to 'KR | Korea' (Primary Source)
     try:
         r = requests.get(JSON_URL, timeout=20)
         r.encoding = "utf-8"
@@ -92,14 +96,31 @@ def run():
                     "url": play_url,
                     "logo": logo.strip() if logo else "",
                     "tvg_id": tvg_id,
-                    "group": "KR | Korea"  # Hardcoded group para sa lahat ng JSON items
+                    "group": "KR | Korea"
                 })
+                # I-record ang name at URL para maiwasan ang duplicates
+                existing_names.add(name.lower())
+                existing_urls.add(play_url.lower())
     except Exception as e:
         print(f"{datetime.now()} Error fetching JSON: {e}")
 
-    # 2. Fetch GitHub channels
+    # 2. Fetch GitHub channels and Filter/Delete Duplicates
     github_channels = parse_external_m3u8(EXTRA_M3U8_URL)
-    all_channels.extend(github_channels)
+    filtered_github = []
+
+    for ch in github_channels:
+        ch_name_clean = ch["name"].lower()
+        ch_url_clean = ch["url"].lower()
+
+        # I-check kung may kaparehong name o URL na nakuha na sa KR | Korea
+        if ch_name_clean in existing_names or ch_url_clean in existing_urls:
+            continue  # Skine-skip (dine-delete) ang duplicate channel
+        
+        filtered_github.append(ch)
+        existing_names.add(ch_name_clean)
+        existing_urls.add(ch_url_clean)
+
+    all_channels.extend(filtered_github)
 
     if not all_channels:
         print("Walang nakuhang channels.")
@@ -130,7 +151,8 @@ def run():
     with open(OUTPUT2, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines2))
 
-    print(f"{datetime.now()} Total Channels: {len(all_channels)}")
+    print(f"{datetime.now()} Total Unique Channels: {len(all_channels)}")
+    print(f"{datetime.now()} Duplicates Removed: {len(github_channels) - len(filtered_github)}")
     print(f"{datetime.now()} Files Generated: {OUTPUT1}, {OUTPUT2}")
 
 
