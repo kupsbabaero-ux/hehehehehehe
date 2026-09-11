@@ -23,7 +23,6 @@ def fetch_epg_mapping(epg_url):
         r = requests.get(epg_url, timeout=30)
         r.encoding = "utf-8"
 
-        # Parse XML directly from string response
         root = ET.fromstring(r.text)
 
         for channel in root.findall("channel"):
@@ -33,7 +32,7 @@ def fetch_epg_mapping(epg_url):
 
             for display_name in channel.findall("display-name"):
                 if display_name.text:
-                    # Clean and standardize the name for accurate matching
+                    # Linisin ang pangalan para madaling ma-match
                     raw_name = display_name.text.strip().lower()
                     clean_name = re.sub(
                         r"^kr:\s*", "", raw_name, flags=re.IGNORECASE
@@ -43,7 +42,7 @@ def fetch_epg_mapping(epg_url):
                         epg_map[clean_name] = channel_id
 
         print(
-            f"{datetime.now()} EPG Loaded. Found {len(epg_map)} mapped display names."
+            f"{datetime.now()} EPG Loaded. Found {len(epg_map)} mapped channel names."
         )
     except Exception as e:
         print(f"{datetime.now()} Error loading EPG: {e}")
@@ -51,28 +50,34 @@ def fetch_epg_mapping(epg_url):
     return epg_map
 
 
+def clean_text(text):
+    """Inaalis ang spaces, special characters, at prefix para sa mas malakas na matching."""
+    text = re.sub(r"^kr:\s*", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"[^\w]", "", text)  # Tanging letters at numbers lang ang ititira
+    return text.lower().strip()
+
+
 def match_tvg_id(channel_name, epg_map):
-    """Finds the matching XMLtv channel ID from the EPG map."""
-    # Strip prefix and normalize text
-    clean_name = (
-        re.sub(r"^kr:\s*", "", channel_name, flags=re.IGNORECASE).strip().lower()
-    )
+    """Maghahanap ng matching XMLtv channel ID sa EPG map."""
+    norm_name = clean_text(channel_name)
 
-    # 1. Direct match
-    if clean_name in epg_map:
-        return epg_map[clean_name]
-
-    # 2. Match without special characters/spaces (fallback)
-    alphanumeric_clean = re.sub(r"[^\w\s]", "", clean_name)
-    for name, tvg_id in epg_map.items():
-        if re.sub(r"[^\w\s]", "", name) == alphanumeric_clean:
+    # 1. Exact cleaned match
+    for epg_name, tvg_id in epg_map.items():
+        if clean_text(epg_name) == norm_name:
             return tvg_id
+
+    # 2. Partial / Substring match (Halimbawa: "KBS 1TV" -> "KBS1")
+    for epg_name, tvg_id in epg_map.items():
+        clean_epg = clean_text(epg_name)
+        if norm_name in clean_epg or clean_epg in norm_name:
+            if len(norm_name) >= 3 and len(clean_epg) >= 3:
+                return tvg_id
 
     return ""
 
 
 def format_channel_name(name, group):
-    """Maglalagay LAMANG ng 'KR: ' prefix kung ang group ay 'KR | Korea' (case-insensitive check)."""
+    """Maglalagay LAMANG ng 'KR: ' prefix kung ang group ay 'KR | Korea'."""
     name = name.strip()
     clean_name = re.sub(r"^KR:\s*", "", name, flags=re.IGNORECASE).strip()
 
@@ -144,9 +149,10 @@ def parse_external_m3u8(url, epg_map):
                 )
 
                 formatted_name = format_channel_name(raw_name, group)
-
-                # Match ID dynamically from EPG XML
                 matched_tvg_id = match_tvg_id(raw_name, epg_map)
+
+                # DEBUG LOG
+                print(f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'")
 
                 channels.append(
                     {
@@ -166,7 +172,7 @@ def parse_external_m3u8(url, epg_map):
 def run():
     all_channels = []
 
-    # Step 0: Load EPG Mapping first
+    # 0. Load EPG Mapping
     epg_map = fetch_epg_mapping(EPG_URL)
 
     # 1. Fetch JSON channels
@@ -191,9 +197,10 @@ def run():
             if play_url:
                 group = TARGET_GROUP
                 formatted_name = format_channel_name(raw_name, group)
-
-                # Match ID dynamically from EPG XML
                 matched_tvg_id = match_tvg_id(raw_name, epg_map)
+
+                # DEBUG LOG
+                print(f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'")
 
                 all_channels.append(
                     {
@@ -215,7 +222,7 @@ def run():
         print("Walang nakuhang channels.")
         return
 
-    # 3. Alphabetical Sorting: Group (A-Z) -> Channel Name (A-Z)
+    # 3. Alphabetical Sorting
     all_channels.sort(key=lambda x: (x["group"].lower(), x["name"].lower()))
 
     # 4. DIYP Format Generation (OUTPUT1)
@@ -239,14 +246,13 @@ def run():
         )
         lines2.append(ch["url"])
 
-    # Isulat sa mga output file
     with open(OUTPUT1, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines1))
 
     with open(OUTPUT2, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines2))
 
-    print(f"{datetime.now()} Total Channels Processed: {len(all_channels)}")
+    print(f"\n{datetime.now()} Total Channels Processed: {len(all_channels)}")
     print(f"{datetime.now()} Files Generated: {OUTPUT1}, {OUTPUT2}")
 
 
