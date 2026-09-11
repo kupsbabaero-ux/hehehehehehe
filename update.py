@@ -1,5 +1,6 @@
 import re
 from datetime import datetime
+import xml.etree.ElementTree as ET
 import requests
 
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
@@ -14,14 +15,67 @@ OUTPUT2 = "korea2.m3u8"  # Standard M3U format
 TARGET_GROUP = "KR | Korea"
 
 
+def fetch_epg_mapping(epg_url):
+    """Downloads EPG XML and creates a mapping of cleaned channel name -> tvg-id."""
+    epg_map = {}
+    try:
+        print(f"{datetime.now()} Downloading and parsing EPG XML...")
+        r = requests.get(epg_url, timeout=30)
+        r.encoding = "utf-8"
+
+        # Parse XML directly from string response
+        root = ET.fromstring(r.text)
+
+        for channel in root.findall("channel"):
+            channel_id = channel.get("id")
+            if not channel_id:
+                continue
+
+            for display_name in channel.findall("display-name"):
+                if display_name.text:
+                    # Clean and standardize the name for accurate matching
+                    raw_name = display_name.text.strip().lower()
+                    clean_name = re.sub(
+                        r"^kr:\s*", "", raw_name, flags=re.IGNORECASE
+                    ).strip()
+
+                    if clean_name and clean_name not in epg_map:
+                        epg_map[clean_name] = channel_id
+
+        print(
+            f"{datetime.now()} EPG Loaded. Found {len(epg_map)} mapped display names."
+        )
+    except Exception as e:
+        print(f"{datetime.now()} Error loading EPG: {e}")
+
+    return epg_map
+
+
+def match_tvg_id(channel_name, epg_map):
+    """Finds the matching XMLtv channel ID from the EPG map."""
+    # Strip prefix and normalize text
+    clean_name = (
+        re.sub(r"^kr:\s*", "", channel_name, flags=re.IGNORECASE).strip().lower()
+    )
+
+    # 1. Direct match
+    if clean_name in epg_map:
+        return epg_map[clean_name]
+
+    # 2. Match without special characters/spaces (fallback)
+    alphanumeric_clean = re.sub(r"[^\w\s]", "", clean_name)
+    for name, tvg_id in epg_map.items():
+        if re.sub(r"[^\w\s]", "", name) == alphanumeric_clean:
+            return tvg_id
+
+    return ""
+
+
 def format_channel_name(name, group):
     """Maglalagay LAMANG ng 'KR: ' prefix kung ang group ay 'KR | Korea' (case-insensitive check)."""
     name = name.strip()
-
-    # Linisin muna kung may umiiral nang "KR:" o "KR :" para hindi mag-duplicate
     clean_name = re.sub(r"^KR:\s*", "", name, flags=re.IGNORECASE).strip()
 
-    # Tiyaking case-insensitive ang pag-check sa group name
     if group.strip().lower() == TARGET_GROUP.lower():
         return f"KR: {clean_name}"
 
@@ -60,7 +114,7 @@ def extract_m3u8_or_php(uris):
     return None
 
 
-def parse_external_m3u8(url):
+def parse_external_m3u8(url, epg_map):
     """Fetch at i-parse ang extra M3U8 channels mula sa GitHub"""
     channels = []
     try:
@@ -76,13 +130,11 @@ def parse_external_m3u8(url):
             if line.startswith("#EXTINF:"):
                 current_extinf = line
             elif not line.startswith("#") and current_extinf:
-                tvg_id = re.search(r'tvg-id="([^"]*)"', current_extinf)
                 tvg_logo = re.search(r'tvg-logo="([^"]*)"', current_extinf)
                 group_match = re.search(
                     r'group-title="([^"]*)"', current_extinf
                 )
 
-                # Kung walang group-title, i-default sa TARGET_GROUP
                 group = group_match.group(1) if group_match else TARGET_GROUP
 
                 raw_name = (
@@ -93,13 +145,18 @@ def parse_external_m3u8(url):
 
                 formatted_name = format_channel_name(raw_name, group)
 
-                channels.append({
-                    "name": formatted_name,
-                    "url": line,
-                    "logo": tvg_logo.group(1) if tvg_logo else "",
-                    "tvg_id": tvg_id.group(1) if tvg_id else formatted_name,
-                    "group": group,
-                })
+                # Match ID dynamically from EPG XML
+                matched_tvg_id = match_tvg_id(raw_name, epg_map)
+
+                channels.append(
+                    {
+                        "name": formatted_name,
+                        "url": line,
+                        "logo": tvg_logo.group(1) if tvg_logo else "",
+                        "tvg_id": matched_tvg_id,
+                        "group": group,
+                    }
+                )
                 current_extinf = None
     except Exception as e:
         print(f"{datetime.now()} Error fetching external M3U8: {e}")
@@ -109,7 +166,10 @@ def parse_external_m3u8(url):
 def run():
     all_channels = []
 
-    # 1. Fetch JSON channels (Lahat ng galing sa JSON ay pilit nating ita-tag sa 'KR | Korea')
+    # Step 0: Load EPG Mapping first
+    epg_map = fetch_epg_mapping(EPG_URL)
+
+    # 1. Fetch JSON channels
     try:
         r = requests.get(JSON_URL, timeout=20)
         r.encoding = "utf-8"
@@ -131,20 +191,24 @@ def run():
             if play_url:
                 group = TARGET_GROUP
                 formatted_name = format_channel_name(raw_name, group)
-                tvg_id = item.get("tvg-id", "") or formatted_name
 
-                all_channels.append({
-                    "name": formatted_name,
-                    "url": play_url,
-                    "logo": logo.strip() if logo else "",
-                    "tvg_id": tvg_id,
-                    "group": group,
-                })
+                # Match ID dynamically from EPG XML
+                matched_tvg_id = match_tvg_id(raw_name, epg_map)
+
+                all_channels.append(
+                    {
+                        "name": formatted_name,
+                        "url": play_url,
+                        "logo": logo.strip() if logo else "",
+                        "tvg_id": matched_tvg_id,
+                        "group": group,
+                    }
+                )
     except Exception as e:
         print(f"{datetime.now()} Error fetching JSON: {e}")
 
     # 2. Fetch GitHub channels
-    github_channels = parse_external_m3u8(EXTRA_M3U8_URL)
+    github_channels = parse_external_m3u8(EXTRA_M3U8_URL, epg_map)
     all_channels.extend(github_channels)
 
     if not all_channels:
@@ -167,8 +231,10 @@ def run():
     lines2 = [f'#EXTM3U url-tvg="{EPG_URL}"']
     for ch in all_channels:
         logo_attr = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ""
+        tvg_id_attr = f' tvg-id="{ch["tvg_id"]}"' if ch["tvg_id"] else ' tvg-id=""'
+
         lines2.append(
-            f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{ch["name"]}"{logo_attr}'
+            f'#EXTINF:-1{tvg_id_attr} tvg-name="{ch["name"]}"{logo_attr}'
             f' group-title="{ch["group"]}",{ch["name"]}'
         )
         lines2.append(ch["url"])
