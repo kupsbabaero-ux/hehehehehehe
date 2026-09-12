@@ -402,9 +402,9 @@ https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 #EXTINF:0 CUID="201" tvg-name="PH: GMA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/aa/GMA_Network_2024_logo.png/revision/latest/scale-to-width-down/78?cb=20250327013147" group-title="PH | Entertainment",PH: GMA
 http://136.158.97.2:6610/001/2/ch00000090990000001093/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoLvT86fM74ocVChyFS93HUytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001214&contentid=ch00000000000000001214&videoid=ch00000090990000001093&recommendtype=0&userid=1084724632836&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=FGE3OISG4KGXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="202" tvg-name="PH: GMA Life TV" tvg-logo="https://static.wikia.nocookie.net/russel/images/6/61/GMA_Life_TV_Logo_2024.png/revision/latest/scale-to-width-down/300?cb=20251016154152" group-title="PH | Entertainment",PH: GMA Life TV
-https://ott.djdoolky76.net/stream/iptv/gmalifetv/stream_0.m3u8?u=udpv4&p=db8b8839b5a336adbd1b3d7eb78863623b5068cba7b65031c2b753d5320e2c5e&uid=917726538
+http://1tv41.icu:8080/live/8tFfDW/451664/101824.m3u8
 #EXTINF:0 CUID="203" tvg-name="PH: GMA Pinoy TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/af/GMA_Pinoy_TV_logo.png" group-title="PH | Entertainment",PH: GMA Pinoy TV
-https://ott.djdoolky76.net/stream/iptv/gmapinoytv/stream_0.m3u8?u=udpv4&p=db8b8839b5a336adbd1b3d7eb78863623b5068cba7b65031c2b753d5320e2c5e&uid=2188925471
+http://1tv41.icu:8080/live/8tFfDW/451664/101826.m3u8
 #EXTINF:0 CUID="204" tvg-name="PH: GNN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9a/GNN%2C_Global_News_Network%2C_Feb_2019.png" group-title="PH | Entertainment",PH: GNN
 http://136.239.159.20:6610/001/2/ch00000090990000001234/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT50169520260525071609080474&AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp6sHVPy02nySMqUY2vMm%2BjsyK4TH4mOENKJ45mwOyS0g%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001234
 #EXTINF:0 CUID="205" tvg-name="PH: GTV" tvg-logo="https://i.imgur.com/geuq18u.png" group-title="PH | Entertainment",PH: GTV
@@ -438,9 +438,9 @@ https://streams.comclark.com/pknsd/rptv/playlist.m3u8
 #EXTINF:0 CUID="219" tvg-name="PH: Saudi TV" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/d/d6/Al-Saudia_TV_Logo_2018.png/250px-Al-Saudia_TV_Logo_2018.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="PH | Entertainment",PH: Saudi TV
 http://161.49.17.2:6610/001/2/ch00000090990000001176/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bqx%2BXO6kYP1duDF0CR%2BT7zbytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001413&contentid=ch00000000000000001413&videoid=ch00000090990000001176&recommendtype=0&userid=1635054451771&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=17AVARI79W0IXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="220" tvg-name="PH: TFC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Filipino_Channel_%28TFC%29_logo.png" group-title="PH | Entertainment",PH: TFC
-https://ott.djdoolky76.net/stream/iptv/tfcglobal/stream_0.m3u8?u=udpv4&p=db8b8839b5a336adbd1b3d7eb78863623b5068cba7b65031c2b753d5320e2c5e&uid=1155700674
+http://1tv41.icu:8080/live/8tFfDW/451664/101823.m3u8
 #EXTINF:0 CUID="221" tvg-name="PH: TFC Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Filipino_Channel_%28TFC%29_logo.png" group-title="PH | Entertainment",PH: TFC Asia
-https://ott.djdoolky76.net/stream/iptv/tfcasia/stream_0.m3u8?u=udpv4&p=db8b8839b5a336adbd1b3d7eb78863623b5068cba7b65031c2b753d5320e2c5e&uid=1401115721
+http://1tv41.icu:8080/live/8tFfDW/451664/101823.m3u8
 #EXTINF:0 CUID="222" tvg-name="PH: TV Maria" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/Maria_TV.png/revision/latest?cb=20200414213815" group-title="PH | Entertainment",PH: TV Maria
 http://136.158.97.2:6610/001/2/ch00000090990000001160/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqJiJmfV%2B93mjmGGmqynSohytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001374&contentid=ch00000000000000001374&videoid=ch00000090990000001160&recommendtype=0&userid=1605694488407&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=G669IAJA55PXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:0 CUID="223" tvg-name="PH: TV5 HD" tvg-logo="https://static.wikia.nocookie.net/russel/images/7/7a/TV5_HD_Logo_2024.png/revision/latest/scale-to-width-down/290?cb=20240202141126" group-title="PH | Entertainment",PH: TV5 HD
@@ -449,6 +449,8 @@ http://136.158.97.2:6610/001/2/ch00000090990000001088/manifest.mpd?AuthInfo=v87H
 http://136.158.97.2:6610/001/2/ch00000090990000001088/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAoh0xOsaoSFLqA0PEh9gVjisyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001213&contentid=ch00000000000000001213&videoid=ch00000090990000001088&recommendtype=0&userid=1099183361159&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ZRUDOFEVUJOXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20448320260101155237311409&ispcode=55
 #EXTINF:0 CUID="225" tvg-name="PH: UNTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/UNTV-Logo-2016.svg" group-title="PH | Entertainment",PH: UNTV
 http://136.239.173.2:6610/001/2/ch00000090990000001091/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT119828320260525070824082566&AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp8EKxpteUJNLDuI18c3YYNsyK4TH4mOENKJ45mwOyS0g%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001091
+#EXTINF:0 CUID="720" tvg-name="PH: GMA News TV" tvg-logo="https://static.wikia.nocookie.net/russel/images/6/61/GMA_Life_TV_Logo_2024.png/revision/latest/scale-to-width-down/300?cb=20251016154152" group-title="PH | Entertainment",PH: GMA News TV
+http://1tv41.icu:8080/live/8tFfDW/451664/101774.m3u8
 #EXTINF:0 CUID="226" tvg-name="PH: 3rsCartoonMovies" tvg-logo="https://i.imghippo.com/files/iSr4146bOI.png" group-title="PH | MOVIES",PH: 3rsCartoonMovies
 https://live20.bozztv.com/giatvplayout7/giatv-211507/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 CUID="227" tvg-name="PH: 3rsSineAksyon" tvg-logo="https://gia.tv/streams/pstream/212176.jpg?1788998393" group-title="PH | MOVIES",PH: 3rsSineAksyon
@@ -484,9 +486,9 @@ https://duriantvph.itunerworldwide.workers.dev/master.live.m3u8
 #EXTINF:0 CUID="242" tvg-name="PH: Epic One TV" tvg-logo="https://gia.tv/streams/pptv/212059.png?1786004784" group-title="PH | MOVIES",PH: Epic One TV
 https://live20.bozztv.com/giatvplayout7/giatv-212059/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 CUID="243" tvg-name="PH: GMA Heart of Asia" tvg-logo="https://logo.m3uassets.com/heartofasiachannel.png" group-title="PH | MOVIES",PH: GMA Heart of Asia
-https://nokotan.anhkz.fr/play/idn5f560977/6aa4b218110083ef53339f55.m3u8?q=24e52bc25b2456fdadb032f20f7e4a15
+https://nokotan.anhkz.fr/channel/n5f560977/index.m3u8?q=d0475082894a131707d75e3ae57d6608
 #EXTINF:0 CUID="244" tvg-name="PH: GMA I Heart Movies" tvg-logo="https://logo.m3uassets.com/iheartmovies.png" group-title="PH | MOVIES",PH: GMA I Heart Movies
-https://nokotan.anhkz.fr/play/idn696d5dc/6aa4b26e110083ef53339f57.m3u8?q=24e52bc25b2456fdadb032f20f7e4a15
+https://nokotan.anhkz.fr/channel/n696d5dc/index.m3u8?q=d0475082894a131707d75e3ae57d6608
 #EXTINF:0 CUID="245" tvg-name="PH: HBO Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/HBO_New_Logo.png" group-title="PH | MOVIES",PH: HBO Asia
 http://136.239.173.2:6610/001/2/ch00000090990000001065/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT119760720260531041941102475&AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAosKg8aLji3LHWqHUI%2FwQyJsyK4TH4mOENKJ45mwOyS0g%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001065
 #EXTINF:0 CUID="246" tvg-name="PH: Hype Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-CCCZP0iPlCVf1Cm6hJ8r7_FrO8a48EdN7zpdU44PBK4gbAsoLEE80yi&s=10" group-title="PH | MOVIES",PH: Hype Tv
@@ -534,7 +536,7 @@ http://136.239.158.18:6610/001/2/ch00000090990000001079/index.m3u8?AuthInfo=v87H
 #EXTINF:0 CUID="267" tvg-name="PH: Edge Sports" tvg-logo="https://dummyimage.com/512x512/111111/ffffff.png&text=EDGE+SPORT" group-title="PH | SPORTS",PH: Edge Sports
 http://136.239.158.18:6610/001/2/ch00000090990000001406/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrD3MimqPOP6OVIBIcXmXdDytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001926&contentid=ch00000000000000001926&videoid=ch00000090990000001406&recommendtype=0&userid=1198953858973&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=KQCW8SZJ4IXXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="268" tvg-name="PH: NBA Philippines" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/de/NBA_TV_Philippines.png" group-title="PH | SPORTS",PH: NBA Philippines
-https://tvsen6.aynaott.com/nbatv/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/328489.m3u8
 #EXTINF:0 CUID="269" tvg-name="PH: Nudge Sports Channel" tvg-logo="https://i.imgur.com/TW0hapZ.png" group-title="PH | SPORTS",PH: Nudge Sports Channel
 https://streams.comclark.com/live_input/nudge_sports/playlist.m3u8
 #EXTINF:0 CUID="270" tvg-name="PH: One Sports" tvg-logo="https://static.wikia.nocookie.net/russel/images/5/5a/One_Sports_%28TV_channel%29_3D_Logo_2020.png/revision/latest?cb=20230520142737" group-title="PH | SPORTS",PH: One Sports
@@ -542,7 +544,7 @@ http://136.239.158.18:6610/001/2/ch00000090990000001083/index.m3u8?AuthInfo=v87H
 #EXTINF:0 CUID="271" tvg-name="PH: One Sports +" tvg-logo="https://static.wikia.nocookie.net/russel/images/5/5a/One_Sports_%28TV_channel%29_3D_Logo_2020.png/revision/latest?cb=20230520142737" group-title="PH | SPORTS",PH: One Sports +
 https://ott.djdoolky76.net/stream/iptv/onesports/stream_0.m3u8?u=udpv4&p=db8b8839b5a336adbd1b3d7eb78863623b5068cba7b65031c2b753d5320e2c5e&uid=2322664446
 #EXTINF:0 CUID="272" tvg-name="PH: PBA Rush" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/cd/PBA_Rush_logo.png" group-title="PH | SPORTS",PH: PBA Rush
-https://ott.djdoolky76.net/stream/iptv/pbarush/stream_0.m3u8?u=udpv4&p=db8b8839b5a336adbd1b3d7eb78863623b5068cba7b65031c2b753d5320e2c5e&uid=3528538097
+http://1tv41.icu:8080/live/8tFfDW/451664/328490.m3u8
 #EXTINF:0 CUID="273" tvg-name="PH: Premier Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cb/PremierSports-ph.png" group-title="PH | SPORTS",PH: Premier Sports
 https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg19223-amg19223c3-amgplt0351/82a4bb51-794e-11f1-a790-fe279bad14bd/161/854x480_1478083/index.m3u8
 #EXTINF:0 CUID="274" tvg-name="PH: Premier Sports (Feed 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b8/PremierSports-ph_2026.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="PH | SPORTS",PH: Premier Sports (Feed 1)
@@ -554,7 +556,7 @@ http://136.239.159.20:6610/001/2/ch00000090990000001081/sec-f2-v1-a1.m3u8?JITPDR
 #EXTINF:0 CUID="277" tvg-name="PH: Tap Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="PH | SPORTS",PH: Tap Sports
 http://136.239.173.3:6610/001/2/ch00000090990000001151/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqvuCQC%2BfGfSFGYE2TZKWpbytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001321&contentid=ch00000000000000001321&videoid=ch00000090990000001151&recommendtype=0&userid=1148739009053&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=Z6EHYVCYR3XXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="278" tvg-name="PH: UAAP Varsity Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/UAAP_VC_88.png/revision/latest/scale-to-width-down/1000?cb=20250526162013" group-title="PH | SPORTS",PH: UAAP Varsity Channel
-https://ott.djdoolky76.net/stream/iptv/uaapvarsitychannel/stream_0.m3u8?u=udpv4&p=db8b8839b5a336adbd1b3d7eb78863623b5068cba7b65031c2b753d5320e2c5e&uid=184517954
+http://1tv41.icu:8080/live/8tFfDW/451664/320454.m3u8
 #EXTINF:0 CUID="279" tvg-name="US: Fox Deportes" tvg-logo="https://www.foxdeportes.com/assets/images/banner.png" group-title="US | Fox Sports",US: Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="280" tvg-name="US: Fox Soccer +" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Soccer_Plus_logo.svg/1280px-Fox_Soccer_Plus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="US | Fox Sports",US: Fox Soccer +
@@ -657,6 +659,8 @@ http://23.237.104.106:8080/USA_SYFY/index.m3u8
 http://107.167.16.138/tcmhd/index.m3u8?token=test
 #EXTINF:0 CUID="329" tvg-name="US: Thrill" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Thrill_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: Thrill
 http://136.239.173.10:6610/001/2/ch00000090990000001253/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq7M3KTlp1dzcZcVVxlNmQdytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001563&contentid=ch00000000000000001563&videoid=ch00000090990000001253&recommendtype=0&userid=1896007622720&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8LJ3RRPRMVYXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+#EXTINF:0 CUID="518" tvg-name="US: VH1 USA" tvg-logo="https://logo.m3uassets.com/vh1.png" group-title="US | MOVIES",US: VH1 USA
+http://23.237.104.106:8080/USA_VH1/index.m3u8
 #EXTINF:0 CUID="330" tvg-name="US: CBS Sports Network" tvg-logo="https://logo.m3uassets.com/cbssportsnetwork.png" group-title="US | SPORTS",US: CBS Sports Network
 http://40.160.24.52/CBS_SPORTS_NETWORK/index.m3u8
 #EXTINF:0 CUID="331" tvg-name="US: ESPN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN
@@ -1033,8 +1037,6 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
 http://40.160.24.55/Up_TV/index.m3u8
 #EXTINF:0 CUID="517" tvg-name="US: Vegas Life TV" tvg-logo="https://i.imgur.com/G7lONcu.png" group-title="WRLD | Entertainment",US: Vegas Life TV
 https://cdn.vegasplus.us/vegas/vltv/playlist.m3u8
-#EXTINF:0 CUID="518" tvg-name="US: VH1 USA" tvg-logo="https://logo.m3uassets.com/vh1.png" group-title="WRLD | Entertainment",US: VH1 USA
-http://40.160.24.55/VH1/index.m3u8
 #EXTINF:0 CUID="519" tvg-name="US: VICE TV" tvg-logo="https://logo.m3uassets.com/vice.png" group-title="WRLD | Entertainment",US: VICE TV
 http://23.237.104.106:8080/USA_VICETV/index.m3u8?takodachi
 #EXTINF:0 CUID="520" tvg-name="US: Video Mix TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSDRZrnLnfe0IUgxsomWI292FTR7aeg_01oDdnyh2K_g&s" group-title="WRLD | Entertainment",US: Video Mix TV
