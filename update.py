@@ -9,7 +9,7 @@ JSON_URL = "http://141.164.53.195/live/korea-live.json"
 EXTRA_M3U8_URL = (
     "https://github.com/kupsbabaero-ux/hehehehehehe/raw/refs/heads/main/zeus.m3u8"
 )
-EPG_URL = "https://epg.pw/xmltv/epg.xml"
+EPG_URL = ""
 
 OUTPUT1 = "korea.m3u8"  # DIYP format (#genre# grouping)
 OUTPUT2 = "korea2.m3u8"  # Standard M3U format
