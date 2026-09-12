@@ -2,6 +2,7 @@ import gzip
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime
+from urllib.parse import urlparse
 
 import requests
 
@@ -68,6 +69,15 @@ def clean_text(text):
     # Keep alphanumeric characters only
     text = re.sub(r"[^\w]", "", text)
     return text.lower().strip()
+
+
+def normalize_url(url):
+    """Strips trailing slashes and query parameters to detect identical streaming endpoints."""
+    try:
+        parsed = urlparse(url.strip())
+        return f"{parsed.scheme}://{parsed.netloc}{parsed.path}".rstrip("/").lower()
+    except Exception:
+        return url.strip().lower()
 
 
 def match_tvg_id(channel_name, epg_map):
@@ -243,22 +253,25 @@ def run():
         print("No channels found.")
         return
 
-    # 3. Deduplication Logic (Applies strictly to TARGET_GROUP)
+    # 3. Enhanced Deduplication Logic
     all_channels = []
-    seen_kr_keys = set()
+    seen_kr_names = set()
+    seen_kr_urls = set()
 
     for ch in raw_channels:
         if ch["group"].strip().lower() == TARGET_GROUP.lower():
-            # Combine cleaned name and URL to identify exact duplicates
-            unique_key = (clean_text(ch["name"]), ch["url"].strip())
+            cleaned_name = clean_text(ch["name"])
+            normalized_url = normalize_url(ch["url"])
 
-            if unique_key in seen_kr_keys:
+            # Skip entry if either the normalized channel name OR the stream URL has already been processed
+            if cleaned_name in seen_kr_names or normalized_url in seen_kr_urls:
                 print(
-                    f"[Duplicate Skipped in {TARGET_GROUP}] {ch['name']} -> {ch['url']}"
+                    f"[Duplicate Skipped in {TARGET_GROUP}] Name: '{ch['name']}' | URL: '{ch['url']}'"
                 )
                 continue
 
-            seen_kr_keys.add(unique_key)
+            seen_kr_names.add(cleaned_name)
+            seen_kr_urls.add(normalized_url)
 
         # Include non-duplicate or non-target group channels
         all_channels.append(ch)
