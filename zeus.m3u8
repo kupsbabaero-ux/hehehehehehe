@@ -1171,6 +1171,90 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/medhigh.m3u8
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/medhigh.m3u8
 #EXTINF:0 CUID="890" tvg-name="US: Shop LC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Shop_LC_Logo.svg" group-title="WRLD | Shop",US: Shop LC
 https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(ott)/01.m3u8
+#EXTINF:-1 tvg-id="skyaction.uk" group-title="MOVIE NETWORKS",UK: SKY CINEMA ACTION FHD
+http://1tv41.icu:8080/live/8tFfDW/451664/35254.m3u8
+#EXTINF:-1 tvg-id="skydrama.uk" group-title="MOVIE NETWORKS",UK MOVIES: SKY CINEMA DRAMA
+http://1tv41.icu:8080/live/8tFfDW/451664/35251.m3u8
+#EXTINF:-1 tvg-id="skyscifihorror.uk" group-title="MOVIE NETWORKS",UK Sky Cinema Scifi & Horror FHD  
+http://1tv41.icu:8080/live/8tFfDW/451664/35248.m3u8
+#EXTINF:-1 tvg-id="skycomedy.uk" group-title="MOVIE NETWORKS",UK MOVIES: SKY COMEDY
+http://1tv41.icu:8080/live/8tFfDW/451664/35253.m3u8
+#EXTINF:-1 tvg-id="skythriller.uk" group-title="MOVIE NETWORKS",UK MOVIES: SKY CRIME THRILLER
+http://1tv41.icu:8080/live/8tFfDW/451664/35252.m3u8
+#EXTINF:-1 tvg-id="skygreats.uk" group-title="MOVIE NETWORKS",UK MOVIES: SKY GREATS
+http://1tv41.icu:8080/live/8tFfDW/451664/35249.m3u8
+#EXTINF:-1 tvg-id="skypremiere.uk" group-title="MOVIE NETWORKS",UK-Sky Cinema Premier
+http://1tv41.icu:8080/live/8tFfDW/451664/35256.m3u8
+#EXTINF:-1 tvg-id="sony.us" group-title="MOVIE NETWORKS" tvg-logo="https://d24j9r7lck9cin.cloudfront.net/l/o/1/1374.1569972429.png",US SONY Movies FHD 
+http://1tv41.icu:8080/live/8tFfDW/451664/2214.m3u8
+#EXTINF:-1 tvg-id="lifetimemovies.us" group-title="MOVIE NETWORKS" tvg-logo="https://findvectorlogo.com/wp-content/uploads/2020/01/lifetime-movies-vector-logo.png",US Lifetime Movies 
+http://1tv41.icu:8080/live/8tFfDW/451664/20863.m3u8
+#EXTINF:-1 tvg-id="starzencoreblack.us" group-title="MOVIE NETWORKS" tvg-logo="https://thestreamable.com/media/pages/news/flash-sale-get-6-months-of-starz-for-only-3-33-a-month-so-you-can-binge-power-outlander-and-american-gods/3821036974-1583185843/starz.png",US STARZ ENCORE Black
+http://1tv41.icu:8080/live/8tFfDW/451664/16141.m3u8
+#EXTINF:-1 tvg-id="showtimenext.us" group-title="MOVIE NETWORKS" tvg-logo="https://s4827.pcdn.co/wp-content/uploads/2015/06/Showtime-sho-logo.png",USA:  Showtime NEXT
+http://1tv41.icu:8080/live/8tFfDW/451664/9316.m3u8
+#EXTINF:-1 tvg-id="starzedge.us" group-title="MOVIE NETWORKS" tvg-logo="https://thestreamable.com/media/pages/news/flash-sale-get-6-months-of-starz-for-only-3-33-a-month-so-you-can-binge-power-outlander-and-american-gods/3821036974-1583185843/starz.png",USA:  STARZ EDGE 
+http://1tv41.icu:8080/live/8tFfDW/451664/16143.m3u8
+#EXTINF:-1 tvg-id="5starmax.us" group-title="MOVIE NETWORKS" tvg-logo="https://cdn.tvpassport.com/image/station/240x135/5max.png",US 5 StarMax
+http://1tv41.icu:8080/live/8tFfDW/451664/13381.m3u8
+#EXTINF:-1 tvg-id="actionmaxpacific.us" group-title="MOVIE NETWORKS",US ActionMAX (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/21013.m3u8
+#EXTINF:-1 tvg-id="cinemax.us" group-title="MOVIE NETWORKS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png",US Cinemax (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/13380.m3u8
+#EXTINF:-1 tvg-id="epix.us" group-title="MOVIE NETWORKS" tvg-logo="https://seeklogo.com/images/E/epix-entertainment-llc-logo-98DC100C56-seeklogo.com.png",US EPIX (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/13214.m3u8
+#EXTINF:-1 tvg-id="epixdrivein.us" group-title="MOVIE NETWORKS" tvg-logo="https://logodix.com/logo/1104724.png",US Epix Drive IN (S)
+http://1tv41.icu:8080/live/8tFfDW/451664/14193.m3u8
+#EXTINF:-1 tvg-id="epixhits.us" group-title="MOVIE NETWORKS" tvg-logo="https://sc.dish.com/shared/images/station-logos/EPIXH.PNG",USA: Epix Hits
+http://1tv41.icu:8080/live/8tFfDW/451664/12744.m3u8
+#EXTINF:-1 tvg-id="epix2.us" group-title="MOVIE NETWORKS" tvg-logo="https://seeklogo.com/images/E/epix-entertainment-llc-logo-98DC100C56-seeklogo.com.png",US EPIX2 (East)
+http://1tv41.icu:8080/live/8tFfDW/451664/12730.m3u8
+#EXTINF:-1 tvg-id="hbo.us" group-title="MOVIE NETWORKS" tvg-logo="https://tvzamora.net/wp-content/uploads/2016/12/hbo2.png",US HBO 
+http://1tv41.icu:8080/live/8tFfDW/451664/9264.m3u8
+#EXTINF:-1 tvg-id="hbo2.us" group-title="MOVIE NETWORKS" tvg-logo="https://tvzamora.net/wp-content/uploads/2016/12/hbo2.png",US HBO 2 (A)
+http://1tv41.icu:8080/live/8tFfDW/451664/9816.m3u8
+#EXTINF:-1 tvg-id="hbocomedy.us" group-title="MOVIE NETWORKS" tvg-logo="https://png.pngitem.com/pimgs/s/186-1863786_hbo-comedy-logo-hbo-comedy-channel-logo-hd.png",US HBO Comedy (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/17773.m3u8
+#EXTINF:-1 tvg-id="hbofamily.us" group-title="MOVIE NETWORKS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/HBO_Family_logo.png",US HBO Family (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/17772.m3u8
+#EXTINF:-1 tvg-id="hbosignature.us" group-title="MOVIE NETWORKS" tvg-logo="https://logodix.com/logo/1111252.png",US HBO SIGNATURE (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/9266.m3u8
+#EXTINF:-1 tvg-id="hbozone.us" group-title="MOVIE NETWORKS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/HBO_Zone_logo.png",US HBO Zone (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/9265.m3u8
+#EXTINF:-1 tvg-id="hdnetmovies.us" group-title="MOVIE NETWORKS" tvg-logo="https://www.pngjoy.com/pngm/146/2931790_brazzers-hdnet-movies-logo-png-download.png",US HDNET MOVIES 
+http://1tv41.icu:8080/live/8tFfDW/451664/16265.m3u8
+#EXTINF:-1 tvg-id="moremax.us" group-title="MOVIE NETWORKS" tvg-logo="https://p.kindpng.com/picc/s/83-836958_more-max-hdtv-cinemax-hd-png-download.png",US More Max 
+http://1tv41.icu:8080/live/8tFfDW/451664/17776.m3u8
+#EXTINF:-1 tvg-id="movieplex.us" group-title="MOVIE NETWORKS" tvg-logo="https://p.kindpng.com/picc/s/329-3296935_showtime-extreme-logo-hd-png-download.png",US MoviePlex (East)
+http://1tv41.icu:8080/live/8tFfDW/451664/1829.m3u8
+#EXTINF:-1 tvg-id="outermax.us" group-title="MOVIE NETWORKS",US Cinemax Outermax (X)
+http://1tv41.icu:8080/live/8tFfDW/451664/21012.m3u8
+#EXTINF:-1 tvg-id="retroplex.us" group-title="MOVIE NETWORKS",US RetroPlex (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/66379.m3u8
+#EXTINF:-1 tvg-id="showtime.us" group-title="MOVIE NETWORKS",US Showtime East 
+http://1tv41.icu:8080/live/8tFfDW/451664/46214.m3u8
+#EXTINF:-1 tvg-id="showtime2.us" group-title="MOVIE NETWORKS" tvg-logo="https://www.allwest.com/wp-content/uploads/2018/11/showtime2-300x300.png",US Showtime 2 (East) (H)
+http://1tv41.icu:8080/live/8tFfDW/451664/13219.m3u8
+#EXTINF:-1 tvg-id="showtimeextreme.us" group-title="MOVIE NETWORKS" tvg-logo="https://s4827.pcdn.co/wp-content/uploads/2015/06/Showtime-sho-logo.png",US Showtime Extreme (East) (SP)
+http://1tv41.icu:8080/live/8tFfDW/451664/13220.m3u8
+#EXTINF:-1 tvg-id="showtimefamilyzone.us" group-title="MOVIE NETWORKS" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/2/23/Showtime_family_zone.png/revision/latest/scale-to-width-down/340?cb=20121117045222",US Showtime Family Zone (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/13481.m3u8
+#EXTINF:-1 tvg-id="showtimewomen.us" group-title="MOVIE NETWORKS" tvg-logo="https://www.vhv.rs/dpng/d/473-4738791_showtime-women-logo-hd-png-download.png",US Showtime Women (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/17778.m3u8
+#EXTINF:-1 tvg-id="starzcinema.us" group-title="MOVIE NETWORKS" tvg-logo="https://thestreamable.com/media/pages/news/flash-sale-get-6-months-of-starz-for-only-3-33-a-month-so-you-can-binge-power-outlander-and-american-gods/3821036974-1583185843/starz.png",US Starz Cinema (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/17775.m3u8
+#EXTINF:-1 tvg-id="starzcinema.us" group-title="MOVIE NETWORKS" tvg-logo="https://thestreamable.com/media/pages/news/flash-sale-get-6-months-of-starz-for-only-3-33-a-month-so-you-can-binge-power-outlander-and-american-gods/3821036974-1583185843/starz.png",US Starz Cinema (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/9301.m3u8
+#EXTINF:-1 tvg-id="starzcinema.us" group-title="MOVIE NETWORKS" tvg-logo="https://thestreamable.com/media/pages/news/flash-sale-get-6-months-of-starz-for-only-3-33-a-month-so-you-can-binge-power-outlander-and-american-gods/3821036974-1583185843/starz.png",US Starz East (S)
+http://1tv41.icu:8080/live/8tFfDW/451664/9299.m3u8
+#EXTINF:-1 tvg-id="starzencorewesterns.us" group-title="MOVIE NETWORKS" tvg-logo="https://p.kindpng.com/picc/s/412-4120429_starz-encore-logo-transparent-hd-png-download.png",US Starz Encore Westerns (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/16263.m3u8
+#EXTINF:-1 tvg-id="starzinblack.us" group-title="MOVIE NETWORKS" tvg-logo="https://thestreamable.com/media/pages/news/flash-sale-get-6-months-of-starz-for-only-3-33-a-month-so-you-can-binge-power-outlander-and-american-gods/3821036974-1583185843/starz.png",US Starz in Black (East) 
+http://1tv41.icu:8080/live/8tFfDW/451664/17779.m3u8
+#EXTINF:-1 tvg-id="starzwest.us" group-title="MOVIE NETWORKS" tvg-logo="https://thestreamable.com/media/pages/news/flash-sale-get-6-months-of-starz-for-only-3-33-a-month-so-you-can-binge-power-outlander-and-american-gods/3821036974-1583185843/starz.png",US Starz West (S)
+http://1tv41.icu:8080/live/8tFfDW/451664/21091.m3u8
+
+
 #EXTINF:0 CUID="891" tvg-name="BR: Receitas Fast FHD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/99/ReceitasFast_2023.svg/revision/latest/scale-to-width-down/220?cb=20251004164147" group-title="WRLD | Sports",BR: Receitas Fast FHD
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/Receitas_Fast_BR/1080p-vtt/index.m3u8
 #EXTINF:0 CUID="892" tvg-name="BR: Tv Globo" tvg-logo="https://logo.m3uassets.com/tvglobo.png" group-title="WRLD | Sports",BR: Tv Globo
