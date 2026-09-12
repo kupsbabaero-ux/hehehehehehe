@@ -668,33 +668,35 @@ http://40.160.24.52/FLIX/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Freeform" tvg-logo="https://logo.m3uassets.com/freeform.png" group-title="US | MOVIES",US: Freeform
 http://190.11.225.124:5000/live/freeform_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: FX" tvg-logo="https://logo.m3uassets.com/fx.png" group-title="US | MOVIES",US: FX
-http://4.30.180.36:8420/fx/index.m3u8?token=test
+http://1tv41.icu:8080/live/8tFfDW/451664/46690.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: FXM" group-title="US | MOVIES",US: FXM
 http://1tv41.icu:8080/live/8tFfDW/451664/10260.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: FXX" tvg-logo="https://logo.m3uassets.com/fxx.png" group-title="US | MOVIES",US: FXX
-http://ultratv.one:2095/live/hCPtsREFtA/Xj25tg0ZXi/2121819.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/46699.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: H&I" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/H%26I-Cenla-Logo.png" group-title="US | MOVIES",US: H&I
-http://206.212.244.63/88/tracks-v1a1/mono.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/66087.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HALLMARK" tvg-logo="https://logo.m3uassets.com/hallmark.png" group-title="US | MOVIES",US: HALLMARK
 http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Hallmark Family" tvg-logo="https://logo.m3uassets.com/hallmarkfamily.png" group-title="US | MOVIES",US: Hallmark Family
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/660922.ts
 #EXTINF:-1 tvg-id="" tvg-name="US: Hallmark Mystery" tvg-logo="https://logo.m3uassets.com/hallmarkmystery.png" group-title="US | MOVIES",US: Hallmark Mystery
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2492.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: HBO" tvg-logo="https://logo.m3uassets.com/hbo.png" group-title="US | MOVIES",US: HBO
+http://1tv41.icu:8080/live/8tFfDW/451664/9264.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HBO 2" tvg-logo="https://logo.m3uassets.com/hbo2.png" group-title="US | MOVIES",US: HBO 2
 http://4.30.180.36:8420/hbo2/index.m3u8?token=test
 #EXTINF:-1 tvg-id="" tvg-name="US: HBO Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/84/HBO_Comedy_logo.png" group-title="US | MOVIES",US: HBO Comedy
-http://23.237.104.106:8080/USA_HBO_COMEDY/tracks-v1a1/mono.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/17773.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HBO East" tvg-logo="https://logo.m3uassets.com/hbo.png" group-title="US | MOVIES",US: HBO East
-http://40.160.24.53/HBO_HD/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/46713.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HBO Family" tvg-logo="https://logo.m3uassets.com/hbofamily.png" group-title="US | MOVIES",US: HBO Family
 http://15.204.246.24:8080/HBOFamilyHD/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HBO Hits" tvg-logo="https://logo.m3uassets.com/hbohits.png" group-title="US | MOVIES",US: HBO Hits
 http://tvsen7.aynascope.net/hbo2/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HBO SIgnature East" tvg-logo="https://logo.m3uassets.com/hbosignature.png" group-title="US | MOVIES",US: HBO SIgnature East
-https://cdn.telecloud.tv/CH3265/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/9266.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HBO ZONE" tvg-logo="https://logo.m3uassets.com/hbozone.png" group-title="US | MOVIES",US: HBO ZONE
-http://23.237.104.106:8080/USA_HBO_ZONE/tracks-v1a1/mono.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/9265.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HLN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/HLN_2023.svg/revision/latest?cb=20251102212807" group-title="US | MOVIES",US: HLN
 http://23.237.104.106:8080/USA_HLN/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Lifetime Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a1/Lifetime_Movies.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: Lifetime Movies
@@ -1223,6 +1225,8 @@ https://amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/pl
 https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US:  Cartoon Network USA" tvg-logo="https://logo.m3uassets.com/cartoonnetwork.png" group-title="WRLD | Kids",US:  Cartoon Network USA
 http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="US:  Cartoon Network USA" tvg-logo="https://logo.m3uassets.com/cartoonnetwork.png" group-title="WRLD | Kids",US:  Cartoon Network East
+http://1tv41.icu:8080/live/8tFfDW/451664/57356.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Animation+" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3a/Animation_Plus.svg/revision/latest?cb=202512192317507" group-title="WRLD | Kids",US: Animation+
 https://linear-918.frequency.stream/mt/plex/918/hls/master/playlist_1920x1080.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Baby Shark TV" tvg-logo="https://logo.m3uassets.com/babysharktv.png" group-title="WRLD | Kids",US: Baby Shark TV
