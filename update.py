@@ -2,7 +2,6 @@ import gzip
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime
-from urllib.parse import urlparse
 
 import requests
 
@@ -10,27 +9,22 @@ JSON_URL = "http://141.164.53.195/live/korea-live.json"
 EXTRA_M3U8_URL = (
     "https://github.com/kupsbabaero-ux/hehehehehehe/raw/refs/heads/main/zeus.m3u8"
 )
-EPG_URL = ""
+EPG_URL = "https://epg.lat/files/kr.xml.gz"
 
 OUTPUT1 = "korea.m3u8"  # DIYP format (#genre# grouping)
 OUTPUT2 = "korea2.m3u8"  # Standard M3U format
 
 TARGET_GROUP = "KR | Korea"
-PRIORITY_GROUP = "PH | Entertainment"
 
 
 def fetch_epg_mapping(epg_url):
     """Downloads GZipped EPG XML and creates a mapping of cleaned channel name -> tvg-id."""
     epg_map = {}
-    if not epg_url:
-        print(f"{datetime.now()} EPG URL is empty. Skipping EPG mapping.")
-        return epg_map
-
     try:
         print(f"{datetime.now()} Downloading and parsing GZipped EPG XML...")
         r = requests.get(epg_url, timeout=30)
 
-        # Decompress .gz content in memory
+        # Decompress ang .gz content sa memory
         decompressed_data = gzip.decompress(r.content)
         root = ET.fromstring(decompressed_data)
 
@@ -41,7 +35,7 @@ def fetch_epg_mapping(epg_url):
 
             for display_name in channel.findall("display-name"):
                 if display_name.text:
-                    # Clean the channel name for easier matching
+                    # Linisin ang pangalan para madaling ma-match
                     raw_name = display_name.text.strip().lower()
                     clean_name = re.sub(
                         r"^kr:\s*", "", raw_name, flags=re.IGNORECASE
@@ -60,28 +54,19 @@ def fetch_epg_mapping(epg_url):
 
 
 def clean_text(text):
-    """Removes prefixes, resolution tags, and special characters for strict matching."""
+    """Inaalis ang prefix, resolution tags, at special characters para sa mas matinding matching."""
     text = re.sub(r"^kr:\s*", "", text, flags=re.IGNORECASE)
-    # Remove resolution/quality indicators that hinder matching
+    # Alisin ang mga resolution/quality indicators na nakakasira sa matching
     text = re.sub(
         r"\b(hd|fhd|uhd|4k|sd|720p|1080p)\b", "", text, flags=re.IGNORECASE
     )
-    # Keep alphanumeric characters only
+    # Tanging letters at numbers lang ang ititira
     text = re.sub(r"[^\w]", "", text)
     return text.lower().strip()
 
 
-def normalize_url(url):
-    """Strips trailing slashes and query parameters to detect identical streaming endpoints."""
-    try:
-        parsed = urlparse(url.strip())
-        return f"{parsed.scheme}://{parsed.netloc}{parsed.path}".rstrip("/").lower()
-    except Exception:
-        return url.strip().lower()
-
-
 def match_tvg_id(channel_name, epg_map):
-    """Finds matching XMLtv channel ID in the EPG map."""
+    """Maghahanap ng matching XMLtv channel ID sa EPG map."""
     norm_name = clean_text(channel_name)
     if not norm_name:
         return ""
@@ -91,7 +76,7 @@ def match_tvg_id(channel_name, epg_map):
         if clean_text(epg_name) == norm_name:
             return tvg_id
 
-    # 2. Substring match (requires at least 3 characters)
+    # 2. Substring match (basta 3 o higit pang characters)
     for epg_name, tvg_id in epg_map.items():
         clean_epg = clean_text(epg_name)
         if clean_epg and (norm_name in clean_epg or clean_epg in norm_name):
@@ -102,7 +87,7 @@ def match_tvg_id(channel_name, epg_map):
 
 
 def format_channel_name(name, group):
-    """Adds 'KR: ' prefix ONLY if the group matches 'KR | Korea'."""
+    """Maglalagay LAMANG ng 'KR: ' prefix kung ang group ay 'KR | Korea'."""
     name = name.strip()
     clean_name = re.sub(r"^KR:\s*", "", name, flags=re.IGNORECASE).strip()
 
@@ -113,7 +98,7 @@ def format_channel_name(name, group):
 
 
 def extract_m3u8_or_php(uris):
-    """Extracts valid playback URL from given URIs."""
+    """Extract valid playback URL"""
     urls = []
 
     def is_valid(u):
@@ -145,7 +130,7 @@ def extract_m3u8_or_php(uris):
 
 
 def parse_external_m3u8(url, epg_map):
-    """Fetches and parses extra M3U8 channels from GitHub."""
+    """Fetch at i-parse ang extra M3U8 channels mula sa GitHub"""
     channels = []
     try:
         r = requests.get(url, timeout=20)
@@ -250,40 +235,31 @@ def run():
     raw_channels.extend(github_channels)
 
     if not raw_channels:
-        print("No channels found.")
+        print("Walang nakuhang channels.")
         return
 
-    # 3. Enhanced Deduplication Logic
+    # 3. Deduplication Logic (Tanging sa KR | Korea group lang)
     all_channels = []
-    seen_kr_names = set()
-    seen_kr_urls = set()
+    seen_kr_keys = set()
 
     for ch in raw_channels:
         if ch["group"].strip().lower() == TARGET_GROUP.lower():
-            cleaned_name = clean_text(ch["name"])
-            normalized_url = normalize_url(ch["url"])
+            # Pinag-isa ang name (cleaned) at URL para matukoy kung eksaktong duplicate
+            unique_key = (clean_text(ch["name"]), ch["url"].strip())
 
-            # Skip entry if either the normalized channel name OR the stream URL has already been processed
-            if cleaned_name in seen_kr_names or normalized_url in seen_kr_urls:
+            if unique_key in seen_kr_keys:
                 print(
-                    f"[Duplicate Skipped in {TARGET_GROUP}] Name: '{ch['name']}' | URL: '{ch['url']}'"
+                    f"[Duplicate Skipped in {TARGET_GROUP}] {ch['name']} -> {ch['url']}"
                 )
                 continue
 
-            seen_kr_names.add(cleaned_name)
-            seen_kr_urls.add(normalized_url)
+            seen_kr_keys.add(unique_key)
 
-        # Include non-duplicate or non-target group channels
+        # Kung hindi duplicate o kaya ay mula sa ibang group, isasama ito
         all_channels.append(ch)
 
-    # 4. Custom Sorting (Prioritizes 'PH | Entertainment')
-    def custom_sort_key(x):
-        is_priority = (
-            0 if x["group"].strip().lower() == PRIORITY_GROUP.lower() else 1
-        )
-        return (is_priority, x["group"].lower(), x["name"].lower())
-
-    all_channels.sort(key=custom_sort_key)
+    # 4. Alphabetical Sorting
+    all_channels.sort(key=lambda x: (x["group"].lower(), x["name"].lower()))
 
     # 5. DIYP Format Generation (OUTPUT1)
     lines1 = []
