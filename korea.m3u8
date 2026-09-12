@@ -230,6 +230,48 @@ KR: 채널A-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=cha
 KR: 투니버스-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=tooniverse
 KR: 현대홈쇼핑-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=hyundai_homeshopping
 KR: 히스토리,https://tving-live-o2-xcdn.tving.com/o2/v1/019d668d94731eb80e796d9bd9cae/019d668e57a61eb80e796d9bd9cb1/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3ODkyMjIwNzcsInBhdGgiOiIvbzIifQ.FLQWrDkysFdsjh7pPRjzF_wagBz75ncYh68xc_Mk2bU
+MOVIE NETWORKS,#genre#
+UK MOVIES: SKY CINEMA DRAMA,http://1tv41.icu:8080/live/8tFfDW/451664/35251.m3u8
+UK MOVIES: SKY COMEDY,http://1tv41.icu:8080/live/8tFfDW/451664/35253.m3u8
+UK MOVIES: SKY CRIME THRILLER,http://1tv41.icu:8080/live/8tFfDW/451664/35252.m3u8
+UK MOVIES: SKY GREATS,http://1tv41.icu:8080/live/8tFfDW/451664/35249.m3u8
+UK Sky Cinema Scifi & Horror FHD,http://1tv41.icu:8080/live/8tFfDW/451664/35248.m3u8
+UK-Sky Cinema Premier,http://1tv41.icu:8080/live/8tFfDW/451664/35256.m3u8
+UK: SKY CINEMA ACTION FHD,http://1tv41.icu:8080/live/8tFfDW/451664/35254.m3u8
+US 5 StarMax,http://1tv41.icu:8080/live/8tFfDW/451664/13381.m3u8
+US ActionMAX (East),http://1tv41.icu:8080/live/8tFfDW/451664/21013.m3u8
+US Cinemax (East),http://1tv41.icu:8080/live/8tFfDW/451664/13380.m3u8
+US Cinemax Outermax (X),http://1tv41.icu:8080/live/8tFfDW/451664/21012.m3u8
+US EPIX (East),http://1tv41.icu:8080/live/8tFfDW/451664/13214.m3u8
+US Epix Drive IN (S),http://1tv41.icu:8080/live/8tFfDW/451664/14193.m3u8
+US EPIX2 (East),http://1tv41.icu:8080/live/8tFfDW/451664/12730.m3u8
+US HBO,http://1tv41.icu:8080/live/8tFfDW/451664/9264.m3u8
+US HBO 2 (A),http://1tv41.icu:8080/live/8tFfDW/451664/9816.m3u8
+US HBO Comedy (East),http://1tv41.icu:8080/live/8tFfDW/451664/17773.m3u8
+US HBO Family (East),http://1tv41.icu:8080/live/8tFfDW/451664/17772.m3u8
+US HBO SIGNATURE (East),http://1tv41.icu:8080/live/8tFfDW/451664/9266.m3u8
+US HBO Zone (East),http://1tv41.icu:8080/live/8tFfDW/451664/9265.m3u8
+US HDNET MOVIES,http://1tv41.icu:8080/live/8tFfDW/451664/16265.m3u8
+US Lifetime Movies,http://1tv41.icu:8080/live/8tFfDW/451664/20863.m3u8
+US More Max,http://1tv41.icu:8080/live/8tFfDW/451664/17776.m3u8
+US MoviePlex (East),http://1tv41.icu:8080/live/8tFfDW/451664/1829.m3u8
+US RetroPlex (East),http://1tv41.icu:8080/live/8tFfDW/451664/66379.m3u8
+US Showtime 2 (East) (H),http://1tv41.icu:8080/live/8tFfDW/451664/13219.m3u8
+US Showtime East,http://1tv41.icu:8080/live/8tFfDW/451664/46214.m3u8
+US Showtime Extreme (East) (SP),http://1tv41.icu:8080/live/8tFfDW/451664/13220.m3u8
+US Showtime Family Zone (East),http://1tv41.icu:8080/live/8tFfDW/451664/13481.m3u8
+US Showtime Women (East),http://1tv41.icu:8080/live/8tFfDW/451664/17778.m3u8
+US SONY Movies FHD,http://1tv41.icu:8080/live/8tFfDW/451664/2214.m3u8
+US Starz Cinema (East),http://1tv41.icu:8080/live/8tFfDW/451664/17775.m3u8
+US Starz Cinema (East),http://1tv41.icu:8080/live/8tFfDW/451664/9301.m3u8
+US Starz East (S),http://1tv41.icu:8080/live/8tFfDW/451664/9299.m3u8
+US STARZ ENCORE Black,http://1tv41.icu:8080/live/8tFfDW/451664/16141.m3u8
+US Starz Encore Westerns (East),http://1tv41.icu:8080/live/8tFfDW/451664/16263.m3u8
+US Starz in Black (East),http://1tv41.icu:8080/live/8tFfDW/451664/17779.m3u8
+US Starz West (S),http://1tv41.icu:8080/live/8tFfDW/451664/21091.m3u8
+USA:  Showtime NEXT,http://1tv41.icu:8080/live/8tFfDW/451664/9316.m3u8
+USA:  STARZ EDGE,http://1tv41.icu:8080/live/8tFfDW/451664/16143.m3u8
+USA: Epix Hits,http://1tv41.icu:8080/live/8tFfDW/451664/12744.m3u8
 PH | Entertainment,#genre#
 PH: A2Z,http://136.239.173.2:6610/001/2/ch00000090990000001087/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqHRrK8UUahwItHhKpXgPXKytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001176&contentid=ch00000000000000001176&videoid=ch00000090990000001087&recommendtype=0&userid=1287297673984&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=U4DB4Z0H2EXXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 PH: Abante TV,https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8
