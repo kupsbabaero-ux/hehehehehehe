@@ -15,6 +15,7 @@ OUTPUT1 = "korea.m3u8"  # DIYP format (#genre# grouping)
 OUTPUT2 = "korea2.m3u8"  # Standard M3U format
 
 TARGET_GROUP = "KR | Korea"
+PRIORITY_GROUP = "PH | Entertainment"
 
 
 def fetch_epg_mapping(epg_url):
@@ -24,7 +25,6 @@ def fetch_epg_mapping(epg_url):
         print(f"{datetime.now()} Downloading and parsing GZipped EPG XML...")
         r = requests.get(epg_url, timeout=30)
 
-        # Decompress ang .gz content sa memory
         decompressed_data = gzip.decompress(r.content)
         root = ET.fromstring(decompressed_data)
 
@@ -35,7 +35,6 @@ def fetch_epg_mapping(epg_url):
 
             for display_name in channel.findall("display-name"):
                 if display_name.text:
-                    # Linisin ang pangalan para madaling ma-match
                     raw_name = display_name.text.strip().lower()
                     clean_name = re.sub(
                         r"^kr:\s*", "", raw_name, flags=re.IGNORECASE
@@ -56,11 +55,9 @@ def fetch_epg_mapping(epg_url):
 def clean_text(text):
     """Inaalis ang prefix, resolution tags, at special characters para sa mas matinding matching."""
     text = re.sub(r"^kr:\s*", "", text, flags=re.IGNORECASE)
-    # Alisin ang mga resolution/quality indicators na nakakasira sa matching
     text = re.sub(
         r"\b(hd|fhd|uhd|4k|sd|720p|1080p)\b", "", text, flags=re.IGNORECASE
     )
-    # Tanging letters at numbers lang ang ititira
     text = re.sub(r"[^\w]", "", text)
     return text.lower().strip()
 
@@ -163,7 +160,6 @@ def parse_external_m3u8(url, epg_map):
                 formatted_name = format_channel_name(raw_name, group)
                 matched_tvg_id = match_tvg_id(raw_name, epg_map)
 
-                # DEBUG LOG
                 print(
                     f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'"
                 )
@@ -213,7 +209,6 @@ def run():
                 formatted_name = format_channel_name(raw_name, group)
                 matched_tvg_id = match_tvg_id(raw_name, epg_map)
 
-                # DEBUG LOG
                 print(
                     f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'"
                 )
@@ -238,13 +233,12 @@ def run():
         print("Walang nakuhang channels.")
         return
 
-    # 3. Deduplication Logic (Tanging sa KR | Korea group lang)
+    # 3. Deduplication Logic
     all_channels = []
     seen_kr_keys = set()
 
     for ch in raw_channels:
         if ch["group"].strip().lower() == TARGET_GROUP.lower():
-            # Pinag-isa ang name (cleaned) at URL para matukoy kung eksaktong duplicate
             unique_key = (clean_text(ch["name"]), ch["url"].strip())
 
             if unique_key in seen_kr_keys:
@@ -255,11 +249,14 @@ def run():
 
             seen_kr_keys.add(unique_key)
 
-        # Kung hindi duplicate o kaya ay mula sa ibang group, isasama ito
         all_channels.append(ch)
 
-    # 4. Alphabetical Sorting
-    all_channels.sort(key=lambda x: (x["group"].lower(), x["name"].lower()))
+    # 4. Custom Sorting (Inuuna ang 'PH | Entertainment')
+    def custom_sort_key(x):
+        is_priority = 0 if x["group"].strip().lower() == PRIORITY_GROUP.lower() else 1
+        return (is_priority, x["group"].lower(), x["name"].lower())
+
+    all_channels.sort(key=custom_sort_key)
 
     # 5. DIYP Format Generation (OUTPUT1)
     lines1 = []
