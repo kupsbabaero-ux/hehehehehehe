@@ -1,7 +1,8 @@
 import gzip
 import re
-from datetime import datetime
 import xml.etree.ElementTree as ET
+from datetime import datetime
+
 import requests
 
 JSON_URL = "http://141.164.53.195/live/korea-live.json"
@@ -22,7 +23,7 @@ def fetch_epg_mapping(epg_url):
     try:
         print(f"{datetime.now()} Downloading and parsing GZipped EPG XML...")
         r = requests.get(epg_url, timeout=30)
-        
+
         # Decompress ang .gz content sa memory
         decompressed_data = gzip.decompress(r.content)
         root = ET.fromstring(decompressed_data)
@@ -56,7 +57,9 @@ def clean_text(text):
     """Inaalis ang prefix, resolution tags, at special characters para sa mas matinding matching."""
     text = re.sub(r"^kr:\s*", "", text, flags=re.IGNORECASE)
     # Alisin ang mga resolution/quality indicators na nakakasira sa matching
-    text = re.sub(r"\b(hd|fhd|uhd|4k|sd|720p|1080p)\b", "", text, flags=re.IGNORECASE)
+    text = re.sub(
+        r"\b(hd|fhd|uhd|4k|sd|720p|1080p)\b", "", text, flags=re.IGNORECASE
+    )
     # Tanging letters at numbers lang ang ititira
     text = re.sub(r"[^\w]", "", text)
     return text.lower().strip()
@@ -147,7 +150,9 @@ def parse_external_m3u8(url, epg_map):
                     r'group-title="([^"]*)"', current_extinf
                 )
 
-                group = group_match.group(1) if group_match else TARGET_GROUP
+                group = (
+                    group_match.group(1) if group_match else TARGET_GROUP
+                )
 
                 raw_name = (
                     current_extinf.split(",")[-1].strip()
@@ -159,7 +164,9 @@ def parse_external_m3u8(url, epg_map):
                 matched_tvg_id = match_tvg_id(raw_name, epg_map)
 
                 # DEBUG LOG
-                print(f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'")
+                print(
+                    f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'"
+                )
 
                 channels.append(
                     {
@@ -177,7 +184,7 @@ def parse_external_m3u8(url, epg_map):
 
 
 def run():
-    all_channels = []
+    raw_channels = []
 
     # 0. Load EPG Mapping
     epg_map = fetch_epg_mapping(EPG_URL)
@@ -207,9 +214,11 @@ def run():
                 matched_tvg_id = match_tvg_id(raw_name, epg_map)
 
                 # DEBUG LOG
-                print(f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'")
+                print(
+                    f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'"
+                )
 
-                all_channels.append(
+                raw_channels.append(
                     {
                         "name": formatted_name,
                         "url": play_url,
@@ -223,16 +232,36 @@ def run():
 
     # 2. Fetch GitHub channels
     github_channels = parse_external_m3u8(EXTRA_M3U8_URL, epg_map)
-    all_channels.extend(github_channels)
+    raw_channels.extend(github_channels)
 
-    if not all_channels:
+    if not raw_channels:
         print("Walang nakuhang channels.")
         return
 
-    # 3. Alphabetical Sorting
+    # 3. Deduplication Logic (Tanging sa KR | Korea group lang)
+    all_channels = []
+    seen_kr_keys = set()
+
+    for ch in raw_channels:
+        if ch["group"].strip().lower() == TARGET_GROUP.lower():
+            # Pinag-isa ang name (cleaned) at URL para matukoy kung eksaktong duplicate
+            unique_key = (clean_text(ch["name"]), ch["url"].strip())
+
+            if unique_key in seen_kr_keys:
+                print(
+                    f"[Duplicate Skipped in {TARGET_GROUP}] {ch['name']} -> {ch['url']}"
+                )
+                continue
+
+            seen_kr_keys.add(unique_key)
+
+        # Kung hindi duplicate o kaya ay mula sa ibang group, isasama ito
+        all_channels.append(ch)
+
+    # 4. Alphabetical Sorting
     all_channels.sort(key=lambda x: (x["group"].lower(), x["name"].lower()))
 
-    # 4. DIYP Format Generation (OUTPUT1)
+    # 5. DIYP Format Generation (OUTPUT1)
     lines1 = []
     current_diyp_group = None
     for ch in all_channels:
@@ -241,11 +270,13 @@ def run():
             lines1.append(f"{current_diyp_group},#genre#")
         lines1.append(f"{ch['name']},{ch['url']}")
 
-    # 5. Standard M3U Format Generation (OUTPUT2)
+    # 6. Standard M3U Format Generation (OUTPUT2)
     lines2 = [f'#EXTM3U url-tvg="{EPG_URL}"']
     for ch in all_channels:
         logo_attr = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ""
-        tvg_id_attr = f' tvg-id="{ch["tvg_id"]}"' if ch["tvg_id"] else ' tvg-id=""'
+        tvg_id_attr = (
+            f' tvg-id="{ch["tvg_id"]}"' if ch["tvg_id"] else ' tvg-id=""'
+        )
 
         lines2.append(
             f'#EXTINF:-1{tvg_id_attr} tvg-name="{ch["name"]}"{logo_attr}'
