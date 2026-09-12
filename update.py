@@ -1,5 +1,6 @@
 import gzip
 import re
+import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
@@ -16,6 +17,23 @@ OUTPUT2 = "korea2.m3u8"  # Standard M3U format
 
 TARGET_GROUP = "KR | Korea"
 
+# Pinalitan na natin ng Cloudflare worker mo
+# Kung kailangan niya ng '?url=', gawin mo lang "https://zstv.zschannels.workers.dev/?url="
+PROXY_PREFIX = "https://zstv.zschannels.workers.dev/"
+
+
+def apply_proxy(url):
+    """Lalagyan ng proxy prefix ang mga http:// at .php na URLs."""
+    if not PROXY_PREFIX:
+        return url
+    
+    lower_url = url.lower()
+    # Kapag ang link ay http lang (hindi https) O kaya ay may .php
+    if lower_url.startswith("http://") or ".php" in lower_url:
+        return f"{PROXY_PREFIX}{url}"
+        
+    return url
+
 
 def fetch_epg_mapping(epg_url):
     """Downloads GZipped EPG XML and creates a mapping of cleaned channel name -> tvg-id."""
@@ -24,7 +42,6 @@ def fetch_epg_mapping(epg_url):
         print(f"{datetime.now()} Downloading and parsing GZipped EPG XML...")
         r = requests.get(epg_url, timeout=30)
 
-        # Decompress ang .gz content sa memory
         decompressed_data = gzip.decompress(r.content)
         root = ET.fromstring(decompressed_data)
 
@@ -35,7 +52,6 @@ def fetch_epg_mapping(epg_url):
 
             for display_name in channel.findall("display-name"):
                 if display_name.text:
-                    # Linisin ang pangalan para madaling ma-match
                     raw_name = display_name.text.strip().lower()
                     clean_name = re.sub(
                         r"^kr:\s*", "", raw_name, flags=re.IGNORECASE
@@ -56,11 +72,9 @@ def fetch_epg_mapping(epg_url):
 def clean_text(text):
     """Inaalis ang prefix, resolution tags, at special characters para sa mas matinding matching."""
     text = re.sub(r"^kr:\s*", "", text, flags=re.IGNORECASE)
-    # Alisin ang mga resolution/quality indicators na nakakasira sa matching
     text = re.sub(
         r"\b(hd|fhd|uhd|4k|sd|720p|1080p)\b", "", text, flags=re.IGNORECASE
     )
-    # Tanging letters at numbers lang ang ititira
     text = re.sub(r"[^\w]", "", text)
     return text.lower().strip()
 
@@ -71,12 +85,10 @@ def match_tvg_id(channel_name, epg_map):
     if not norm_name:
         return ""
 
-    # 1. Exact cleaned match
     for epg_name, tvg_id in epg_map.items():
         if clean_text(epg_name) == norm_name:
             return tvg_id
 
-    # 2. Substring match (basta 3 o higit pang characters)
     for epg_name, tvg_id in epg_map.items():
         clean_epg = clean_text(epg_name)
         if clean_epg and (norm_name in clean_epg or clean_epg in norm_name):
@@ -162,16 +174,14 @@ def parse_external_m3u8(url, epg_map):
 
                 formatted_name = format_channel_name(raw_name, group)
                 matched_tvg_id = match_tvg_id(raw_name, epg_map)
-
-                # DEBUG LOG
-                print(
-                    f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'"
-                )
+                
+                # I-apply ang proxy bago ilagay sa dict
+                final_url = apply_proxy(line)
 
                 channels.append(
                     {
                         "name": formatted_name,
-                        "url": line,
+                        "url": final_url,
                         "logo": tvg_logo.group(1) if tvg_logo else "",
                         "tvg_id": matched_tvg_id,
                         "group": group,
@@ -212,16 +222,14 @@ def run():
                 group = TARGET_GROUP
                 formatted_name = format_channel_name(raw_name, group)
                 matched_tvg_id = match_tvg_id(raw_name, epg_map)
-
-                # DEBUG LOG
-                print(
-                    f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'"
-                )
+                
+                # I-apply ang proxy sa URL kung kailangan
+                final_url = apply_proxy(play_url)
 
                 raw_channels.append(
                     {
                         "name": formatted_name,
-                        "url": play_url,
+                        "url": final_url,
                         "logo": logo.strip() if logo else "",
                         "tvg_id": matched_tvg_id,
                         "group": group,
@@ -244,7 +252,7 @@ def run():
 
     for ch in raw_channels:
         if ch["group"].strip().lower() == TARGET_GROUP.lower():
-            # Pinag-isa ang name (cleaned) at URL para matukoy kung eksaktong duplicate
+            # Ginagamit pa rin ang original URL para sa duplicate check kung sakali
             unique_key = (clean_text(ch["name"]), ch["url"].strip())
 
             if unique_key in seen_kr_keys:
@@ -255,7 +263,6 @@ def run():
 
             seen_kr_keys.add(unique_key)
 
-        # Kung hindi duplicate o kaya ay mula sa ibang group, isasama ito
         all_channels.append(ch)
 
     # 4. Alphabetical Sorting
