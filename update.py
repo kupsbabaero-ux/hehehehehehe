@@ -21,10 +21,15 @@ PRIORITY_GROUP = "PH | Entertainment"
 def fetch_epg_mapping(epg_url):
     """Downloads GZipped EPG XML and creates a mapping of cleaned channel name -> tvg-id."""
     epg_map = {}
+    if not epg_url:
+        print(f"{datetime.now()} EPG URL is empty. Skipping EPG mapping.")
+        return epg_map
+
     try:
         print(f"{datetime.now()} Downloading and parsing GZipped EPG XML...")
         r = requests.get(epg_url, timeout=30)
 
+        # Decompress .gz content in memory
         decompressed_data = gzip.decompress(r.content)
         root = ET.fromstring(decompressed_data)
 
@@ -35,6 +40,7 @@ def fetch_epg_mapping(epg_url):
 
             for display_name in channel.findall("display-name"):
                 if display_name.text:
+                    # Clean the channel name for easier matching
                     raw_name = display_name.text.strip().lower()
                     clean_name = re.sub(
                         r"^kr:\s*", "", raw_name, flags=re.IGNORECASE
@@ -53,17 +59,19 @@ def fetch_epg_mapping(epg_url):
 
 
 def clean_text(text):
-    """Inaalis ang prefix, resolution tags, at special characters para sa mas matinding matching."""
+    """Removes prefixes, resolution tags, and special characters for strict matching."""
     text = re.sub(r"^kr:\s*", "", text, flags=re.IGNORECASE)
+    # Remove resolution/quality indicators that hinder matching
     text = re.sub(
         r"\b(hd|fhd|uhd|4k|sd|720p|1080p)\b", "", text, flags=re.IGNORECASE
     )
+    # Keep alphanumeric characters only
     text = re.sub(r"[^\w]", "", text)
     return text.lower().strip()
 
 
 def match_tvg_id(channel_name, epg_map):
-    """Maghahanap ng matching XMLtv channel ID sa EPG map."""
+    """Finds matching XMLtv channel ID in the EPG map."""
     norm_name = clean_text(channel_name)
     if not norm_name:
         return ""
@@ -73,7 +81,7 @@ def match_tvg_id(channel_name, epg_map):
         if clean_text(epg_name) == norm_name:
             return tvg_id
 
-    # 2. Substring match (basta 3 o higit pang characters)
+    # 2. Substring match (requires at least 3 characters)
     for epg_name, tvg_id in epg_map.items():
         clean_epg = clean_text(epg_name)
         if clean_epg and (norm_name in clean_epg or clean_epg in norm_name):
@@ -84,7 +92,7 @@ def match_tvg_id(channel_name, epg_map):
 
 
 def format_channel_name(name, group):
-    """Maglalagay LAMANG ng 'KR: ' prefix kung ang group ay 'KR | Korea'."""
+    """Adds 'KR: ' prefix ONLY if the group matches 'KR | Korea'."""
     name = name.strip()
     clean_name = re.sub(r"^KR:\s*", "", name, flags=re.IGNORECASE).strip()
 
@@ -95,7 +103,7 @@ def format_channel_name(name, group):
 
 
 def extract_m3u8_or_php(uris):
-    """Extract valid playback URL"""
+    """Extracts valid playback URL from given URIs."""
     urls = []
 
     def is_valid(u):
@@ -127,7 +135,7 @@ def extract_m3u8_or_php(uris):
 
 
 def parse_external_m3u8(url, epg_map):
-    """Fetch at i-parse ang extra M3U8 channels mula sa GitHub"""
+    """Fetches and parses extra M3U8 channels from GitHub."""
     channels = []
     try:
         r = requests.get(url, timeout=20)
@@ -160,6 +168,7 @@ def parse_external_m3u8(url, epg_map):
                 formatted_name = format_channel_name(raw_name, group)
                 matched_tvg_id = match_tvg_id(raw_name, epg_map)
 
+                # DEBUG LOG
                 print(
                     f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'"
                 )
@@ -209,6 +218,7 @@ def run():
                 formatted_name = format_channel_name(raw_name, group)
                 matched_tvg_id = match_tvg_id(raw_name, epg_map)
 
+                # DEBUG LOG
                 print(
                     f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'"
                 )
@@ -230,15 +240,16 @@ def run():
     raw_channels.extend(github_channels)
 
     if not raw_channels:
-        print("Walang nakuhang channels.")
+        print("No channels found.")
         return
 
-    # 3. Deduplication Logic
+    # 3. Deduplication Logic (Applies strictly to TARGET_GROUP)
     all_channels = []
     seen_kr_keys = set()
 
     for ch in raw_channels:
         if ch["group"].strip().lower() == TARGET_GROUP.lower():
+            # Combine cleaned name and URL to identify exact duplicates
             unique_key = (clean_text(ch["name"]), ch["url"].strip())
 
             if unique_key in seen_kr_keys:
@@ -249,11 +260,14 @@ def run():
 
             seen_kr_keys.add(unique_key)
 
+        # Include non-duplicate or non-target group channels
         all_channels.append(ch)
 
-    # 4. Custom Sorting (Inuuna ang 'PH | Entertainment')
+    # 4. Custom Sorting (Prioritizes 'PH | Entertainment')
     def custom_sort_key(x):
-        is_priority = 0 if x["group"].strip().lower() == PRIORITY_GROUP.lower() else 1
+        is_priority = (
+            0 if x["group"].strip().lower() == PRIORITY_GROUP.lower() else 1
+        )
         return (is_priority, x["group"].lower(), x["name"].lower())
 
     all_channels.sort(key=custom_sort_key)
