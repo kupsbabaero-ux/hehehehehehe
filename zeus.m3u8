@@ -652,25 +652,27 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:0 CUID="277" tvg-name="US: SEC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/SEC_Network_%282024%29.svg/1280px-SEC_Network_%282024%29.svg.png" group-title="US | SPORTS",US: SEC Network
 http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
 #EXTINF:0 CUID="278" tvg-name="US: Space City Home Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77744_dark_360w_270h.png" group-title="US | SPORTS",US: Space City Home Network
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/663927.ts
+http://1tv41.icu:8080/live/8tFfDW/451664/213668.m3u8
 #EXTINF:0 CUID="279" tvg-name="US: Spectrum SportsNet LA Dodgers" tvg-logo="https://i.gyazo.com/765cce528ddda366695bb178d9dee6da.png" group-title="US | SPORTS",US: Spectrum SportsNet LA Dodgers
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/74683.ts
+http://1tv41.icu:8080/live/8tFfDW/451664/31636.m3u8
 #EXTINF:0 CUID="280" tvg-name="US: Spectrum SportsNet Lakers" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77422_dark_360w_270h.png" group-title="US | SPORTS",US: Spectrum SportsNet Lakers
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/512561.ts
+http://1tv41.icu:8080/live/8tFfDW/451664/21842.m3u8
 #EXTINF:0 CUID="281" tvg-name="US: SpeedVision Tv" tvg-logo="https://static.wixstatic.com/media/cd41ef_b907c38c6def4901a408562264767358~mv2.png/v1/fill/w_292,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SPEEDVISION_LOGO_WhiteType_TM.png7" group-title="US | SPORTS",US: SpeedVision Tv
 https://eb9a3a62.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/fbcd610b-a519-48ee-9aa3-f98ad6ca267b/6.m3u8
 #EXTINF:0 CUID="282" tvg-name="US: SportsGrid" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bd/SPORTSGRID_LOGO_BLACK_RED_LOGO.svg/revision/latest/scale-to-width-down/1000?cb=20250821124400" group-title="US | SPORTS",US: SportsGrid
 https://sportsgrid-tribal.amagi.tv/playlist.m3u8
 #EXTINF:0 CUID="283" tvg-name="US: Sportsnet 360" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49952_dark_360w_270h.png" group-title="US | SPORTS",US: Sportsnet 360
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3073.ts
+http://1tv41.icu:8080/live/8tFfDW/451664/57299.m3u8
 #EXTINF:0 CUID="284" tvg-name="US: Sportsnet East" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62109_dark_360w_270h.png" group-title="US | SPORTS",US: Sportsnet East
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3072.ts
+http://1tv41.icu:8080/live/8tFfDW/451664/57298.m3u8
 #EXTINF:0 CUID="285" tvg-name="US: SportsNet New York" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50038_dark_360w_270h.png" group-title="US | SPORTS",US: SportsNet New York
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3865.ts
+http://1tv41.icu:8080/live/8tFfDW/451664/20938.m3u8
 #EXTINF:0 CUID="286" tvg-name="US: SportsNet New York" tvg-logo="https://sny.tv/images/sny.svg" group-title="US | SPORTS",US: SportsNet New York
-http://40.160.24.55/SNY/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/20938.m3u8
 #EXTINF:0 CUID="287" tvg-name="US: Sportsnet One" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68859_dark_360w_270h.png" group-title="US | SPORTS",US: Sportsnet One
-http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3071.ts
+http://1tv41.icu:8080/live/8tFfDW/451664/57297.m3u8
+#EXTINF:0 CUID="287" tvg-name="US: Sportsnet One" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68859_dark_360w_270h.png" group-title="US | SPORTS",US: Sportsnet One West
+http://1tv41.icu:8080/live/8tFfDW/451664/57300.m3u8
 #EXTINF:0 CUID="288" tvg-name="US: Strongman Champions League" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/Strongman_Champions_League_%28logo%29.png" group-title="US | SPORTS",US: Strongman Champions League
 https://rightsboosterltd-scl-1-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:0 CUID="289" tvg-name="US: Tennis Channel" tvg-logo="https://www.pngkey.com/png/full/432-4329627_tennis-channel-logo.png" group-title="US | SPORTS",US: Tennis Channel
@@ -976,7 +978,7 @@ https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.
 #EXTINF:0 CUID="438" tvg-name="BR: Tv Globo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Tvglobo_logo_2021.png" group-title="WRLD | FIFAWORLDCUP",BR: Tv Globo
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/720p-vtt/index.m3u8
 #EXTINF:0 CUID="439" tvg-name="CA: TSN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/TSN1.svg/1280px-TSN1.svg.png" group-title="WRLD | FIFAWORLDCUP",CA: TSN 1
-https://idabest.danng.me/live/stream-966c958f-1bc4-480f-9bbf-1df6d85c0636/index.m3u8?u=gar&p=e0744c4f36a51868827d50f338da6b60a421e7ea12778cce6c0c06c0e9afa4e5
+http://1tv41.icu:8080/live/8tFfDW/451664/57292.m3u8
 #EXTINF:0 CUID="440" tvg-name="LatAm: DIRECTV Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/DirecTV_Sports_Latin_America_-_2018_logo_v2.svg" group-title="WRLD | FIFAWORLDCUP",LatAm: DIRECTV Sports
 http://201.230.121.85:8000/play/dssporthd/index.m3u8
 #EXTINF:0 CUID="441" tvg-name="LatAm: DIRECTV Sports +" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/DirecTV_Sports_Latin_America_-_2018_logo_v2.svg" group-title="WRLD | FIFAWORLDCUP",LatAm: DIRECTV Sports +
@@ -1280,15 +1282,15 @@ https://1nyaler.streamhostingcdn.top/stream/31/index.m3u8?Billybobs.shit.dont.st
 #EXTINF:0 CUID="631" tvg-name="CA: ESPN8 The Ocho" tvg-logo="https://www.tsn.ca/resizer/v2/NMEFCHPD2IZZUFW2QN34Y62HSA.jpg?smart=true&auth=a0e1f0c1de09c57bb294fef0babb224249be15164a8cbed14b67c1fbf32803bb&width=1200&height=630" group-title="WRLD | Sports",CA: ESPN8 The Ocho
 https://d3pnbvng3bx2nj.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/15d4d03a-4ece-4984-9d08-4aa7baef4ffb/4.m3u8
 #EXTINF:0 CUID="634" tvg-name="CA: TSN1" tvg-logo="https://logo.m3uassets.com/tsn1.png" group-title="WRLD | Sports",CA: TSN1
-http://40.160.24.55/TSN_1/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/57292.m3u8
 #EXTINF:0 CUID="635" tvg-name="CA: TSN2" tvg-logo="https://logo.m3uassets.com/tsn2.png" group-title="WRLD | Sports",CA: TSN2
-http://40.160.24.55/TSN_2/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/47442.m3u8
 #EXTINF:0 CUID="636" tvg-name="CA: TSN3" tvg-logo="https://logo.m3uassets.com/tsn3.png" group-title="WRLD | Sports",CA: TSN3
-http://40.160.24.55/TSN_3/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/47444.m3u8
 #EXTINF:0 CUID="632" tvg-name="CA: TSN 4" tvg-logo="https://logo.m3uassets.com/tsn4.png" group-title="WRLD | Sports",CA: TSN 4
-http://40.160.24.55/TSN_4/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/66783.m3u8
 #EXTINF:0 CUID="633" tvg-name="CA: TSN 5" tvg-logo="https://logo.m3uassets.com/tsn5.png" group-title="WRLD | Sports",CA: TSN 5
-http://40.160.24.55/TSN_5/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/16131.m3u8
 #EXTINF:0 CUID="637" tvg-name="EU: Eurosport 1 HD" tvg-logo="https://logo.m3uassets.com/eurosport1.png" group-title="WRLD | Sports",EU: Eurosport 1 HD
 http://line.watchtivo-8k.com/play/live.php?mac=00:1A:79:3F:0C:96&stream=1127&extension=m3u8
 #EXTINF:0 CUID="638" tvg-name="IN: Star Sports 2 HD" tvg-logo="https://logo.m3uassets.com/starsports2.png" group-title="WRLD | Sports",IN: Star Sports 2 HD
