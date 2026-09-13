@@ -268,7 +268,7 @@ https://tving-live-o2-skcdn.tving.com/o2/v1/019dd2ee3a6f1eb80e7925af014fb7/019dd
 #EXTINF:-1 tvg-id="" tvg-name="KR: KBS N 스포츠-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBSN스포츠.png" group-title="KR | Korea",KR: KBS N 스포츠-테스트
 http://124.222.153.240/kakaotv/get_channel.php?channel=kbs_n_sports
 #EXTINF:-1 tvg-id="" tvg-name="KR: KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/3840px-KBS_World_%282009%29.svg.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBS World
-https://cdn4.skygo.mn/live/disk1/KBSWorld/HLSv3-FTA/KBSWorld-avc1_3000000=21-mp4a_256000_eng=20.m3u8
+https://cdn4.skygo.mn/live/disk1/KBSWorld/HLSv3-FTA/KBSWorld.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KR: KBS1" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBS1.png" group-title="KR | Korea",KR: KBS1
 http://124.222.153.240/kakaotv/get_channel.php?channel=kbs1
 #EXTINF:-1 tvg-id="" tvg-name="KR: KBS2" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBS2.png" group-title="KR | Korea",KR: KBS2
