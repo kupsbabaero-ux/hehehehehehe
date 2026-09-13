@@ -856,7 +856,7 @@ http://40.160.24.52/DISCOVERY_LIFE/index.m3u8
 #EXTINF:0 CUID="426" tvg-name="US: Discovery Science HD" tvg-logo="https://logo.m3uassets.com/cadiscoveryscience.png" group-title="WRLD | Entertainment",US: Discovery Science HD
 http://40.160.24.52/DISCOVERY_SCIENCE_HD/index.m3u8
 #EXTINF:0 CUID="427" tvg-name="US: Dude Perfect" tvg-logo="https://i.pinimg.com/474x/b0/99/d1/b099d17ba03967e19877c4c0bcc9e7b6.jpg" group-title="WRLD | Entertainment",US: Dude Perfect
-https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-68d7f9b53b1f329cea126993.m3u8?includeAllStreams=1&x-plex-product=Plex+Mediaverse&x-plex-token=MPLhsVDcsKvz9tmtzz2X
+https://amg07653-apmc-amg07653c4-plex-us-9878.playouts.now.amagi.tv/playlist1080p.m3u8
 #EXTINF:0 CUID="428" tvg-name="US: E! East" tvg-logo="https://logo.m3uassets.com/eentertainment.png" group-title="WRLD | Entertainment",US: E! East
 http://23.237.104.106:8080/USA_E/index.m3u8
 #EXTINF:0 CUID="429" tvg-name="US: Family Feud" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/Logo_of_Family_Feud.png" group-title="WRLD | Entertainment",US: Family Feud
