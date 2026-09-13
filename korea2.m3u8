@@ -35,6 +35,8 @@ http://1tv41.icu:8080/live/8tFfDW/451664/325115.m3u8
 http://1tv41.icu:8080/live/8tFfDW/451664/325191.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7: Men In Black" tvg-logo="https://static.wikia.nocookie.net/men-in-black/images/c/ca/Men_in_black_08.jpg/revision/latest?cb=20130627050912" group-title="24/7 | Channels",24/7: Men In Black
 http://1tv41.icu:8080/live/8tFfDW/451664/325186.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="24/7: Netflix" tvg-logo="https://download.logo.wine/logo/Netflix/Netflix-Logo.wine.png" group-title="24/7 | Channels",24/7: Netflix
+http://skynetdigital.us:80/live/Eleazar010125/2gefp@5/778071.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7: Pirates of the Caribbean" tvg-logo="https://logo.m3uassets.com/247piratesofthecaribbean.png" group-title="24/7 | Channels",24/7: Pirates of the Caribbean
 http://1tv41.icu:8080/live/8tFfDW/451664/325184.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7: Power Rangers" tvg-logo="https://static.wikia.nocookie.net/powerrangers/images/d/d8/PR_2002_Logo.png/revision/latest/scale-to-width-down/1200?cb=20200910185054" group-title="24/7 | Channels",24/7: Power Rangers
@@ -598,9 +600,9 @@ https://sineplusph.itunerworldwide.workers.dev/master.live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: Sinemanila" tvg-logo="https://iyadtv.pages.dev/images/sinemanila_231.png" group-title="PH | MOVIES",PH: Sinemanila
 https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: Solarflix" tvg-logo="https://i.imgur.com/OgBDJ75.png" group-title="PH | MOVIES",PH: Solarflix
-https://ott.djdoolky76.net/stream/iptv/solarflix/stream_0.m3u8?u=udpv4&p=db8b8839b5a336adbd1b3d7eb78863623b5068cba7b65031c2b753d5320e2c5e&uid=3984368181
+http://136.239.159.18:6610/001/2/ch00000090990000001243/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpbUxUxZzyq5Czg7gUnQAcvytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001543&contentid=ch00000000000000001543&videoid=ch00000090990000001243&recommendtype=0&userid=1633620334084&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=B91ZY82QQ8UXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-name="PH: Sony Movies" tvg-logo="https://iyadtv.pages.dev/images/sony-movies.png" group-title="PH | MOVIES",PH: Sony Movies
-https://starlite.best/api/stream/hurt/hurt/livetv.epg/sony.movies.us.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/2214.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: South Star TV" tvg-logo="https://gia.tv/streams/pptv/211869.png?1786004224" group-title="PH | MOVIES",PH: South Star TV
 https://live20.bozztv.com/giatvplayout7/giatv-211869/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: Star Television" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/054/019/906/small/question-mark-with-shadow-effect-png.png" group-title="PH | MOVIES",PH: Star Television
