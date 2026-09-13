@@ -4,7 +4,7 @@ https://jmp2.uk/plu-6793eaa4bc03978b9bc63db1.m3u8
 #EXTINF:0 CUID="2" tvg-name="24/7:  Anime x HIDIVE 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/Anime_x_HIDIVE_%28White%29.png/revision/latest?cb=20251205045808" group-title="24/7 | Anime",24/7:  Anime x HIDIVE 2
 https://amc-anime-x-hidive-1-us.tablo.wurl.tv/3000.m3u8
 #EXTINF:0 CUID="3" tvg-name="24/7:  AniPlus +" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bf/Aniplus_logo.svg" group-title="24/7 | Anime",24/7:  AniPlus +
-https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
+https://amg18481--amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
 #EXTINF:0 CUID="4" tvg-name="24/7:  Asian Crush" tvg-logo="https://cdn.cookielaw.org/logos/28682487-1901-46d0-9404-01ca5039398a/0191bf12-46b1-704c-8f56-5287e9cc5e78/97ff768f-310c-45f9-a60e-160b258ac861/asiancrush_logo_image.png" group-title="24/7 | Anime",24/7:  Asian Crush
 https://cineverse.g-mana.live/media/1ebfbe30-c35c-4404-8bc5-0339d750eb58/profile/0/profileManifest.m3u8?_uid=654a70da-51c3-403b-964b-a7e8b467f45f&rK=c6&_did=11f0ab7e-ca98-2297-a0c9-7c7c076b6509
 #EXTINF:0 CUID="5" tvg-name="24/7: Ani-Blast" tvg-logo="https://iyadtv.pages.dev/images/ani-blast.png" group-title="24/7 | Anime",24/7: Ani-Blast
@@ -844,17 +844,17 @@ https://amg00627-banijaygroup-dealornodeal-samsungau-si7xg.amagi.tv/playlist/amg
 #EXTINF:0 CUID="420" tvg-name="US: Deal Zone" tvg-logo="https://prod-s.cdn-cf.philo.com/images/channel_logos/DEALZON/large_white.png?auto=webp&auto=webp&ver=1&ver=1" group-title="WRLD | Entertainment",US: Deal Zone
 https://f7522fce.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfRGVhbFpvbmVfSExT/900578a7-2040-4106-bb17-76354ad389e0/3.m3u8
 #EXTINF:0 CUID="421" tvg-name="US: Discovery Asia" tvg-logo="https://logo.m3uassets.com/discoveryasia.png" group-title="WRLD | Entertainment",US: Discovery Asia
-https://cdn3.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia-avc1_3000000=67-mp4a_256000_eng=12.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/46720.m3u8
 #EXTINF:0 CUID="422" tvg-name="US: Discovery Channel" tvg-logo="https://logo.m3uassets.com/discoverychannel.png" group-title="WRLD | Entertainment",US: Discovery Channel
-http://40.160.24.52/DISCOVERY_CHANNEL/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/9811.m3u8
 #EXTINF:0 CUID="423" tvg-name="US: Discovery Family" tvg-logo="https://logo.m3uassets.com/discoveryfamily.png" group-title="WRLD | Entertainment",US: Discovery Family
-http://40.160.24.52/DISCOVERY_FAMILY/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/10538.m3u8
 #EXTINF:0 CUID="424" tvg-name="US: Discovery Kids" tvg-logo="https://logo.m3uassets.com/discoverykids.png" group-title="WRLD | Entertainment",US: Discovery Kids
 http://45.162.64.114/DISCOVERYKIDS/index.m3u8
 #EXTINF:0 CUID="425" tvg-name="US: Discovery Life" tvg-logo="https://logo.m3uassets.com/discoverylife.png" group-title="WRLD | Entertainment",US: Discovery Life
-http://40.160.24.52/DISCOVERY_LIFE/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/9861.m3u8
 #EXTINF:0 CUID="426" tvg-name="US: Discovery Science HD" tvg-logo="https://logo.m3uassets.com/cadiscoveryscience.png" group-title="WRLD | Entertainment",US: Discovery Science HD
-http://40.160.24.52/DISCOVERY_SCIENCE_HD/index.m3u8
+http://1tv41.icu:8080/live/8tFfDW/451664/57418.m3u8
 #EXTINF:0 CUID="427" tvg-name="US: Dude Perfect" tvg-logo="https://i.pinimg.com/474x/b0/99/d1/b099d17ba03967e19877c4c0bcc9e7b6.jpg" group-title="WRLD | Entertainment",US: Dude Perfect
 https://amg07653-apmc-amg07653c4-plex-us-9878.playouts.now.amagi.tv/playlist1080p.m3u8
 #EXTINF:0 CUID="428" tvg-name="US: E! East" tvg-logo="https://logo.m3uassets.com/eentertainment.png" group-title="WRLD | Entertainment",US: E! East
