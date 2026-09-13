@@ -35,6 +35,8 @@ http://1tv41.icu:8080/live/8tFfDW/451664/325115.m3u8
 http://1tv41.icu:8080/live/8tFfDW/451664/325191.m3u8
 #EXTINF:0 CUID="18" tvg-name="24/7: Men In Black" tvg-logo="https://static.wikia.nocookie.net/men-in-black/images/c/ca/Men_in_black_08.jpg/revision/latest?cb=20130627050912" group-title="24/7 | Channels",24/7: Men In Black
 http://1tv41.icu:8080/live/8tFfDW/451664/325186.m3u8
+#EXTINF:0 CUID="18" tvg-name="24/7: Men In Black" tvg-logo="https://download.logo.wine/logo/Netflix/Netflix-Logo.wine.png" group-title="24/7 | Channels",24/7: Netflix
+http://skynetdigital.us:80/live/Eleazar010125/2gefp@5/778071.m3u8
 #EXTINF:0 CUID="19" tvg-name="24/7: Pirates of the Caribbean" tvg-logo="https://logo.m3uassets.com/247piratesofthecaribbean.png" group-title="24/7 | Channels",24/7: Pirates of the Caribbean
 http://1tv41.icu:8080/live/8tFfDW/451664/325184.m3u8
 #EXTINF:0 CUID="20" tvg-name="24/7: Power Rangers" tvg-logo="https://static.wikia.nocookie.net/powerrangers/images/d/d8/PR_2002_Logo.png/revision/latest/scale-to-width-down/1200?cb=20200910185054" group-title="24/7 | Channels",24/7: Power Rangers
