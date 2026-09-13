@@ -485,8 +485,10 @@ http://23.237.104.106:8080/USA_5STARMAX/index.m3u8?takodachi
 http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8
 #EXTINF:0 CUID="242" tvg-name="US: BigCinema" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUsMQPE7Fmdn2hSR14axTvsgqJRvxDvSjvyryI970s2g&s" group-title="US | MOVIES",US: BigCinema
 https://hls.showfer.com/live/dBsh2/Big_Cinema/airy.m3u8
-#EXTINF:0 CUID="243" tvg-name="US: Charge!" tvg-logo="https://logo.m3uassets.com/charge.png" group-title="US | MOVIES",US: Charge!
+#EXTINF:0 CUID="243" tvg-name="US: Charge!" tvg-logo="https://logo.m3uassets.com/charge.png" group-title="US | MOVIES",US: Charge! East
 https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
+#EXTINF:0 CUID="243" tvg-name="US: Charge!" tvg-logo="https://logo.m3uassets.com/charge.png" group-title="US | MOVIES",US: Charge! West
+http://1tv41.icu:8080/live/8tFfDW/451664/79594.m3u8
 #EXTINF:0 CUID="244" tvg-name="US: CinemaStar" tvg-logo="https://play-lh.googleusercontent.com/iZig-S51CSm4xZ6B9i9bSw8puYvKpKNYKIaYhSu7yU6Y8Ms55XppwIfxV8FqIQnXWO0CbetJix_taZFyA5xD" group-title="US | MOVIES",US: CinemaStar
 https://hls.showfer.com/live/zlx8L/CinemaStar/airy.m3u8
 #EXTINF:0 CUID="245" tvg-name="US: Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/3840px-Cinemax_%28Yellow%29.svg.png" group-title="US | MOVIES",US: Cinemax
