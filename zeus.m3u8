@@ -154,7 +154,7 @@ https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/chunklist.m3u8?_=178309303299
 #EXTINF:0 CUID="76" tvg-name="KR: FR: Persiana Korea" tvg-logo="https://logo.m3uassets.com/persianakorea.png" group-title="KR | Korea",KR: FR: Persiana Korea
 https://korhls.persiana.live/hls/stream.m3u8
 #EXTINF:0 CUID="77" tvg-name="KR: KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/3840px-KBS_World_%282009%29.svg.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBS World
-https://cdn4.skygo.mn/live/disk1/KBSWorld/HLSv3-FTA/KBSWorld-avc1_3000000=21-mp4a_256000_eng=20.m3u8
+https://cdn4.skygo.mn/live/disk1/KBSWorld/HLSv3-FTA/KBSWorld.m3u8
 #EXTINF:0 CUID="78" tvg-name="KR: MBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuzaTy0xEd60zfSHCYREmgtPbN-8hlS-M_aEdzgNe6bBdE_jVh9evbTLk&s=10" group-title="KR | Korea",KR: MBC America
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
 #EXTINF:0 CUID="79" tvg-name="KR: NBS Korea Agricultural Broadcasting" tvg-logo="https://i.imgur.com/pOSroOE.png" group-title="KR | Korea",KR: NBS Korea Agricultural Broadcasting
