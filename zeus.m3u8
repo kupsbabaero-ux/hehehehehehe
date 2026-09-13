@@ -398,9 +398,9 @@ https://duriantvph.itunerworldwide.workers.dev/master.live.m3u8
 #EXTINF:0 CUID="199" tvg-name="PH: Epic One TV" tvg-logo="https://gia.tv/streams/pptv/212059.png?1786004784" group-title="PH | MOVIES",PH: Epic One TV
 https://live20.bozztv.com/giatvplayout7/giatv-212059/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 CUID="200" tvg-name="PH: GMA Heart of Asia" tvg-logo="https://logo.m3uassets.com/heartofasiachannel.png" group-title="PH | MOVIES",PH: GMA Heart of Asia
-https://nokotan.anhkz.fr/channel/n5f560977/index.m3u8?q=d0475082894a131707d75e3ae57d6608
+https://nokotan.anhkz.fr/play/id51a2575e/6aa5ed92110083ef5333a32b.m3u8?q=24e52bc25b2456fdadb032f20f7e4a15
 #EXTINF:0 CUID="201" tvg-name="PH: GMA I Heart Movies" tvg-logo="https://logo.m3uassets.com/iheartmovies.png" group-title="PH | MOVIES",PH: GMA I Heart Movies
-https://nokotan.anhkz.fr/channel/n696d5dc/index.m3u8?q=d0475082894a131707d75e3ae57d6608
+https://nokotan.anhkz.fr/play/id51a2575e/6aa5eda5110083ef5333a32c.m3u8?q=24e52bc25b2456fdadb032f20f7e4a15
 #EXTINF:0 CUID="202" tvg-name="PH: HBO Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/HBO_New_Logo.png" group-title="PH | MOVIES",PH: HBO Asia
 http://136.239.173.2:6610/001/2/ch00000090990000001065/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT119760720260531041941102475&AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAosKg8aLji3LHWqHUI%2FwQyJsyK4TH4mOENKJ45mwOyS0g%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001065
 #EXTINF:0 CUID="203" tvg-name="PH: Hype Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-CCCZP0iPlCVf1Cm6hJ8r7_FrO8a48EdN7zpdU44PBK4gbAsoLEE80yi&s=10" group-title="PH | MOVIES",PH: Hype Tv
