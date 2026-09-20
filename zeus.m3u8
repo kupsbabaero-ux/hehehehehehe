@@ -129,8 +129,6 @@ http://1tv41.icu:8080/live/8tFfDW/451664/325236.m3u8
 https://dtwdcugadwtnw.cloudfront.net/master.m3u8
 #EXTINF:0 CUID="65" tvg-name="24/7: Spider Man" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/Spider-Man.svg/revision/latest?cb=20190330125044" group-title="24/7 | Kids ",24/7: Spider Man
 http://1tv41.icu:8080/live/8tFfDW/451664/325234.m3u8
-#EXTINF:0 CUID="65" tvg-name="24/7: Spider Man" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/Spider-Man.svg/revision/latest?cb=20190330125044" group-title="24/7 | Kids ",TEST
-http:\\170.83.16.50\ESPN\mpegts
 #EXTINF:0 CUID="66" tvg-name="24/7: SpongeBob SquarePants" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/17/SpongeBob_SquarePants_logo.png" group-title="24/7 | Kids ",24/7: SpongeBob SquarePants
 http://1tv41.icu:8080/live/8tFfDW/451664/325237.m3u8
 #EXTINF:0 CUID="67" tvg-name="24/7: Strawberry Shortcake" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1f/Ssc_logo_2021.svg/revision/latest?cb=20220425153742" group-title="24/7 | Kids ",24/7: Strawberry Shortcake
