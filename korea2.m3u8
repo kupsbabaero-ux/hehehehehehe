@@ -79,6 +79,8 @@ http://1tv41.icu:8080/live/8tFfDW/451664/325278.m3u8
 https://amg01796-amg01796c6-rakuten-fr-5334.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-beybladefr-rakutenfr/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7: Bluey" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e2/Bluey_-_2018.svg/revision/latest/scale-to-width-down/300?cb=20221126231207" group-title="24/7 | Kids ",24/7: Bluey
 http://1tv41.icu:8080/live/8tFfDW/451664/325275.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="24/7: Boruto: Naruto Next Generations" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/Boruto_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="24/7 | Kids ",24/7: Boruto: Naruto Next Generations
+https://jmp2.uk/plu-696997049889f8db34c936c2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7: Camp Spoopy" tvg-logo="https://i.imgur.com/8PUbPVU.png" group-title="24/7 | Kids ",24/7: Camp Spoopy
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
 #EXTINF:-1 tvg-id="" tvg-name="24/7: Disney Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/Disney_logo.png" group-title="24/7 | Kids ",24/7: Disney Movies
@@ -247,6 +249,10 @@ http://124.222.153.240/kakaotv/get_channel.php?channel=ebs1
 http://124.222.153.240/kakaotv/get_channel.php?channel=ena
 #EXTINF:-1 tvg-id="" tvg-name="KR: FR: Persiana Korea" tvg-logo="https://logo.m3uassets.com/persianakorea.png" group-title="KR | Korea",KR: FR: Persiana Korea
 https://korhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="KR: Genie K Drama" tvg-logo="https://cdn-icons-png.flaticon.com/512/8366/8366005.png" group-title="KR | Korea",KR: Genie K Drama
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=US2000012KX&channel_id=newid_351&tp=samsung_tvplus
+#EXTINF:-1 tvg-id="" tvg-name="KR: Genie K Movie" tvg-logo="https://cdn-icons-png.flaticon.com/512/8366/8366005.png" group-title="KR | Korea",KR: Genie K Movie
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=US200001137&channel_id=newid_350&tp=samsung_tvplus
 #EXTINF:-1 tvg-id="" tvg-name="KR: HISTORY-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/HISTORY.png" group-title="KR | Korea",KR: HISTORY-테스트
 http://124.222.153.240/kakaotv/get_channel.php?channel=history
 #EXTINF:-1 tvg-id="" tvg-name="KR: iHQ-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/iHQ.png" group-title="KR | Korea",KR: iHQ-테스트
@@ -1017,6 +1023,8 @@ https://d3vmpkkd3o2grv.cloudfront.net/playlist.m3u8
 https://doumbtmvnsp0z.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Big 12 Studios" tvg-logo="https://pbs.twimg.com/profile_images/1985404643166343168/rlioP2Oi_400x400.jpg" group-title="WRLD | Entertainment",US: Big 12 Studios
 https://d18pj8s9gbivdq.cloudfront.net/The_Big_12.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="US: Big Brother" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/ff/Big_Brother_1999.jpg/revision/latest?cb=20130810151224" group-title="WRLD | Entertainment",US: Big Brother
+https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Bounce Tv" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/Bounce_TV.svg/revision/latest?cb=20170226021643" group-title="WRLD | Entertainment",US: Bounce Tv
 http://23.237.104.106:8080/USA_BOUNCE/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Bravo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bravo_2017_logo.svg/960px-Bravo_2017_logo.svg.png" group-title="WRLD | Entertainment",US: Bravo
