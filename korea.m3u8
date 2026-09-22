@@ -339,6 +339,7 @@ The SpongeBob Movie: Sponge Out of Water (2015),http://restream-live.realiptv.to
 The SpongeBob SquarePants Movie (2004),http://wickediptv.live/movie/Randall123/Randall321/237315.mp4
 The SpongeBob SquarePants Movie: Rehydrated (2022),http://restream-live.realiptv.to:8080/movie/1234567/7654321/1170876.mp4
 UK | Sky Sports,#genre#
+TEST ESPN,http:\\170.83.16.50\ESPN\mpegts
 UK: Sky Sports Cricket FHD (D),http://1tv41.icu:8080/live/8tFfDW/451664/45940.m3u8
 UK: Sky Sports F1 FHD,http://1tv41.icu:8080/live/8tFfDW/451664/35244.m3u8
 UK: Sky Sports F1 FHD (D),http://1tv41.icu:8080/live/8tFfDW/451664/53704.m3u8
@@ -352,6 +353,7 @@ US: Fox Soccer +,http://40.160.24.52/FOX_SOCCER_PLUS/index.m3u8
 US: Fox Sports 1,http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 US: Fox Sports 2,https://tvsen7.aynascope.net/foxsports2/index.m3u8
 US | MOVIES,#genre#
+UK: Sony One ThrillerTV,https://52aad07d9d4f4d479d9b27e08ddf9e8b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-808-UK-SONYONETHRILLERTV-LG_UK/playlist.m3u8
 US: 5STARMAX,http://23.237.104.106:8080/USA_5STARMAX/index.m3u8?takodachi
 US: BBC America,http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8
 US: BigCinema,https://hls.showfer.com/live/dBsh2/Big_Cinema/airy.m3u8
@@ -369,12 +371,13 @@ US: H&I,http://206.212.244.63/88/tracks-v1a1/mono.m3u8
 US: HALLMARK,http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
 US: Hallmark Family,http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/660922.ts
 US: Hallmark Mystery,http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2492.ts
+US: HBO +,http://190.93.224.42/HBO-PLUS/index.m3u8
 US: HBO 2,http://4.30.180.36:8420/hbo2/index.m3u8?token=test
 US: HBO Comedy,http://23.237.104.106:8080/USA_HBO_COMEDY/tracks-v1a1/mono.m3u8
 US: HBO East,http://40.160.24.53/HBO_HD/index.m3u8
 US: HBO Family,http://15.204.246.24:8080/HBOFamilyHD/index.m3u8
 US: HBO Hits,http://tvsen7.aynascope.net/hbo2/index.m3u8
-US: HBO SIgnature East,https://cdn.telecloud.tv/CH3265/index.m3u8
+US: HBO SIgnature East,http://190.93.224.42/HBO-SIGNATURE/index.m3u8
 US: HBO ZONE,http://23.237.104.106:8080/USA_HBO_ZONE/tracks-v1a1/mono.m3u8
 US: HLN,http://23.237.104.106:8080/USA_HLN/index.m3u8
 US: Lifetime Movies,http://23.237.104.106:8080/USA_LMN/index.m3u8
@@ -408,7 +411,7 @@ US: ESPN,http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
 US: ESPN 2,http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
 US: ESPN 3,http://107.167.16.138/espn3/index.m3u8?token=test
 US: ESPN ON ABC,http://stream.cammonitorplus.net/1782/tracks-v1a1/mono.m3u8
-US: ESPNU,http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+US: ESPNU,http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 US: FIFA+,https://d2w9q46ikgrcwx.cloudfront.net/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/V00000002/0/HLS/playlist_2000k_20260424T010818.m3u8
 US: FIFA+ Women,https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
 US: FightBox,https://dash3.antik.sk/live/test_fightbox_medium_atk/playlist.m3u8
@@ -620,7 +623,7 @@ PT: Sport Tv6,http://94.130.32.19:8080/sporttv6/index.m3u8
 PT: Sport Tv7,http://94.130.32.19:8080/sporttv7/index.m3u8
 SE: SVT1,http://88b9da48.kazmazpaz.ru/iptv/RL8MVW8UX8NNXK/12063/manifest.m3u8
 SG: Bein Sports 1,https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
-UK: Sky Sports Premier League,http://145.239.5.177/566a/index.m3u8
+UK: Sky Sports Premier League,http://45.139.122.199:2095/live/hcUaDnDz/bwi5GuCFKw/115758.m3u8
 US: ArenaSports,http://88.212.15.19/live/test_arenasport/playlist.m3u8
 US: FOX (NOT 24/7),https://idabest.danng.me/live/stream-d316229c-0661-48dc-98ee-0b76b30a3151/index.m3u8?u=gar&p=e0744c4f36a51868827d50f338da6b60a421e7ea12778cce6c0c06c0e9afa4e5
 US: ITV1,http://66.90.106.91:16888/itv1/index.m3u8
@@ -652,7 +655,7 @@ US:  Cartoon Network USA,http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3
 US: Animation+,https://linear-918.frequency.stream/mt/plex/918/hls/master/playlist_1920x1080.m3u8
 US: Baby Shark TV,https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 US: Boomerang,http://40.160.24.52/BOOMERANG/tracks-v1a1/mono.ts.m3u8
-US: Disney Channel,http://66.102.126.10:8000/play/a013/index.m3u8
+US: Disney Channel,http://4.30.180.36:8420/disneychannel/tracks-v1a1/mono.m3u8?token=test
 US: Disney HD International,http://103.11.0.215:8000/play/a0eq/index.m3u8
 US: Disney Jr. East,http://40.160.24.52/Disney_JR/index.m3u8
 US: Disney XD East,http://40.160.24.52/DISNEY_XD_HD/index.m3u8
@@ -835,7 +838,7 @@ UK: Sky Sports Football,http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxC
 UK: Sky Sports Main Event SD,http://alienstreams.fi:8080/live/asdfasdf/asdfasdf/271190.m3u8
 UK: Sky Sports Main Event UHD,http://alienstreams.fi:8080/live/asdfasdf/asdfasdf/271189.m3u8
 UK: Sky Sports News,http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2179.ts
-UK: Sky Sports Premier League,https://leaf.highfly.dev/m3u/now-sky-sports-premier-league/live.m3u8
+UK: Sky Sports Premier League,http://45.139.122.199:2095/live/hcUaDnDz/bwi5GuCFKw/115758.m3u8
 US: Bein Sports 1,http://23.237.104.106:8080/USA_BEIN/index.m3u8
 US: Bein Sports Xtra,https://aka-live1050.delivery.roku.com/948b987e-5b69-4f1a-853a-5d62eeef2e1b/t2-origin/out/v1/live_720.m3u8
 US: Dazn Ringside,https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/1080p-cc/index.m3u8
