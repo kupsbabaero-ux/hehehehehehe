@@ -473,6 +473,8 @@ http://40.160.24.52/FOX_SOCCER_PLUS/index.m3u8
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 #EXTINF:0 CUID="240" tvg-name="US: Fox Sports 2" tvg-logo="https://logo.m3uassets.com/foxsports2.png" group-title="US | Fox Sports",US: Fox Sports 2
 https://tvsen7.aynascope.net/foxsports2/index.m3u8
+#EXTINF:0 CUID="688" tvg-chno="null" tvg-name="UK: Sony One ThrillerTV" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/d/db/SonyThriller.jpeg/revision/latest/scale-to-width-down/327?cb=20210327154606" group-title="US | MOVIES",UK: Sony One ThrillerTV
+https://52aad07d9d4f4d479d9b27e08ddf9e8b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-808-UK-SONYONETHRILLERTV-LG_UK/playlist.m3u8
 #EXTINF:0 CUID="241" tvg-name="US: 5STARMAX" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5a/5Star_Max_HD_2011.svg/revision/latest?cb=20231007140647" group-title="US | MOVIES",US: 5STARMAX
 http://23.237.104.106:8080/USA_5STARMAX/index.m3u8?takodachi
 #EXTINF:0 CUID="242" tvg-name="US: BBC America" tvg-logo="https://logo.m3uassets.com/bbcamerica.png" group-title="US | MOVIES",US: BBC America
@@ -509,6 +511,8 @@ http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/660922.ts
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2492.ts
 #EXTINF:0 CUID="258" tvg-name="US: HBO 2" tvg-logo="https://logo.m3uassets.com/hbo2.png" group-title="US | MOVIES",US: HBO 2
 http://4.30.180.36:8420/hbo2/index.m3u8?token=test
+#EXTINF:0 CUID="687" tvg-name="US: HBO +" tvg-logo="https://logo.m3uassets.com/hbo.png" group-title="US | MOVIES",US: HBO +
+http://190.93.224.42/HBO-PLUS/index.m3u8
 #EXTINF:0 CUID="259" tvg-name="US: HBO Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/84/HBO_Comedy_logo.png" group-title="US | MOVIES",US: HBO Comedy
 http://23.237.104.106:8080/USA_HBO_COMEDY/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="260" tvg-name="US: HBO East" tvg-logo="https://logo.m3uassets.com/hbo.png" group-title="US | MOVIES",US: HBO East
@@ -518,7 +522,7 @@ http://15.204.246.24:8080/HBOFamilyHD/index.m3u8
 #EXTINF:0 CUID="262" tvg-name="US: HBO Hits" tvg-logo="https://logo.m3uassets.com/hbohits.png" group-title="US | MOVIES",US: HBO Hits
 http://tvsen7.aynascope.net/hbo2/index.m3u8
 #EXTINF:0 CUID="263" tvg-name="US: HBO SIgnature East" tvg-logo="https://logo.m3uassets.com/hbosignature.png" group-title="US | MOVIES",US: HBO SIgnature East
-https://cdn.telecloud.tv/CH3265/index.m3u8
+http://190.93.224.42/HBO-SIGNATURE/index.m3u8
 #EXTINF:0 CUID="264" tvg-name="US: HBO ZONE" tvg-logo="https://logo.m3uassets.com/hbozone.png" group-title="US | MOVIES",US: HBO ZONE
 http://23.237.104.106:8080/USA_HBO_ZONE/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="265" tvg-name="US: HLN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/HLN_2023.svg/revision/latest?cb=20251102212807" group-title="US | MOVIES",US: HLN
@@ -584,7 +588,7 @@ http://107.167.16.138/espn3/index.m3u8?token=test
 #EXTINF:0 CUID="295" tvg-name="US: ESPN ON ABC" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/ESPN_on_ABC_2022.svg/revision/latest?cb=20230912234230" group-title="US | SPORTS",US: ESPN ON ABC
 http://stream.cammonitorplus.net/1782/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="296" tvg-name="US: ESPNU" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ed/ESPN_U.svg/revision/latest?cb=20210715150317" group-title="US | SPORTS",US: ESPNU
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
+http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:0 CUID="297" tvg-name="US: FIFA+" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9c/FIFA%2B_%282025%29.svg/revision/latest?cb=20250521135758" group-title="US | SPORTS",US: FIFA+
 https://d2w9q46ikgrcwx.cloudfront.net/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/V00000002/0/HLS/playlist_2000k_20260424T010818.m3u8
 #EXTINF:0 CUID="298" tvg-name="US: FIFA+ Women" tvg-logo="https://i.imgur.com/xy9ZxVO.png" group-title="US | SPORTS",US: FIFA+ Women
@@ -1000,7 +1004,7 @@ http://88b9da48.kazmazpaz.ru/iptv/RL8MVW8UX8NNXK/12063/manifest.m3u8
 #EXTINF:0 CUID="503" tvg-name="SG: Bein Sports 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/BeINSports1.svg/revision/latest?cb=20220419110315" group-title="WRLD | FIFAWORLDCUP",SG: Bein Sports 1
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:0 CUID="504" tvg-name="UK: Sky Sports Premier League" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89362_gray_360w_270h.png" group-title="WRLD | FIFAWORLDCUP",UK: Sky Sports Premier League
-http://145.239.5.177/566a/index.m3u8
+http://45.139.122.199:2095/live/hcUaDnDz/bwi5GuCFKw/115758.m3u8
 #EXTINF:0 CUID="505" tvg-name="US: ArenaSports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/8a/Arena_sport_logo.png" group-title="WRLD | FIFAWORLDCUP",US: ArenaSports
 http://88.212.15.19/live/test_arenasport/playlist.m3u8
 #EXTINF:0 CUID="506" tvg-name="US: FOX (NOT 24/7)" tvg-logo="https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png" group-title="WRLD | FIFAWORLDCUP",US: FOX (NOT 24/7)
@@ -1060,7 +1064,7 @@ https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:0 CUID="533" tvg-name="US: Boomerang" tvg-logo="https://logo.m3uassets.com/boomerang.png" group-title="WRLD | Kids",US: Boomerang
 http://40.160.24.52/BOOMERANG/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 CUID="534" tvg-name="US: Disney Channel" tvg-logo="https://logo.m3uassets.com/cdisneychannel1.png" group-title="WRLD | Kids",US: Disney Channel
-http://66.102.126.10:8000/play/a013/index.m3u8
+http://4.30.180.36:8420/disneychannel/tracks-v1a1/mono.m3u8?token=test
 #EXTINF:0 CUID="535" tvg-name="US: Disney HD International" tvg-logo="https://logo.m3uassets.com/disneyinternational.png" group-title="WRLD | Kids",US: Disney HD International
 http://103.11.0.215:8000/play/a0eq/index.m3u8
 #EXTINF:0 CUID="536" tvg-name="US: Disney Jr. East" tvg-logo="https://logo.m3uassets.com/disneyjr.png" group-title="WRLD | Kids",US: Disney Jr. East
@@ -1326,7 +1330,7 @@ http://alienstreams.fi:8080/live/asdfasdf/asdfasdf/271189.m3u8
 #EXTINF:0 CUID="666" tvg-name="UK: Sky Sports News" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0027JYG2.png_dark_360w_270h.png" group-title="WRLD | Sports",UK: Sky Sports News
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2179.ts
 #EXTINF:0 CUID="667" tvg-name="UK: Sky Sports Premier League" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89362_gray_360w_270h.png" group-title="WRLD | Sports",UK: Sky Sports Premier League
-https://leaf.highfly.dev/m3u/now-sky-sports-premier-league/live.m3u8
+http://45.139.122.199:2095/live/hcUaDnDz/bwi5GuCFKw/115758.m3u8
 #EXTINF:0 CUID="668" tvg-name="US: Bein Sports 1" tvg-logo="https://images.seeklogo.com/logo-png/48/2/bein-sports-1-logo-png_seeklogo-481583.png" group-title="WRLD | Sports",US: Bein Sports 1
 http://23.237.104.106:8080/USA_BEIN/index.m3u8
 #EXTINF:0 CUID="669" tvg-name="US: Bein Sports Xtra" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b5/XTRA_2.png/revision/latest/scale-to-width-down/250?cb=20201108180658" group-title="WRLD | Sports",US: Bein Sports Xtra
@@ -1349,6 +1353,8 @@ https://aegis-cloudfront-1.tubi.video/a78ea283-8666-44a1-a0f6-fde5d229ac21/playl
 https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
 #EXTINF:0 CUID="678" tvg-name="US: Unidentified" tvg-logo="https://deadline.com/wp-content/uploads/2019/03/unidentified-1.jpg?w=681&h=383&crop=1" group-title="WRLD | Sports",US: Unidentified
 https://d3ify425qsio2d.cloudfront.net/playlist.m3u8
+#EXTINF:0 CUID="686" tvg-chno="null" tvg-name="TEST ESPN" group-title="UK | Sky Sports",TEST ESPN
+http:\\170.83.16.50\ESPN\mpegts
 #EXTINF:0 CUID="679" tvg-name="UK: Sky Sports Cricket FHD (D)" group-title="UK | Sky Sports",UK: Sky Sports Cricket FHD (D)
 http://1tv41.icu:8080/live/8tFfDW/451664/45940.m3u8
 #EXTINF:0 CUID="680" tvg-name="UK: Sky Sports F1 FHD" group-title="UK | Sky Sports",UK: Sky Sports F1 FHD
