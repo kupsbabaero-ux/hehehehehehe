@@ -11,6 +11,8 @@ https://cineverse.g-mana.live/media/1ebfbe30-c35c-4404-8bc5-0339d750eb58/profile
 https://amg19223-amg19223c9-amgplt0352.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg19223-amg19223c9-amgplt0352/85808fbd-8019-11f1-9365-862ae0473429/146/640x360_871200/index.m3u8
 #EXTINF:0 CUID="6" tvg-name="24/7: Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Animax_logo.svg/1280px-Animax_logo.svg.png" group-title="24/7 | Anime",24/7: Animax
 https://animax.live/hls/stream.m3u8
+#EXTINF:0 CUID="694" tvg-chno="null" tvg-name="24/7: Anime All Day" tvg-logo="https://iyadtv.pages.dev/images/anime_all_day_22.png" group-title="24/7 | Anime",24/7: Anime All Day
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a781-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6903cfae-183e-4d3b-a482-b7acf38ce356
 #EXTINF:0 CUID="7" tvg-name="24/7: FilmRise Anime" tvg-logo="https://i.imgur.com/3wqeGXM.png" group-title="24/7 | Anime",24/7: FilmRise Anime
 https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
 #EXTINF:0 CUID="8" tvg-name="24/7: GO! Toonimé" tvg-logo="https://msntvphl.weebly.com/uploads/5/3/1/6/5316669/gotoonime2026-msn-new-logo_orig.png" group-title="24/7 | Anime",24/7: GO! Toonimé
@@ -79,6 +81,8 @@ http://1tv41.icu:8080/live/8tFfDW/451664/325278.m3u8
 https://amg01796-amg01796c6-rakuten-fr-5334.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-beybladefr-rakutenfr/playlist.m3u8
 #EXTINF:0 CUID="40" tvg-name="24/7: Bluey" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e2/Bluey_-_2018.svg/revision/latest/scale-to-width-down/300?cb=20221126231207" group-title="24/7 | Kids ",24/7: Bluey
 http://1tv41.icu:8080/live/8tFfDW/451664/325275.m3u8
+#EXTINF:0 CUID="690" tvg-chno="null" tvg-name="24/7: Boruto: Naruto Next Generations" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/Boruto_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="24/7 | Kids ",24/7: Boruto: Naruto Next Generations
+https://jmp2.uk/plu-696997049889f8db34c936c2.m3u8
 #EXTINF:0 CUID="41" tvg-name="24/7: Camp Spoopy" tvg-logo="https://i.imgur.com/8PUbPVU.png" group-title="24/7 | Kids ",24/7: Camp Spoopy
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
 #EXTINF:0 CUID="42" tvg-name="24/7: Disney Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/Disney_logo.png" group-title="24/7 | Kids ",24/7: Disney Movies
@@ -145,8 +149,6 @@ http://1tv41.icu:8080/live/8tFfDW/451664/325245.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 CUID="73" tvg-name="24/7: Yu-Gi-Oh!" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/20/Yu-Gi-Oh%21_II.svg/revision/latest/scale-to-width-down/1000?cb=20241009162017" group-title="24/7 | Kids ",24/7: Yu-Gi-Oh!
 https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/cb543d1f796c678e9dd43e6fd1ef44a4f9591fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7255db80148b61299bce8c37683f03409a5e5afba358b1ebb50e11de38f3e04d55912f17b19f43c8821da6d2d10ac85ed774f0179b97a3de851786d5f30393728aecdb5f581fa9a83bf8f955bfd6937929957f2d556c3a8cc1b2cd3ef702da21269cded8b664857384e977c308a3d871cfa6a5300f3be729dec2322b2fed817c6173cfe5486826efc8a184f2393287ab9ac8e6f07c6690fa1879089c238862630f99f3cf1b93d055b88263d4e4274d6380a64c95cbe6d8afa8db1ed565ebd7e49438754b612f0b9212f7c93a957a8b38e0e53b15716108ed965ccf83997935614489c91ef71b09b6d68ecc8e5a6c8430550aa6309968046acd266533b07eaed46f3afb5360ef0234f55c3a9751bce97c87c0f5d1466ae5909738bc05899205ddf10eac174c7a0aa1fd215a05013de7e768093f6ed00783f7cff27c1d0ffcfdaeaf9306d866ccbd81a3ed23e24b2210c572ed25770d8bed9991da/135/426x240_511680/index.m3u8
-#EXTINF:0 CUID="690" tvg-chno="null" tvg-name="24/7: Boruto: Naruto Next Generations" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/Boruto_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="24/7 | Kids ",24/7: Boruto: Naruto Next Generations
-https://jmp2.uk/plu-696997049889f8db34c936c2.m3u8
 #EXTINF:0 CUID="74" tvg-name="KR: ABN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Abn_logo.svg/960px-Abn_logo.svg.png" group-title="KR | Korea",KR: ABN
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
 #EXTINF:0 CUID="75" tvg-name="KR: BBS TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a9/Logo_BBS_TV_2018.png" group-title="KR | Korea",KR: BBS TV
@@ -155,6 +157,10 @@ https://bbstv.clouducs.com/bbstv-live/livestream/chunklist_w716766475.m3u8
 https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/chunklist.m3u8?_=1783093032993&_=1783093033120
 #EXTINF:0 CUID="77" tvg-name="KR: FR: Persiana Korea" tvg-logo="https://logo.m3uassets.com/persianakorea.png" group-title="KR | Korea",KR: FR: Persiana Korea
 https://korhls.persiana.live/hls/stream.m3u8
+#EXTINF:0 CUID="692" tvg-chno="null" tvg-name="KR: Genie K Drama" tvg-logo="https://cdn-icons-png.flaticon.com/512/8366/8366005.png" group-title="KR | Korea",KR: Genie K Drama
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=US2000012KX&channel_id=newid_351&tp=samsung_tvplus
+#EXTINF:0 CUID="693" tvg-chno="null" tvg-name="KR: Genie K Movie" tvg-logo="https://cdn-icons-png.flaticon.com/512/8366/8366005.png" group-title="KR | Korea",KR: Genie K Movie
+https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=US200001137&channel_id=newid_350&tp=samsung_tvplus
 #EXTINF:0 CUID="78" tvg-name="KR: KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/3840px-KBS_World_%282009%29.svg.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBS World
 https://cdn4.skygo.mn/live/disk1/KBSWorld/HLSv3-FTA/KBSWorld.m3u8
 #EXTINF:0 CUID="79" tvg-name="KR: MBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuzaTy0xEd60zfSHCYREmgtPbN-8hlS-M_aEdzgNe6bBdE_jVh9evbTLk&s=10" group-title="KR | Korea",KR: MBC America
@@ -207,10 +213,6 @@ https://stream-eu-west-1.getpublica.com/cl/260603d8fvapoeu9oc739o4d40/960x540_17
 https://d28efmnqar6ea8.cloudfront.net/chunklist_b2192000.m3u8
 #EXTINF:0 CUID="106" tvg-name="KR: US: Viu TV 6" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ae/ViuTVSix.svg/revision/latest?cb=20170331093828" group-title="KR | Korea",KR: US: Viu TV 6
 https://cdn.qd.je/163189.php?id=viu6
-#EXTINF:0 CUID="692" tvg-chno="null" tvg-name="KR: Genie K Drama" tvg-logo="https://cdn-icons-png.flaticon.com/512/8366/8366005.png" group-title="KR | Korea",KR: Genie K Drama
-https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=US2000012KX&channel_id=newid_351&tp=samsung_tvplus
-#EXTINF:0 CUID="693" tvg-chno="null" tvg-name="KR: Genie K Movie" tvg-logo="https://cdn-icons-png.flaticon.com/512/8366/8366005.png" group-title="KR | Korea",KR: Genie K Movie
-https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=US200001137&channel_id=newid_350&tp=samsung_tvplus
 #EXTINF:0 CUID="107" tvg-name="UK: Sky CInema Action FHD" tvg-id="skyaction.uk" tvg-logo="https://logo.m3uassets.com/skycinemaaction.png" group-title="WRLD | Movie Network",UK: Sky CInema Action FHD
 http://1tv41.icu:8080/live/8tFfDW/451664/35254.m3u8
 #EXTINF:0 CUID="108" tvg-name="UK: Sky Cinema Drama" tvg-id="skydrama.uk" tvg-logo="https://logo.m3uassets.com/skycinemadrama.png" group-title="WRLD | Movie Network",UK: Sky Cinema Drama
@@ -334,7 +336,7 @@ http://136.239.159.18:6610/001/2/ch00000090990000001092/manifest.mpd?AuthInfo=v8
 #EXTINF:0 CUID="167" tvg-name="PH: Jeepney TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/51/JTV2015.svg/revision/latest/scale-to-width-down/1000?cb=20160824071938" group-title="PH | Entertainment",PH: Jeepney TV
 http://136.239.158.10:6610/001/2/ch00000090990000001250/manifest.mpd?JITPDRMType=NO&version=v1.0&IASHttpSessionId=OTT392662320260920061417473882&programid=ch00000000000000001546&virtualDomain=001.live_hls.zte.com&recommendtype=0&BreakPoint=0&profilecode=&JITPMediaType=DASH&boid=001&terminalflag=1&contentid=ch00000000000000001546&stbid=02:00:00:00:00:00&NeedJITP=1&AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpGbNnk2H5Bi8k4yR%2B9AHGFytokK1MIobcue1ImXa0ZEA%3D%3D&usersessionid=6T45HYQ6YE3XXX&userid=1870820485634&videoid=ch00000090990000001250
 #EXTINF:0 CUID="168" tvg-name="PH: Kapamilya Channel HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4a/ABS_KapCha_Logo.svg/revision/latest?cb=20260524172753" group-title="PH | Entertainment",PH: Kapamilya Channel HD
-http://136.239.173.2:6610/001/2/ch00000090990000001286/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT119762220260531041449097343&AuthInfo=Tajaqa%2FdPohvabxHbYUVrZLZDsxmxbufdpmz6ykZVY6w65FFCygtQMRRIUPF0xuXe9OnZTxGvJPcGpQT0Y5Pwg%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001286
+http://136.239.173.2:6610/001/2/ch00000090990000001286/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bqw65FFCygtQMRRIUPF0xuXytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001694&contentid=ch00000000000000001694&videoid=ch00000090990000001286&recommendtype=0&userid=1004802317138&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=CCJLYZ04O9IXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="169" tvg-name="PH: Kapamilya Channel HD +" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4a/ABS_KapCha_Logo.svg/revision/latest?cb=20260524172753" group-title="PH | Entertainment",PH: Kapamilya Channel HD +
 http://136.239.173.2:6610/001/2/ch00000090990000001286/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bqw65FFCygtQMRRIUPF0xuXytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001694&contentid=ch00000000000000001694&videoid=ch00000090990000001286&recommendtype=0&userid=1004802317138&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=CCJLYZ04O9IXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="170" tvg-name="PH: Mindanow Network TV" tvg-logo="https://i.imgur.com/xBlYirh.jpeg" group-title="PH | Entertainment",PH: Mindanow Network TV
@@ -358,7 +360,7 @@ http://1tv41.icu:8080/live/8tFfDW/451664/101823.m3u8
 #EXTINF:0 CUID="179" tvg-name="PH: TFC Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Filipino_Channel_%28TFC%29_logo.png" group-title="PH | Entertainment",PH: TFC Asia
 http://1tv41.icu:8080/live/8tFfDW/451664/101823.m3u8
 #EXTINF:0 CUID="180" tvg-name="PH: TV5 HD" tvg-logo="https://static.wikia.nocookie.net/russel/images/7/7a/TV5_HD_Logo_2024.png/revision/latest/scale-to-width-down/290?cb=20240202141126" group-title="PH | Entertainment",PH: TV5 HD
-http://136.158.97.2:6610/001/2/ch00000090990000001088/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAoh0xOsaoSFLqA0PEh9gVjisyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001213&contentid=ch00000000000000001213&videoid=ch00000090990000001088&recommendtype=0&userid=1099183361159&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ZRUDOFEVUJOXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20448320260101155237311409&ispcode=55
+http://136.239.158.30:6610/001/2/ch00000090990000001088/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Boh0xOsaoSFLqA0PEh9gVjiytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001213&contentid=ch00000000000000001213&videoid=ch00000090990000001088&recommendtype=0&userid=1150006064464&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=J62NMXIGLTMXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="181" tvg-name="PH: TV5 HD +" tvg-logo="https://static.wikia.nocookie.net/russel/images/7/7a/TV5_HD_Logo_2024.png/revision/latest/scale-to-width-down/290?cb=20240202141126" group-title="PH | Entertainment",PH: TV5 HD +
 http://136.158.97.2:6610/001/2/ch00000090990000001088/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAoh0xOsaoSFLqA0PEh9gVjisyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001213&contentid=ch00000000000000001213&videoid=ch00000090990000001088&recommendtype=0&userid=1099183361159&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ZRUDOFEVUJOXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20448320260101155237311409&ispcode=55
 #EXTINF:0 CUID="182" tvg-name="PH: TV Maria" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/Maria_TV.png/revision/latest?cb=20200414213815" group-title="PH | Entertainment",PH: TV Maria
@@ -591,8 +593,10 @@ http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
 http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
 #EXTINF:0 CUID="294" tvg-name="US: ESPN 3" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 3
 http://107.167.16.138/espn3/index.m3u8?token=test
+#EXTINF:0 CUID="695" tvg-name="US: ESPN HD+" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN HD+
+http://stream.bottledesk.net/6500/index.m3u8
 #EXTINF:0 CUID="295" tvg-name="US: ESPN ON ABC" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/ESPN_on_ABC_2022.svg/revision/latest?cb=20230912234230" group-title="US | SPORTS",US: ESPN ON ABC
-http://stream.cammonitorplus.net/1782/tracks-v1a1/mono.m3u8
+http://190.11.225.124:5000/live/abc_hd/playlist.m3u8
 #EXTINF:0 CUID="296" tvg-name="US: ESPNU" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ed/ESPN_U.svg/revision/latest?cb=20210715150317" group-title="US | SPORTS",US: ESPNU
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:0 CUID="297" tvg-name="US: FIFA+" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9c/FIFA%2B_%282025%29.svg/revision/latest?cb=20250521135758" group-title="US | SPORTS",US: FIFA+
@@ -666,7 +670,7 @@ http://1tv41.icu:8080/live/8tFfDW/451664/31636.m3u8
 #EXTINF:0 CUID="331" tvg-name="US: Spectrum SportsNet Lakers" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77422_dark_360w_270h.png" group-title="US | SPORTS",US: Spectrum SportsNet Lakers
 http://1tv41.icu:8080/live/8tFfDW/451664/21842.m3u8
 #EXTINF:0 CUID="332" tvg-name="US: SpeedVision Tv" tvg-logo="https://static.wixstatic.com/media/cd41ef_b907c38c6def4901a408562264767358~mv2.png/v1/fill/w_292,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SPEEDVISION_LOGO_WhiteType_TM.png7" group-title="US | SPORTS",US: SpeedVision Tv
-https://eb9a3a62.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/fbcd610b-a519-48ee-9aa3-f98ad6ca267b/6.m3u8
+http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/fierrofondo.stream/chunks.m3u8?nimblesessionid=620268117
 #EXTINF:0 CUID="333" tvg-name="US: SportsGrid" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bd/SPORTSGRID_LOGO_BLACK_RED_LOGO.svg/revision/latest/scale-to-width-down/1000?cb=20250821124400" group-title="US | SPORTS",US: SportsGrid
 https://sportsgrid-tribal.amagi.tv/playlist.m3u8
 #EXTINF:0 CUID="334" tvg-name="US: Sportsnet 360" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49952_dark_360w_270h.png" group-title="US | SPORTS",US: Sportsnet 360
@@ -813,6 +817,8 @@ https://d3vmpkkd3o2grv.cloudfront.net/playlist.m3u8
 https://doumbtmvnsp0z.cloudfront.net/playlist.m3u8
 #EXTINF:0 CUID="405" tvg-name="US: Big 12 Studios" tvg-logo="https://pbs.twimg.com/profile_images/1985404643166343168/rlioP2Oi_400x400.jpg" group-title="WRLD | Entertainment",US: Big 12 Studios
 https://d18pj8s9gbivdq.cloudfront.net/The_Big_12.m3u8
+#EXTINF:0 CUID="691" tvg-chno="null" tvg-name="US: Big Brother" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/ff/Big_Brother_1999.jpg/revision/latest?cb=20130810151224" group-title="WRLD | Entertainment",US: Big Brother
+https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
 #EXTINF:0 CUID="406" tvg-name="US: Bounce Tv" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/Bounce_TV.svg/revision/latest?cb=20170226021643" group-title="WRLD | Entertainment",US: Bounce Tv
 http://23.237.104.106:8080/USA_BOUNCE/index.m3u8
 #EXTINF:0 CUID="407" tvg-name="US: Bravo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bravo_2017_logo.svg/960px-Bravo_2017_logo.svg.png" group-title="WRLD | Entertainment",US: Bravo
@@ -981,8 +987,6 @@ https://aenetworks-worldwartv-rakuten.amagi.tv/1080p-vtt/index.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8
 #EXTINF:0 CUID="489" tvg-name="US: Z Nation" tvg-logo="https://logo.m3uassets.com/znation.png" group-title="WRLD | Entertainment",US: Z Nation
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098
-#EXTINF:0 CUID="691" tvg-chno="null" tvg-name="US: Big Brother" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/ff/Big_Brother_1999.jpg/revision/latest?cb=20130810151224" group-title="WRLD | Entertainment",US: Big Brother
-https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8
 #EXTINF:0 CUID="490" tvg-name="BR: Caze TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/64/Caz%C3%A9TV_logo.svg" group-title="WRLD | FIFAWORLDCUP",BR: Caze TV
 https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
 #EXTINF:0 CUID="491" tvg-name="BR: Tv Globo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Tvglobo_logo_2021.png" group-title="WRLD | FIFAWORLDCUP",BR: Tv Globo
@@ -990,9 +994,7 @@ https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/720p-vtt/index.
 #EXTINF:0 CUID="492" tvg-name="CA: TSN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/TSN1.svg/1280px-TSN1.svg.png" group-title="WRLD | FIFAWORLDCUP",CA: TSN 1
 http://1tv41.icu:8080/live/8tFfDW/451664/57292.m3u8
 #EXTINF:0 CUID="493" tvg-name="LatAm: DIRECTV Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/DirecTV_Sports_Latin_America_-_2018_logo_v2.svg" group-title="WRLD | FIFAWORLDCUP",LatAm: DIRECTV Sports
-http://201.230.121.85:8000/play/dssporthd/index.m3u8
-#EXTINF:0 CUID="494" tvg-name="LatAm: DIRECTV Sports +" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/DirecTV_Sports_Latin_America_-_2018_logo_v2.svg" group-title="WRLD | FIFAWORLDCUP",LatAm: DIRECTV Sports +
-http://190.108.83.69:8000/play/a05w/index.m3u8
+http://15.204.146.163:8002/play/a00g/index.m3u8
 #EXTINF:0 CUID="495" tvg-name="PT: Sport Tv1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2e/Sport_TV1_%282023%29.svg" group-title="WRLD | FIFAWORLDCUP",PT: Sport Tv1
 http://94.130.32.19:8080/sporttv1/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="496" tvg-name="PT: Sport Tv2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/Sport_TV2_%282023%29.svg" group-title="WRLD | FIFAWORLDCUP",PT: Sport Tv2
@@ -1369,6 +1371,8 @@ http://1tv41.icu:8080/live/8tFfDW/451664/45940.m3u8
 http://1tv41.icu:8080/live/8tFfDW/451664/35244.m3u8
 #EXTINF:0 CUID="681" tvg-name="UK: Sky Sports F1 FHD (D)" group-title="UK | Sky Sports",UK: Sky Sports F1 FHD (D)
 http://1tv41.icu:8080/live/8tFfDW/451664/53704.m3u8
+#EXTINF:0 CUID="696" tvg-name="UK: Sky Sports F1 FHD+" group-title="UK | Sky Sports",UK: Sky Sports F1 FHD+
+http://stream.bottledesk.net/p/AwZGQwwEZA/index.m3u8
 #EXTINF:0 CUID="682" tvg-name="UK: Sky Sports Golf FHD" group-title="UK | Sky Sports",UK: Sky Sports Golf FHD
 http://1tv41.icu:8080/live/8tFfDW/451664/35240.m3u8
 #EXTINF:0 CUID="683" tvg-name="UK: Sky Sports Main Event" group-title="UK | Sky Sports",UK: Sky Sports Main Event
