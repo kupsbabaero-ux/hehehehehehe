@@ -390,7 +390,7 @@ http://136.239.158.30:6610/001/2/ch00000090990000001254/manifest.mpd?AuthInfo=v8
 #EXTINF:0 CUID="194" tvg-name="PH: CinemaOne Global" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/66/Cinema_One_logo.png" group-title="PH | MOVIES",PH: CinemaOne Global
 http://136.239.158.10:6610/001/2/ch00000090990000001283/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAr2cQyuTRlDkHeiqeVidUqqsyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001548&contentid=ch00000000000000001548&videoid=ch00000090990000001283&recommendtype=0&userid=1481102669463&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=7TIMXILHNX5XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20445520260101155240041967&ispcode=55
 #EXTINF:0 CUID="195" tvg-name="PH: CinemaOne PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/66/Cinema_One_logo.png" group-title="PH | MOVIES",PH: CinemaOne PH
-http://136.158.97.2:6610/001/2/ch00000090990000001283/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br2cQyuTRlDkHeiqeVidUqqytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001548&contentid=ch00000000000000001548&videoid=ch00000090990000001283&recommendtype=0&userid=1041236685526&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=852NEU8T1ZOXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
+http://136.239.158.10:6610/001/2/ch00000090990000001283/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br2cQyuTRlDkHeiqeVidUqqytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001548&contentid=ch00000000000000001548&videoid=ch00000090990000001283&recommendtype=0&userid=1041236685526&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=852NEU8T1ZOXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="196" tvg-name="PH: Cinemax Asia" tvg-logo="https://logo.m3uassets.com/cinemaxasia.png" group-title="PH | MOVIES",PH: Cinemax Asia
 http://136.239.173.10:6610/001/2/ch00000090990000001108/sec-f2-v1-a1.m3u8?JITPDRMType=NO&version=v1.0&IASHttpSessionId=OTT249347420260716140410084630&programid=ch00000000000000001233&virtualDomain=001.live_hls.zte.com&recommendtype=0&BreakPoint=0&profilecode=&userid=1349825919509&videoid=ch00000090990000001108&usersessionid=LAO494UQ9QXXXX&ispcode=55&terminalflag=1&NeedJITP=1&stbid=02:00:00:00:00:00&boid=001&AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoD7Jkv0l3sE1jz6821dGRWytokK1MIobcue1ImXa0ZEA%3D%3D&m3u8_level=2&contentid=ch00000000000000001233&JITPMediaType=HLS&ztecid=ch00000090990000001108
 #EXTINF:0 CUID="197" tvg-name="PH: Dream Tv PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a6/Dream_Satellite_TV_logo.png" group-title="PH | MOVIES",PH: Dream Tv PH
@@ -584,7 +584,7 @@ http://107.167.16.138/tcmhd/index.m3u8?token=test
 #EXTINF:0 CUID="289" tvg-name="US: Thrill" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Thrill_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: Thrill
 http://136.239.173.10:6610/001/2/ch00000090990000001253/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq7M3KTlp1dzcZcVVxlNmQdytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001563&contentid=ch00000000000000001563&videoid=ch00000090990000001253&recommendtype=0&userid=1896007622720&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8LJ3RRPRMVYXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:0 CUID="290" tvg-name="US: VH1 USA" tvg-logo="https://logo.m3uassets.com/vh1.png" group-title="US | MOVIES",US: VH1 USA
-http://1tv41.icu:8080/live/8tFfDW/451664/46705.m3u8
+http://4.30.180.36:8420/vh1/index.m3u8?token=test
 #EXTINF:0 CUID="291" tvg-name="US: CBS Sports Network" tvg-logo="https://logo.m3uassets.com/cbssportsnetwork.png" group-title="US | SPORTS",US: CBS Sports Network
 http://40.160.24.52/CBS_SPORTS_NETWORK/index.m3u8
 #EXTINF:0 CUID="292" tvg-name="US: ESPN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN
@@ -889,6 +889,8 @@ http://stream.cammonitorplus.net/1799/index.m3u8
 http://206.212.244.63/72/tracks-v1a1/mono.m3u8
 #EXTINF:0 CUID="440" tvg-name="US: Game Show Network" tvg-logo="https://logo.m3uassets.com/gameshownetwork.png" group-title="WRLD | Entertainment",US: Game Show Network
 https://a-cdn.klowdtv.com/live2/gsn_720p/chunks.m3u8
+#EXTINF:0 CUID="697" tvg-chno="null" tvg-name="US: History Channel" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/3840px-History_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" group-title="WRLD | Entertainment",US: History Channel
+http://4.30.180.36:8420/history/index.m3u8?token=test
 #EXTINF:0 CUID="441" tvg-name="US: IFC" tvg-logo="https://logo.m3uassets.com/ifc.png" group-title="WRLD | Entertainment",US: IFC
 http://23.237.104.106:8080/USA_IFC/index.m3u8
 #EXTINF:0 CUID="442" tvg-name="US: Just For Laughs Gags" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/Just_For_Laughs_Gags.png" group-title="WRLD | Entertainment",US: Just For Laughs Gags
@@ -901,6 +903,8 @@ https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1315484/playlist.m3u8
 http://206.212.244.63/101/index.m3u8
 #EXTINF:0 CUID="446" tvg-name="US: LG Channels Showcase" tvg-logo="https://mma.prnewswire.com/media/2453244/LG_Channels_Showcase.jpg?p=facebook" group-title="WRLD | Entertainment",US: LG Channels Showcase
 https:\\amg00497-amg00497c4-amgplt0023.playout.now3.amagi.tv\playlist\amg00497-amg00497c4-amgplt0023\playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.url=[URL]&ads.ic=[IC]&ads.coppa=[COPPA]&ads.iu=[IU]&ads.idtype=[IDTYPE]&ads.lmt=[LMT]&ads.content_livestream=[CONTENT_LIVESTREAM]&ads.gpp=[GPP]&ads.channel_name=[CHANNEL_NAME]&ads.network_name=[NETWORK_NAME]&ads.gpp_sid=[GPP_SID]&ads.prodq=[PRODQ]&ads.inv_partner_domain=[INV_PARTNER_DOMAIN]&ads.schain=[SCHAIN]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]
+#EXTINF:0 CUID="698" tvg-chno="null" tvg-name="US: LIVENOW From FOX" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ec/LiveNOW_from_Fox.svg/revision/latest/scale-to-width-down/1000?cb=20240303214414" group-title="WRLD | Entertainment",US: LIVENOW From FOX
+http://138.121.15.230:8081/FOX-NEWS/index.m3u8
 #EXTINF:0 CUID="447" tvg-name="US: Magnolia Network" tvg-logo="https://logo.m3uassets.com/magnolianetwork.png" group-title="WRLD | Entertainment",US: Magnolia Network
 http://206.212.244.63/107/index.m3u8
 #EXTINF:0 CUID="448" tvg-name="US: MBC America" tvg-logo="https://logo.m3uassets.com/mbcamerica.png" group-title="WRLD | Entertainment",US: MBC America
@@ -936,7 +940,7 @@ https://d2jiqiw4g5lj5k.cloudfront.net/AVSamsung/AVSamsung.m3u8
 #EXTINF:0 CUID="463" tvg-name="US: Reelz HD" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68385_dark_360w_270h.png" group-title="WRLD | Entertainment",US: Reelz HD
 http://23.237.104.106:8080/USA_REELZ/index.m3u8
 #EXTINF:0 CUID="464" tvg-name="US: Start TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/96/Start_TV.svg/revision/latest?cb=20180914081955" group-title="WRLD | Entertainment",US: Start TV
-http://40.160.24.55/START_TV/index.m3u8
+http://4.30.180.36:8420/starttv/index.m3u8?token=test
 #EXTINF:0 CUID="465" tvg-name="US: T+E" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/01/te_transparent-300x200.png" group-title="WRLD | Entertainment",US: T+E
 http://185.246.209.113/T+E/index.m3u8
 #EXTINF:0 CUID="466" tvg-name="US: TBS East" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a7/TBS_2015.svg/revision/latest?cb=20250804025829" group-title="WRLD | Entertainment",US: TBS East
@@ -968,7 +972,7 @@ http://40.160.24.55/Up_TV/index.m3u8
 #EXTINF:0 CUID="479" tvg-name="US: Vegas Life TV" tvg-logo="https://i.imgur.com/G7lONcu.png" group-title="WRLD | Entertainment",US: Vegas Life TV
 https://cdn.vegasplus.us/vegas/vltv/playlist.m3u8
 #EXTINF:0 CUID="480" tvg-name="US: VH1 West" tvg-logo="https://logo.m3uassets.com/vh1.png" group-title="WRLD | Entertainment",US: VH1 West
-http://1tv41.icu:8080/live/8tFfDW/451664/7404.m3u8
+http://4.30.180.36:8420/vh1/index.m3u8?token=test
 #EXTINF:0 CUID="481" tvg-name="US: VICE TV" tvg-logo="https://logo.m3uassets.com/vice.png" group-title="WRLD | Entertainment",US: VICE TV
 http://23.237.104.106:8080/USA_VICETV/index.m3u8?takodachi
 #EXTINF:0 CUID="482" tvg-name="US: Video Mix TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSDRZrnLnfe0IUgxsomWI292FTR7aeg_01oDdnyh2K_g&s" group-title="WRLD | Entertainment",US: Video Mix TV
