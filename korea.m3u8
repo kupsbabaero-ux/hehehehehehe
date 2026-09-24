@@ -48,7 +48,7 @@
 24/7: HotWheel's Action,https://dtz4aepbew7ez.cloudfront.net/hotwh.m3u8
 24/7: Looney Tunes,http://1tv41.icu:8080/live/8tFfDW/451664/325255.m3u8
 24/7: Mickey Mouse Clubhouse,http://1tv41.icu:8080/live/8tFfDW/451664/325251.m3u8
-24/7: Mr Bean Animated,http://1tv41.icu:8080/live/8tFfDW/451664/325250.m3u8
+24/7: Mr Bean Animated,https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
 24/7: Mr Beast Tv,https://aegis-cloudfront-1.tubi.video/cf8b86e9-932a-4454-99c5-32169b6a330f/playlist.m3u8
 24/7: Mr. Bean Live Action,https://amg00627-amg00627c40-rakute...jayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
 24/7: My Little Pony,https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/0dd75f3a-37f3-4c72-bd11-6bbf167e473b/1.m3u8
@@ -207,7 +207,7 @@ KR: US: Kpop Stories,https://d50a1g0nh14ou.cloudfront.net/e91c6419_2e45_4f6c_a64
 KR: US: Kpop TV Play,https://newidco-newkid-1-eu.xiaomi.wurl.tv/2000.m3u8
 KR: US: New K-Food,https:\\wurlnewidco.global.transmit.live\hls\68e03346246da8db67b6a93a\playlist.m3u8?wurl_channel=1100&wurl_name=NewKFOOD&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]
 KR: US: New Kpop Channel,https://f0f6ec874bf04c0a8c8e4749a4c2e214.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_NewKPop/playlist.m3u8?ads.wurl_channel=617&ads.wurl_name=NewKPop&ads.coppa=0&ads.device_id=78264151-cb54-4af0-90a2-3d32e618e497&ads.dnt=0&ads.lmt=&ads.us_privacy=1YNN&ads.gdpr=0&ads.consent=&ads.app_name=Whale+TV%2B&ads.app_store=Browser&ads.url=&ads.device_make=&ads.device_model=&ads.tv_language=&ads.tv_vendor=&ads.brand_name=&ads.tv_model=&ads.language=&ads.gender=F%2CM&ads.age=18-20%2C21-24%2C25-29%2C30-34%2C35-39&ads.duration=&ads.content_producer_name=WURL_NEWID_NEWKPOP&ads.content_custom_1_param=WURL&ads.rlaxx_session_id=&ads.height=&ads.width=&ads.rlaxx_iab_category=IAB1&ads.rlaxx_content_category=IAB1%2CIAB1-7%2CIAB1-2%2CIAB1-6&ads.rlaxx_genre=Music&ads.rlaxx_rating=12%2B&ads.livestream=1&ads.max_ad_duration=30&ads.min_ad_duration=5&ads.tag_id=106480&ads.channel_number=0293&ads.placement=1&ads.autoplay=1&ads.mute=0&ads.skip=0
-KR: US: Rakuten Viki Korean,https://fd18f1cadd404894a31a3362c5f319bd.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_RakutenViki-1/048a962c-e84b-4a0e-aeb3-98376f4b9953/2.m3u8
+KR: US: Rakuten Viki Korean,https://fd18f1cadd404894a31a3362c5f319bd.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_RakutenViki-1/playlist.m3u8
 KR: US: RomKom K Drama,https://4df655f2.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctY2FfUm9tQ29tS0RyYW1hX0hMUw/playlist.m3u8
 KR: US: SBS Running Man,https://stream-eu-west-1.getpublica.com/cl/260603d8fvapoeu9oc739o4d40/960x540_1790800_1_f.m3u8?i=586_5491
 KR: US: Series K-Heart,https://d28efmnqar6ea8.cloudfront.net/chunklist_b2192000.m3u8
@@ -385,6 +385,11 @@ US: HBO Hits,http://tvsen7.aynascope.net/hbo2/index.m3u8
 US: HBO SIgnature East,http://190.93.224.42/HBO-SIGNATURE/index.m3u8
 US: HBO ZONE,http://23.237.104.106:8080/USA_HBO_ZONE/tracks-v1a1/mono.m3u8
 US: HLN,http://23.237.104.106:8080/USA_HLN/index.m3u8
+US: HOT Cinema ACTION,http://str2.iptvhd.ru:8080/action/index.m3u8
+US: HOT Cinema COMEDY,http://str2.iptvhd.ru:8080/HOTComedy/index.m3u8
+US: HOT Cinema DRAMA,http://str2.iptvhd.ru:8080/drama/index.m3u8
+US: HOT Cinema FUN,http://str2.iptvhd.ru:8080/fun/index.m3u8
+US: HOT Cinema GOLD,http://str2.iptvhd.ru:8080/Gold/index.m3u8
 US: Lifetime Movies,http://23.237.104.106:8080/USA_LMN/index.m3u8
 US: MGM+,http://40.160.24.52/EPIX/index.m3u8
 US: MGM+ Drive-IN,http://40.160.24.52/EPIX_DRIVE-IN/index.m3u8
@@ -436,7 +441,7 @@ US: MSG USA,http://23.237.104.106:8080/USA_MSG/index.m3u8
 US: MSG+,http://40.160.24.52/MSG_PLUS/index.m3u8
 US: MTV,http://178.23.88.55/MTV/index.m3u8
 US: MTV 2,http://198.58.104.90:8989/mtv2/index.m3u8
-US: NBA,http://23.237.104.106:8080/USA_NBA/index.m3u8
+US: NBA,https://cdn1.ayitistream.com/NBATV/index.m3u8
 US: NBA Draft,https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/fb93dcd8-eaea-4a72-a9c7-78354a0572fe/3.m3u8
 US: NBA TV,http://23.237.104.106:8080/USA_NBA/index.m3u8
 US: NBC on ESPN,http://stream.cammonitorplus.net/1785/index.m3u8
@@ -491,7 +496,7 @@ US: ABC 3 WWAY,https://townnews.g-mana.live/media/027a05c7-43b6-49eb-ad10-a0c0f1
 US: ABC 4 Charleston SC (WCIV),https://linear-700.frequency.stream/dist/stirr/700/hls/master/playlist.m3u8
 US: ABC 4 Seattle WA (KOMO),https://linear-709.frequency.stream/dist/stirr/709/hls/master/playlist.m3u8
 US: ABC 5,https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-live.smil/playlist.m3u8
-US: ABC 6 Austin TX (KAAL),https://www.iptv-free.com/language/English#:~:text=https%3A//amg01942%2Damg01942c6%2Dstirr%2Dus%2D10178.playouts.now.amagi.tv/playlist.m3u8
+US: ABC 6 Austin TX (KAAL),https://amg01942-amg01942c6-stirr-us-10178.playouts.now.amagi.tv/playlist.m3u8
 US: ABC 7 Albuquerque NM (KOAT),https://aegis-cloudfront-1.tubi.video/2dba5dd9-4097-45e3-b169-56735cc48476/playlist.m3u8
 US: ABC 7 Denver CO (KMGH),https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
 US: ABC 7 Washington DC (WJLA),https://linear-681.frequency.stream/dist/stirr/681/hls/master/playlist.m3u8
