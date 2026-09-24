@@ -293,7 +293,7 @@ PH: Celestial Movies Pinoy,http://136.239.159.20:6610/001/2/ch000000909900000010
 PH: Cine Mo!,https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index_3.m3u8
 PH: Cine Mo! Global,http://136.239.158.30:6610/001/2/ch00000090990000001254/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApP1%2FTBq4G4yW%2Bysf7XC2GUsyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001547&contentid=ch00000000000000001547&videoid=ch00000090990000001254&recommendtype=0&userid=1627619394946&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ENDPNYXUMN7XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20445320260101155240172236&ispcode=55
 PH: CinemaOne Global,http://136.239.158.10:6610/001/2/ch00000090990000001283/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAr2cQyuTRlDkHeiqeVidUqqsyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001548&contentid=ch00000000000000001548&videoid=ch00000090990000001283&recommendtype=0&userid=1481102669463&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=7TIMXILHNX5XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20445520260101155240041967&ispcode=55
-PH: CinemaOne PH,http://136.158.97.2:6610/001/2/ch00000090990000001283/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br2cQyuTRlDkHeiqeVidUqqytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001548&contentid=ch00000000000000001548&videoid=ch00000090990000001283&recommendtype=0&userid=1041236685526&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=852NEU8T1ZOXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
+PH: CinemaOne PH,http://136.239.158.10:6610/001/2/ch00000090990000001283/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br2cQyuTRlDkHeiqeVidUqqytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001548&contentid=ch00000000000000001548&videoid=ch00000090990000001283&recommendtype=0&userid=1041236685526&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=852NEU8T1ZOXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 PH: Cinemax Asia,http://136.239.173.10:6610/001/2/ch00000090990000001108/sec-f2-v1-a1.m3u8?JITPDRMType=NO&version=v1.0&IASHttpSessionId=OTT249347420260716140410084630&programid=ch00000000000000001233&virtualDomain=001.live_hls.zte.com&recommendtype=0&BreakPoint=0&profilecode=&userid=1349825919509&videoid=ch00000090990000001108&usersessionid=LAO494UQ9QXXXX&ispcode=55&terminalflag=1&NeedJITP=1&stbid=02:00:00:00:00:00&boid=001&AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoD7Jkv0l3sE1jz6821dGRWytokK1MIobcue1ImXa0ZEA%3D%3D&m3u8_level=2&contentid=ch00000000000000001233&JITPMediaType=HLS&ztecid=ch00000090990000001108
 PH: Dream Tv PH,https://live20.bozztv.com/giatvplayout7/giatv-209574/tracks-v1a1/mono.m3u8
 PH: Dreamstar Tv,https://live20.bozztv.com/giatvplayout7/giatv-10410/tracks-v1a1/mono.m3u8
@@ -409,7 +409,7 @@ US: Studio Universal,http://v3tv.live/play/live.php?mac=00:1A:79:59:83:B5&stream
 US: SYFY,http://23.237.104.106:8080/USA_SYFY/index.m3u8
 US: TCM,http://107.167.16.138/tcmhd/index.m3u8?token=test
 US: Thrill,http://136.239.173.10:6610/001/2/ch00000090990000001253/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq7M3KTlp1dzcZcVVxlNmQdytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001563&contentid=ch00000000000000001563&videoid=ch00000090990000001253&recommendtype=0&userid=1896007622720&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8LJ3RRPRMVYXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
-US: VH1 USA,http://1tv41.icu:8080/live/8tFfDW/451664/46705.m3u8
+US: VH1 USA,http://4.30.180.36:8420/vh1/index.m3u8?token=test
 US | SPORTS,#genre#
 US: CBS Sports Network,http://40.160.24.52/CBS_SPORTS_NETWORK/index.m3u8
 US: ESPN,http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
@@ -566,12 +566,14 @@ US: Fox News,http://4.30.180.36:8420/foxnews/index.m3u8?token=test
 US: Fox West,http://stream.cammonitorplus.net/1799/index.m3u8
 US: Fuse,http://206.212.244.63/72/tracks-v1a1/mono.m3u8
 US: Game Show Network,https://a-cdn.klowdtv.com/live2/gsn_720p/chunks.m3u8
+US: History Channel,http://4.30.180.36:8420/history/index.m3u8?token=test
 US: IFC,http://23.237.104.106:8080/USA_IFC/index.m3u8
 US: Just For Laughs Gags,https://distributionsjustepourrire-justforlaughsgags-1-no.samsung.wurl.tv/playlist.m3u8
 US: Justice Central TV,http://206.212.244.63/100/index.m3u8
 US: KET 2,https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1315484/playlist.m3u8
 US: Laff,http://206.212.244.63/101/index.m3u8
 US: LG Channels Showcase,https:\\amg00497-amg00497c4-amgplt0023.playout.now3.amagi.tv\playlist\amg00497-amg00497c4-amgplt0023\playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.url=[URL]&ads.ic=[IC]&ads.coppa=[COPPA]&ads.iu=[IU]&ads.idtype=[IDTYPE]&ads.lmt=[LMT]&ads.content_livestream=[CONTENT_LIVESTREAM]&ads.gpp=[GPP]&ads.channel_name=[CHANNEL_NAME]&ads.network_name=[NETWORK_NAME]&ads.gpp_sid=[GPP_SID]&ads.prodq=[PRODQ]&ads.inv_partner_domain=[INV_PARTNER_DOMAIN]&ads.schain=[SCHAIN]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]
+US: LIVENOW From FOX,http://138.121.15.230:8081/FOX-NEWS/index.m3u8
 US: Magnolia Network,http://206.212.244.63/107/index.m3u8
 US: MBC America,https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
 US: More 4,http://109.61.81.129/26/index.m3u8
@@ -589,7 +591,7 @@ US: People Are Awesome,https://jukin-peopleareawesome-2-ca.samsung.wurl.tv/3000.
 US: Pop Tv,http://206.212.244.63/139/index.m3u8
 US: Real America's Voice,https://d2jiqiw4g5lj5k.cloudfront.net/AVSamsung/AVSamsung.m3u8
 US: Reelz HD,http://23.237.104.106:8080/USA_REELZ/index.m3u8
-US: Start TV,http://40.160.24.55/START_TV/index.m3u8
+US: Start TV,http://4.30.180.36:8420/starttv/index.m3u8?token=test
 US: T+E,http://185.246.209.113/T+E/index.m3u8
 US: TBS East,http://40.160.24.55/TBS_EAST/index.m3u8
 US: TBS West,http://40.160.24.55/TBS_WEST/index.m3u8
@@ -605,7 +607,7 @@ US: Tv One,http://40.160.24.55/TV_ONE/index.m3u8
 US: TV5 MONDE Style,https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
 US: Up Tv,http://40.160.24.55/Up_TV/index.m3u8
 US: Vegas Life TV,https://cdn.vegasplus.us/vegas/vltv/playlist.m3u8
-US: VH1 West,http://1tv41.icu:8080/live/8tFfDW/451664/7404.m3u8
+US: VH1 West,http://4.30.180.36:8420/vh1/index.m3u8?token=test
 US: VICE TV,http://23.237.104.106:8080/USA_VICETV/index.m3u8?takodachi
 US: Video Mix TV,https://2-fss-2.streamhoster.com/pl_118/206436-3189488-1/playlist.m3u8
 US: Warner TV,http://136.239.158.18:6610/001/2/ch00000090990000001096/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqRhIO4pq%2FZNG%2BJhjsEpHHCytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001219&contentid=ch00000000000000001219&videoid=ch00000090990000001096&recommendtype=0&userid=1321207134399&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=0QVRZ4LBHCCXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
