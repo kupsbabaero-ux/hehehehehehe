@@ -1001,42 +1001,6 @@ https://aenetworks-worldwartv-rakuten.amagi.tv/1080p-vtt/index.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8
 #EXTINF:0 CUID="489" tvg-name="US: Z Nation" tvg-logo="https://logo.m3uassets.com/znation.png" group-title="WRLD | Entertainment",US: Z Nation
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098
-#EXTINF:0 CUID="490" tvg-name="BR: Caze TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/64/Caz%C3%A9TV_logo.svg" group-title="WRLD | FIFAWORLDCUP",BR: Caze TV
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
-#EXTINF:0 CUID="491" tvg-name="BR: Tv Globo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Tvglobo_logo_2021.png" group-title="WRLD | FIFAWORLDCUP",BR: Tv Globo
-https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/720p-vtt/index.m3u8
-#EXTINF:0 CUID="492" tvg-name="CA: TSN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/TSN1.svg/1280px-TSN1.svg.png" group-title="WRLD | FIFAWORLDCUP",CA: TSN 1
-http://1tv41.icu:8080/live/8tFfDW/451664/57292.m3u8
-#EXTINF:0 CUID="493" tvg-name="LatAm: DIRECTV Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/DirecTV_Sports_Latin_America_-_2018_logo_v2.svg" group-title="WRLD | FIFAWORLDCUP",LatAm: DIRECTV Sports
-http://15.204.146.163:8002/play/a00g/index.m3u8
-#EXTINF:0 CUID="495" tvg-name="PT: Sport Tv1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2e/Sport_TV1_%282023%29.svg" group-title="WRLD | FIFAWORLDCUP",PT: Sport Tv1
-http://94.130.32.19:8080/sporttv1/tracks-v1a1/mono.m3u8
-#EXTINF:0 CUID="496" tvg-name="PT: Sport Tv2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/Sport_TV2_%282023%29.svg" group-title="WRLD | FIFAWORLDCUP",PT: Sport Tv2
-http://94.130.32.19:8080/sporttv2/index.m3u8
-#EXTINF:0 CUID="497" tvg-name="PT: Sport Tv3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/Sport_TV3_%282023%29.svg" group-title="WRLD | FIFAWORLDCUP",PT: Sport Tv3
-http://94.130.32.19:8080/sporttv3/index.m3u8
-#EXTINF:0 CUID="498" tvg-name="PT: Sport Tv4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f1/Sport_TV4_%282023%29.svg" group-title="WRLD | FIFAWORLDCUP",PT: Sport Tv4
-http://94.130.32.19:8080/sporttv4/index.m3u8
-#EXTINF:0 CUID="499" tvg-name="PT: Sport Tv5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b6/Sport_TV5_%282023%29.svg" group-title="WRLD | FIFAWORLDCUP",PT: Sport Tv5
-http://94.130.32.19:8080/sporttv5/index.m3u8
-#EXTINF:0 CUID="500" tvg-name="PT: Sport Tv6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/74/Sport_TV6_%282023%29.svg" group-title="WRLD | FIFAWORLDCUP",PT: Sport Tv6
-http://94.130.32.19:8080/sporttv6/index.m3u8
-#EXTINF:0 CUID="501" tvg-name="PT: Sport Tv7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f3/Sport_TV7_%282024%29.png" group-title="WRLD | FIFAWORLDCUP",PT: Sport Tv7
-http://94.130.32.19:8080/sporttv7/index.m3u8
-#EXTINF:0 CUID="502" tvg-name="SE: SVT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/SVT1_logo_2016.svg" group-title="WRLD | FIFAWORLDCUP",SE: SVT1
-http://88b9da48.kazmazpaz.ru/iptv/RL8MVW8UX8NNXK/12063/manifest.m3u8
-#EXTINF:0 CUID="503" tvg-name="SG: Bein Sports 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/BeINSports1.svg/revision/latest?cb=20220419110315" group-title="WRLD | FIFAWORLDCUP",SG: Bein Sports 1
-https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
-#EXTINF:0 CUID="504" tvg-name="UK: Sky Sports Premier League" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89362_gray_360w_270h.png" group-title="WRLD | FIFAWORLDCUP",UK: Sky Sports Premier League
-http://45.139.122.199:2095/live/hcUaDnDz/bwi5GuCFKw/115758.m3u8
-#EXTINF:0 CUID="505" tvg-name="US: ArenaSports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/8a/Arena_sport_logo.png" group-title="WRLD | FIFAWORLDCUP",US: ArenaSports
-http://88.212.15.19/live/test_arenasport/playlist.m3u8
-#EXTINF:0 CUID="506" tvg-name="US: FOX (NOT 24/7)" tvg-logo="https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png" group-title="WRLD | FIFAWORLDCUP",US: FOX (NOT 24/7)
-https://idabest.danng.me/live/stream-d316229c-0661-48dc-98ee-0b76b30a3151/index.m3u8?u=gar&p=e0744c4f36a51868827d50f338da6b60a421e7ea12778cce6c0c06c0e9afa4e5
-#EXTINF:0 CUID="507" tvg-name="US: ITV1" tvg-logo="https://logo.m3uassets.com/itv1.png" group-title="WRLD | FIFAWORLDCUP",US: ITV1
-http://66.90.106.91:16888/itv1/index.m3u8
-#EXTINF:0 CUID="508" tvg-name="US: Somoy Tv" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/SOMOY_TV_Logo.svg/1280px-SOMOY_TV_Logo.svg.png" group-title="WRLD | FIFAWORLDCUP",US: Somoy Tv
-https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8?nimblesessionid=31182209
 #EXTINF:0 CUID="509" tvg-name="US: bon appétit" tvg-logo="https://i.imgur.com/YhFFxlE.png" group-title="WRLD | Foods",US: bon appétit
 https://bonappetit-samsung.amagi.tv/360p-vtt/index.m3u8
 #EXTINF:0 CUID="510" tvg-name="US: Cooking Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0a/Cooking_Channel_HD.png/revision/latest?cb=20250612173952" group-title="WRLD | Foods",US: Cooking Channel
@@ -1086,7 +1050,7 @@ https://linear-918.frequency.stream/mt/plex/918/hls/master/playlist_1920x1080.m3
 #EXTINF:0 CUID="532" tvg-name="US: Baby Shark TV" tvg-logo="https://logo.m3uassets.com/babysharktv.png" group-title="WRLD | Kids",US: Baby Shark TV
 https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:0 CUID="533" tvg-name="US: Boomerang" tvg-logo="https://logo.m3uassets.com/boomerang.png" group-title="WRLD | Kids",US: Boomerang
-http://40.160.24.52/BOOMERANG/tracks-v1a1/mono.ts.m3u8
+http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 #EXTINF:0 CUID="534" tvg-name="US: Disney Channel" tvg-logo="https://logo.m3uassets.com/cdisneychannel1.png" group-title="WRLD | Kids",US: Disney Channel
 http://4.30.180.36:8420/disneychannel/tracks-v1a1/mono.m3u8?token=test
 #EXTINF:0 CUID="535" tvg-name="US: Disney HD International" tvg-logo="https://logo.m3uassets.com/disneyinternational.png" group-title="WRLD | Kids",US: Disney HD International
@@ -1148,7 +1112,7 @@ https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8
 #EXTINF:0 CUID="563" tvg-name="PH: MYX" tvg-logo="https://logo.m3uassets.com/myx.png" group-title="WRLD | Music",PH: MYX
 http://136.158.97.2:6610/001/2/ch00000090990000001252/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpnsWBpPBgeEj%2FSfIRshYPEytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001673&contentid=ch00000000000000001673&videoid=ch00000090990000001252&recommendtype=0&userid=1016303175118&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=P65O1I3NW1XXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="564" tvg-name="PH: MYX Global" tvg-logo="https://logo.m3uassets.com/myx.png" group-title="WRLD | Music",PH: MYX Global
-https://ott.djdoolky76.net/stream/iptv/myxglobal1/stream_0.m3u8?u=udpv4&p=db8b8839b5a336adbd1b3d7eb78863623b5068cba7b65031c2b753d5320e2c5e&uid=1436212095
+http://136.158.97.2:6610/001/2/ch00000090990000001252/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpnsWBpPBgeEj%2FSfIRshYPEytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001673&contentid=ch00000000000000001673&videoid=ch00000090990000001252&recommendtype=0&userid=1016303175118&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=P65O1I3NW1XXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="565" tvg-name="PH: RJTV 29" tvg-logo="https://logo.m3uassets.com/rjtv.png" group-title="WRLD | Music",PH: RJTV 29
 http://136.239.158.10:6610/001/2/ch00000090990000001159/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BreKmZs4H3Zuj6jrvRtgmFqytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001395&contentid=ch00000000000000001395&videoid=ch00000090990000001159&recommendtype=0&userid=1981697457601&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=VPNC8TXZ55DXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:0 CUID="566" tvg-name="US: Totalmusic" tvg-logo="https://lh5.googleusercontent.com/proxy/p8tCwR4M9CWDAJzQmFNuWj2DDCjdN8H34Qt8S6CHpWQYUY_Y2UxBrwlz43DrwXNQQUZOzCEpIl8iLEA4L-m2nuun3n-kR5tT_n3XNxWBUEFF0MuZNYtsJQ" group-title="WRLD | Music",US: Totalmusic
@@ -1299,8 +1263,12 @@ https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/medhigh.m3u8
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc3us/medhigh.m3u8
 #EXTINF:0 CUID="639" tvg-name="US: Shop LC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Shop_LC_Logo.svg" group-title="WRLD | Shop",US: Shop LC
 https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(ott)/01.m3u8
+#EXTINF:0 CUID="490" tvg-name="BR: Caze TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/64/Caz%C3%A9TV_logo.svg" group-title="WRLD | Sports",BR: Caze TV
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
 #EXTINF:0 CUID="640" tvg-name="BR: Receitas Fast FHD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/99/ReceitasFast_2023.svg/revision/latest/scale-to-width-down/220?cb=20251004164147" group-title="WRLD | Sports",BR: Receitas Fast FHD
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/Receitas_Fast_BR/1080p-vtt/index.m3u8
+#EXTINF:0 CUID="491" tvg-name="BR: Tv Globo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Tvglobo_logo_2021.png" group-title="WRLD | Sports",BR: Tv Globo
+https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/720p-vtt/index.m3u8
 #EXTINF:0 CUID="641" tvg-name="BR: Tv Globo" tvg-logo="https://logo.m3uassets.com/tvglobo.png" group-title="WRLD | Sports",BR: Tv Globo
 http://dns.fontedecanais.com.br//live/playercodestv/947942/395.ts
 #EXTINF:0 CUID="642" tvg-name="CA: Bein Sports Canada" tvg-logo="https://logo.m3uassets.com/beinsports.png" group-title="WRLD | Sports",CA: Bein Sports Canada
@@ -1313,18 +1281,30 @@ http://1tv41.icu:8080/live/8tFfDW/451664/57292.m3u8
 http://1tv41.icu:8080/live/8tFfDW/451664/47442.m3u8
 #EXTINF:0 CUID="646" tvg-name="CA: TSN3" tvg-logo="https://logo.m3uassets.com/tsn3.png" group-title="WRLD | Sports",CA: TSN3
 http://1tv41.icu:8080/live/8tFfDW/451664/47444.m3u8
+#EXTINF:0 CUID="492" tvg-name="CA: TSN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/TSN1.svg/1280px-TSN1.svg.png" group-title="WRLD | Sports",CA: TSN 1
+http://1tv41.icu:8080/live/8tFfDW/451664/57292.m3u8
 #EXTINF:0 CUID="647" tvg-name="CA: TSN 4" tvg-logo="https://logo.m3uassets.com/tsn4.png" group-title="WRLD | Sports",CA: TSN 4
 http://1tv41.icu:8080/live/8tFfDW/451664/66783.m3u8
 #EXTINF:0 CUID="648" tvg-name="CA: TSN 5" tvg-logo="https://logo.m3uassets.com/tsn5.png" group-title="WRLD | Sports",CA: TSN 5
 http://1tv41.icu:8080/live/8tFfDW/451664/16131.m3u8
 #EXTINF:0 CUID="649" tvg-name="INDO: Moji 22 HD" tvg-logo="https://logo.m3uassets.com/moji.png" group-title="WRLD | Sports",INDO: Moji 22 HD
 https://op-flashcon-digdayahd-1.dens.tv/h/h207/02.m3u8?app_type=web&userid=lite&chname=Moji
+#EXTINF:0 CUID="493" tvg-name="LatAm: DIRECTV Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/DirecTV_Sports_Latin_America_-_2018_logo_v2.svg" group-title="WRLD | Sports",LatAm: DIRECTV Sports
+http://15.204.146.163:8002/play/a00g/index.m3u8
 #EXTINF:0 CUID="650" tvg-name="MNG: MNB Sports" tvg-logo="https://logo.m3uassets.com/mnbsport.png" group-title="WRLD | Sports",MNG: MNB Sports
 https://live.mnb.mn/hls/mnb_sport.stream.m3u8
 #EXTINF:0 CUID="651" tvg-name="PH: Tap Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="WRLD | Sports",PH: Tap Sports
 http://136.239.173.3:6610/001/2/ch00000090990000001151/sec-f2-v1-a1.m3u8?JITPDRMType=NO&version=v1.0&IASHttpSessionId=OTT119934920260223230817010077&programid=ch00000000000000001321&virtualDomain=001.live_hls.zte.com&recommendtype=0&BreakPoint=0&profilecode=&userid=1148739009053&videoid=ch00000090990000001151&usersessionid=Z6EHYVCYR3XXXX&ispcode=55&terminalflag=1&NeedJITP=1&stbid=02:00:00:00:00:00&boid=001&AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqvuCQC%2BfGfSFGYE2TZKWpbytokK1MIobcue1ImXa0ZEA%3D%3D&m3u8_level=2&contentid=ch00000000000000001321&JITPMediaType=HLS&ztecid=ch00000090990000001151
+#EXTINF:0 CUID="495" tvg-name="PT: Sport Tv1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2e/Sport_TV1_%282023%29.svg" group-title="WRLD | Sports",PT: Sport Tv1
+http://195.178.110.110/sportv/index.m3u8
+#EXTINF:0 CUID="496" tvg-name="PT: Sport Tv2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/20/Sport_TV2_%282023%29.svg" group-title="WRLD | Sports",PT: Sport Tv2
+http://195.178.110.110/sportv2/index.m3u8
+#EXTINF:0 CUID="497" tvg-name="PT: Sport Tv3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/Sport_TV3_%282023%29.svg" group-title="WRLD | Sports",PT: Sport Tv3
+http://195.178.110.110/sportv3/index.m3u8
 #EXTINF:0 CUID="652" tvg-name="SE: SVT1" tvg-logo="https://logo.m3uassets.com/svt1.png" group-title="WRLD | Sports",SE: SVT1
 http://88b9da48.kazmazpaz.ru/iptv/RL8MVW8UX8NNXK/12063/manifest.m3u8
+#EXTINF:0 CUID="503" tvg-name="SG: Bein Sports 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/BeINSports1.svg/revision/latest?cb=20220419110315" group-title="WRLD | Sports",SG: Bein Sports 1
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:0 CUID="653" tvg-name="SG: Bein Sports 2" tvg-logo="https://images.seeklogo.com/logo-png/48/2/bein-sports-2-logo-png_seeklogo-481584.png" group-title="WRLD | Sports",SG: Bein Sports 2
 http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/31048/index.m3u8
 #EXTINF:0 CUID="654" tvg-name="TH: True Sports 3" tvg-logo="https://static.wikia.nocookie.net/logos/images/2/2a/True_Sports_3.png/revision/latest?cb=20240416004540&path-prefix=vi" group-title="WRLD | Sports",TH: True Sports 3
@@ -1355,18 +1335,24 @@ http://alienstreams.fi:8080/live/asdfasdf/asdfasdf/271189.m3u8
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2179.ts
 #EXTINF:0 CUID="667" tvg-name="UK: Sky Sports Premier League" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89362_gray_360w_270h.png" group-title="WRLD | Sports",UK: Sky Sports Premier League
 http://45.139.122.199:2095/live/hcUaDnDz/bwi5GuCFKw/115758.m3u8
+#EXTINF:0 CUID="505" tvg-name="US: ArenaSports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/8a/Arena_sport_logo.png" group-title="WRLD | Sports",US: ArenaSports
+http://88.212.15.19/live/test_arenasport/playlist.m3u8
 #EXTINF:0 CUID="668" tvg-name="US: Bein Sports 1" tvg-logo="https://images.seeklogo.com/logo-png/48/2/bein-sports-1-logo-png_seeklogo-481583.png" group-title="WRLD | Sports",US: Bein Sports 1
 http://23.237.104.106:8080/USA_BEIN/index.m3u8
 #EXTINF:0 CUID="669" tvg-name="US: Bein Sports Xtra" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b5/XTRA_2.png/revision/latest/scale-to-width-down/250?cb=20201108180658" group-title="WRLD | Sports",US: Bein Sports Xtra
 https://aka-live1050.delivery.roku.com/948b987e-5b69-4f1a-853a-5d62eeef2e1b/t2-origin/out/v1/live_720.m3u8
 #EXTINF:0 CUID="670" tvg-name="US: Dazn Ringside" tvg-logo="https://1000logos.net/wp-content/uploads/2024/10/DAZN-Logo.png" group-title="WRLD | Sports",US: Dazn Ringside
 https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/1080p-cc/index.m3u8
+#EXTINF:0 CUID="506" tvg-name="US: FOX (NOT 24/7)" tvg-logo="https://assets.football-logos.cc/logos/tournaments/700x700/fifa-world-cup-2026--white.9ba8a004.png" group-title="WRLD | Sports",US: FOX (NOT 24/7)
+http://89.33.29.115:8080/sport1/index.m3u8
 #EXTINF:0 CUID="671" tvg-name="US: NBC Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/NBC_logo_2022_%28vertical%29.svg" group-title="WRLD | Sports",US: NBC Channel
 http://41.205.64.66/NBC/index.m3u8
 #EXTINF:0 CUID="672" tvg-name="US: NBC Channel 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/NBC_logo_2022_%28vertical%29.svg" group-title="WRLD | Sports",US: NBC Channel 2
 http://41.205.93.154/NBC/index.m3u8
 #EXTINF:0 CUID="673" tvg-name="US: NBC Channel 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/NBC_logo_2022_%28vertical%29.svg" group-title="WRLD | Sports",US: NBC Channel 3
 http://41.205.64.66/NBC/index.m3u8
+#EXTINF:0 CUID="508" tvg-name="US: Somoy Tv" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/SOMOY_TV_Logo.svg/1280px-SOMOY_TV_Logo.svg.png" group-title="WRLD | Sports",US: Somoy Tv
+https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8?nimblesessionid=31182209
 #EXTINF:0 CUID="674" tvg-name="US: The NBA Channel" tvg-logo="https://image.xumo.com/v1/channels/channel/99951383/168x168.png?type=color_onBlack" group-title="WRLD | Sports",US: The NBA Channel
 https://dbrb49pjoymg4.cloudfront.net/10001/99951383/hls/playlist.m3u8?ads.xumo_channelId=99951383&ads._fw_ifa_type=&ads._fw_did=7a999324-6d74-4be6-993a-fb5e573494cc&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=NBAFASTChannel&ads.csid=xumo_web_NBAFASTChannel_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=4185&ads.xumo_contentName=NBAFASTChannel&ads.xumo_providerId=4185&ads.xumo_providerName=NBAFASTChannel&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99951383&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
 #EXTINF:0 CUID="675" tvg-name="US: Trace Sports Stars" tvg-logo="https://logo.m3uassets.com/tracesportstars.png" group-title="WRLD | Sports",US: Trace Sports Stars
