@@ -1380,6 +1380,12 @@ http://1tv41.icu:8080/live/8tFfDW/451664/35243.m3u8
 http://1tv41.icu:8080/live/8tFfDW/451664/53706.m3u8
 #EXTINF:0 CUID="685" tvg-name="UK: Sky Sports News" group-title="UK | Sky Sports",UK: Sky Sports News
 http://1tv41.icu:8080/live/8tFfDW/451664/35241.m3u8
+
+#EXTINF:-1 tvg-id="kapatid_hd" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/F222CD8E-81E5-4D77-AC2F-86E7129C2DD7/0-16x9.jpg?width=1980" group-title="PH TEST",Kapatid
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8f7a2c913d6b4e5a9f127c8d4e6a1b90:a73d3d1211fb23084c62572706f45397
+https://ucdn.mediaquest.com.ph/bpk-tv/kapatid_hd/default/index.mpd
+
 #EXTINF:0 CUID="1" tvg-name="Iron Man (2008)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCythtaM-iOKWi0JUUiQtcC3CH8o9bhUDiaFY53ZRWXFa4mGuVRFevtTZlWDusVoP6dl3e&s=10" group-title="Iron Man Collection",Iron Man (2008)
 http://ptccloud.lsdwedsfsc.site/vod/E94C12B0BECB486697F1842EAF7DD1D2_media.mp4
 #EXTINF:0 CUID="2" tvg-name="Iron Man 2 (2010)" tvg-logo="https://m.media-amazon.com/images/M/MV5BYWYyOGQzOGYtMGQ1My00ZWYxLTgzZjktZWYzN2IwYjkxYzM0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="Iron Man Collection",Iron Man 2 (2010)
