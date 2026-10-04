@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-epg.org/files/epg-kr.xml,https://iptv-epg.org/files/epg-ca.xml,https://iptv-epg.org/files/epg-gb.xml,https://iptv-epg.org/files/epg-us.xml"
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-kr.xml,https://epg.lat/files/ca.xml.gz,https://epg.lat/files/uk.xml.gz,https://epg.lat/files/us.xml.gz,https://epg.lat/files/ph.xml.gz"
 #EXTINF:-1 tvg-id="" tvg-name="24/7:  Anime x HIDIVE" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/Anime_x_HIDIVE_%28White%29.png/revision/latest?cb=20251205045808" group-title="24/7 | Anime",24/7:  Anime x HIDIVE
 https://jmp2.uk/plu-6793eaa4bc03978b9bc63db1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7:  Anime x HIDIVE 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/Anime_x_HIDIVE_%28White%29.png/revision/latest?cb=20251205045808" group-title="24/7 | Anime",24/7:  Anime x HIDIVE 2
@@ -863,7 +863,7 @@ http://124.222.153.240/kakaotv/get_channel.php?channel=tooniverse
 http://124.222.153.240/kakaotv/get_channel.php?channel=hyundai_homeshopping
 #EXTINF:-1 tvg-id="히스토리.kr" tvg-name="KR: 히스토리" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/history.png" group-title="KR | Korea",KR: 히스토리
 https://tving-live-o2-xcdn.tving.com/o2/v1/019d668d94731eb80e796d9bd9cae/019d668e57a61eb80e796d9bd9cb1/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTExNzcwOTksInBhdGgiOiIvbzIifQ.aR7iQWzBQFQQG620QZOH6CEqwDPH3KFV0CjCcfR4Wpg
-#EXTINF:-1 tvg-id="" tvg-name="PH: A2Z" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fa/A2Z_Channel_11_%281%29.png/revision/latest?cb=20251216061454" group-title="PH | Entertainment",PH: A2Z
+#EXTINF:-1 tvg-id="A2Z.ph" tvg-name="PH: A2Z" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fa/A2Z_Channel_11_%281%29.png/revision/latest?cb=20251216061454" group-title="PH | Entertainment",PH: A2Z
 http://136.239.173.2:6610/001/2/ch00000090990000001087/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqHRrK8UUahwItHhKpXgPXKytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001176&contentid=ch00000000000000001176&videoid=ch00000090990000001087&recommendtype=0&userid=1287297673984&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=U4DB4Z0H2EXXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-name="PH: Abante TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Abante_masthead.svg" group-title="PH | Entertainment",PH: Abante TV
 https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8
@@ -893,7 +893,7 @@ http://1tv41.icu:8080/live/8tFfDW/451664/101774.m3u8
 http://1tv41.icu:8080/live/8tFfDW/451664/101826.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: GNN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9a/GNN%2C_Global_News_Network%2C_Feb_2019.png" group-title="PH | Entertainment",PH: GNN
 http://136.239.159.20:6610/001/2/ch00000090990000001234/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT50169520260525071609080474&AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp6sHVPy02nySMqUY2vMm%2BjsyK4TH4mOENKJ45mwOyS0g%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001234
-#EXTINF:-1 tvg-id="" tvg-name="PH: GTV" tvg-logo="https://i.imgur.com/geuq18u.png" group-title="PH | Entertainment",PH: GTV
+#EXTINF:-1 tvg-id="HGTV.HD.ph" tvg-name="PH: GTV" tvg-logo="https://i.imgur.com/geuq18u.png" group-title="PH | Entertainment",PH: GTV
 http://136.239.159.18:6610/001/2/ch00000090990000001143/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrwAtJC%2BsmBQ5ARU076BdkhytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001313&contentid=ch00000000000000001313&videoid=ch00000090990000001143&recommendtype=0&userid=1590268675436&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=AAIUZ2MAG7XXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-name="PH: Hallypop" tvg-logo="https://static.wikia.nocookie.net/russel/images/b/b8/Hallypop_Logo_2020.png/revision/latest/scale-to-width-down/1200?cb=20221229002424" group-title="PH | Entertainment",PH: Hallypop
 http://136.158.97.2:6610/001/2/ch00000090990000001152/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT379224520260525071217099436&AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArQQqEzMGzqacd7xs%2FVYEXbsyK4TH4mOENKJ45mwOyS0g%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001152
@@ -901,9 +901,9 @@ http://136.158.97.2:6610/001/2/ch00000090990000001152/sec-f2-v1-a1.m3u8?JITPDRMT
 https://cdn-kr-icn.becdn.net/hcorg_ROeXKL3HV6a/s/jsl_nX5eC7gQvZb/rUdlV/720p/main.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: INCTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ae/INC_TV_New_Logo.png/revision/latest/scale-to-width-down/1000?cb=20220903100749" group-title="PH | Entertainment",PH: INCTV
 http://136.239.159.18:6610/001/2/ch00000090990000001092/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrC5ZD%2FYbS0KSGrFVJUNIMkytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001178&contentid=ch00000000000000001178&videoid=ch00000090990000001092&recommendtype=0&userid=1760058453659&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=HILNO5G9U9IXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
-#EXTINF:-1 tvg-id="" tvg-name="PH: Kapamilya Channel HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4a/ABS_KapCha_Logo.svg/revision/latest?cb=20260524172753" group-title="PH | Entertainment",PH: Kapamilya Channel HD
+#EXTINF:-1 tvg-id="KAPAMILYA.CHANNEL.HD.ph" tvg-name="PH: Kapamilya Channel HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4a/ABS_KapCha_Logo.svg/revision/latest?cb=20260524172753" group-title="PH | Entertainment",PH: Kapamilya Channel HD
 http://136.239.173.2:6610/001/2/ch00000090990000001286/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bqw65FFCygtQMRRIUPF0xuXytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001694&contentid=ch00000000000000001694&videoid=ch00000090990000001286&recommendtype=0&userid=1004802317138&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=CCJLYZ04O9IXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
-#EXTINF:-1 tvg-id="" tvg-name="PH: Kapamilya Channel HD +" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4a/ABS_KapCha_Logo.svg/revision/latest?cb=20260524172753" group-title="PH | Entertainment",PH: Kapamilya Channel HD +
+#EXTINF:-1 tvg-id="KAPAMILYA.CHANNEL.HD.ph" tvg-name="PH: Kapamilya Channel HD +" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4a/ABS_KapCha_Logo.svg/revision/latest?cb=20260524172753" group-title="PH | Entertainment",PH: Kapamilya Channel HD +
 http://136.239.173.2:6610/001/2/ch00000090990000001286/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bqw65FFCygtQMRRIUPF0xuXytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001694&contentid=ch00000000000000001694&videoid=ch00000090990000001286&recommendtype=0&userid=1004802317138&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=CCJLYZ04O9IXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-name="PH: Mindanow Network TV" tvg-logo="https://i.imgur.com/xBlYirh.jpeg" group-title="PH | Entertainment",PH: Mindanow Network TV
 https://cdn.vegasplus.us/vegas/mmn01/playlist.m3u8
@@ -917,7 +917,7 @@ http://136.239.159.18:6610/001/2/ch00000090990000001084/manifest.mpd?AuthInfo=v8
 http://136.239.159.20:6610/001/2/ch00000090990000001234/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp6sHVPy02nySMqUY2vMm%2BjsyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001523&contentid=ch00000000000000001523&videoid=ch00000090990000001234&recommendtype=0&userid=1526361783035&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=631X1DC4AX9XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20449520260101155240223296&ispcode=55
 #EXTINF:-1 tvg-id="" tvg-name="PH: Pinoy Xtream" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0c/Pinoy_Extreme_logo.jpg/revision/latest?cb=20171213040302" group-title="PH | Entertainment",PH: Pinoy Xtream
 http:/136.239.158.18:6610/001/2/ch00000090990000001098/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT50162920260525065406077763&AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApC219uqwL0dVmslrkAjamFsyK4TH4mOENKJ45mwOyS0g%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001098
-#EXTINF:-1 tvg-id="" tvg-name="PH: RPTV" tvg-logo="https://static.wikia.nocookie.net/russel/images/f/fb/RPTV_Alternative_Logo_2024.png/revision/latest?cb=20240305140432" group-title="PH | Entertainment",PH: RPTV
+#EXTINF:-1 tvg-id="RPTV.ph" tvg-name="PH: RPTV" tvg-logo="https://static.wikia.nocookie.net/russel/images/f/fb/RPTV_Alternative_Logo_2024.png/revision/latest?cb=20240305140432" group-title="PH | Entertainment",PH: RPTV
 https://streams.comclark.com/pknsd/rptv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: Saudi TV" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/d/d6/Al-Saudia_TV_Logo_2018.png/250px-Al-Saudia_TV_Logo_2018.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="PH | Entertainment",PH: Saudi TV
 http://161.49.17.2:6610/001/2/ch00000090990000001176/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bqx%2BXO6kYP1duDF0CR%2BT7zbytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001413&contentid=ch00000000000000001413&videoid=ch00000090990000001176&recommendtype=0&userid=1635054451771&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=17AVARI79W0IXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
@@ -927,9 +927,9 @@ http://1tv41.icu:8080/live/8tFfDW/451664/101823.m3u8
 http://1tv41.icu:8080/live/8tFfDW/451664/101823.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: TV Maria" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/Maria_TV.png/revision/latest?cb=20200414213815" group-title="PH | Entertainment",PH: TV Maria
 http://136.158.97.2:6610/001/2/ch00000090990000001160/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqJiJmfV%2B93mjmGGmqynSohytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001374&contentid=ch00000000000000001374&videoid=ch00000090990000001160&recommendtype=0&userid=1605694488407&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=G669IAJA55PXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
-#EXTINF:-1 tvg-id="" tvg-name="PH: TV5 HD" tvg-logo="https://static.wikia.nocookie.net/russel/images/7/7a/TV5_HD_Logo_2024.png/revision/latest/scale-to-width-down/290?cb=20240202141126" group-title="PH | Entertainment",PH: TV5 HD
+#EXTINF:-1 tvg-id="TV5.ph" tvg-name="PH: TV5 HD" tvg-logo="https://static.wikia.nocookie.net/russel/images/7/7a/TV5_HD_Logo_2024.png/revision/latest/scale-to-width-down/290?cb=20240202141126" group-title="PH | Entertainment",PH: TV5 HD
 http://136.239.158.30:6610/001/2/ch00000090990000001088/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Boh0xOsaoSFLqA0PEh9gVjiytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001213&contentid=ch00000000000000001213&videoid=ch00000090990000001088&recommendtype=0&userid=1150006064464&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=J62NMXIGLTMXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
-#EXTINF:-1 tvg-id="" tvg-name="PH: TV5 HD +" tvg-logo="https://static.wikia.nocookie.net/russel/images/7/7a/TV5_HD_Logo_2024.png/revision/latest/scale-to-width-down/290?cb=20240202141126" group-title="PH | Entertainment",PH: TV5 HD +
+#EXTINF:-1 tvg-id="TV5.ph" tvg-name="PH: TV5 HD +" tvg-logo="https://static.wikia.nocookie.net/russel/images/7/7a/TV5_HD_Logo_2024.png/revision/latest/scale-to-width-down/290?cb=20240202141126" group-title="PH | Entertainment",PH: TV5 HD +
 http://136.158.97.2:6610/001/2/ch00000090990000001088/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAoh0xOsaoSFLqA0PEh9gVjisyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001213&contentid=ch00000000000000001213&videoid=ch00000090990000001088&recommendtype=0&userid=1099183361159&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ZRUDOFEVUJOXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20448320260101155237311409&ispcode=55
 #EXTINF:-1 tvg-id="" tvg-name="PH: UNTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/UNTV-Logo-2016.svg" group-title="PH | Entertainment",PH: UNTV
 http://136.239.173.2:6610/001/2/ch00000090990000001091/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT119828320260525070824082566&AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp8EKxpteUJNLDuI18c3YYNsyK4TH4mOENKJ45mwOyS0g%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001091
@@ -945,19 +945,19 @@ http://live20.bozztv.com/giatvplayout7/giatv-210631/tracks-v1a1/mono.ts.m3u8
 https://asiaflixtvph.itunerworldwide.workers.dev/master.live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: Blast Movies" tvg-logo="https://iyadtv.pages.dev/images/blast_movies_39.png" group-title="PH | MOVIES",PH: Blast Movies
 https://amg19223-amg19223c7-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c7-amgplt0351/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PH: Celestial Classic Movies" tvg-logo="https://i.imgur.com/4JCkzjl.png" group-title="PH | MOVIES",PH: Celestial Classic Movies
+#EXTINF:-1 tvg-id="CELESTIAL.CLASSIC.MOVIES.ph" tvg-name="PH: Celestial Classic Movies" tvg-logo="https://i.imgur.com/4JCkzjl.png" group-title="PH | MOVIES",PH: Celestial Classic Movies
 http://136.239.158.18:6610/001/2/ch00000090990000001244/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bp8jImOa2AKrqwa1m%2FJfhceytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001544&contentid=ch00000000000000001544&videoid=ch00000090990000001244&recommendtype=0&userid=1537952098663&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=WEF0S27HC1HXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-name="PH: Celestial Movies Pinoy" tvg-logo="https://i.imgur.com/e5IZsv3.png" group-title="PH | MOVIES",PH: Celestial Movies Pinoy
 http://136.239.159.20:6610/001/2/ch00000090990000001077/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrHUpvQtyXgWxpVCozt4hcgytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001136&contentid=ch00000000000000001136&videoid=ch00000090990000001077&recommendtype=0&userid=1863800460286&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=EJ21Z5961VKXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
-#EXTINF:-1 tvg-id="" tvg-name="PH: Cine Mo!" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Cinemo_logo_vectorized.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="PH | MOVIES",PH: Cine Mo!
+#EXTINF:-1 tvg-id="CINEMO!.ph" tvg-name="PH: Cine Mo!" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Cinemo_logo_vectorized.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="PH | MOVIES",PH: Cine Mo!
 https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index_3.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PH: Cine Mo! Global" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Cinemo_logo_vectorized.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="PH | MOVIES",PH: Cine Mo! Global
+#EXTINF:-1 tvg-id="CINEMO!.ph" tvg-name="PH: Cine Mo! Global" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Cinemo_logo_vectorized.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="PH | MOVIES",PH: Cine Mo! Global
 http://136.239.158.30:6610/001/2/ch00000090990000001254/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApP1%2FTBq4G4yW%2Bysf7XC2GUsyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001547&contentid=ch00000000000000001547&videoid=ch00000090990000001254&recommendtype=0&userid=1627619394946&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ENDPNYXUMN7XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20445320260101155240172236&ispcode=55
-#EXTINF:-1 tvg-id="" tvg-name="PH: CinemaOne Global" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/66/Cinema_One_logo.png" group-title="PH | MOVIES",PH: CinemaOne Global
+#EXTINF:-1 tvg-id="CINEMA.ONE.ph" tvg-name="PH: CinemaOne Global" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/66/Cinema_One_logo.png" group-title="PH | MOVIES",PH: CinemaOne Global
 http://136.239.158.10:6610/001/2/ch00000090990000001283/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAr2cQyuTRlDkHeiqeVidUqqsyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001548&contentid=ch00000000000000001548&videoid=ch00000090990000001283&recommendtype=0&userid=1481102669463&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=7TIMXILHNX5XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20445520260101155240041967&ispcode=55
-#EXTINF:-1 tvg-id="" tvg-name="PH: CinemaOne PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/66/Cinema_One_logo.png" group-title="PH | MOVIES",PH: CinemaOne PH
+#EXTINF:-1 tvg-id="CINEMA.ONE.ph" tvg-name="PH: CinemaOne PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/66/Cinema_One_logo.png" group-title="PH | MOVIES",PH: CinemaOne PH
 http://136.239.158.10:6610/001/2/ch00000090990000001283/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br2cQyuTRlDkHeiqeVidUqqytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001548&contentid=ch00000000000000001548&videoid=ch00000090990000001283&recommendtype=0&userid=1041236685526&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=852NEU8T1ZOXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
-#EXTINF:-1 tvg-id="" tvg-name="PH: Cinemax Asia" tvg-logo="https://logo.m3uassets.com/cinemaxasia.png" group-title="PH | MOVIES",PH: Cinemax Asia
+#EXTINF:-1 tvg-id="CINEMAX.HD.ph" tvg-name="PH: Cinemax Asia" tvg-logo="https://logo.m3uassets.com/cinemaxasia.png" group-title="PH | MOVIES",PH: Cinemax Asia
 http://136.239.173.10:6610/001/2/ch00000090990000001108/sec-f2-v1-a1.m3u8?JITPDRMType=NO&version=v1.0&IASHttpSessionId=OTT249347420260716140410084630&programid=ch00000000000000001233&virtualDomain=001.live_hls.zte.com&recommendtype=0&BreakPoint=0&profilecode=&userid=1349825919509&videoid=ch00000090990000001108&usersessionid=LAO494UQ9QXXXX&ispcode=55&terminalflag=1&NeedJITP=1&stbid=02:00:00:00:00:00&boid=001&AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoD7Jkv0l3sE1jz6821dGRWytokK1MIobcue1ImXa0ZEA%3D%3D&m3u8_level=2&contentid=ch00000000000000001233&JITPMediaType=HLS&ztecid=ch00000090990000001108
 #EXTINF:-1 tvg-id="" tvg-name="PH: Dream Tv PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a6/Dream_Satellite_TV_logo.png" group-title="PH | MOVIES",PH: Dream Tv PH
 https://live20.bozztv.com/giatvplayout7/giatv-209574/tracks-v1a1/mono.m3u8
@@ -971,15 +971,15 @@ https://live20.bozztv.com/giatvplayout7/giatv-212059/tracks-v1a1/mono.ts.m3u8
 https://nokotan.anhkz.fr/feeds?channel_id=HoA
 #EXTINF:-1 tvg-id="" tvg-name="PH: GMA I Heart Movies" tvg-logo="https://logo.m3uassets.com/iheartmovies.png" group-title="PH | MOVIES",PH: GMA I Heart Movies
 https://nokotan.anhkz.fr/feeds?channel_id=IHM
-#EXTINF:-1 tvg-id="" tvg-name="PH: HBO Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/HBO_New_Logo.png" group-title="PH | MOVIES",PH: HBO Asia
+#EXTINF:-1 tvg-id="HBO.HD.ph" tvg-name="PH: HBO Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/HBO_New_Logo.png" group-title="PH | MOVIES",PH: HBO Asia
 http://136.239.173.2:6610/001/2/ch00000090990000001065/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT119760720260531041941102475&AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAosKg8aLji3LHWqHUI%2FwQyJsyK4TH4mOENKJ45mwOyS0g%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001065
 #EXTINF:-1 tvg-id="" tvg-name="PH: Hype Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-CCCZP0iPlCVf1Cm6hJ8r7_FrO8a48EdN7zpdU44PBK4gbAsoLEE80yi&s=10" group-title="PH | MOVIES",PH: Hype Tv
 https://live20.bozztv.com/giatvplayout7/giatv-211468/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PH: KIX" tvg-logo="https://i.imgur.com/B8Fmzer.png" group-title="PH | MOVIES",PH: KIX
+#EXTINF:-1 tvg-id="KIX.HD.ph" tvg-name="PH: KIX" tvg-logo="https://i.imgur.com/B8Fmzer.png" group-title="PH | MOVIES",PH: KIX
 http://136.239.159.20:6610/001/2/ch00000090990000001263/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqszdaNqmegxz2VkIuTd%2B31ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001583&contentid=ch00000000000000001583&videoid=ch00000090990000001263&recommendtype=0&userid=1319115127597&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=D4NMMH3RZQXXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-name="PH: MovieBoxPh" tvg-logo="https://i.imghippo.com/files/ugg8214kRE.png" group-title="PH | MOVIES",PH: MovieBoxPh
 https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PH: PBO" tvg-logo="https://i.imgur.com/61fHpnW.png" group-title="PH | MOVIES",PH: PBO
+#EXTINF:-1 tvg-id="PBO.ph" tvg-name="PH: PBO" tvg-logo="https://i.imgur.com/61fHpnW.png" group-title="PH | MOVIES",PH: PBO
 http://136.239.173.10:6610/001/2/ch00000090990000001078/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq9SZLE5HgafIcQ2VcLQB9EytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001137&contentid=ch00000000000000001137&videoid=ch00000090990000001078&recommendtype=0&userid=1302493816250&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=52Y01DLD7HXXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-name="PH: PinoyMovieBox" tvg-logo="https://gia.tv/streams/pstream/212067.png?1786004489" group-title="PH | MOVIES",PH: PinoyMovieBox
 https://183.bozztv.com/giatv/giatv-pmb12/pmb12/chunks.m3u8
@@ -989,7 +989,7 @@ https://sdtvnetworkph.sanmateocable.workers.dev/master.live.m3u8
 https://sineplusph.itunerworldwide.workers.dev/master.live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: Sinemanila" tvg-logo="https://iyadtv.pages.dev/images/sinemanila_231.png" group-title="PH | MOVIES",PH: Sinemanila
 https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/chunks.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PH: Solarflix" tvg-logo="https://i.imgur.com/OgBDJ75.png" group-title="PH | MOVIES",PH: Solarflix
+#EXTINF:-1 tvg-id="SOLARFLIX.ph" tvg-name="PH: Solarflix" tvg-logo="https://i.imgur.com/OgBDJ75.png" group-title="PH | MOVIES",PH: Solarflix
 http://136.239.159.18:6610/001/2/ch00000090990000001243/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpbUxUxZzyq5Czg7gUnQAcvytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001543&contentid=ch00000000000000001543&videoid=ch00000090990000001243&recommendtype=0&userid=1633620334084&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=B91ZY82QQ8UXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-name="PH: Sony Movies" tvg-logo="https://iyadtv.pages.dev/images/sony-movies.png" group-title="PH | MOVIES",PH: Sony Movies
 http://1tv41.icu:8080/live/8tFfDW/451664/2214.m3u8
@@ -1001,17 +1001,17 @@ https://startelevisionph.itunerworldwide.workers.dev/master.live.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208168/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: STBS Global" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/054/019/906/small/question-mark-with-shadow-effect-png.png" group-title="PH | MOVIES",PH: STBS Global
 https://live20.bozztv.com/giatvplayout7/giatv-208591/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PH: Tap Action Flix" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/88/TAP_ActionFlix_logo.png/revision/latest/scale-to-width-down/1200?cb=20210920130656" group-title="PH | MOVIES",PH: Tap Action Flix
+#EXTINF:-1 tvg-id="TapAction.Flix.HD.ph" tvg-name="PH: Tap Action Flix" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/88/TAP_ActionFlix_logo.png/revision/latest/scale-to-width-down/1200?cb=20210920130656" group-title="PH | MOVIES",PH: Tap Action Flix
 http://161.49.17.2:6610/001/2/ch00000090990000001305/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApahcUJJEYAxPtEef94INw12%2FjHNuou2Jtxin49X3LQKw%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001775&contentid=ch00000000000000001775&videoid=ch00000090990000001305&recommendtype=0&userid=1992031084771&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=HTEZZPU574PXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20448720260101155241186367&ispcode=55
-#EXTINF:-1 tvg-id="" tvg-name="PH: Tap Edge" tvg-logo="https://i.imgur.com/3YvDUjL.png" group-title="PH | MOVIES",PH: Tap Edge
+#EXTINF:-1 tvg-id="TAP.EDGE.ph" tvg-name="PH: Tap Edge" tvg-logo="https://i.imgur.com/3YvDUjL.png" group-title="PH | MOVIES",PH: Tap Edge
 http://136.239.173.26:6610/001/2/ch00000090990000001150/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAq%2B2uVbDOBwGF5t4YHKR5dbsyK4TH4mOENKJ45mwOyS0g%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001320&contentid=ch00000000000000001320&videoid=ch00000090990000001150&recommendtype=0&userid=1226123292884&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=DO0EYWTCAYKXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20447020260101155238141592&ispcode=55
-#EXTINF:-1 tvg-id="" tvg-name="PH: Tap Movies" tvg-logo="https://i.imgur.com/3RVA5mV.png" group-title="PH | MOVIES",PH: Tap Movies
+#EXTINF:-1 tvg-id="TAP.MOVIES.HD.ph" tvg-name="PH: Tap Movies" tvg-logo="https://i.imgur.com/3RVA5mV.png" group-title="PH | MOVIES",PH: Tap Movies
 http://136.239.158.10:6610/001/2/ch00000090990000001304/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArqmX9tLke4aZIpUgreyOpN2%2FjHNuou2Jtxin49X3LQKw%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001774&contentid=ch00000000000000001774&videoid=ch00000090990000001304&recommendtype=0&userid=1535415299339&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=KA8C98C3ZAXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO&IASHttpSessionId=RR20453120260101155241063274&ispcode=55
-#EXTINF:-1 tvg-id="" tvg-name="PH: Tap Tv" tvg-logo="https://static.wikia.nocookie.net/russel/images/6/6a/TAP_TV_Logo_2020.png/revision/latest/scale-to-width-down/1200?cb=20250707140704" group-title="PH | MOVIES",PH: Tap Tv
+#EXTINF:-1 tvg-id="TAP.TV.ph" tvg-name="PH: Tap Tv" tvg-logo="https://static.wikia.nocookie.net/russel/images/6/6a/TAP_TV_Logo_2020.png/revision/latest/scale-to-width-down/1200?cb=20250707140704" group-title="PH | MOVIES",PH: Tap Tv
 http://136.239.173.3:6610/001/2/ch00000090990000001149/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT119752420260525070120082497&AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAroVo9XMLpd0k2y9rVerSvmsyK4TH4mOENKJ45mwOyS0g%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001149
-#EXTINF:-1 tvg-id="" tvg-name="PH: Thrill" tvg-logo="https://static.wikia.nocookie.net/logos/images/9/9c/Thrill_logo_2014.png/revision/latest/scale-to-width-down/306?cb=20220502112950&path-prefix=vi" group-title="PH | MOVIES",PH: Thrill
+#EXTINF:-1 tvg-id="THRILL.ph" tvg-name="PH: Thrill" tvg-logo="https://static.wikia.nocookie.net/logos/images/9/9c/Thrill_logo_2014.png/revision/latest/scale-to-width-down/306?cb=20220502112950&path-prefix=vi" group-title="PH | MOVIES",PH: Thrill
 http://136.239.173.10:6610/001/2/ch00000090990000001253/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq7M3KTlp1dzcZcVVxlNmQdytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001563&contentid=ch00000000000000001563&videoid=ch00000090990000001253&recommendtype=0&userid=1896007622720&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8LJ3RRPRMVYXXX&NeedJITP=1&JITPM
-#EXTINF:-1 tvg-id="" tvg-name="PH: TMC" tvg-logo="https://static.wikia.nocookie.net/russel/images/4/41/Tagalized_Movie_Channel_Logo_2021.png/revision/latest?cb=20250217143719" group-title="PH | MOVIES",PH: TMC
+#EXTINF:-1 tvg-id="TMC.(TAGALIZED.MOVIE.CHANNEL).ph" tvg-name="PH: TMC" tvg-logo="https://static.wikia.nocookie.net/russel/images/4/41/Tagalized_Movie_Channel_Logo_2021.png/revision/latest?cb=20250217143719" group-title="PH | MOVIES",PH: TMC
 http://136.239.159.20:6610/001/2/ch00000090990000001080/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrHx%2Fyl86rMkFVqtHp1NtQIytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001153&contentid=ch00000000000000001153&videoid=ch00000090990000001080&recommendtype=0&userid=1123674387331&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=OWFM2G9EILPXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-name="PH: Viva Cinema" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/2/2f/Viva_Cinema_%282021-.n.v.%29.png/revision/latest?cb=20210804092616" group-title="PH | MOVIES",PH: Viva Cinema
 http://136.239.158.18:6610/001/2/ch00000090990000001079/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoglCgy7TAZamPXsCV8PgebytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001138&contentid=ch00000000000000001138&videoid=ch00000090990000001079&recommendtype=0&userid=1897516127558&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=1Z8S6AOLQ8XXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
@@ -1021,21 +1021,21 @@ http://136.239.158.18:6610/001/2/ch00000090990000001406/index.m3u8?AuthInfo=v87H
 http://1tv41.icu:8080/live/8tFfDW/451664/328489.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PH: Nudge Sports Channel" tvg-logo="https://i.imgur.com/TW0hapZ.png" group-title="PH | SPORTS",PH: Nudge Sports Channel
 https://streams.comclark.com/live_input/nudge_sports/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports" tvg-logo="https://static.wikia.nocookie.net/russel/images/5/5a/One_Sports_%28TV_channel%29_3D_Logo_2020.png/revision/latest?cb=20230520142737" group-title="PH | SPORTS",PH: One Sports
+#EXTINF:-1 tvg-id="ONE.SPORTS.ph" tvg-name="PH: One Sports" tvg-logo="https://static.wikia.nocookie.net/russel/images/5/5a/One_Sports_%28TV_channel%29_3D_Logo_2020.png/revision/latest?cb=20230520142737" group-title="PH | SPORTS",PH: One Sports
 http://136.239.158.18:6610/001/2/ch00000090990000001083/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpiZhzOAmsfItUIS2UHXxD0ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001173&contentid=ch00000000000000001173&videoid=ch00000090990000001083&recommendtype=0&userid=1797679327850&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=RCAJM4IFILAXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
-#EXTINF:-1 tvg-id="" tvg-name="PH: One Sports +" tvg-logo="https://static.wikia.nocookie.net/russel/images/5/5a/One_Sports_%28TV_channel%29_3D_Logo_2020.png/revision/latest?cb=20230520142737" group-title="PH | SPORTS",PH: One Sports +
+#EXTINF:-1 tvg-id="ONE.SPORTS.ph" tvg-name="PH: One Sports +" tvg-logo="https://static.wikia.nocookie.net/russel/images/5/5a/One_Sports_%28TV_channel%29_3D_Logo_2020.png/revision/latest?cb=20230520142737" group-title="PH | SPORTS",PH: One Sports +
 https://ott.djdoolky76.net/stream/iptv/onesports/stream_0.m3u8?u=udpv4&p=db8b8839b5a336adbd1b3d7eb78863623b5068cba7b65031c2b753d5320e2c5e&uid=2322664446
 #EXTINF:-1 tvg-id="" tvg-name="PH: PBA Rush" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/cd/PBA_Rush_logo.png" group-title="PH | SPORTS",PH: PBA Rush
 http://1tv41.icu:8080/live/8tFfDW/451664/328490.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cb/PremierSports-ph.png" group-title="PH | SPORTS",PH: Premier Sports
+#EXTINF:-1 tvg-id="PREMIER.SPORTS.HD.ph" tvg-name="PH: Premier Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cb/PremierSports-ph.png" group-title="PH | SPORTS",PH: Premier Sports
 https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg19223-amg19223c3-amgplt0351/82a4bb51-794e-11f1-a790-fe279bad14bd/161/854x480_1478083/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Sports (Feed 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b8/PremierSports-ph_2026.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="PH | SPORTS",PH: Premier Sports (Feed 1)
+#EXTINF:-1 tvg-id="PREMIER.SPORTS.HD.ph" tvg-name="PH: Premier Sports (Feed 1)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b8/PremierSports-ph_2026.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="PH | SPORTS",PH: Premier Sports (Feed 1)
 http://136.239.173.10:6610/001/2/ch00000090990000001135/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoP1uzasPUQtxzHrrWIYilSytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001282&contentid=ch00000000000000001282&videoid=ch00000090990000001135&recommendtype=0&userid=1603895214902&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ZGWMVRUB2AQXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
-#EXTINF:-1 tvg-id="" tvg-name="PH: Premier Sports 2" tvg-logo="https://i.imgur.com/UQeXWd2.png" group-title="PH | SPORTS",PH: Premier Sports 2
+#EXTINF:-1 tvg-id="PREMIER.SPORTS.2.HD.ph" tvg-name="PH: Premier Sports 2" tvg-logo="https://i.imgur.com/UQeXWd2.png" group-title="PH | SPORTS",PH: Premier Sports 2
 https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PH: Solar Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/Solar_Sports_2016_logo.png" group-title="PH | SPORTS",PH: Solar Sports
+#EXTINF:-1 tvg-id="SOLAR.SPORTS.ph" tvg-name="PH: Solar Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/Solar_Sports_2016_logo.png" group-title="PH | SPORTS",PH: Solar Sports
 http://136.239.159.20:6610/001/2/ch00000090990000001081/sec-f2-v1-a1.m3u8?JITPDRMType=NO&IASHttpSessionId=OTT50164020260525065500074400&AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApTfGIKxFqRM2tu30PzY%2FKksyK4TH4mOENKJ45mwOyS0g%3D%3D&m3u8_level=2&virtualDomain=001.live_hls.zte.com&ispcode=55&ztecid=ch00000090990000001081
-#EXTINF:-1 tvg-id="" tvg-name="PH: Tap Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="PH | SPORTS",PH: Tap Sports
+#EXTINF:-1 tvg-id="TAP.SPORTS.HD.ph" tvg-name="PH: Tap Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="PH | SPORTS",PH: Tap Sports
 http://136.239.173.3:6610/001/2/ch00000090990000001151/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqvuCQC%2BfGfSFGYE2TZKWpbytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001321&contentid=ch00000000000000001321&videoid=ch00000090990000001151&recommendtype=0&userid=1148739009053&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=Z6EHYVCYR3XXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
 #EXTINF:-1 tvg-id="" tvg-name="PH: UAAP Varsity Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/UAAP_VC_88.png/revision/latest/scale-to-width-down/1000?cb=20250526162013" group-title="PH | SPORTS",PH: UAAP Varsity Channel
 http://1tv41.icu:8080/live/8tFfDW/451664/320454.m3u8
@@ -1049,83 +1049,83 @@ http://restream-live.realiptv.to:8080/movie/1234567/7654321/819829.mp4
 http://wickediptv.live/movie/Randall123/Randall321/237315.mp4
 #EXTINF:-1 tvg-id="" tvg-name="The SpongeBob SquarePants Movie: Rehydrated (2022)" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGIzNjFiZWMtNzQ3MS00ODgwLTg0NDEtNDVlMzZkZTYwNjk0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="The SpongeBob SquarePants  Collection",The SpongeBob SquarePants Movie: Rehydrated (2022)
 http://restream-live.realiptv.to:8080/movie/1234567/7654321/1170876.mp4
-#EXTINF:-1 tvg-id="SkySportsPlus.uk" tvg-name="UK: Sky Sports Cricket FHD (D)" group-title="UK | Sky Sports",UK: Sky Sports Cricket FHD (D)
+#EXTINF:-1 tvg-id="SkySp+HD.uk" tvg-name="UK: Sky Sports Cricket FHD (D)" group-title="UK | Sky Sports",UK: Sky Sports Cricket FHD (D)
 http://1tv41.icu:8080/live/8tFfDW/451664/45940.m3u8
-#EXTINF:-1 tvg-id="SkySportsF1UHD.uk" tvg-name="UK: Sky Sports F1 FHD" group-title="UK | Sky Sports",UK: Sky Sports F1 FHD
+#EXTINF:-1 tvg-id="SkySp+HD.uk" tvg-name="UK: Sky Sports F1 FHD" group-title="UK | Sky Sports",UK: Sky Sports F1 FHD
 http://1tv41.icu:8080/live/8tFfDW/451664/35244.m3u8
-#EXTINF:-1 tvg-id="SkySportsF1UHD.uk" tvg-name="UK: Sky Sports F1 FHD (D)" group-title="UK | Sky Sports",UK: Sky Sports F1 FHD (D)
+#EXTINF:-1 tvg-id="SkySp+HD.uk" tvg-name="UK: Sky Sports F1 FHD (D)" group-title="UK | Sky Sports",UK: Sky Sports F1 FHD (D)
 http://1tv41.icu:8080/live/8tFfDW/451664/53704.m3u8
-#EXTINF:-1 tvg-id="SkySportsF1UHD.uk" tvg-name="UK: Sky Sports F1 FHD+" group-title="UK | Sky Sports",UK: Sky Sports F1 FHD+
+#EXTINF:-1 tvg-id="SkySp+HD.uk" tvg-name="UK: Sky Sports F1 FHD+" group-title="UK | Sky Sports",UK: Sky Sports F1 FHD+
 http://stream.bottledesk.net/p/AwZGQwwEZA/index.m3u8
-#EXTINF:-1 tvg-id="SkySportsGolf.uk" tvg-name="UK: Sky Sports Golf FHD" group-title="UK | Sky Sports",UK: Sky Sports Golf FHD
+#EXTINF:-1 tvg-id="SkySp+HD.uk" tvg-name="UK: Sky Sports Golf FHD" group-title="UK | Sky Sports",UK: Sky Sports Golf FHD
 http://1tv41.icu:8080/live/8tFfDW/451664/35240.m3u8
-#EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-name="UK: Sky Sports Main Event" group-title="UK | Sky Sports",UK: Sky Sports Main Event
+#EXTINF:-1 tvg-id="SkySp+HD.uk" tvg-name="UK: Sky Sports Main Event" group-title="UK | Sky Sports",UK: Sky Sports Main Event
 http://1tv41.icu:8080/live/8tFfDW/451664/35243.m3u8
-#EXTINF:-1 tvg-id="SkySportsPlus.uk" tvg-name="UK: Sky Sports Mix FHD (D)" group-title="UK | Sky Sports",UK: Sky Sports Mix FHD (D)
+#EXTINF:-1 tvg-id="SkySp+HD.uk" tvg-name="UK: Sky Sports Mix FHD (D)" group-title="UK | Sky Sports",UK: Sky Sports Mix FHD (D)
 http://1tv41.icu:8080/live/8tFfDW/451664/53706.m3u8
-#EXTINF:-1 tvg-id="SkySportsNews.uk" tvg-name="UK: Sky Sports News" group-title="UK | Sky Sports",UK: Sky Sports News
+#EXTINF:-1 tvg-id="SkySp+HD.uk" tvg-name="UK: Sky Sports News" group-title="UK | Sky Sports",UK: Sky Sports News
 http://1tv41.icu:8080/live/8tFfDW/451664/35241.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="UK: TEST ESPN" group-title="UK | Sky Sports",UK: TEST ESPN
 http:\\170.83.16.50\ESPN\mpegts
-#EXTINF:-1 tvg-id="FoxDeportes.us" tvg-name="US: Fox Deportes" tvg-logo="https://www.foxdeportes.com/assets/images/banner.png" group-title="US | Fox Sports",US: Fox Deportes
+#EXTINF:-1 tvg-id="" tvg-name="US: Fox Deportes" tvg-logo="https://www.foxdeportes.com/assets/images/banner.png" group-title="US | Fox Sports",US: Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="FOX4K.us" tvg-name="US: Fox Soccer +" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Soccer_Plus_logo.svg/1280px-Fox_Soccer_Plus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="US | Fox Sports",US: Fox Soccer +
+#EXTINF:-1 tvg-id="" tvg-name="US: Fox Soccer +" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Soccer_Plus_logo.svg/1280px-Fox_Soccer_Plus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="US | Fox Sports",US: Fox Soccer +
 http://40.160.24.52/FOX_SOCCER_PLUS/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="US: Fox Sports 1" tvg-logo="https://logo.m3uassets.com/foxsports1.png" group-title="US | Fox Sports",US: Fox Sports 1
+#EXTINF:-1 tvg-id="" tvg-name="US: Fox Sports 1" tvg-logo="https://logo.m3uassets.com/foxsports1.png" group-title="US | Fox Sports",US: Fox Sports 1
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports2.us" tvg-name="US: Fox Sports 2" tvg-logo="https://logo.m3uassets.com/foxsports2.png" group-title="US | Fox Sports",US: Fox Sports 2
+#EXTINF:-1 tvg-id="" tvg-name="US: Fox Sports 2" tvg-logo="https://logo.m3uassets.com/foxsports2.png" group-title="US | Fox Sports",US: Fox Sports 2
 https://tvsen7.aynascope.net/foxsports2/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: 5STARMAX" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5a/5Star_Max_HD_2011.svg/revision/latest?cb=20231007140647" group-title="US | MOVIES",US: 5STARMAX
 http://23.237.104.106:8080/USA_5STARMAX/index.m3u8?takodachi
-#EXTINF:-1 tvg-id="BBCAmerica.us" tvg-name="US: BBC America" tvg-logo="https://logo.m3uassets.com/bbcamerica.png" group-title="US | MOVIES",US: BBC America
+#EXTINF:-1 tvg-id="" tvg-name="US: BBC America" tvg-logo="https://logo.m3uassets.com/bbcamerica.png" group-title="US | MOVIES",US: BBC America
 http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: BigCinema" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUsMQPE7Fmdn2hSR14axTvsgqJRvxDvSjvyryI970s2g&s" group-title="US | MOVIES",US: BigCinema
 https://hls.showfer.com/live/dBsh2/Big_Cinema/airy.m3u8
-#EXTINF:-1 tvg-id="Charge!.us" tvg-name="US: Charge! East" tvg-logo="https://logo.m3uassets.com/charge.png" group-title="US | MOVIES",US: Charge! East
+#EXTINF:-1 tvg-id="" tvg-name="US: Charge! East" tvg-logo="https://logo.m3uassets.com/charge.png" group-title="US | MOVIES",US: Charge! East
 https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
-#EXTINF:-1 tvg-id="Charge!.us" tvg-name="US: Charge! West" tvg-logo="https://logo.m3uassets.com/charge.png" group-title="US | MOVIES",US: Charge! West
+#EXTINF:-1 tvg-id="" tvg-name="US: Charge! West" tvg-logo="https://logo.m3uassets.com/charge.png" group-title="US | MOVIES",US: Charge! West
 http://1tv41.icu:8080/live/8tFfDW/451664/79594.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: CinemaStar" tvg-logo="https://play-lh.googleusercontent.com/iZig-S51CSm4xZ6B9i9bSw8puYvKpKNYKIaYhSu7yU6Y8Ms55XppwIfxV8FqIQnXWO0CbetJix_taZFyA5xD" group-title="US | MOVIES",US: CinemaStar
 https://hls.showfer.com/live/zlx8L/CinemaStar/airy.m3u8
-#EXTINF:-1 tvg-id="CineMAX.us" tvg-name="US: Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/3840px-Cinemax_%28Yellow%29.svg.png" group-title="US | MOVIES",US: Cinemax
+#EXTINF:-1 tvg-id="" tvg-name="US: Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/3840px-Cinemax_%28Yellow%29.svg.png" group-title="US | MOVIES",US: Cinemax
 http://23.237.104.106:8080/USA_CINEMAX/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: CW" tvg-logo="https://logo.m3uassets.com/cw.png" group-title="US | MOVIES",US: CW
 http://84.17.50.102/cw/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="FLIX.us" tvg-name="US: FLIX" tvg-logo="https://logo.m3uassets.com/flix.png" group-title="US | MOVIES",US: FLIX
+#EXTINF:-1 tvg-id="" tvg-name="US: FLIX" tvg-logo="https://logo.m3uassets.com/flix.png" group-title="US | MOVIES",US: FLIX
 http://40.160.24.52/FLIX/index.m3u8
-#EXTINF:-1 tvg-id="Freeform.us" tvg-name="US: Freeform" tvg-logo="https://logo.m3uassets.com/freeform.png" group-title="US | MOVIES",US: Freeform
+#EXTINF:-1 tvg-id="" tvg-name="US: Freeform" tvg-logo="https://logo.m3uassets.com/freeform.png" group-title="US | MOVIES",US: Freeform
 http://190.11.225.124:5000/live/freeform_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="FX.us" tvg-name="US: FX" tvg-logo="https://logo.m3uassets.com/fx.png" group-title="US | MOVIES",US: FX
+#EXTINF:-1 tvg-id="" tvg-name="US: FX" tvg-logo="https://logo.m3uassets.com/fx.png" group-title="US | MOVIES",US: FX
 http://4.30.180.36:8420/fx/index.m3u8?token=test
-#EXTINF:-1 tvg-id="FXMovies.us" tvg-name="US: FXM" group-title="US | MOVIES",US: FXM
+#EXTINF:-1 tvg-id="" tvg-name="US: FXM" group-title="US | MOVIES",US: FXM
 http://1tv41.icu:8080/live/8tFfDW/451664/10260.m3u8
-#EXTINF:-1 tvg-id="FXX.us" tvg-name="US: FXX" tvg-logo="https://logo.m3uassets.com/fxx.png" group-title="US | MOVIES",US: FXX
+#EXTINF:-1 tvg-id="" tvg-name="US: FXX" tvg-logo="https://logo.m3uassets.com/fxx.png" group-title="US | MOVIES",US: FXX
 http://ultratv.one:2095/live/hCPtsREFtA/Xj25tg0ZXi/2121819.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: H&I" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/H%26I-Cenla-Logo.png" group-title="US | MOVIES",US: H&I
 http://206.212.244.63/88/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="HallmarkChannel.us" tvg-name="US: HALLMARK" tvg-logo="https://logo.m3uassets.com/hallmark.png" group-title="US | MOVIES",US: HALLMARK
+#EXTINF:-1 tvg-id="" tvg-name="US: HALLMARK" tvg-logo="https://logo.m3uassets.com/hallmark.png" group-title="US | MOVIES",US: HALLMARK
 http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
-#EXTINF:-1 tvg-id="HallmarkFamily.us" tvg-name="US: Hallmark Family" tvg-logo="https://logo.m3uassets.com/hallmarkfamily.png" group-title="US | MOVIES",US: Hallmark Family
+#EXTINF:-1 tvg-id="" tvg-name="US: Hallmark Family" tvg-logo="https://logo.m3uassets.com/hallmarkfamily.png" group-title="US | MOVIES",US: Hallmark Family
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/660922.ts
-#EXTINF:-1 tvg-id="HallmarkMysteryPacific.us" tvg-name="US: Hallmark Mystery" tvg-logo="https://logo.m3uassets.com/hallmarkmystery.png" group-title="US | MOVIES",US: Hallmark Mystery
+#EXTINF:-1 tvg-id="" tvg-name="US: Hallmark Mystery" tvg-logo="https://logo.m3uassets.com/hallmarkmystery.png" group-title="US | MOVIES",US: Hallmark Mystery
 http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2492.ts
-#EXTINF:-1 tvg-id="HBOBoxing.us" tvg-name="US: HBO +" tvg-logo="https://logo.m3uassets.com/hbo.png" group-title="US | MOVIES",US: HBO +
+#EXTINF:-1 tvg-id="" tvg-name="US: HBO +" tvg-logo="https://logo.m3uassets.com/hbo.png" group-title="US | MOVIES",US: HBO +
 http://190.93.224.42/HBO-PLUS/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HBO 2" tvg-logo="https://logo.m3uassets.com/hbo2.png" group-title="US | MOVIES",US: HBO 2
 http://4.30.180.36:8420/hbo2/index.m3u8?token=test
-#EXTINF:-1 tvg-id="HBOComedy.us" tvg-name="US: HBO Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/84/HBO_Comedy_logo.png" group-title="US | MOVIES",US: HBO Comedy
+#EXTINF:-1 tvg-id="" tvg-name="US: HBO Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/84/HBO_Comedy_logo.png" group-title="US | MOVIES",US: HBO Comedy
 http://23.237.104.106:8080/USA_HBO_COMEDY/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="HBO.us" tvg-name="US: HBO East" tvg-logo="https://logo.m3uassets.com/hbo.png" group-title="US | MOVIES",US: HBO East
+#EXTINF:-1 tvg-id="" tvg-name="US: HBO East" tvg-logo="https://logo.m3uassets.com/hbo.png" group-title="US | MOVIES",US: HBO East
 http://40.160.24.53/HBO_HD/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HBO Family" tvg-logo="https://logo.m3uassets.com/hbofamily.png" group-title="US | MOVIES",US: HBO Family
 http://15.204.246.24:8080/HBOFamilyHD/index.m3u8
-#EXTINF:-1 tvg-id="HBOHits.us" tvg-name="US: HBO Hits" tvg-logo="https://logo.m3uassets.com/hbohits.png" group-title="US | MOVIES",US: HBO Hits
+#EXTINF:-1 tvg-id="" tvg-name="US: HBO Hits" tvg-logo="https://logo.m3uassets.com/hbohits.png" group-title="US | MOVIES",US: HBO Hits
 http://tvsen7.aynascope.net/hbo2/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HBO SIgnature East" tvg-logo="https://logo.m3uassets.com/hbosignature.png" group-title="US | MOVIES",US: HBO SIgnature East
 http://190.93.224.42/HBO-SIGNATURE/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HBO ZONE" tvg-logo="https://logo.m3uassets.com/hbozone.png" group-title="US | MOVIES",US: HBO ZONE
 http://23.237.104.106:8080/USA_HBO_ZONE/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="HLN.us" tvg-name="US: HLN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/HLN_2023.svg/revision/latest?cb=20251102212807" group-title="US | MOVIES",US: HLN
+#EXTINF:-1 tvg-id="XHLNA-TDT.us_locals1" tvg-name="US: HLN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/HLN_2023.svg/revision/latest?cb=20251102212807" group-title="US | MOVIES",US: HLN
 http://23.237.104.106:8080/USA_HLN/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HOT Cinema ACTION" tvg-logo="https://play-lh.googleusercontent.com/6gKj7dqOL9BuHkYyXHM5N3WYBy7Bk2bIQULkmY_jt5Op4Fy4eaH78QS1pafb8JagEZNj75JetkmUUMDUsBpMAw=s0-br30" group-title="US | MOVIES",US: HOT Cinema ACTION
 http://str2.iptvhd.ru:8080/action/index.m3u8
@@ -1137,91 +1137,91 @@ http://str2.iptvhd.ru:8080/drama/index.m3u8
 http://str2.iptvhd.ru:8080/fun/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: HOT Cinema GOLD" tvg-logo="https://play-lh.googleusercontent.com/6gKj7dqOL9BuHkYyXHM5N3WYBy7Bk2bIQULkmY_jt5Op4Fy4eaH78QS1pafb8JagEZNj75JetkmUUMDUsBpMAw=s0-br30" group-title="US | MOVIES",US: HOT Cinema GOLD
 http://str2.iptvhd.ru:8080/Gold/index.m3u8
-#EXTINF:-1 tvg-id="Lifetime.us" tvg-name="US: Lifetime Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a1/Lifetime_Movies.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: Lifetime Movies
+#EXTINF:-1 tvg-id="" tvg-name="US: Lifetime Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a1/Lifetime_Movies.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: Lifetime Movies
 http://23.237.104.106:8080/USA_LMN/index.m3u8
-#EXTINF:-1 tvg-id="MGM+.us" tvg-name="US: MGM+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/49/MGM%2B_logo.svg" group-title="US | MOVIES",US: MGM+
+#EXTINF:-1 tvg-id="WMGM-DT.us_locals1" tvg-name="US: MGM+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/49/MGM%2B_logo.svg" group-title="US | MOVIES",US: MGM+
 http://40.160.24.52/EPIX/index.m3u8
-#EXTINF:-1 tvg-id="MGM+DriveIn.us" tvg-name="US: MGM+ Drive-IN" tvg-logo="https://logo.m3uassets.com/mgmplusdrivein.png" group-title="US | MOVIES",US: MGM+ Drive-IN
+#EXTINF:-1 tvg-id="" tvg-name="US: MGM+ Drive-IN" tvg-logo="https://logo.m3uassets.com/mgmplusdrivein.png" group-title="US | MOVIES",US: MGM+ Drive-IN
 http://40.160.24.52/EPIX_DRIVE-IN/index.m3u8
-#EXTINF:-1 tvg-id="MGM+Hits.us" tvg-name="US: MGM+ Hits" tvg-logo="https://logo.m3uassets.com/mgmplushits.png" group-title="US | MOVIES",US: MGM+ Hits
+#EXTINF:-1 tvg-id="" tvg-name="US: MGM+ Hits" tvg-logo="https://logo.m3uassets.com/mgmplushits.png" group-title="US | MOVIES",US: MGM+ Hits
 http://40.160.24.52/EPIX_2/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: MoreMax" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/65/MoreMax_HD_2008.svg/revision/latest?cb=20241129175503" group-title="US | MOVIES",US: MoreMax
 http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Movie Hub Action" tvg-logo="https://static.vecteezy.com/system/resources/thumbnails/054/019/906/small/question-mark-with-shadow-effect-png.png" group-title="US | MOVIES",US: Movie Hub Action
 https://aka-live1050.delivery.roku.com/be8e0aad-9c0d-4b4d-ac10-d0c72bb6c7f3/t2-origin/out/v1/live.m3u8
-#EXTINF:-1 tvg-id="ParamountMovieChannel.pluto" tvg-name="US: Paramount Movie Channel" tvg-logo="https://logo.m3uassets.com/paramountnetwork.png" group-title="US | MOVIES",US: Paramount Movie Channel
+#EXTINF:-1 tvg-id="" tvg-name="US: Paramount Movie Channel" tvg-logo="https://logo.m3uassets.com/paramountnetwork.png" group-title="US | MOVIES",US: Paramount Movie Channel
 https://jmp2.uk/plu-5cb0cae7a461406ffe3f5213.m3u8
-#EXTINF:-1 tvg-id="Paramount+Picks.pluto" tvg-name="US: Paramount+ Picks" tvg-logo="https://logo.m3uassets.com/paramountnetwork.png" group-title="US | MOVIES",US: Paramount+ Picks
+#EXTINF:-1 tvg-id="" tvg-name="US: Paramount+ Picks" tvg-logo="https://logo.m3uassets.com/paramountnetwork.png" group-title="US | MOVIES",US: Paramount+ Picks
 https://jmp2.uk/plu-5ff8c708653d080007361b14.m3u8
-#EXTINF:-1 tvg-id="Paramount+withShowtime.us" tvg-name="US: Showtime" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1c/Showtime_1997.svg/revision/latest?cb=20230614133820" group-title="US | MOVIES",US: Showtime
+#EXTINF:-1 tvg-id="" tvg-name="US: Showtime" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1c/Showtime_1997.svg/revision/latest?cb=20230614133820" group-title="US | MOVIES",US: Showtime
 http://40.160.24.55/SHOWTIME/index.m3u8
-#EXTINF:-1 tvg-id="Showtime2.us" tvg-name="US: Showtime 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f1/Showtime_2_%282022-%29.svg/revision/latest/scale-to-width-down/1000?cb=20230126015326" group-title="US | MOVIES",US: Showtime 2
+#EXTINF:-1 tvg-id="" tvg-name="US: Showtime 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f1/Showtime_2_%282022-%29.svg/revision/latest/scale-to-width-down/1000?cb=20230126015326" group-title="US | MOVIES",US: Showtime 2
 http://40.160.24.55/SHOWTIME_2/index.m3u8
-#EXTINF:-1 tvg-id="ShowtimeExtreme.us" tvg-name="US: Showtime Extreme" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/41/Showtime_Extreme_%282022-%29.svg/revision/latest/scale-to-width-down/1000?cb=20230126015134" group-title="US | MOVIES",US: Showtime Extreme
+#EXTINF:-1 tvg-id="" tvg-name="US: Showtime Extreme" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/41/Showtime_Extreme_%282022-%29.svg/revision/latest/scale-to-width-down/1000?cb=20230126015134" group-title="US | MOVIES",US: Showtime Extreme
 http://40.160.24.55/SHOWTIME_EXTREME/index.m3u8
-#EXTINF:-1 tvg-id="ShowtimeFamilyzone.us" tvg-name="US: Showtime Family" tvg-logo="https://logo.m3uassets.com/showtimefamily.png" group-title="US | MOVIES",US: Showtime Family
+#EXTINF:-1 tvg-id="" tvg-name="US: Showtime Family" tvg-logo="https://logo.m3uassets.com/showtimefamily.png" group-title="US | MOVIES",US: Showtime Family
 http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ShowtimeNext.us" tvg-name="US: Showtime Next" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/Showtime_Next_%282022-%29.svg/revision/latest?cb=20230126015111" group-title="US | MOVIES",US: Showtime Next
+#EXTINF:-1 tvg-id="" tvg-name="US: Showtime Next" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/Showtime_Next_%282022-%29.svg/revision/latest?cb=20230126015111" group-title="US | MOVIES",US: Showtime Next
 http://40.160.24.55/SHOWTIME_NEXT/index.m3u8
-#EXTINF:-1 tvg-id="Paramount+withShowtimePacific.us" tvg-name="US: Showtime West" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/ca/Showtime_1997_%28wordmark%29.svg/revision/latest?cb=20251226061259" group-title="US | MOVIES",US: Showtime West
+#EXTINF:-1 tvg-id="" tvg-name="US: Showtime West" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/ca/Showtime_1997_%28wordmark%29.svg/revision/latest?cb=20251226061259" group-title="US | MOVIES",US: Showtime West
 http://40.160.24.55/SHOWTIME_WEST/index.m3u8
-#EXTINF:-1 tvg-id="ShowtimeWomen.us" tvg-name="US: Showtime Women" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Showtime_Women_%282022-%29.svg/revision/latest?cb=20230126015042" group-title="US | MOVIES",US: Showtime Women
+#EXTINF:-1 tvg-id="" tvg-name="US: Showtime Women" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Showtime_Women_%282022-%29.svg/revision/latest?cb=20230126015042" group-title="US | MOVIES",US: Showtime Women
 http://40.160.24.55/SHOWTIME_WOMEN/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Sony One ThrillerTV" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/d/db/SonyThriller.jpeg/revision/latest/scale-to-width-down/327?cb=20210327154606" group-title="US | MOVIES",US: Sony One ThrillerTV
 https://52aad07d9d4f4d479d9b27e08ddf9e8b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-808-UK-SONYONETHRILLERTV-LG_UK/playlist.m3u8
-#EXTINF:-1 tvg-id="Starz.us" tvg-name="US: STARZ" tvg-logo="https://logo.m3uassets.com/starz.png" group-title="US | MOVIES",US: STARZ
+#EXTINF:-1 tvg-id="" tvg-name="US: STARZ" tvg-logo="https://logo.m3uassets.com/starz.png" group-title="US | MOVIES",US: STARZ
 http://23.237.104.106:8080/USA_STARZ/index.m3u8
-#EXTINF:-1 tvg-id="StarzCinema.us" tvg-name="US: Starz Cinema HD" tvg-logo="https://logo.m3uassets.com/starzcinema.png" group-title="US | MOVIES",US: Starz Cinema HD
+#EXTINF:-1 tvg-id="" tvg-name="US: Starz Cinema HD" tvg-logo="https://logo.m3uassets.com/starzcinema.png" group-title="US | MOVIES",US: Starz Cinema HD
 http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
-#EXTINF:-1 tvg-id="StarzComedy.us" tvg-name="US: Starz Comedy HD" tvg-logo="https://logo.m3uassets.com/starzcomedy.png" group-title="US | MOVIES",US: Starz Comedy HD
+#EXTINF:-1 tvg-id="" tvg-name="US: Starz Comedy HD" tvg-logo="https://logo.m3uassets.com/starzcomedy.png" group-title="US | MOVIES",US: Starz Comedy HD
 http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
-#EXTINF:-1 tvg-id="StarzEdge.us" tvg-name="US: Starz Edge" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/69/Starz_Edge_2022.svg/revision/latest?cb=20220930140223" group-title="US | MOVIES",US: Starz Edge
+#EXTINF:-1 tvg-id="" tvg-name="US: Starz Edge" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/69/Starz_Edge_2022.svg/revision/latest?cb=20220930140223" group-title="US | MOVIES",US: Starz Edge
 http://23.237.104.106:8080/USA_STARZ_EDGE/index.m3u8
-#EXTINF:-1 tvg-id="Starz.us" tvg-name="US: STARZ Family" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/dd/Starz_1994.svg/revision/latest?cb=20220214042551" group-title="US | MOVIES",US: STARZ Family
+#EXTINF:-1 tvg-id="" tvg-name="US: STARZ Family" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/dd/Starz_1994.svg/revision/latest?cb=20220214042551" group-title="US | MOVIES",US: STARZ Family
 http://23.237.104.106:8080/USA_STARZ_FAMILY/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Studio Universal" tvg-logo="https://logo.m3uassets.com/studiouniversal.png" group-title="US | MOVIES",US: Studio Universal
 http://v3tv.live/play/live.php?mac=00:1A:79:59:83:B5&stream=1776240&extension=m3u8
-#EXTINF:-1 tvg-id="Syfy.us" tvg-name="US: SYFY" tvg-logo="https://logo.m3uassets.com/syfy.png" group-title="US | MOVIES",US: SYFY
+#EXTINF:-1 tvg-id="" tvg-name="US: SYFY" tvg-logo="https://logo.m3uassets.com/syfy.png" group-title="US | MOVIES",US: SYFY
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
-#EXTINF:-1 tvg-id="TCM.us" tvg-name="US: TCM" tvg-logo="https://logo.m3uassets.com/tcm.png" group-title="US | MOVIES",US: TCM
+#EXTINF:-1 tvg-id="" tvg-name="US: TCM" tvg-logo="https://logo.m3uassets.com/tcm.png" group-title="US | MOVIES",US: TCM
 http://107.167.16.138/tcmhd/index.m3u8?token=test
-#EXTINF:-1 tvg-id="ThrillvilleThrillbillies.ProspectLeague" tvg-name="US: Thrill" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Thrill_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: Thrill
+#EXTINF:-1 tvg-id="" tvg-name="US: Thrill" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Thrill_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: Thrill
 http://136.239.173.10:6610/001/2/ch00000090990000001253/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq7M3KTlp1dzcZcVVxlNmQdytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001563&contentid=ch00000000000000001563&videoid=ch00000090990000001253&recommendtype=0&userid=1896007622720&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8LJ3RRPRMVYXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
-#EXTINF:-1 tvg-id="VH1.us" tvg-name="US: VH1 USA" tvg-logo="https://logo.m3uassets.com/vh1.png" group-title="US | MOVIES",US: VH1 USA
+#EXTINF:-1 tvg-id="" tvg-name="US: VH1 USA" tvg-logo="https://logo.m3uassets.com/vh1.png" group-title="US | MOVIES",US: VH1 USA
 http://4.30.180.36:8420/vh1/index.m3u8?token=test
-#EXTINF:-1 tvg-id="CBSSportsNetwork.us" tvg-name="US: CBS Sports Network" tvg-logo="https://logo.m3uassets.com/cbssportsnetwork.png" group-title="US | SPORTS",US: CBS Sports Network
+#EXTINF:-1 tvg-id="" tvg-name="US: CBS Sports Network" tvg-logo="https://logo.m3uassets.com/cbssportsnetwork.png" group-title="US | SPORTS",US: CBS Sports Network
 http://40.160.24.52/CBS_SPORTS_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us" tvg-name="US: ESPN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN
+#EXTINF:-1 tvg-id="" tvg-name="US: ESPN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN
 http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
-#EXTINF:-1 tvg-id="ESPN2.us" tvg-name="US: ESPN 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 2
+#EXTINF:-1 tvg-id="" tvg-name="US: ESPN 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 2
 http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
-#EXTINF:-1 tvg-id="ESPN3.us" tvg-name="US: ESPN 3" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 3
+#EXTINF:-1 tvg-id="" tvg-name="US: ESPN 3" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 3
 http://107.167.16.138/espn3/index.m3u8?token=test
-#EXTINF:-1 tvg-id="ESPN.us" tvg-name="US: ESPN HD+" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN HD+
+#EXTINF:-1 tvg-id="" tvg-name="US: ESPN HD+" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN HD+
 http://stream.bottledesk.net/6500/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us" tvg-name="US: ESPN ON ABC" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/ESPN_on_ABC_2022.svg/revision/latest?cb=20230912234230" group-title="US | SPORTS",US: ESPN ON ABC
+#EXTINF:-1 tvg-id="" tvg-name="US: ESPN ON ABC" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/73/ESPN_on_ABC_2022.svg/revision/latest?cb=20230912234230" group-title="US | SPORTS",US: ESPN ON ABC
 http://190.11.225.124:5000/live/abc_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="ESPNU.us" tvg-name="US: ESPNU" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ed/ESPN_U.svg/revision/latest?cb=20210715150317" group-title="US | SPORTS",US: ESPNU
+#EXTINF:-1 tvg-id="" tvg-name="US: ESPNU" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ed/ESPN_U.svg/revision/latest?cb=20210715150317" group-title="US | SPORTS",US: ESPNU
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
-#EXTINF:-1 tvg-id="FIFA+.us" tvg-name="US: FIFA+" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9c/FIFA%2B_%282025%29.svg/revision/latest?cb=20250521135758" group-title="US | SPORTS",US: FIFA+
+#EXTINF:-1 tvg-id="" tvg-name="US: FIFA+" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9c/FIFA%2B_%282025%29.svg/revision/latest?cb=20250521135758" group-title="US | SPORTS",US: FIFA+
 https://d2w9q46ikgrcwx.cloudfront.net/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/V00000002/0/HLS/playlist_2000k_20260424T010818.m3u8
-#EXTINF:-1 tvg-id="FIFA+.us" tvg-name="US: FIFA+ Women" tvg-logo="https://i.imgur.com/xy9ZxVO.png" group-title="US | SPORTS",US: FIFA+ Women
+#EXTINF:-1 tvg-id="" tvg-name="US: FIFA+ Women" tvg-logo="https://i.imgur.com/xy9ZxVO.png" group-title="US | SPORTS",US: FIFA+ Women
 https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: FightBox" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/FightBox_logo.webp?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | SPORTS",US: FightBox
 https://dash3.antik.sk/live/test_fightbox_medium_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="FoxDeportes.us" tvg-name="US: Fox Deportes" tvg-logo="https://logo.m3uassets.com/foxdeportes.png" group-title="US | SPORTS",US: Fox Deportes
+#EXTINF:-1 tvg-id="" tvg-name="US: Fox Deportes" tvg-logo="https://logo.m3uassets.com/foxdeportes.png" group-title="US | SPORTS",US: Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="FOX4K.us" tvg-name="US: Fox Soccer +" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Soccer_Plus_logo.svg/1280px-Fox_Soccer_Plus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="US | SPORTS",US: Fox Soccer +
+#EXTINF:-1 tvg-id="" tvg-name="US: Fox Soccer +" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Soccer_Plus_logo.svg/1280px-Fox_Soccer_Plus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="US | SPORTS",US: Fox Soccer +
 http://40.160.24.52/FOX_SOCCER_PLUS/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="US: Fox Sports 1" tvg-logo="https://logo.m3uassets.com/foxsports1.png" group-title="US | SPORTS",US: Fox Sports 1
+#EXTINF:-1 tvg-id="" tvg-name="US: Fox Sports 1" tvg-logo="https://logo.m3uassets.com/foxsports1.png" group-title="US | SPORTS",US: Fox Sports 1
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports2.us" tvg-name="US: Fox Sports 2" tvg-logo="https://logo.m3uassets.com/foxsports2.png" group-title="US | SPORTS",US: Fox Sports 2
+#EXTINF:-1 tvg-id="" tvg-name="US: Fox Sports 2" tvg-logo="https://logo.m3uassets.com/foxsports2.png" group-title="US | SPORTS",US: Fox Sports 2
 https://tvsen7.aynascope.net/foxsports2/index.m3u8
-#EXTINF:-1 tvg-id="FTFSports.us" tvg-name="US: FTF Sports" tvg-logo="https://www.adadarters.com/wp-content/uploads/2020/10/FTF_White.png" group-title="US | SPORTS",US: FTF Sports
+#EXTINF:-1 tvg-id="" tvg-name="US: FTF Sports" tvg-logo="https://www.adadarters.com/wp-content/uploads/2020/10/FTF_White.png" group-title="US | SPORTS",US: FTF Sports
 https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR_v2.m3u8
-#EXTINF:-1 tvg-id="GolfChannel.us" tvg-name="US: Golf Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Golf_Channel_logo_2025.svg/revision/latest?cb=20260101092845" group-title="US | SPORTS",US: Golf Channel
+#EXTINF:-1 tvg-id="" tvg-name="US: Golf Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Golf_Channel_logo_2025.svg/revision/latest?cb=20260101092845" group-title="US | SPORTS",US: Golf Channel
 http://23.237.104.106:8080/USA_GOLF/index.m3u8
-#EXTINF:-1 tvg-id="GOLTVEnglish.us" tvg-name="US: GolTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fe/Gol_TV_Canada_2007.svg/revision/latest?cb=20220218160741" group-title="US | SPORTS",US: GolTV
+#EXTINF:-1 tvg-id="" tvg-name="US: GolTV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fe/Gol_TV_Canada_2007.svg/revision/latest?cb=20220218160741" group-title="US | SPORTS",US: GolTV
 http://23.237.104.106:8080/USA_GOLTV/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Hoop TV" tvg-logo="https://static.wixstatic.com/media/8e48c3_28bc4cfb67274f3baf0366685b297660~mv2.gif" group-title="US | SPORTS",US: Hoop TV
 https://streams2.sofast.tv/WiseM3U8_28/sofast/cleanhls/master.m3u8
@@ -1229,53 +1229,53 @@ https://streams2.sofast.tv/WiseM3U8_28/sofast/cleanhls/master.m3u8
 http://ultratv.one:2095/live/hCPtsREFtA/Xj25tg0ZXi/115757.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: ITV1" tvg-logo="https://logo.m3uassets.com/itv1.png" group-title="US | SPORTS",US: ITV1
 http://66.90.106.91:16888/itv1/index.m3u8
-#EXTINF:-1 tvg-id="MLBNetwork.us" tvg-name="US: MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ac/MLBNetworkLogo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="US | SPORTS",US: MLB Network
+#EXTINF:-1 tvg-id="" tvg-name="US: MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ac/MLBNetworkLogo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="US | SPORTS",US: MLB Network
 http://233d3515.kazmazpaz.ru/iptv/CRKBTYRXLLNSEF/6512/index.m3u8
-#EXTINF:-1 tvg-id="MSGZone1.us" tvg-name="US: MSG USA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b5/MSG_Network.png/revision/latest?cb=20200129201807" group-title="US | SPORTS",US: MSG USA
+#EXTINF:-1 tvg-id="" tvg-name="US: MSG USA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b5/MSG_Network.png/revision/latest?cb=20200129201807" group-title="US | SPORTS",US: MSG USA
 http://23.237.104.106:8080/USA_MSG/index.m3u8
-#EXTINF:-1 tvg-id="MSGZone1.us" tvg-name="US: MSG+" tvg-logo="https://logo.m3uassets.com/msg.png" group-title="US | SPORTS",US: MSG+
+#EXTINF:-1 tvg-id="" tvg-name="US: MSG+" tvg-logo="https://logo.m3uassets.com/msg.png" group-title="US | SPORTS",US: MSG+
 http://40.160.24.52/MSG_PLUS/index.m3u8
-#EXTINF:-1 tvg-id="MTV.us" tvg-name="US: MTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/1280px-MTV_2021_%28brand_version%29.svg.png" group-title="US | SPORTS",US: MTV
+#EXTINF:-1 tvg-id="KMTV-DT.us_locals1" tvg-name="US: MTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/1280px-MTV_2021_%28brand_version%29.svg.png" group-title="US | SPORTS",US: MTV
 http://178.23.88.55/MTV/index.m3u8
-#EXTINF:-1 tvg-id="MTV2.us" tvg-name="US: MTV 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/1280px-MTV_2021_%28brand_version%29.svg.png" group-title="US | SPORTS",US: MTV 2
+#EXTINF:-1 tvg-id="" tvg-name="US: MTV 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/1280px-MTV_2021_%28brand_version%29.svg.png" group-title="US | SPORTS",US: MTV 2
 http://198.58.104.90:8989/mtv2/index.m3u8
-#EXTINF:-1 tvg-id="NBA01.dko" tvg-name="US: NBA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnukUjWgFK6ob_VaFitkMKcEuWV6V6Tcn6UA&s" group-title="US | SPORTS",US: NBA
+#EXTINF:-1 tvg-id="" tvg-name="US: NBA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnukUjWgFK6ob_VaFitkMKcEuWV6V6Tcn6UA&s" group-title="US | SPORTS",US: NBA
 https://cdn1.ayitistream.com/NBATV/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: NBA Draft" tvg-logo="https://images.seeklogo.com/logo-png/32/2/nba-draft-logo-png_seeklogo-329253.png" group-title="US | SPORTS",US: NBA Draft
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/fb93dcd8-eaea-4a72-a9c7-78354a0572fe/3.m3u8
-#EXTINF:-1 tvg-id="NBAtv.us" tvg-name="US: NBA TV" tvg-logo="https://image.xumo.com/v1/channels/channel/99951383/168x168.png?type=color_onBlack" group-title="US | SPORTS",US: NBA TV
+#EXTINF:-1 tvg-id="" tvg-name="US: NBA TV" tvg-logo="https://image.xumo.com/v1/channels/channel/99951383/168x168.png?type=color_onBlack" group-title="US | SPORTS",US: NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us" tvg-name="US: NBC on ESPN" tvg-logo="https://image.xumo.com/v1/channels/channel/99951383/168x168.png?type=color_onBlack" group-title="US | SPORTS",US: NBC on ESPN
+#EXTINF:-1 tvg-id="" tvg-name="US: NBC on ESPN" tvg-logo="https://image.xumo.com/v1/channels/channel/99951383/168x168.png?type=color_onBlack" group-title="US | SPORTS",US: NBC on ESPN
 http://stream.cammonitorplus.net/1785/index.m3u8
-#EXTINF:-1 tvg-id="NBCSportsCalifornia.us" tvg-name="US: NBC Sports California" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45540_dark_360w_270h.png" group-title="US | SPORTS",US: NBC Sports California
+#EXTINF:-1 tvg-id="" tvg-name="US: NBC Sports California" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45540_dark_360w_270h.png" group-title="US | SPORTS",US: NBC Sports California
 http://stream.cammonitorplus.net/1795/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="NBCSportsNOW.peacocktv" tvg-name="US: NBC Sports NOW" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6b/NBC_Sports_Now_logo.svg/revision/latest?cb=20250814101947" group-title="US | SPORTS",US: NBC Sports NOW
+#EXTINF:-1 tvg-id="" tvg-name="US: NBC Sports NOW" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6b/NBC_Sports_Now_logo.svg/revision/latest?cb=20250814101947" group-title="US | SPORTS",US: NBC Sports NOW
 https://d1m1xk35ma8qfl.cloudfront.net/master.m3u8
-#EXTINF:-1 tvg-id="ONEChampionshipTV.us" tvg-name="US: ONE Championship" tvg-logo="https://image.xumo.com/v1/channels/channel/99951530/168x168.png?type=color_onBlack" group-title="US | SPORTS",US: ONE Championship
+#EXTINF:-1 tvg-id="" tvg-name="US: ONE Championship" tvg-logo="https://image.xumo.com/v1/channels/channel/99951530/168x168.png?type=color_onBlack" group-title="US | SPORTS",US: ONE Championship
 https://dbrb49pjoymg4.cloudfront.net/10001/99951530/hls/master.m3u8?ads.xumo_channelId=99951530&ads.xumo_streamId=99951530&ads.channelId=99951530&ads.channelName=C15OneChampionship_us&ads.caid=C15OneChampionship&ads.csid=xumo_web_C15OneChampionship_ssai&ads.genre=Sport,Sports,SC&ads._fw_content_genre=Sport,Sports,SC&ads._fw_coppa=0&ads.xumo_contentId=4403&ads.xumo_contentName=C15OneChampionship&ads.xumo_providerId=4403&ads.xumo_providerName=C15OneChampionship&ads._fw_ifa_type=&ads._fw_did=992a196b-8b58-4413-a93f-05765abfa9ed&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=XumoPlay
 #EXTINF:-1 tvg-id="" tvg-name="US: Racer Select" tvg-logo="https://i.imgur.com/CurtYvn.png" group-title="US | SPORTS",US: Racer Select
 https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Rally .TV FAST+" tvg-logo="https://static-resources.redbull.tv/images/smarttv/rallytv/logos/logo-light.svg" group-title="US | SPORTS",US: Rally .TV FAST+
 https://di4fb7mbsq3nf.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-id="RedbullTV.us" tvg-name="US: Red Bull TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png" group-title="US | SPORTS",US: Red Bull TV
+#EXTINF:-1 tvg-id="" tvg-name="US: Red Bull TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png" group-title="US | SPORTS",US: Red Bull TV
 https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-644-WORBUSENFAST-LG_US/644/lgtv/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="RedbullTV.us" tvg-name="US: Red Bull TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png" group-title="US | SPORTS",US: Red Bull TV
+#EXTINF:-1 tvg-id="" tvg-name="US: Red Bull TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png" group-title="US | SPORTS",US: Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 tvg-id="RedbullTV.us" tvg-name="US: Red Bull TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png" group-title="US | SPORTS",US: Red Bull TV
+#EXTINF:-1 tvg-id="" tvg-name="US: Red Bull TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png" group-title="US | SPORTS",US: Red Bull TV
 https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="RedbullTV.us" tvg-name="US: Red Bull Tv" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Red_Bull_TV.svg/revision/latest?cb=20180423100712" group-title="US | SPORTS",US: Red Bull Tv
+#EXTINF:-1 tvg-id="" tvg-name="US: Red Bull Tv" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Red_Bull_TV.svg/revision/latest?cb=20180423100712" group-title="US | SPORTS",US: Red Bull Tv
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
-#EXTINF:-1 tvg-id="SECNetwork.us" tvg-name="US: SEC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/SEC_Network_%282024%29.svg/1280px-SEC_Network_%282024%29.svg.png" group-title="US | SPORTS",US: SEC Network
+#EXTINF:-1 tvg-id="" tvg-name="US: SEC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/SEC_Network_%282024%29.svg/1280px-SEC_Network_%282024%29.svg.png" group-title="US | SPORTS",US: SEC Network
 http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="SpaceCityHomeNetwork.us" tvg-name="US: Space City Home Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77744_dark_360w_270h.png" group-title="US | SPORTS",US: Space City Home Network
+#EXTINF:-1 tvg-id="" tvg-name="US: Space City Home Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77744_dark_360w_270h.png" group-title="US | SPORTS",US: Space City Home Network
 http://1tv41.icu:8080/live/8tFfDW/451664/213668.m3u8
-#EXTINF:-1 tvg-id="SpectrumSportsNetLADodgers.us" tvg-name="US: Spectrum SportsNet LA Dodgers" tvg-logo="https://i.gyazo.com/765cce528ddda366695bb178d9dee6da.png" group-title="US | SPORTS",US: Spectrum SportsNet LA Dodgers
+#EXTINF:-1 tvg-id="" tvg-name="US: Spectrum SportsNet LA Dodgers" tvg-logo="https://i.gyazo.com/765cce528ddda366695bb178d9dee6da.png" group-title="US | SPORTS",US: Spectrum SportsNet LA Dodgers
 http://1tv41.icu:8080/live/8tFfDW/451664/31636.m3u8
-#EXTINF:-1 tvg-id="SpectrumSportsNetLALakers.us" tvg-name="US: Spectrum SportsNet Lakers" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77422_dark_360w_270h.png" group-title="US | SPORTS",US: Spectrum SportsNet Lakers
+#EXTINF:-1 tvg-id="" tvg-name="US: Spectrum SportsNet Lakers" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77422_dark_360w_270h.png" group-title="US | SPORTS",US: Spectrum SportsNet Lakers
 http://1tv41.icu:8080/live/8tFfDW/451664/21842.m3u8
-#EXTINF:-1 tvg-id="IonTV.us" tvg-name="US: SpeedVision Tv" tvg-logo="https://static.wixstatic.com/media/cd41ef_b907c38c6def4901a408562264767358~mv2.png/v1/fill/w_292,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SPEEDVISION_LOGO_WhiteType_TM.png7" group-title="US | SPORTS",US: SpeedVision Tv
+#EXTINF:-1 tvg-id="" tvg-name="US: SpeedVision Tv" tvg-logo="https://static.wixstatic.com/media/cd41ef_b907c38c6def4901a408562264767358~mv2.png/v1/fill/w_292,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/SPEEDVISION_LOGO_WhiteType_TM.png7" group-title="US | SPORTS",US: SpeedVision Tv
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/fierrofondo.stream/chunks.m3u8?nimblesessionid=620268117
-#EXTINF:-1 tvg-id="SportsGrid.us" tvg-name="US: SportsGrid" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bd/SPORTSGRID_LOGO_BLACK_RED_LOGO.svg/revision/latest/scale-to-width-down/1000?cb=20250821124400" group-title="US | SPORTS",US: SportsGrid
+#EXTINF:-1 tvg-id="" tvg-name="US: SportsGrid" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bd/SPORTSGRID_LOGO_BLACK_RED_LOGO.svg/revision/latest/scale-to-width-down/1000?cb=20250821124400" group-title="US | SPORTS",US: SportsGrid
 https://sportsgrid-tribal.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Sportsnet 360" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49952_dark_360w_270h.png" group-title="US | SPORTS",US: Sportsnet 360
 http://1tv41.icu:8080/live/8tFfDW/451664/57299.m3u8
@@ -1291,9 +1291,9 @@ http://1tv41.icu:8080/live/8tFfDW/451664/57297.m3u8
 http://1tv41.icu:8080/live/8tFfDW/451664/57300.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: Strongman Champions League" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/df/Strongman_Champions_League_%28logo%29.png" group-title="US | SPORTS",US: Strongman Champions League
 https://rightsboosterltd-scl-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TennisChannel.us" tvg-name="US: Tennis Channel" tvg-logo="https://www.pngkey.com/png/full/432-4329627_tennis-channel-logo.png" group-title="US | SPORTS",US: Tennis Channel
+#EXTINF:-1 tvg-id="" tvg-name="US: Tennis Channel" tvg-logo="https://www.pngkey.com/png/full/432-4329627_tennis-channel-logo.png" group-title="US | SPORTS",US: Tennis Channel
 https://leaf.highfly.dev/m3u/us-tennis-channel/live.m3u8
-#EXTINF:-1 tvg-id="YesNetwork.us" tvg-name="US: Yes Network" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/eb/Yes.svg/revision/latest?cb=20200718174253" group-title="US | SPORTS",US: Yes Network
+#EXTINF:-1 tvg-id="" tvg-name="US: Yes Network" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/eb/Yes.svg/revision/latest?cb=20200718174253" group-title="US | SPORTS",US: Yes Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AU: ABC TV ACT" tvg-logo="https://i.imgur.com/DPVQSjM.png" group-title="WRLD | ABC",AU: ABC TV ACT
 https://c.mjh.nz/abc-act.m3u8
