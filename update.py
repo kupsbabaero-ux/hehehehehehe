@@ -1,4 +1,5 @@
 import gzip
+import os
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -9,7 +10,12 @@ JSON_URL = "http://141.164.53.195/live/korea-live.json"
 EXTRA_M3U8_URL = (
     "https://github.com/kupsbabaero-ux/hehehehehehe/raw/refs/heads/main/zeus.m3u8"
 )
-EPG_URL = ""
+# Local XMLTV file (plain) — fallback kung remote EPG fail
+LOCAL_EPG_FILE = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "pasted-text.txt"
+)
+# Remote EPG from iptv-epg.org (plain XML, not gzip)
+EPG_URL = "https://iptv-epg.org/files/epg-kr.xml"
 
 OUTPUT1 = "korea.m3u8"  # DIYP format (#genre# grouping)
 OUTPUT2 = "korea2.m3u8"  # Standard M3U format
@@ -17,56 +23,105 @@ OUTPUT2 = "korea2.m3u8"  # Standard M3U format
 TARGET_GROUP = "KR | Korea"
 
 
-def fetch_epg_mapping(epg_url):
-    """Downloads GZipped EPG XML and creates a mapping of cleaned channel name -> tvg-id."""
+def _parse_epg_root(root, epg_map):
+    """Parse <channel> elements into cleaned-name -> tvg-id map."""
+    for channel in root.findall("channel"):
+        channel_id = channel.get("id")
+        if not channel_id:
+            continue
+
+        for display_name in channel.findall("display-name"):
+            if display_name.text:
+                raw_name = display_name.text.strip()
+                # Strip "KR - " / "KR:" prefix
+                clean_name = re.sub(
+                    r"^kr\s*[-:]?\s*", "", raw_name, flags=re.IGNORECASE
+                ).strip().lower()
+
+                if clean_name and clean_name not in epg_map:
+                    epg_map[clean_name] = channel_id
+
+
+def _load_xml_tolerant(path):
+    """Parse local XML even if truncated (missing </tv>)."""
+    with open(path, "r", encoding="utf-8", errors="replace") as f:
+        content = f.read().strip()
+    if not content.lstrip().startswith("<"):
+        raise ValueError("Not an XML file")
+    if "</tv>" not in content.lower():
+        if content.rstrip().endswith("/>") or content.rstrip().endswith(">"):
+            content = content.rstrip() + "\n</tv>"
+        else:
+            content = content.rstrip() + "\n  </channel>\n</tv>"
+    return ET.fromstring(content)
+
+
+def fetch_epg_mapping(epg_url="", local_file=None):
+    """
+    Load EPG mapping (cleaned channel name -> real tvg-id).
+    Priority:
+      1. Remote EPG_URL (plain XML or gzip)
+      2. Local pasted-text.txt (fallback)
+    """
     epg_map = {}
-    try:
-        print(f"{datetime.now()} Downloading and parsing GZipped EPG XML...")
-        r = requests.get(epg_url, timeout=30)
 
-        # Decompress ang .gz content sa memory
-        decompressed_data = gzip.decompress(r.content)
-        root = ET.fromstring(decompressed_data)
+    # 1) Remote EPG
+    if epg_url:
+        try:
+            print(f"{datetime.now()} Downloading EPG from: {epg_url}")
+            r = requests.get(epg_url, timeout=60, allow_redirects=True)
+            r.raise_for_status()
+            content = r.content
 
-        for channel in root.findall("channel"):
-            channel_id = channel.get("id")
-            if not channel_id:
-                continue
+            # Auto-detect gzip vs plain XML
+            if content[:2] == b"\x1f\x8b":
+                print(f"{datetime.now()} Detected GZip, decompressing...")
+                content = gzip.decompress(content)
+                root = ET.fromstring(content)
+            else:
+                # Plain XML (utf-8)
+                text = content.decode("utf-8", errors="replace")
+                root = ET.fromstring(text)
 
-            for display_name in channel.findall("display-name"):
-                if display_name.text:
-                    # Linisin ang pangalan para madaling ma-match
-                    raw_name = display_name.text.strip().lower()
-                    clean_name = re.sub(
-                        r"^kr:\s*", "", raw_name, flags=re.IGNORECASE
-                    ).strip()
+            _parse_epg_root(root, epg_map)
+            print(
+                f"{datetime.now()} Remote EPG Loaded. Found {len(epg_map)} mapped channel names."
+            )
+        except Exception as e:
+            print(f"{datetime.now()} Error loading remote EPG: {e}")
 
-                    if clean_name and clean_name not in epg_map:
-                        epg_map[clean_name] = channel_id
+    # 2) Local fallback (kung remote empty/fail)
+    if not epg_map:
+        path = local_file or LOCAL_EPG_FILE
+        if path and os.path.isfile(path):
+            try:
+                print(f"{datetime.now()} Loading local EPG fallback: {path}")
+                root = _load_xml_tolerant(path)
+                _parse_epg_root(root, epg_map)
+                print(
+                    f"{datetime.now()} Local EPG Loaded. Found {len(epg_map)} mapped channel names."
+                )
+            except Exception as e:
+                print(f"{datetime.now()} Error loading local EPG ({path}): {e}")
 
-        print(
-            f"{datetime.now()} EPG Loaded. Found {len(epg_map)} mapped channel names."
-        )
-    except Exception as e:
-        print(f"{datetime.now()} Error loading EPG: {e}")
+    if not epg_map:
+        print(f"{datetime.now()} WARNING: No EPG mapping loaded. tvg-id will be empty.")
 
     return epg_map
 
 
 def clean_text(text):
     """Inaalis ang prefix, resolution tags, at special characters para sa mas matinding matching."""
-    text = re.sub(r"^kr:\s*", "", text, flags=re.IGNORECASE)
-    # Alisin ang mga resolution/quality indicators na nakakasira sa matching
+    text = re.sub(r"^kr\s*[-:]?\s*", "", text, flags=re.IGNORECASE)
     text = re.sub(
         r"\b(hd|fhd|uhd|4k|sd|720p|1080p)\b", "", text, flags=re.IGNORECASE
     )
-    # Tanging letters at numbers lang ang ititira
     text = re.sub(r"[^\w]", "", text)
     return text.lower().strip()
 
 
 def match_tvg_id(channel_name, epg_map):
-    """Maghahanap ng matching XMLtv channel ID sa EPG map."""
+    """Maghahanap ng matching XMLtv channel ID (real tvg-id) sa EPG map."""
     norm_name = clean_text(channel_name)
     if not norm_name:
         return ""
@@ -130,7 +185,9 @@ def extract_m3u8_or_php(uris):
 
 
 def parse_external_m3u8(url, epg_map):
-    """Fetch at i-parse ang extra M3U8 channels mula sa GitHub"""
+    """Fetch at i-parse ang extra M3U8 channels mula sa GitHub.
+    tvg-id matching is applied ONLY when group is KR | Korea.
+    """
     channels = []
     try:
         r = requests.get(url, timeout=20)
@@ -161,11 +218,15 @@ def parse_external_m3u8(url, epg_map):
                 )
 
                 formatted_name = format_channel_name(raw_name, group)
-                matched_tvg_id = match_tvg_id(raw_name, epg_map)
 
-                # DEBUG LOG
+                # ONLY match real tvg-id for KR | Korea group
+                if group.strip().lower() == TARGET_GROUP.lower():
+                    matched_tvg_id = match_tvg_id(raw_name, epg_map)
+                else:
+                    matched_tvg_id = ""  # iba ka na bahala
+
                 print(
-                    f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'"
+                    f"[Match Check] '{raw_name}' (group={group}) --> tvg-id: '{matched_tvg_id}'"
                 )
 
                 channels.append(
@@ -186,10 +247,10 @@ def parse_external_m3u8(url, epg_map):
 def run():
     raw_channels = []
 
-    # 0. Load EPG Mapping
-    epg_map = fetch_epg_mapping(EPG_URL)
+    # 0. Load EPG Mapping (remote epg-kr.xml → real tvg-id)
+    epg_map = fetch_epg_mapping(EPG_URL, LOCAL_EPG_FILE)
 
-    # 1. Fetch JSON channels
+    # 1. Fetch JSON channels (always KR | Korea → auto tvg-id)
     try:
         r = requests.get(JSON_URL, timeout=20)
         r.encoding = "utf-8"
@@ -213,7 +274,6 @@ def run():
                 formatted_name = format_channel_name(raw_name, group)
                 matched_tvg_id = match_tvg_id(raw_name, epg_map)
 
-                # DEBUG LOG
                 print(
                     f"[Match Check] '{raw_name}' --> tvg-id: '{matched_tvg_id}'"
                 )
@@ -244,7 +304,6 @@ def run():
 
     for ch in raw_channels:
         if ch["group"].strip().lower() == TARGET_GROUP.lower():
-            # Pinag-isa ang name (cleaned) at URL para matukoy kung eksaktong duplicate
             unique_key = (clean_text(ch["name"]), ch["url"].strip())
 
             if unique_key in seen_kr_keys:
@@ -255,7 +314,6 @@ def run():
 
             seen_kr_keys.add(unique_key)
 
-        # Kung hindi duplicate o kaya ay mula sa ibang group, isasama ito
         all_channels.append(ch)
 
     # 4. Alphabetical Sorting
@@ -290,7 +348,16 @@ def run():
     with open(OUTPUT2, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines2))
 
+    with_id = sum(1 for c in all_channels if c["tvg_id"])
+    kr_count = sum(
+        1
+        for c in all_channels
+        if c["group"].strip().lower() == TARGET_GROUP.lower()
+    )
     print(f"\n{datetime.now()} Total Channels Processed: {len(all_channels)}")
+    print(
+        f"{datetime.now()} KR | Korea channels: {kr_count} (with real tvg-id: {with_id})"
+    )
     print(f"{datetime.now()} Files Generated: {OUTPUT1}, {OUTPUT2}")
 
 
