@@ -18,10 +18,10 @@ LOCAL_EPG_FILE = os.path.join(
 # Region EPG sources
 EPG_SOURCES = {
     "KR": "https://iptv-epg.org/files/epg-kr.xml",
-    "CA": "https://epg.lat/files/ca.xml.gz",
-    "UK": "https://epg.lat/files/uk.xml.gz",
-    "US": "https://epg.lat/files/us.xml.gz",
-    "PH": "https://epg.lat/files/ph.xml.gz",
+    "CA": "https://iptv-epg.org/files/epg-ca.xml",
+    "UK": "https://iptv-epg.org/files/epg-gb.xml",
+    "US": "https://iptv-epg.org/files/epg-us.xml",
+    "PH": "https://epg.lat/files/ph.xml.gz",  # Philippines
 }
 
 # Comma-separated for #EXTM3U url-tvg=
