@@ -121,7 +121,6 @@ def fetch_all_epg_maps():
             r = requests.get(url, timeout=300, allow_redirects=True, stream=True)
             r.raise_for_status()
 
-            # Stream to temp file (avoid holding 500MB+ in RAM)
             fd, tmp_path = tempfile.mkstemp(suffix=f".{region}.xml")
             os.close(fd)
             with open(tmp_path, "wb") as out:
@@ -179,12 +178,10 @@ def match_tvg_id(channel_name, epg_map):
     if not norm:
         return ""
 
-    # 1. Exact
     for epg_name, tvg_id in epg_map.items():
         if clean_text(epg_name) == norm:
             return tvg_id
 
-    # 2. Substring (min 3 chars)
     for epg_name, tvg_id in epg_map.items():
         clean_epg = clean_text(epg_name)
         if clean_epg and (norm in clean_epg or clean_epg in norm):
@@ -309,7 +306,7 @@ def parse_external_m3u8(url, all_maps):
 def run():
     raw_channels = []
 
-    # 0. Load all region EPGs (stream to disk, low memory)
+    # 0. Load all region EPGs
     all_maps = fetch_all_epg_maps()
 
     # 1. JSON Korea channels (always KR | Korea)
@@ -351,7 +348,7 @@ def run():
     except Exception as e:
         print(f"{datetime.now()} Error fetching JSON: {e}")
 
-    # 2. GitHub M3U8 (KR/CA/UK/US groups get real tvg-id)
+    # 2. GitHub M3U8 — KR / CA / UK / US groups get real tvg-id
     github_channels = parse_external_m3u8(EXTRA_M3U8_URL, all_maps)
     raw_channels.extend(github_channels)
 
@@ -387,7 +384,6 @@ def run():
         lines1.append(f"{ch['name']},{ch['url']}")
 
     # 6. Standard M3U — comma-separated url-tvg
-    # #EXTM3U url-tvg="https://iptv-epg.org/files/epg-kr.xml,https://iptv-epg.org/files/epg-ca.xml,https://iptv-epg.org/files/epg-gb.xml,https://iptv-epg.org/files/epg-us.xml"
     lines2 = [f'#EXTM3U url-tvg="{URL_TVG}"']
     for ch in all_channels:
         logo_attr = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ""
