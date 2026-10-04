@@ -534,7 +534,6 @@ The SpongeBob Movie: Sponge Out of Water (2015),http://restream-live.realiptv.to
 The SpongeBob SquarePants Movie (2004),http://wickediptv.live/movie/Randall123/Randall321/237315.mp4
 The SpongeBob SquarePants Movie: Rehydrated (2022),http://restream-live.realiptv.to:8080/movie/1234567/7654321/1170876.mp4
 UK | Sky Sports,#genre#
-TEST ESPN,http:\\170.83.16.50\ESPN\mpegts
 UK: Sky Sports Cricket FHD (D),http://1tv41.icu:8080/live/8tFfDW/451664/45940.m3u8
 UK: Sky Sports F1 FHD,http://1tv41.icu:8080/live/8tFfDW/451664/35244.m3u8
 UK: Sky Sports F1 FHD (D),http://1tv41.icu:8080/live/8tFfDW/451664/53704.m3u8
@@ -543,13 +542,13 @@ UK: Sky Sports Golf FHD,http://1tv41.icu:8080/live/8tFfDW/451664/35240.m3u8
 UK: Sky Sports Main Event,http://1tv41.icu:8080/live/8tFfDW/451664/35243.m3u8
 UK: Sky Sports Mix FHD (D),http://1tv41.icu:8080/live/8tFfDW/451664/53706.m3u8
 UK: Sky Sports News,http://1tv41.icu:8080/live/8tFfDW/451664/35241.m3u8
+UK: TEST ESPN,http:\\170.83.16.50\ESPN\mpegts
 US | Fox Sports,#genre#
 US: Fox Deportes,http://23.237.104.106:8080/USA_FOX_DEPORTES/tracks-v1a1/mono.m3u8
 US: Fox Soccer +,http://40.160.24.52/FOX_SOCCER_PLUS/index.m3u8
 US: Fox Sports 1,http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 US: Fox Sports 2,https://tvsen7.aynascope.net/foxsports2/index.m3u8
 US | MOVIES,#genre#
-UK: Sony One ThrillerTV,https://52aad07d9d4f4d479d9b27e08ddf9e8b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-808-UK-SONYONETHRILLERTV-LG_UK/playlist.m3u8
 US: 5STARMAX,http://23.237.104.106:8080/USA_5STARMAX/index.m3u8?takodachi
 US: BBC America,http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8
 US: BigCinema,https://hls.showfer.com/live/dBsh2/Big_Cinema/airy.m3u8
@@ -596,6 +595,7 @@ US: Showtime Family,http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/tracks-v1a1/m
 US: Showtime Next,http://40.160.24.55/SHOWTIME_NEXT/index.m3u8
 US: Showtime West,http://40.160.24.55/SHOWTIME_WEST/index.m3u8
 US: Showtime Women,http://40.160.24.55/SHOWTIME_WOMEN/index.m3u8
+US: Sony One ThrillerTV,https://52aad07d9d4f4d479d9b27e08ddf9e8b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-808-UK-SONYONETHRILLERTV-LG_UK/playlist.m3u8
 US: STARZ,http://23.237.104.106:8080/USA_STARZ/index.m3u8
 US: Starz Cinema HD,http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
 US: Starz Comedy HD,http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
