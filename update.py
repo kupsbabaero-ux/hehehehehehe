@@ -23,6 +23,9 @@ EPG_SOURCES = {
     "US": "https://iptv-epg.org/files/epg-us.xml",
 }
 
+# Comma-separated for #EXTM3U url-tvg=
+URL_TVG = ",".join(EPG_SOURCES.values())
+
 OUTPUT1 = "korea.m3u8"  # DIYP format (#genre# grouping)
 OUTPUT2 = "korea2.m3u8"  # Standard M3U format
 
@@ -383,9 +386,9 @@ def run():
             lines1.append(f"{current_diyp_group},#genre#")
         lines1.append(f"{ch['name']},{ch['url']}")
 
-    # 6. Standard M3U — all region EPGs in url-tvg
-    url_tvg = " ".join(EPG_SOURCES.values())
-    lines2 = [f'#EXTM3U url-tvg="{url_tvg}"']
+    # 6. Standard M3U — comma-separated url-tvg
+    # #EXTM3U url-tvg="https://iptv-epg.org/files/epg-kr.xml,https://iptv-epg.org/files/epg-ca.xml,https://iptv-epg.org/files/epg-gb.xml,https://iptv-epg.org/files/epg-us.xml"
+    lines2 = [f'#EXTM3U url-tvg="{URL_TVG}"']
     for ch in all_channels:
         logo_attr = f' tvg-logo="{ch["logo"]}"' if ch["logo"] else ""
         tvg_id_attr = (
@@ -412,6 +415,7 @@ def run():
     print(f"\n{datetime.now()} Total Channels: {len(all_channels)}")
     print(f"{datetime.now()} With real tvg-id: {with_id}")
     print(f"{datetime.now()} By region: {by_region}")
+    print(f"{datetime.now()} url-tvg: {URL_TVG}")
     print(f"{datetime.now()} Files: {OUTPUT1}, {OUTPUT2}")
 
 
