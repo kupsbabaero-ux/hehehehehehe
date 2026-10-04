@@ -15,12 +15,13 @@ LOCAL_EPG_FILE = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "pasted-text.txt"
 )
 
-# Region EPG sources (iptv-epg.org)
+# Region EPG sources
 EPG_SOURCES = {
     "KR": "https://iptv-epg.org/files/epg-kr.xml",
-    "CA": "https://iptv-epg.org/files/epg-ca.xml",
-    "UK": "https://iptv-epg.org/files/epg-gb.xml",  # GB = UK
-    "US": "https://iptv-epg.org/files/epg-us.xml",
+    "CA": "https://epg.lat/files/ca.xml.gz",
+    "UK": "https://epg.lat/files/uk.xml.gz",
+    "US": "https://epg.lat/files/us.xml.gz",
+    "PH": "https://epg.lat/files/ph.xml.gz",
 }
 
 # Comma-separated for #EXTM3U url-tvg=
@@ -37,11 +38,12 @@ REGION_RULES = [
     (r"^ca\b|canada", "CA"),
     (r"^uk\b|^gb\b|united\s*kingdom|britain", "UK"),
     (r"^us\b|united\s*states|america", "US"),
+    (r"^ph\b|philippines|pilipinas", "PH"),
 ]
 
 
 def detect_region(group):
-    """Return region key (KR/CA/UK/US) based on group-title, or None."""
+    """Return region key (KR/CA/UK/US/PH) based on group-title, or None."""
     g = (group or "").strip().lower()
     for pattern, region in REGION_RULES:
         if re.search(pattern, g, flags=re.IGNORECASE):
@@ -50,9 +52,9 @@ def detect_region(group):
 
 
 def _strip_region_prefix(name):
-    """Remove CA/UK/US/KR/GB style prefixes from display names."""
+    """Remove CA/UK/US/KR/GB/PH style prefixes from display names."""
     return re.sub(
-        r"^(kr|ca|uk|gb|us)\s*[-:]?\s*",
+        r"^(kr|ca|uk|gb|us|ph)\s*[-:]?\s*",
         "",
         name,
         flags=re.IGNORECASE,
@@ -62,7 +64,7 @@ def _strip_region_prefix(name):
 def _parse_epg_file(path, epg_map):
     """
     Stream-parse XML file into epg_map (cleaned_name -> tvg-id).
-    Handles gzip (.gz) and plain XML. Memory-friendly for huge US EPG.
+    Handles gzip (.gz) and plain XML.
     """
     with open(path, "rb") as f:
         magic = f.read(2)
@@ -110,7 +112,7 @@ def _fix_local_xml(path):
 def fetch_all_epg_maps():
     """
     Download each region EPG to a temp file, parse with iterparse.
-    Returns: { "KR": {name: id}, "CA": {...}, "UK": {...}, "US": {...} }
+    Returns: { "KR": {...}, "CA": {...}, "UK": {...}, "US": {...}, "PH": {...} }
     """
     maps = {k: {} for k in EPG_SOURCES}
 
@@ -200,10 +202,10 @@ def match_tvg_id_for_group(channel_name, group, all_maps):
 
 
 def format_channel_name(name, group):
-    """Add region prefix for known regions (KR: / CA: / UK: / US:)."""
+    """Add region prefix for known regions."""
     name = name.strip()
     clean_name = re.sub(
-        r"^(KR|CA|UK|GB|US):\s*", "", name, flags=re.IGNORECASE
+        r"^(KR|CA|UK|GB|US|PH):\s*", "", name, flags=re.IGNORECASE
     ).strip()
 
     region = detect_region(group)
@@ -215,6 +217,8 @@ def format_channel_name(name, group):
         return f"UK: {clean_name}"
     if region == "US":
         return f"US: {clean_name}"
+    if region == "PH":
+        return f"PH: {clean_name}"
     return name
 
 
@@ -251,7 +255,7 @@ def extract_m3u8_or_php(uris):
 
 
 def parse_external_m3u8(url, all_maps):
-    """Parse GitHub M3U8; apply tvg-id for KR/CA/UK/US groups only."""
+    """Parse GitHub M3U8; apply tvg-id for KR/CA/UK/US/PH groups."""
     channels = []
     try:
         r = requests.get(url, timeout=30)
@@ -348,7 +352,7 @@ def run():
     except Exception as e:
         print(f"{datetime.now()} Error fetching JSON: {e}")
 
-    # 2. GitHub M3U8 — KR / CA / UK / US groups get real tvg-id
+    # 2. GitHub M3U8 — KR/CA/UK/US/PH groups get real tvg-id
     github_channels = parse_external_m3u8(EXTRA_M3U8_URL, all_maps)
     raw_channels.extend(github_channels)
 
