@@ -313,6 +313,8 @@ https://tving-live-o2-skcdn.tving.com/o2/v1/019db87e92691eb80e7942932b5bd/019db8
 http://124.222.153.240/kakaotv/get_channel.php?channel=jtbc3
 #EXTINF:-1 tvg-id="JTBC.kr" tvg-name="KR: JTBC 뉴스" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/JTBC_News.jpg" group-title="KR | Korea",KR: JTBC 뉴스
 https://tving-live-o2-skcdn.tving.com/o2/v1/019bf8af365e153d78652a264b9f3f/019bf8afd0fe153d78652a264b9f42/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkxNzgzNDU1fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=g7ezHiCgWjqnn7PkVqDMHQkBr7TCfj5xQA5Q6h1CETVYHX7LADLhe~1fqqnn5yq3wabeSMfkls1k7e-itat-4WgbNLhHT9r-Y2nYTwK4~2~FbX9UHis0MfTf2leVCOWS7sbfs7cIF~rlY~EpPzE1O6qIL7~R~s1mvddD3OozMSQc1R47IMrS2xzZYXeAgESyfc0OFqumbdIIYEuWG3fIiJiQkrLsvRVMpvvWQBg2CVLaiRbPO-qhre2eajOSSyrP6GMWfGwpE3aqQcdGMa8RL0GcbyZTyGIhuc0pgh8SR4U1EhxgzTvPm9XnIJWrrn1wCVDTO59dMg~QIupo~6~GUA__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
+#EXTINF:-1 tvg-id="JTBC.kr" tvg-name="KR: JTBC-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/JTBC.png" group-title="KR | Korea",KR: JTBC-테스트
+http://218.98.50.141:8088/live/JTBC.m3u8
 #EXTINF:-1 tvg-id="JTBC2.kr" tvg-name="KR: JTBC2" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/JTBC2.png" group-title="KR | Korea",KR: JTBC2
 https://tving-live-o2-skcdn.tving.com/o2/v1/019d6c233d781eb80e796d9bd9cb7/019dd8d54768153d7865157cdbfbd3/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkxNzgzNDMxfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=OmcKSv~ybqUJ0Zd6uvxU9zJFhg74rbWEFIRnSn5cbMmMVzJmzeJcWOCnIAmhKWzfUI1awE0R8t6t7gbmycvfE7YtyHck~CVv2gvNV9fRYm6-eNkrWC8JSA7JvkznlmSdzglzL8xHs85RsCw1vciTf3fc0xHVSD6FOx1cQqXKiHw2KsUy7xvXy4yeiQ-5aikoPSusmZungBt1nashMz7D2m3Z-Px00adyrcdRVqNbs1TrnbL42DVcTJ19c1-B1QpaaSPU47WK3P4~BSx4G1oxQw3p77OEPErxsp~COgU7nkVeBqcWS8S5-ifCQdtael5PS~GoTilUbA4OHoV~UaiWbQ__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
 #EXTINF:-1 tvg-id="JTBC4.kr" tvg-name="KR: JTBC4" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/JTBC4.png" group-title="KR | Korea",KR: JTBC4
@@ -321,10 +323,14 @@ https://tving-live-o2-skcdn.tving.com/o2/v1/019dd2ee3a6f1eb80e7925af014fb7/019dd
 http://124.222.153.240/kakaotv/get_channel.php?channel=kbs_n_sports
 #EXTINF:-1 tvg-id="" tvg-name="KR: KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/3840px-KBS_World_%282009%29.svg.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBS World
 https://cdn4.skygo.mn/live/disk1/KBSWorld/HLSv3-FTA/KBSWorld.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="KR: KBS-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBS1.png" group-title="KR | Korea",KR: KBS-테스트
+http://113.207.105.246:8088/live/KBS1.m3u8
 #EXTINF:-1 tvg-id="KBS1.kr" tvg-name="KR: KBS1" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBS1.png" group-title="KR | Korea",KR: KBS1
 http://43.164.132.11/kakaotv/get_channel.php?channel=kbs1
 #EXTINF:-1 tvg-id="KBS2.kr" tvg-name="KR: KBS2" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBS2.png" group-title="KR | Korea",KR: KBS2
 http://43.164.132.11/kakaotv/get_channel.php?channel=kbs2
+#EXTINF:-1 tvg-id="KBS2.kr" tvg-name="KR: KBS2-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBS2.png" group-title="KR | Korea",KR: KBS2-테스트
+http://113.207.49.20:8088/live/KBS2.m3u8
 #EXTINF:-1 tvg-id="KBSDrama.kr" tvg-name="KR: KBSDrama" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBSDrama.png" group-title="KR | Korea",KR: KBSDrama
 http://koreatv.dothome.co.kr/kbsdrama.php
 #EXTINF:-1 tvg-id="KBSJoy.kr" tvg-name="KR: KBSJoy" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBSJoy.png" group-title="KR | Korea",KR: KBSJoy
@@ -347,6 +353,8 @@ http://43.164.132.11/kakaotv/get_channel.php?channel=mbc
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
 #EXTINF:-1 tvg-id="MBC.kr" tvg-name="KR: MBC ON-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/MBCON.png" group-title="KR | Korea",KR: MBC ON-테스트
 http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_on
+#EXTINF:-1 tvg-id="MBC.kr" tvg-name="KR: MBC-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/MBC.png" group-title="KR | Korea",KR: MBC-테스트
+http://113.207.105.246:8088/live/MBC.m3u8
 #EXTINF:-1 tvg-id="MBC.kr" tvg-name="KR: MBC스포츠-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/MBC스포츠.png" group-title="KR | Korea",KR: MBC스포츠-테스트
 http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_sports
 #EXTINF:-1 tvg-id="MBN.kr" tvg-name="KR: MBN" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/MBN.png" group-title="KR | Korea",KR: MBN
@@ -385,6 +393,8 @@ https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=runningm
 http://1.238.115.18:9981/stream/channelid/1009800960?ticket=0C8267E41EEA0FD47699F01142A3CB9F24C8BD0B&profile=pass
 #EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS 뉴스" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/%EC%95%A0%EB%8B%88%ED%94%8C%EB%9F%AC%EC%8A%A4.jpg" group-title="KR | Korea",KR: SBS 뉴스
 https://tving-live-o2-xcdn.tving.com/o2/v1/019b974ed45e153d78651307e41e33/019b97555b3a153d78651307e41e38/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTE3ODM0MDcsInBhdGgiOiIvbzIifQ.A0SeePHlOE_6q985vHSRQ225NVIRWxO4fHm8jruHDuc
+#EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/SBS.png" group-title="KR | Korea",KR: SBS-테스트
+http://113.207.49.20:8088/live/SBS.m3u8
 #EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS골프-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/SBS골프.png" group-title="KR | Korea",KR: SBS골프-테스트
 http://124.222.153.240/kakaotv/get_channel.php?channel=sbs_golf
 #EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS스포츠-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/SBS스포츠.png" group-title="KR | Korea",KR: SBS스포츠-테스트
