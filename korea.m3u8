@@ -166,10 +166,10 @@ KR: JTBC2,https://tving-live-o2-xcdn.tving.com/o2/v1/019d6c233d781eb80e796d9bd9c
 KR: JTBC4,https://tving-live-o2-xcdn.tving.com/o2/v1/019dd2ee3a6f1eb80e7925af014fb7/019dd8e4b0c6153d7865157cdbfbdb/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTIzMDUxNTcsInBhdGgiOiIvbzIifQ.SY4jvFlZFUWM1VurKFoksYza7mx7--YSSqqZsYHiRxg
 KR: KBS N 스포츠-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=kbs_n_sports
 KR: KBS World,https://cdn4.skygo.mn/live/disk1/KBSWorld/HLSv3-FTA/KBSWorld.m3u8
-KR: KBS-테스트,http://113.207.105.246:8088/live/KBS1.m3u8
-KR: KBS1,http://43.164.132.11/kakaotv/get_channel.php?channel=kbs1
-KR: KBS2,http://43.164.132.11/kakaotv/get_channel.php?channel=kbs2
-KR: KBS2-테스트,http://113.207.49.20:8088/live/KBS2.m3u8
+KR: KBS-테스트,http://43.164.132.11/kakaotv/get_channel.php?channel=kbs1
+KR: KBS1,http://218.98.50.141:8088/live/KBS1.m3u8
+KR: KBS2,http://218.98.50.141:8088/live/KBS2.m3u8
+KR: KBS2-테스트,http://43.164.132.11/kakaotv/get_channel.php?channel=kbs2
 KR: KBSDrama,http://koreatv.dothome.co.kr/kbsdrama.php
 KR: KBSJoy,http://koreatv.dothome.co.kr/kbsjoy.php
 KR: KBSKids,http://koreatv.dothome.co.kr/kbskids.php
@@ -178,10 +178,10 @@ KR: KBSStory,http://koreatv.dothome.co.kr/kbsstory.php
 KR: KBSWorld,http://koreatv.dothome.co.kr/kbsworld.php
 KR: KBS뉴스24,https://tving-live-o2-skcdn.tving.com/o2/v1/019b91fde7c5153d78651307e41e2a/019b977c8b3a1eb80e79141423fc3b/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkyMzA1NjY5fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=lG4dl3hjBvpA3It89Zpc5mqgY1I6vXKdp8dkJ2rNaJ~4DYQcLdTMD~JyqNKAlVMLtRZSbV0x2qYklrPEU-wUo6nXVRUlAqSQ1b7R7psxK8DJHNBVzndGnzP0QQ2eDqOExFQnV-jOV7EcGhpyuFFUQAjXtMrpYw~c3hjjuBOMYwIMf-EfDQr47p1mVh4RgE-~jfpWHzwwngCpLsgbdDHF6xzr7qzJU5G-ISGjrZ8FxNQ5O8d6r7S5zA5r~RhO7IMKtn9R1z9EFwjVutcrsgsv1YPWy0DxqIBJRj0lAKIWkToj2S6zPDm6QEwq2koupiorh78LZQNiKbjF1BeDAbrhHg__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
 KR: LIFETIME,https://tving-live-o2-xcdn.tving.com/o2/v1/019d668fbfde153d786553381d0db/019d669072be153d786553381d0de/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTIyNzAwNjYsInBhdGgiOiIvbzIifQ.CPdC1qL7DaXZN3uaujPiNNLO_HsLiJNfWR8nTcEvKWA
-KR: MBC,http://43.164.132.11/kakaotv/get_channel.php?channel=mbc
+KR: MBC,http://218.98.50.141:8088/live/MBC.m3u8
 KR: MBC America,https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
 KR: MBC ON-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_on
-KR: MBC-테스트,http://113.207.105.246:8088/live/MBC.m3u8
+KR: MBC-테스트,http://43.164.132.11/kakaotv/get_channel.php?channel=mbc
 KR: MBC스포츠-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_sports
 KR: MBN,https://tving-live-o2-xcdn.tving.com/o2/v1/019d8a6c2db1153d786553381d0f4/019dd8e5a2ec1eb80e7925af014fc1/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTIzMDUzMTgsInBhdGgiOiIvbzIifQ.iO-nhohHbllelYVYc17zR_sZbVKKbMP0c7-PHOiAAis
 KR: MBN-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=mbn
@@ -195,13 +195,13 @@ KR: OCN Movies 2-테스트,http://124.222.153.240/kakaotv/get_channel.php?channe
 KR: OCN Movies-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=ocn_movies
 KR: OCN-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=ocn
 KR: PH: Arirang,https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-KR: SBS,http://43.164.132.11/kakaotv/get_channel.php?channel=sbs
+KR: SBS,http://218.98.50.141:8088/live/SBS.m3u8
 KR: SBS K-Drama,https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=sbsk-drama&channel_id=newid_008&mpf=c064f5f4-39af1962-6d5d5e50&apikey=48230e6b-1cea0097-15975f93-39af1962&auth=474ab4cb-5d47aa0a-84d0cbca-2a3730a6&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.us_privacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
 KR: SBS PLUS-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=sbs_plus
 KR: SBS Running Man,https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=runningman&channel_id=newid_164&mpf=9e4a746e-39af1962-883f7215&apikey=48230e6b-1cea0097-15975f93-39af1962&auth=8a1e6d7d-4b6e85c1-a092d5c1-3c1e1f6d&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.us_privacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
 KR: SBS TV,http://1.238.115.18:9981/stream/channelid/1009800960?ticket=0C8267E41EEA0FD47699F01142A3CB9F24C8BD0B&profile=pass
 KR: SBS 뉴스,https://tving-live-o2-xcdn.tving.com/o2/v1/019b974ed45e153d78651307e41e33/019b97555b3a153d78651307e41e38/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTIzMDUxMjAsInBhdGgiOiIvbzIifQ.XePrESaR7bPQTs1ClKEHdHTYaQ9hQaLXfLDqgRoIo84
-KR: SBS-테스트,http://113.207.49.20:8088/live/SBS.m3u8
+KR: SBS-테스트,http://43.164.132.11/kakaotv/get_channel.php?channel=sbs
 KR: SBS골프-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=sbs_golf
 KR: SBS스포츠-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=sbs_sports
 KR: SPOTV 2-테스트,http://124.222.153.240/kakaotv/get_channel.php?channel=spotv2

@@ -324,13 +324,13 @@ http://124.222.153.240/kakaotv/get_channel.php?channel=kbs_n_sports
 #EXTINF:-1 tvg-id="" tvg-name="KR: KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/3840px-KBS_World_%282009%29.svg.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="KR | Korea",KR: KBS World
 https://cdn4.skygo.mn/live/disk1/KBSWorld/HLSv3-FTA/KBSWorld.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KR: KBS-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBS1.png" group-title="KR | Korea",KR: KBS-테스트
-http://113.207.105.246:8088/live/KBS1.m3u8
-#EXTINF:-1 tvg-id="KBS1.kr" tvg-name="KR: KBS1" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBS1.png" group-title="KR | Korea",KR: KBS1
 http://43.164.132.11/kakaotv/get_channel.php?channel=kbs1
+#EXTINF:-1 tvg-id="KBS1.kr" tvg-name="KR: KBS1" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBS1.png" group-title="KR | Korea",KR: KBS1
+http://218.98.50.141:8088/live/KBS1.m3u8
 #EXTINF:-1 tvg-id="KBS2.kr" tvg-name="KR: KBS2" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBS2.png" group-title="KR | Korea",KR: KBS2
-http://43.164.132.11/kakaotv/get_channel.php?channel=kbs2
+http://218.98.50.141:8088/live/KBS2.m3u8
 #EXTINF:-1 tvg-id="KBS2.kr" tvg-name="KR: KBS2-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBS2.png" group-title="KR | Korea",KR: KBS2-테스트
-http://113.207.49.20:8088/live/KBS2.m3u8
+http://43.164.132.11/kakaotv/get_channel.php?channel=kbs2
 #EXTINF:-1 tvg-id="KBSDrama.kr" tvg-name="KR: KBSDrama" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBSDrama.png" group-title="KR | Korea",KR: KBSDrama
 http://koreatv.dothome.co.kr/kbsdrama.php
 #EXTINF:-1 tvg-id="KBSJoy.kr" tvg-name="KR: KBSJoy" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/KBSJoy.png" group-title="KR | Korea",KR: KBSJoy
@@ -348,13 +348,13 @@ https://tving-live-o2-skcdn.tving.com/o2/v1/019b91fde7c5153d78651307e41e2a/019b9
 #EXTINF:-1 tvg-id="" tvg-name="KR: LIFETIME" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/LIFETIME.png" group-title="KR | Korea",KR: LIFETIME
 https://tving-live-o2-xcdn.tving.com/o2/v1/019d668fbfde153d786553381d0db/019d669072be153d786553381d0de/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTIyNzAwNjYsInBhdGgiOiIvbzIifQ.CPdC1qL7DaXZN3uaujPiNNLO_HsLiJNfWR8nTcEvKWA
 #EXTINF:-1 tvg-id="MBC.kr" tvg-name="KR: MBC" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/MBC.png" group-title="KR | Korea",KR: MBC
-http://43.164.132.11/kakaotv/get_channel.php?channel=mbc
+http://218.98.50.141:8088/live/MBC.m3u8
 #EXTINF:-1 tvg-id="MBC.kr" tvg-name="KR: MBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuzaTy0xEd60zfSHCYREmgtPbN-8hlS-M_aEdzgNe6bBdE_jVh9evbTLk&s=10" group-title="KR | Korea",KR: MBC America
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
 #EXTINF:-1 tvg-id="MBC.kr" tvg-name="KR: MBC ON-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/MBCON.png" group-title="KR | Korea",KR: MBC ON-테스트
 http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_on
 #EXTINF:-1 tvg-id="MBC.kr" tvg-name="KR: MBC-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/MBC.png" group-title="KR | Korea",KR: MBC-테스트
-http://113.207.105.246:8088/live/MBC.m3u8
+http://43.164.132.11/kakaotv/get_channel.php?channel=mbc
 #EXTINF:-1 tvg-id="MBC.kr" tvg-name="KR: MBC스포츠-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/MBC스포츠.png" group-title="KR | Korea",KR: MBC스포츠-테스트
 http://124.222.153.240/kakaotv/get_channel.php?channel=mbc_sports
 #EXTINF:-1 tvg-id="MBN.kr" tvg-name="KR: MBN" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/MBN.png" group-title="KR | Korea",KR: MBN
@@ -382,7 +382,7 @@ http://124.222.153.240/kakaotv/get_channel.php?channel=ocn
 #EXTINF:-1 tvg-id="" tvg-name="KR: PH: Arirang" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/65/Arirang_Radio_Old.jpg/revision/latest?cb=20190417112446" group-title="KR | Korea",KR: PH: Arirang
 https://amdlive-ch03-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/SBS.png" group-title="KR | Korea",KR: SBS
-http://43.164.132.11/kakaotv/get_channel.php?channel=sbs
+http://218.98.50.141:8088/live/SBS.m3u8
 #EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS K-Drama" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c0/Seoul_broadcasting_System_logo.svg/revision/latest?cb=20210214211339" group-title="KR | Korea",KR: SBS K-Drama
 https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=sbsk-drama&channel_id=newid_008&mpf=c064f5f4-39af1962-6d5d5e50&apikey=48230e6b-1cea0097-15975f93-39af1962&auth=474ab4cb-5d47aa0a-84d0cbca-2a3730a6&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.us_privacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
 #EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS PLUS-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/SBSPLUS.png" group-title="KR | Korea",KR: SBS PLUS-테스트
@@ -394,7 +394,7 @@ http://1.238.115.18:9981/stream/channelid/1009800960?ticket=0C8267E41EEA0FD47699
 #EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS 뉴스" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/%EC%95%A0%EB%8B%88%ED%94%8C%EB%9F%AC%EC%8A%A4.jpg" group-title="KR | Korea",KR: SBS 뉴스
 https://tving-live-o2-xcdn.tving.com/o2/v1/019b974ed45e153d78651307e41e33/019b97555b3a153d78651307e41e38/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTIzMDUxMjAsInBhdGgiOiIvbzIifQ.XePrESaR7bPQTs1ClKEHdHTYaQ9hQaLXfLDqgRoIo84
 #EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/SBS.png" group-title="KR | Korea",KR: SBS-테스트
-http://113.207.49.20:8088/live/SBS.m3u8
+http://43.164.132.11/kakaotv/get_channel.php?channel=sbs
 #EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS골프-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/SBS골프.png" group-title="KR | Korea",KR: SBS골프-테스트
 http://124.222.153.240/kakaotv/get_channel.php?channel=sbs_golf
 #EXTINF:-1 tvg-id="SBS.kr" tvg-name="KR: SBS스포츠-테스트" tvg-logo="https://app-korealive-1253962976.cos.ap-nanjing.myqcloud.com/logo/SBS스포츠.png" group-title="KR | Korea",KR: SBS스포츠-테스트
