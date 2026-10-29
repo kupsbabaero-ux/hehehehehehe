@@ -1077,7 +1077,7 @@ http://1tv41.icu:8080/live/8tFfDW/451664/35241.m3u8
 http:\\170.83.16.50\ESPN\mpegts
 #EXTINF:-1 tvg-id="FoxDeportes.us" tvg-name="US: Fox Deportes" tvg-logo="https://www.foxdeportes.com/assets/images/banner.png" group-title="US | Fox Sports",US: Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="FoxSoccerPlus.us" tvg-name="US: Fox Soccer +" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Soccer_Plus_logo.svg/1280px-Fox_Soccer_Plus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="US | Fox Sports",US: Fox Soccer +
+#EXTINF:-1 tvg-id="FOX4K.us" tvg-name="US: Fox Soccer +" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Soccer_Plus_logo.svg/1280px-Fox_Soccer_Plus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="US | Fox Sports",US: Fox Soccer +
 http://40.160.24.52/FOX_SOCCER_PLUS/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="US: Fox Sports 1" tvg-logo="https://logo.m3uassets.com/foxsports1.png" group-title="US | Fox Sports",US: Fox Sports 1
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
@@ -1193,7 +1193,7 @@ http://v3tv.live/play/live.php?mac=00:1A:79:59:83:B5&stream=1776240&extension=m3
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-id="TCM.us" tvg-name="US: TCM" tvg-logo="https://logo.m3uassets.com/tcm.png" group-title="US | MOVIES",US: TCM
 http://107.167.16.138/tcmhd/index.m3u8?token=test
-#EXTINF:-1 tvg-id="AMCThrillers.us" tvg-name="US: Thrill" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Thrill_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: Thrill
+#EXTINF:-1 tvg-id="ThrillvilleThrillbillies.ProspectLeague" tvg-name="US: Thrill" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Thrill_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="US | MOVIES",US: Thrill
 http://136.239.173.10:6610/001/2/ch00000090990000001253/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq7M3KTlp1dzcZcVVxlNmQdytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001563&contentid=ch00000000000000001563&videoid=ch00000090990000001253&recommendtype=0&userid=1896007622720&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8LJ3RRPRMVYXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
 #EXTINF:-1 tvg-id="VH1.us" tvg-name="US: VH1 USA" tvg-logo="https://logo.m3uassets.com/vh1.png" group-title="US | MOVIES",US: VH1 USA
 http://4.30.180.36:8420/vh1/index.m3u8?token=test
@@ -1203,7 +1203,7 @@ http://40.160.24.52/CBS_SPORTS_NETWORK/index.m3u8
 http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.us" tvg-name="US: ESPN 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 2
 http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us" tvg-name="US: ESPN 3" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 3
+#EXTINF:-1 tvg-id="ESPN3.us" tvg-name="US: ESPN 3" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN 3
 http://107.167.16.138/espn3/index.m3u8?token=test
 #EXTINF:-1 tvg-id="ESPN.us" tvg-name="US: ESPN HD+" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="US | SPORTS",US: ESPN HD+
 http://stream.bottledesk.net/6500/index.m3u8
@@ -1219,13 +1219,13 @@ https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3
 https://dash3.antik.sk/live/test_fightbox_medium_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxDeportes.us" tvg-name="US: Fox Deportes" tvg-logo="https://logo.m3uassets.com/foxdeportes.png" group-title="US | SPORTS",US: Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="FoxSoccerPlus.us" tvg-name="US: Fox Soccer +" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Soccer_Plus_logo.svg/1280px-Fox_Soccer_Plus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="US | SPORTS",US: Fox Soccer +
+#EXTINF:-1 tvg-id="FOX4K.us" tvg-name="US: Fox Soccer +" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Soccer_Plus_logo.svg/1280px-Fox_Soccer_Plus_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="US | SPORTS",US: Fox Soccer +
 http://40.160.24.52/FOX_SOCCER_PLUS/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="US: Fox Sports 1" tvg-logo="https://logo.m3uassets.com/foxsports1.png" group-title="US | SPORTS",US: Fox Sports 1
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports2.us" tvg-name="US: Fox Sports 2" tvg-logo="https://logo.m3uassets.com/foxsports2.png" group-title="US | SPORTS",US: Fox Sports 2
 https://tvsen7.aynascope.net/foxsports2/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="US: FTF Sports" tvg-logo="https://www.adadarters.com/wp-content/uploads/2020/10/FTF_White.png" group-title="US | SPORTS",US: FTF Sports
+#EXTINF:-1 tvg-id="FTFSports.us" tvg-name="US: FTF Sports" tvg-logo="https://www.adadarters.com/wp-content/uploads/2020/10/FTF_White.png" group-title="US | SPORTS",US: FTF Sports
 https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR_v2.m3u8
 #EXTINF:-1 tvg-id="GolfChannel.us" tvg-name="US: Golf Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Golf_Channel_logo_2025.svg/revision/latest?cb=20260101092845" group-title="US | SPORTS",US: Golf Channel
 http://23.237.104.106:8080/USA_GOLF/index.m3u8
@@ -1247,7 +1247,7 @@ http://40.160.24.52/MSG_PLUS/index.m3u8
 http://178.23.88.55/MTV/index.m3u8
 #EXTINF:-1 tvg-id="MTV2.us" tvg-name="US: MTV 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/1280px-MTV_2021_%28brand_version%29.svg.png" group-title="US | SPORTS",US: MTV 2
 http://198.58.104.90:8989/mtv2/index.m3u8
-#EXTINF:-1 tvg-id="NBALeaguePass1.us" tvg-name="US: NBA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnukUjWgFK6ob_VaFitkMKcEuWV6V6Tcn6UA&s" group-title="US | SPORTS",US: NBA
+#EXTINF:-1 tvg-id="NBA01.dko" tvg-name="US: NBA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnukUjWgFK6ob_VaFitkMKcEuWV6V6Tcn6UA&s" group-title="US | SPORTS",US: NBA
 https://cdn1.ayitistream.com/NBATV/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="US: NBA Draft" tvg-logo="https://images.seeklogo.com/logo-png/32/2/nba-draft-logo-png_seeklogo-329253.png" group-title="US | SPORTS",US: NBA Draft
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/fb93dcd8-eaea-4a72-a9c7-78354a0572fe/3.m3u8
