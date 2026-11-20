@@ -167,8 +167,8 @@ KR: JTBC4,https://tving-live-o2-xcdn.tving.com/o2/v1/019dd2ee3a6f1eb80e7925af014
 KR: KBS N 스포츠-테스트,http://43.164.132.11/kakaotv/get_channel.php?channel=kbs_n_sports
 KR: KBS World,https://cdn4.skygo.mn/live/disk1/KBSWorld/HLSv3-FTA/KBSWorld.m3u8
 KR: KBS-테스트,http://43.164.132.11/kakaotv/get_channel.php?channel=kbs1
-KR: KBS1,http://43.164.132.11/kakaotv/get_channel.php?channel=kbs1
-KR: KBS2,http://43.164.132.11/kakaotv/get_channel.php?channel=kbs2
+KR: KBS1,https://tving-live-o2-xcdn.tving.com/o2/v1/01a0a8531d5c1eb80e791db1d96030/01a0a85320b41eb80e791db1d96033/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTUyNjQ2ODIsInBhdGgiOiIvbzIifQ.FbeSpe6CSoU-H3CkT0tT8T0oxpkwhCg-DwtStmUkPHw
+KR: KBS2,https://tving-live-o2-ktcdn.tving.com/o2/v1/01a0a855bb341eb80e791db1d96034/01a0a855bea1153d78652fe2d08706/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLWt0Y2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk1MjY0NjkzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=iYFdRIMa7b92c0q9zTpaI7NMgmKRVrQHvWKJyHKzG0o7qIKVqBqWX~YlMrEOdJmhzWQxSpZdJqXS56Nb0qpeGgSQs6aZXJUdLJ0MzVpf6hwRuKkzyXGeSHX3VOs07MLLoz4d30lVdZQZd07rLmK7QD8CfsO11gHhnse-DNYzzwRoLqONvRFRr-ABrPLrORbrZo6dNJX0ya4v7V-nDYNpF84GeuiHa2LTbJvu8X6b7dvJUIM4CABfawPhFLbFsdgvMHU25DrOuPsSXcNpQuBEjHIEWhIMFHRZ0XkGBcIBG6aXC6fARP3YSDwgmBlyNZGcuEaEBtH3tsfKqhx4S2t4pw__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA
 KR: KBS2-테스트,http://43.164.132.11/kakaotv/get_channel.php?channel=kbs2
 KR: KBSKids,http://koreatv.dothome.co.kr/kbskids.php
 KR: KBSLife,http://koreatv.dothome.co.kr/kbslife.php
@@ -177,7 +177,7 @@ KR: KBSWorld,http://koreatv.dothome.co.kr/kbsworld.php
 KR: KBS뉴스,http://koreatv.dothome.co.kr/kbsnews.php
 KR: KBS뉴스24,https://tving-live-o2-xcdn.tving.com/o2/v1/019b91fde7c5153d78651307e41e2a/019b977c8b3a1eb80e79141423fc3b/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTUyNjUyODcsInBhdGgiOiIvbzIifQ.xYA7GGMhc7t6-Nk5wavNKPYR9_Gfv3fmaj6PJYATDNI
 KR: LIFETIME,https://tving-live-o2-xcdn.tving.com/o2/v1/019d668fbfde153d786553381d0db/019d669072be153d786553381d0de/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTUxOTUzOTcsInBhdGgiOiIvbzIifQ.Ze2AVHsz3HH-7usdg5jD7wsZADzVE7tX_c2vyX87OAY
-KR: MBC,http://43.164.132.11/kakaotv/get_channel.php?channel=mbc
+KR: MBC,https://tving-live-o2-xcdn.tving.com/v1/ssai/manifest/019bd50ff2d61eb80e791c22ad4884/fefe64a34817f02750beb1c60963be61/dmMxX3N0cmVhbTMubTN1OA==/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTUyMjkwNzQsInBhdGgiOiIvdjEifQ.GPQWG5q5DsPJyLbyWaGe1sZsz3hZF6WrJ5FYWPemy7c
 KR: MBC America,https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
 KR: MBC ON-테스트,http://43.164.132.11/kakaotv/get_channel.php?channel=mbc_on
 KR: MBC-테스트,http://43.164.132.11/kakaotv/get_channel.php?channel=mbc
